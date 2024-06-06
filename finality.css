@@ -224,7 +224,7 @@
 /* --- Homepage --- */
 
 /* Backdrop */
-.backdropImage {filter: blur(0px) saturate(0%) contrast(130%) brightness(120%);}
+.backdropImage {filter: blur(0px) saturate(0%) contrast(80%) brightness(100%);}
 
 /* Header*/
 .skinHeader-withBackground {
@@ -238,8 +238,7 @@
 }
 
 .layout-desktop div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
-  margin-top: -1em;
-  margin-bottom: 0;
+  display: none;
 }
 
 .layout-desktop .sectionTitleContainer-cards {
@@ -283,11 +282,23 @@
 .layout-desktop #itemDetailPage .detailImageContainer .card {
     position: fixed;
     top: -3.15em;
-    right: 4em;
-    left: auto;
+    left: 91.5em;
     width: 25em;
 	border: 2px solid white;
     border-radius: 5px;
+}
+
+.detailImageContainer .card {
+  max-height: 80vh;
+  max-width: 14vw;
+  position: absolute !important;
+  top: 20%;
+  z-index: 3;
+}
+
+.layout-desktop .detailImageContainer .card {
+  max-width: 20em;
+  z-index: 3;
 }
 
 
@@ -321,7 +332,7 @@
   -webkit-align-items: center;
   align-items: center;
   position: absolute;
-  top: -2em;
+  top: -4.5em;
   left: 5.65em;
   opacity: 0.8;
 }
@@ -376,7 +387,7 @@
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
     top: 11.4em;
-	left: 6em;
+	left: 12.5em;
     color: white;
     font-weight: bold;
     font-size: 12pt;
@@ -402,7 +413,7 @@
     font-style: normal;
     position: fixed;
     top: 34.85em;
-	left: 22em;
+	left: 41.5em;
     color: white;
     font-weight: bold;
     font-size: 12pt;
@@ -412,7 +423,7 @@
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
     position: fixed;
     top: 11.4em;
-    left: 10.4em;
+    left: 6.5em;
     font-weight: bold; 
     font-size: 10pt;
     white-space: nowrap;
@@ -421,7 +432,7 @@
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
     position: fixed;
     top: 11.4em;
-	left: 10.4em;
+	left: 6.5em;
     font-weight: bold;
     font-size: 10pt;
     white-space: nowrap;
@@ -430,7 +441,7 @@
 .layout-desktop .detailButton .detailButton-icon.favorite {
     position: fixed;
     top: 11.4em;
-	left: 14.5em;
+	left: 8.5em;
     font-weight: bold;
     font-size: 12pt;
     white-space: nowrap;
@@ -441,18 +452,13 @@
 }
 
 .layout-desktop .detailButton .detailButton-icon.shuffle {
-    position: fixed;
-    top: 11.4em;
-	left: 22em;
-    font-weight: bold;
-    font-size: 12pt;
-    white-space: nowrap;
+    display: none;
 }
 
 .layout-desktop .detailButton .detailButton-icon.more_vert {
     position: fixed;
     top: 11.4em;
-	left: 18.2em;
+	left: 10.5em;
     font-weight: bold;
     font-size: 12pt;
     white-space: nowrap;
@@ -467,7 +473,7 @@
 /* Title */
 
 .layout-desktop .itemName.parentNameLast {
-  top: 0.5em !important;
+  top: -0.3em !important;
   position: absolute;
   font-size: 5em;
   text-transform: uppercase;
@@ -506,7 +512,7 @@ body {
 }
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
-  top: 28.5em;
+  top: 24.5em;
   left: 8em;
   max-width: 50%;
   font-size: 10pt;
@@ -514,11 +520,11 @@ body {
 
 /* Select Tracks */
 .layout-desktop .trackSelections {
-  width: 81em;
-  max-width: 81em;
+  width: auto;
+  max-width: 8.1em;
   position: fixed;
-  top: 47em;
-  left: 9em;
+  top: 53.5em;
+  left: 103.8em;
 }
 /* Transparency */
 .emby-select-withcolor {
@@ -532,8 +538,15 @@ body {
   overflow: visible;
   padding-left: 1em;
   padding-right: 1em;
-  width: 52em;
+  width: 30em;
   border-radius: 2em;
+}
+
+.layout-desktop .trackSelections .selectContainer {
+  display: -webkit-flex;
+  display: flex;
+  margin: 0 0 .5em !important;
+  max-width: 6.7em;
 }
 
 /* Seasons carousel */
@@ -544,7 +557,7 @@ body {
     padding-bottom: 0em;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
-    max-width: 19.5%;
+    max-width: 15.5%;
     box-sizing: border-box;
     scroll-snap-type: x mandatory;
 }
@@ -552,16 +565,16 @@ body {
 /* Series */
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 	position: fixed;
-    top: 49.2em;
-    left: 95.3em;
+    top: 41.6em;
+    left: 92.8em;
 }
 
 /* Season View */
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	position: fixed;
-	top: 41.5em;
-	left: 6.3em;
+    top: 37em;
+    left: 8.1em;
 }
 
 /* Hide genres director writers studio */
@@ -580,7 +593,7 @@ body {
   display: block;
   position: fixed;
   top: 12em;
-  right: 10.8em;
+  left: 118.5em;
   opacity: 0.8;
 }
 
@@ -592,12 +605,12 @@ body {
 /* Next Up */
 .layout-desktop #itemDetailPage .nextUpSection {
 	position: fixed;
-    top: 46.5em;
-    left: 6.7em;
+    top: 41.6em;
+    left: 72.5em;
 }
 
 .layout-desktop #itemDetailPage  .overflowBackdropCard, .overflowSmallBackdropCard {
-    width: 15em;
+    width: 16.4em;
 }
 
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
@@ -605,7 +618,7 @@ body {
 }
 
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
-	width: 7em;
+	width: 6.9em;
 }
 
 .layout-desktop #itemDetailPage .overflowBackDropCard {
@@ -615,16 +628,16 @@ body {
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 	position: relative;
-    top: 18em;
-    left: -35em;
-	width: 141%;
+    top: 4em;
+    left: 38.3em;
+    width: 53%;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
   right: 0;
   position: fixed;
-  top: 45.5em;
-  right: 3em;
+  top: 28em;
+  right: 12em;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
@@ -637,8 +650,8 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
     position: fixed;
-    top: 21.5em;
-    right: 5.8em;
+    top: 20.5em;
+    left: 79em;
 }
 
 /* Cast & Crew */
@@ -681,7 +694,7 @@ body {
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
   position: fixed;
-  top: 62.5em;
+  top: 56.5em;
   left: 3.5em;
 }
 
@@ -689,8 +702,8 @@ body {
 
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
 	position: relative;
-    top: -59.5em;
-    left: 28em;
+    top: -53.5em;
+    left: 2em;
 	width: 141%;
 }
 
@@ -773,13 +786,25 @@ body {
   flex-wrap: nowrap;
   overflow-x: auto;
   white-space: nowrap;
-  max-width: 92.7%;
+  max-width: 93.5%;
   position: fixed;
-  top: 48.8em;
-  left: 5em;
+  top: 44em;
+  left: 7em;
 }
 
-
+/* Play button hidden before hovering */
+.listItemImageButton {
+  -webkit-align-self: center;
+  align-self: center;
+  background: rgba(0,0,0,.4);
+  color: transparent;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 1.6em;
+  justify-self: center;
+  margin: auto;
+  transition: .2s ease-out;
+}
 
 .layout-desktop #childrenContent .listItem {
     flex: 0 0 auto; 
@@ -879,7 +904,7 @@ body {
     left: 0;
     width: 100%;
     z-index: -1;
-	filter: blur(0px) saturate(0%) contrast(130%) brightness(25%);
+	filter: blur(0px) saturate(0%) contrast(50%) brightness(100%);
   }
 }
 
