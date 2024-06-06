@@ -219,12 +219,14 @@
   color: rgb(--accent);
 }
 
-
-
 /* --- Homepage --- */
 
 /* Backdrop */
-.backdropImage {filter: blur(0px) saturate(0%) contrast(80%) brightness(100%);}
+.backdropImage {filter: blur(0px) saturate(0%) contrast(130%) brightness(20%);}
+
+.backgroundContainer.withBackdrop {
+    background-color: rgba(0, 0, 0, 0);
+}
 
 /* Header*/
 .skinHeader-withBackground {
@@ -387,7 +389,7 @@
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
     top: 11.4em;
-	left: 12.5em;
+	left: 12.3em;
     color: white;
     font-weight: bold;
     font-size: 12pt;
@@ -395,29 +397,9 @@
 	padding-right: 2.4em;
 }
 
-.layout-desktop .detailButton-icon.theaters {
-    background-color: rgba(2,2,2,0.5);
-	border-radius: 30px;
-	z-index: -2;
-}
-
 .layout-desktop .detailButton .detailButton-icon.theaters::before {
     color: white;
 	padding-left: 0.1em;
-}
-
-.layout-desktop .detailButton .detailButton-icon.theaters::after {
-    content: "TRAILER";
-	font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    position: fixed;
-    top: 34.85em;
-	left: 41.5em;
-    color: white;
-    font-weight: bold;
-    font-size: 12pt;
-    white-space: nowrap;
 }
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
@@ -626,15 +608,15 @@ body {
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 	position: relative;
-    top: 0em;
-    left: 23em;
-    width: 58%;
+  top: 0em;
+  left: 50.8em;
+  width: 38%;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
   position: relative;
   top: 1em;
-  left: 22em;
+  left: 14em;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
@@ -785,9 +767,40 @@ body {
   white-space: nowrap;
   max-width: 93.5%;
   position: fixed;
-  top: 44em;
+  top: 42em;
   left: 7em;
 }
+
+.layout-desktop #childrenContent .listItem-content {
+  display: flex;
+  justify-content: space-between;
+  height: 13em; /* Adjust this value as needed */
+  padding: 0.5em; /* Optional: Adjust padding for better spacing */
+}
+
+.layout-desktop #childrenContent .listItemBody {
+  flex-grow: 1;
+}
+
+.layout-desktop #childrenContent .listItemBodyText {
+  white-space: normal; /* Allow wrapping of text */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Adjust number of lines shown */
+  -webkit-box-orient: vertical;
+}
+
+.layout-desktop #childrenContent .listItem-overview {
+  display: block;
+  white-space: normal; /* Ensure the overview text wraps */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Adjust number of lines shown */
+  -webkit-box-orient: vertical;
+}
+
 
 /* Play button hidden before hovering */
 .listItemImageButton {
