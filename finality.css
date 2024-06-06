@@ -604,9 +604,7 @@ body {
 
 /* Next Up */
 .layout-desktop #itemDetailPage .nextUpSection {
-	position: fixed;
-    top: 41.6em;
-    left: 72.5em;
+	display: none;
 }
 
 .layout-desktop #itemDetailPage  .overflowBackdropCard, .overflowSmallBackdropCard {
@@ -629,21 +627,21 @@ body {
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 	position: relative;
     top: 4em;
-    left: 38.3em;
-    width: 53%;
+    left: 23em;
+    width: 58%;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
   right: 0;
   position: fixed;
   top: 28em;
-  right: 12em;
+  left: 85.5em;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
 	text-transform: uppercase;
   position: fixed;
-  top: 3.25em;
+  top: 2.45em;
   left: 1.3em;
   font-size: 5em;
 }
