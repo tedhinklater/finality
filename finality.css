@@ -626,16 +626,15 @@ body {
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 	position: relative;
-    top: 4em;
+    top: 2em;
     left: 23em;
     width: 58%;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
-  right: 0;
-  position: fixed;
-  top: 28em;
-  left: 85.5em;
+  position: relative;
+  top: 1em;
+  left: 22em;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
