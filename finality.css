@@ -615,7 +615,7 @@ body {
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
   position: relative;
-  top: 1em;
+  top: 15em;
   left: 14em;
 }
 
@@ -787,19 +787,14 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 4; /* Adjust number of lines shown */
+  -webkit-line-clamp: 4; /* Limit to 4 lines */
   -webkit-box-orient: vertical;
 }
 
 .layout-desktop #childrenContent .listItem-overview {
-  display: block;
-  white-space: normal; /* Ensure the overview text wraps */
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2; /* Adjust number of lines shown */
-  -webkit-box-orient: vertical;
+  height: 6em;
 }
+
 
 
 /* Play button hidden before hovering */
