@@ -1,7 +1,7 @@
 # finality
 Jellyfin Theme CSS
 
-WIP, feel free to fork and send a PR if you want to fix something
+WIP, feel free to fork if you have an idea
 
 ![Movie](https://i.imgur.com/ICdw5QW.png)
 ![1](https://i.imgur.com/nfWWym3.gif)
