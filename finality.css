@@ -626,7 +626,7 @@ body {
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 	position: relative;
-    top: 2em;
+    top: 0em;
     left: 23em;
     width: 58%;
 }
