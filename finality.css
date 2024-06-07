@@ -214,18 +214,35 @@
 .innerCardFooter,
 .countIndicator, 
 .playedIndicator {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(255, 0, 0, 0.9) 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(255, 0, 0, 0.6) 100%);
   box-shadow: none;
   color: rgb(--accent);
+}
+
+.ratingbutton-icon-withrating {
+    color: #f00;
+}
+
+.downloadbutton-icon-complete,
+.downloadbutton-icon-on {
+    color: #4285f4;
+}
+
+.playstatebutton-icon-played {
+    color: #f00;
+}
+
+.buttonActive {
+    color: #00a4dc !important;
 }
 
 /* --- Homepage --- */
 
 /* Backdrop */
-.backdropImage {filter: blur(0px) saturate(0%) contrast(130%) brightness(20%);}
+.backdropImage {filter: blur(0px) saturate(0%) contrast(130%) brightness(50%);}
 
 .backgroundContainer.withBackdrop {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Header*/
@@ -342,12 +359,11 @@
 .layout-desktop .mainDetailButtons {
   -webkit-align-items: center;
   align-items: center;
-  display: -webkit-flex;
   display: flex;
   position: fixed;
-  top: 17.8em;
+  top: 16.3em;
   left: 2.5em;
-  font-size: 200%
+  font-size: 200%;
 }
 
 .layout-desktop .detailButton-icon {
@@ -365,10 +381,6 @@
 
 .layout-desktop .detailButton .detailButton-icon.play_arrow::before {
     color: white;
-}
-
-.layout-desktop .detailButton {
-    position: fixed;
 }
 
 .layout-desktop .detailButton .detailButton-icon.play_arrow::after {
@@ -390,16 +402,10 @@
     position: fixed;
     top: 11.4em;
 	left: 12.3em;
-    color: white;
     font-weight: bold;
     font-size: 12pt;
     white-space: nowrap;
 	padding-right: 2.4em;
-}
-
-.layout-desktop .detailButton .detailButton-icon.theaters::before {
-    color: white;
-	padding-left: 0.1em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
@@ -470,7 +476,7 @@
 
 .layout-desktop .itemName.infoText.originalTitle {
 	position: fixed;
-	top: 12.65em;
+	top: 10.15em;
     left: 37em;
 }
 
@@ -495,7 +501,7 @@ body {
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
   top: 24.5em;
-  left: 8em;
+  left: 7.48em;
   max-width: 50%;
   font-size: 10pt;
 }
@@ -555,7 +561,7 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	position: fixed;
-    top: 37em;
+    top: 36em;
     left: 8.1em;
 }
 
@@ -629,8 +635,8 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
     position: fixed;
-    top: 20.5em;
-    left: 79em;
+    top: 18.5em;
+    left: 5.7em;
 }
 
 /* Cast & Crew */
