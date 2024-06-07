@@ -11,6 +11,7 @@
     height: auto !important;
 }
 
+/* Dashboard & button colours */
 .css-17c09up.Mui-selected {
   background-color: rgba(220, 0, 0, 0.2);
 }
@@ -272,16 +273,19 @@
     background-color: transparent !important;
 }
 
+/*Vertical card size on homeTab */
 .layout-desktop #homeTab .overflowPortraitCard {
-  width: 15em;
-  padding-right: 0;
-  padding-left: 0;
+  width: 12em;
+  padding-right: 0.05em;
+  padding-left: 0.05;
 }
 
+/*Hide My Media text*/
 .layout-desktop div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
   display: none;
 }
 
+/* Reduce space between My Media cards and Next Up */
 .layout-desktop .sectionTitleContainer-cards {
   margin-top: -2em;
   margin-bottom: -0.3em;
@@ -327,14 +331,6 @@
     width: 25em;
 	border: 2px solid white;
     border-radius: 5px;
-}
-
-.detailImageContainer .card {
-  max-height: 80vh;
-  max-width: 14vw;
-  position: absolute !important;
-  top: 20%;
-  z-index: 3;
 }
 
 .layout-desktop .detailImageContainer .card {
@@ -489,7 +485,7 @@
   text-transform: uppercase;
   right: auto;
   left: 1.1em;
-  width: 69%;
+  width: 65%;
   white-space: normal;
   overflow: visible;
   word-wrap: break-word;
@@ -603,7 +599,8 @@ body {
   display: block;
   position: fixed;
   top: 12em;
-  left: 118.5em;
+  left: 124.5em;
+  transform: translateX(-50%);
   opacity: 0.8;
 }
 
@@ -653,6 +650,7 @@ body {
   top: 2.45em;
   left: 1.3em;
   font-size: 5em;
+  width: 65%
 }
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
