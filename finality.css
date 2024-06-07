@@ -119,12 +119,12 @@
 }
 
 .button-link {
-    color: #dc0000;
+  color: #c36464;
 }
 
 .emby-input:focus,
 .emby-textarea:focus {
-    border-color: #dc0000;
+    border-color: white;
 }
 
 .emby-select-withcolor:focus {
@@ -137,11 +137,11 @@
 }
 
 .emby-checkbox:checked + span + .checkboxOutline {
-    border-color: #dc0000;
+    border-color: #8a1313;
 }
 
 .emby-checkbox:focus:not(:checked) + span + .checkboxOutline {
-    border-color: #dc0000;
+    border-color: #7c0909;
 }
 
 .itemProgressBarForeground-recording {
@@ -583,8 +583,8 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	position: fixed;
-    top: 36em;
-    left: 8.1em;
+    top: 34.8em;
+    left: 9.38em;
 }
 
 /* Hide genres director writers studio */
@@ -708,10 +708,10 @@ body {
 /* Specials */
 
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-	position: relative;
-    top: -53.5em;
-    left: 2em;
-	width: 141%;
+  position: relative;
+  top: -55.5em;
+  left: 3em;
+  width: 141%;
 }
 
 .layout-desktop #specialsContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
@@ -795,7 +795,7 @@ body {
   white-space: nowrap;
   max-width: 93.5%;
   position: fixed;
-  top: 42em;
+  top: 41.4em;
   left: 7em;
 }
 
