@@ -33,6 +33,11 @@
   margin-bottom: 0.2em;
 }
 
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #fff #20202047;
+}
+
 /* Dashboard & button colours */
 .css-17c09up.Mui-selected {
   background-color: rgba(220, 0, 0, 0.2);
@@ -288,18 +293,6 @@
 
 .backgroundContainer.withBackdrop {
     background-color: rgba(0, 0, 0, 0.8);
-}
-
-/*hover zoom*/
-.layout-desktop .homeLibraryButton:hover,
-.layout-desktop .homeLibraryButton:focus,
-.layout-desktop .card:hover,
-.layout-desktop .card:focus {
-    -webkit-filter: none !important;
-    box-shadow: 0 0 5px 0, 255, 222;
-    filter: none !important;
-    transform: scale(1.05);
-    transition: transform 0.5s ease;
 }
 
 /* Header*/
