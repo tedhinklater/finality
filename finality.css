@@ -11,6 +11,14 @@
     height: auto !important;
 }
 
+.css-17c09up.Mui-selected {
+  background-color: rgba(220, 0, 0, 0.2);
+}
+
+.css-17c09up.Mui-selected:hover {
+  background-color: rgba(220, 0, 0, 0.28);
+}
+
 @media (hover: hover) and (pointer: fine) {
     .paper-icon-button-light:hover:not(:disabled) {
         color: rgba(255, 0, 0, 0.8);
@@ -32,6 +40,20 @@
 
 .paper-icon-button-light.show-focus:focus {
     color: #e10000;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
+  background-color: #000;
+}
+
+.button-submit {
+  background: #6e1010;
+  color: #fff;
+}
+
+.button-submit:focus {
+    background: #8a1313;
+    color: #fff;
 }
 
 .inputLabelFocused,
