@@ -38,6 +38,18 @@
     scrollbar-color: #fff #20202047;
 }
 
+/* Progress ring */
+.progressring-spiner {
+  border-color: #dc0000f7;
+  border-width: .35em;
+}
+.progressring {
+    margin: .4em;
+}
+.progressring-bg {
+   display: none;
+}
+
 /* Dashboard & button colours */
 .css-17c09up.Mui-selected {
   background-color: rgba(220, 0, 0, 0.2);
@@ -45,6 +57,13 @@
 
 .css-17c09up.Mui-selected:hover {
   background-color: rgba(220, 0, 0, 0.28);
+}
+
+.listItemIcon:not(.listItemIcon-transparent) {
+  background-color: #dc000099;
+  border-radius: 100em;
+  color: #fff;
+  padding: .5em;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -314,7 +333,7 @@
 
 /* Reduce space between My Media cards and Next Up */
 .layout-desktop .sectionTitleContainer-cards {
-  margin-top: -2em;
+  margin-top: -1.7em;
   margin-bottom: -0.3em;
 }
 
@@ -377,11 +396,19 @@
   padding-left: 3em;
 }
 
-@media (min-height: 31.25em) {
-  [dir="ltr"] .padded-right-withalphapicker {
+.layout-desktop .padded-right-withalphapicker {
     padding-right: 1em;
   }
-}
+
+.layout-desktop .alphaPicker-fixed-right {
+    right: 1em;
+    right: max(env(safe-area-inset-right),2em) !important;
+  }
+ 
+ /* Top padding */
+ .pageWithAbsoluteTabs:not(.noSecondaryNavPage) {
+    padding-top: 3.7em !important;
+  }
 
 /* --- Detail Page --- */
 
