@@ -780,8 +780,8 @@ body {
 .layout-desktop #childrenContent .listItem-content {
   display: flex;
   justify-content: space-between;
-  height: 13em; /* Adjust this value as needed */
-  padding: 0.5em; /* Optional: Adjust padding for better spacing */
+  height: 13em;
+  padding: 0.5em;
 }
 
 .layout-desktop #childrenContent .listItemBody {
@@ -789,19 +789,17 @@ body {
 }
 
 .layout-desktop #childrenContent .listItemBodyText {
-  white-space: normal; /* Allow wrapping of text */
+  white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 4; /* Limit to 4 lines */
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
 
 .layout-desktop #childrenContent .listItem-overview {
   height: 6em;
 }
-
-
 
 /* Play button hidden before hovering */
 .listItemImageButton {
@@ -915,7 +913,7 @@ body {
     left: 0;
     width: 100%;
     z-index: -1;
-	filter: blur(0px) saturate(0%) contrast(50%) brightness(100%);
+	filter: blur(0px) saturate(0%) contrast(50%) brightness(50%);
   }
 }
 
