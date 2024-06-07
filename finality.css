@@ -11,6 +11,28 @@
     height: auto !important;
 }
 
+/* Video Playback Progress Bar */
+.mdl-slider-background-lower,
+.mdl-slider-background-upper {
+    background: #dc0000;
+}
+
+.mdl-slider::-moz-range-thumb {
+	background: #dc0000 !important;
+}
+	
+.sliderMarker.watched {
+  background-color: #dc0000f7;
+}
+
+.starIcon {
+  margin-bottom: 0.2em;
+}
+
+.mediaInfoCriticRating {
+  margin-bottom: 0.2em;
+}
+
 /* Dashboard & button colours */
 .css-17c09up.Mui-selected {
   background-color: rgba(220, 0, 0, 0.2);
@@ -233,7 +255,7 @@
     color: #dc0000;
 }
 
-/*Make watched icon, footer on chapter thumbnails (and other things), and count indicator dark and red*/
+/*Make watched icon and count indicator dark and red*/
 .innerCardFooter,
 .countIndicator, 
 .playedIndicator {
@@ -268,6 +290,18 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+/*hover zoom*/
+.layout-desktop .homeLibraryButton:hover,
+.layout-desktop .homeLibraryButton:focus,
+.layout-desktop .card:hover,
+.layout-desktop .card:focus {
+    -webkit-filter: none !important;
+    box-shadow: 0 0 5px 0, 255, 222;
+    filter: none !important;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
 /* Header*/
 .skinHeader-withBackground {
     background-color: transparent !important;
@@ -280,9 +314,9 @@
   padding-left: 0.05;
 }
 
-/*Hide My Media text*/
-.layout-desktop div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
-  display: none;
+/*Square card size on homeTab */
+.overflowSquareCard {
+    width: 12.05em;
 }
 
 /* Reduce space between My Media cards and Next Up */
@@ -310,9 +344,44 @@
 /* --- Movies Page --- */
 
 .layout-desktop #moviesTab .portraitCard {
-  width: 11%;
+  width: 11.4%;
   padding-right: 0.5em;
   padding-left: 0.5em;
+}
+
+.layout-desktop #seriesTab .portraitCard {
+  width: 11.4%;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.cardFooter {
+  padding: .2em .2em .4em .2em;
+  position: relative;
+  margin-top: 0em;
+}
+
+.cardScalable .cardImageContainer {
+  contain: strict;
+  height: 100%;
+  width: 100%;
+}
+
+.visualCardBox {
+  background-color: #0000005e;
+}
+
+.backdropCard {
+    width: 16.3%;
+}
+
+.cardOverlayButton-hover {
+  background: transparent;
+  opacity: 0;
+  padding: .25em;
+    padding-left: 0.25em;
+  transition: .2s;
+  padding-left: 3em;
 }
 
 @media (min-height: 31.25em) {
@@ -897,7 +966,7 @@ body {
   background-color: rgba(0,0,0,0);
   font-size: 100%;
   height: 3em;
-  left: 50%;
+  left: 49.5%;
   margin-left: -1.5em;
   margin-top: -1.5em;
   padding: 0;
