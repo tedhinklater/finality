@@ -236,7 +236,8 @@
 /*Make watched icon, footer on chapter thumbnails (and other things), and count indicator dark and red*/
 .innerCardFooter,
 .countIndicator, 
-.playedIndicator {
+.playedIndicator
+.mdl-slider{
   background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(255, 0, 0, 0.6) 100%);
   box-shadow: none;
   color: rgb(--accent);
