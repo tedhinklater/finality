@@ -991,7 +991,7 @@ body {
 .listItemImageButton {
   -webkit-align-self: center;
   align-self: center;
-  background: rgba(0,0,0,.4);
+  background: rgba(0,0,0,0);
   color: transparent;
   display: -webkit-flex;
   display: flex;
