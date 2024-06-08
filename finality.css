@@ -431,7 +431,7 @@
 /* Poster */
 .layout-desktop #itemDetailPage .detailImageContainer .card {
     position: fixed;
-    top: -3.15em;
+    top: -5.42em;
     left: 91.5em;
     width: 25em;
 	border: 2px solid white;
@@ -474,7 +474,7 @@
   -webkit-align-items: center;
   align-items: center;
   position: absolute;
-  top: -4.5em;
+  top: -6.7em;
   left: 5.65em;
   opacity: 0.8;
 }
@@ -484,7 +484,7 @@
   align-items: center;
   display: flex;
   position: fixed;
-  top: 16.3em;
+  top: 15em;
   left: 2.5em;
   font-size: 200%;
 }
@@ -512,7 +512,7 @@
     font-weight: 400;
     font-style: normal;
     position: fixed;
-    top: 34.85em;
+    top: 32.45em;
 	left: 9.5em;
     color: white;
     font-weight: bold;
@@ -523,7 +523,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
-    top: 11.4em;
+    top: 10.55em;
 	left: 12.3em;
     font-weight: bold;
     font-size: 12pt;
@@ -533,7 +533,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
     position: fixed;
-    top: 11.4em;
+    top: 10.55em;
     left: 6.5em;
     font-weight: bold; 
     font-size: 10pt;
@@ -542,7 +542,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
     position: fixed;
-    top: 11.4em;
+    top: 10.55em;
 	left: 6.5em;
     font-weight: bold;
     font-size: 10pt;
@@ -551,7 +551,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.favorite {
     position: fixed;
-    top: 11.4em;
+    top: 10.55em;
 	left: 8.5em;
     font-weight: bold;
     font-size: 12pt;
@@ -568,7 +568,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.more_vert {
     position: fixed;
-    top: 11.4em;
+    top: 10.55em;
 	left: 10.5em;
     font-weight: bold;
     font-size: 12pt;
@@ -584,7 +584,7 @@
 /* Title */
 
 .layout-desktop .itemName.parentNameLast {
-  top: -0.3em !important;
+  top: -0.75em !important;
   position: absolute;
   font-size: 5em;
   text-transform: uppercase;
@@ -603,7 +603,7 @@
 
 .layout-desktop .itemName.infoText.originalTitle {
 	position: fixed;
-	top: 10.15em;
+	top: 8.05em;
     left: 37em;
 }
 
@@ -627,7 +627,7 @@ body {
 }
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
-  top: 24.5em;
+  top: 22em;
   left: 7.48em;
   max-width: 50%;
   font-size: 10pt;
@@ -638,7 +638,7 @@ body {
   width: auto;
   max-width: 8.1em;
   position: fixed;
-  top: 53.5em;
+  top: 51.5em;
   left: 103.8em;
 }
 /* Transparency */
@@ -680,7 +680,7 @@ body {
 /* Series */
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 	position: fixed;
-    top: 41.6em;
+    top: 39.3em;
     left: 92.8em;
 }
 
@@ -688,7 +688,7 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	position: fixed;
-    top: 34.8em;
+    top: 33em;
     left: 9.38em;
 }
 
@@ -707,7 +707,7 @@ body {
 .layout-desktop .itemExternalLinks.focuscontainer-x {
   display: block;
   position: fixed;
-  top: 12em;
+  top: 9.5em;
   left: 124.5em;
   transform: translateX(-50%);
   opacity: 0.8;
@@ -741,8 +741,8 @@ body {
 
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-	position: relative;
-  top: 0em;
+  position: relative;
+  top: -2.3em;
   left: 50.8em;
   width: 38%;
 }
@@ -756,7 +756,7 @@ body {
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
 	text-transform: uppercase;
   position: fixed;
-  top: 2.45em;
+  top: 2em;
   left: 1.3em;
   font-size: 5em;
   width: 65%
@@ -764,7 +764,7 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
     position: fixed;
-    top: 18.5em;
+    top: 16em;
     left: 5.7em;
 }
 
@@ -812,7 +812,7 @@ body {
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
   position: fixed;
-  top: 56.5em;
+  top: 53.5em;
   left: 3.5em;
 }
 
@@ -906,7 +906,7 @@ body {
   white-space: nowrap;
   max-width: 93.5%;
   position: fixed;
-  top: 43.4em;
+  top: 41em;
   left: 7em;
 }
 
