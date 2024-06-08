@@ -13,7 +13,7 @@ WIP, feel free to fork if you have an idea
 Import to your CSS with
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/finality.css");
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@latest/finality.css");
 
 ```
 Make sure you enable backdrops
