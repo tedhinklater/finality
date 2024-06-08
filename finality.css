@@ -1017,8 +1017,8 @@ body {
   left: 50%;
 }
 
-.paper-icon-button-light {
-	background: transparent !important;
+.paper-icon-button-light:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 
 /* --- Mobile View --- */
