@@ -20,6 +20,15 @@
     margin-left: 1em !important;
 }
 
+@supports (backdrop-filter: blur(15px)) {
+  .dialog,
+  .mainDrawer,
+  .toast,
+  .appfooter {
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.79);
+  }
+
 /*Spinner*/
 .mdl-spinner__layer-1,
 .mdl-spinner__layer-2,
@@ -498,9 +507,10 @@
   align-items: center;
   display: flex;
   position: fixed;
-  top: 15em;
+  top: 16.23em;
   left: 2.5em;
   font-size: 200%;
+  margin: 0;
 }
 
 .layout-desktop .detailButton-icon {
