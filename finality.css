@@ -12,8 +12,7 @@
 }
 
 /* Video Playback Progress Bar */
-.mdl-slider-background-lower,
-.mdl-slider-background-upper {
+.mdl-slider-background-lower {
     background: #dc0000;
 }
 
