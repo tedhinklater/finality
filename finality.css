@@ -518,7 +518,7 @@
   align-items: center;
   display: flex;
   position: fixed;
-  top: 16.23em;
+  top: 18em;
   left: 2.5em;
   font-size: 200%;
   margin: 0;
@@ -547,7 +547,7 @@
     font-weight: 400;
     font-style: normal;
     position: fixed;
-    top: 32.45em;
+    top: 35.7em;
 	left: 9.5em;
     color: white;
     font-weight: bold;
@@ -558,7 +558,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
-    top: 10.55em;
+    top: 11.6em;
 	left: 12.3em;
     font-weight: bold;
     font-size: 12pt;
@@ -568,7 +568,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
     position: fixed;
-    top: 10.55em;
+    top: 11.6em;
     left: 6.5em;
     font-weight: bold; 
     font-size: 10pt;
@@ -577,7 +577,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
     position: fixed;
-    top: 10.55em;
+    top: 11.6em;
 	left: 6.5em;
     font-weight: bold;
     font-size: 10pt;
@@ -586,7 +586,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.favorite {
     position: fixed;
-    top: 10.55em;
+    top: 11.6em;
 	left: 8.5em;
     font-weight: bold;
     font-size: 12pt;
@@ -603,7 +603,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.more_vert {
     position: fixed;
-    top: 10.55em;
+    top: 11.6em;
 	left: 10.5em;
     font-weight: bold;
     font-size: 12pt;
@@ -829,6 +829,7 @@ body {
 
 #childrenCollapsible .starRatingContainer {
 	margin-bottom: -1.39em;
+	margin-left: 6em;
 }
 
 /* Hide "Series" text */
@@ -856,7 +857,7 @@ body {
 
 .layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
 	position: relative;
-	top: 0em;
+	top: 6.4em;
 	left: 3em;
 }
 
@@ -955,10 +956,11 @@ body {
     white-space: nowrap;
     max-width: 128.5%;
     position: absolute;
-    top: 40em;
+    top: 44em;
     left: 8.5em;
     width: 92%;
 	padding-bottom: 1em;
+	z-index: 1000;
 }
 
 .layout-desktop #childrenContent .listItem-content {
@@ -982,7 +984,7 @@ body {
 }
 
 .layout-desktop #childrenContent .listItem-overview {
-  height: 9.4em;
+  height: 7.4em;
 }
 
 /* Play button hidden before hovering */
@@ -1020,7 +1022,7 @@ body {
     width: 70%;
     display: inline-block;
     vertical-align: top;
-	height: 13em;
+	height: 11em;
 }
 
 .layout-desktop #childrenContent .listItemBodyText {
