@@ -782,7 +782,6 @@ body {
     right: 3em;
 }
 
-/* Bring "Ends at ..." and Star Rating onto same line */
 #childrenCollapsible .starRatingContainer {
 	margin-bottom: -1.39em;
 }
@@ -898,14 +897,14 @@ body {
   white-space: nowrap;
   max-width: 93.5%;
   position: fixed;
-  top: 41.4em;
+  top: 43.4em;
   left: 7em;
 }
 
 .layout-desktop #childrenContent .listItem-content {
   display: flex;
   justify-content: space-between;
-  height: 13em;
+  height: 11em;
   padding: 0.5em;
 }
 
@@ -923,7 +922,7 @@ body {
 }
 
 .layout-desktop #childrenContent .listItem-overview {
-  height: 6em;
+  height: 7.1em;
 }
 
 /* Play button hidden before hovering */
