@@ -21,7 +21,10 @@
 .mdl-slider-background-lower {
     background: #dc0000;
 }
-
+/*Red Selector*/
+.navMenuOption:hover {
+	background: #d90000 !important;
+}
 .mdl-slider::-moz-range-thumb {
 	background: #dc0000 !important;
 }
