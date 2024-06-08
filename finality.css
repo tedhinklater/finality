@@ -20,15 +20,6 @@
     margin-left: 1em !important;
 }
 
-@supports (backdrop-filter: blur(15px)) {
-  .dialog,
-  .mainDrawer,
-  .toast,
-  .appfooter {
-  backdrop-filter: blur(2px);
-  background-color: rgba(0, 0, 0, 0.79);
-  }
-
 /*Spinner*/
 .mdl-spinner__layer-1,
 .mdl-spinner__layer-2,
