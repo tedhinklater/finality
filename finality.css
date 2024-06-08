@@ -10,6 +10,16 @@
 .customCssContainer textarea {
     height: auto !important;
 }
+
+/* Round menu hover background */
+.navMenuOption,
+.navMenuOption:hover,
+.navMenuOption-selected {
+    border-radius: 2em !important;
+    width: 90% !important;
+    margin-left: 1em !important;
+}
+
 /*Spinner*/
 .mdl-spinner__layer-1,
 .mdl-spinner__layer-2,
