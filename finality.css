@@ -11,6 +11,45 @@
     height: auto !important;
 }
 
+/* Video Playback Progress Bar */
+.mdl-slider-background-lower,
+.mdl-slider-background-upper {
+    background: #dc0000;
+}
+
+.mdl-slider::-moz-range-thumb {
+	background: #dc0000 !important;
+}
+	
+.sliderMarker.watched {
+  background-color: #dc0000f7;
+}
+
+.starIcon {
+  margin-bottom: 0.2em;
+}
+
+.mediaInfoCriticRating {
+  margin-bottom: 0.2em;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #fff #20202047;
+}
+
+/* Progress ring */
+.progressring-spiner {
+  border-color: #dc0000f7;
+  border-width: .35em;
+}
+.progressring {
+    margin: .4em;
+}
+.progressring-bg {
+   display: none;
+}
+
 /* Dashboard & button colours */
 .css-17c09up.Mui-selected {
   background-color: rgba(220, 0, 0, 0.2);
@@ -18,6 +57,13 @@
 
 .css-17c09up.Mui-selected:hover {
   background-color: rgba(220, 0, 0, 0.28);
+}
+
+.listItemIcon:not(.listItemIcon-transparent) {
+  background-color: #dc000099;
+  border-radius: 100em;
+  color: #fff;
+  padding: .5em;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -233,14 +279,13 @@
     color: #dc0000;
 }
 
-/*Make watched icon, footer on chapter thumbnails (and other things), and count indicator dark and red*/
+/*Make watched icon and count indicator dark and red*/
 .innerCardFooter,
 .countIndicator, 
-.playedIndicator
-.mdl-slider{
+.playedIndicator {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(255, 0, 0, 0.6) 100%);
   box-shadow: none;
-  color: rgb(--accent);
+  color: #fff;
 }
 
 .ratingbutton-icon-withrating {
@@ -281,14 +326,14 @@
   padding-left: 0.05;
 }
 
-/*Hide My Media text*/
-.layout-desktop div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
-  display: none;
+/*Square card size on homeTab */
+.overflowSquareCard {
+    width: 12.05em;
 }
 
 /* Reduce space between My Media cards and Next Up */
 .layout-desktop .sectionTitleContainer-cards {
-  margin-top: -2em;
+  margin-top: -1.7em;
   margin-bottom: -0.3em;
 }
 
@@ -311,16 +356,59 @@
 /* --- Movies Page --- */
 
 .layout-desktop #moviesTab .portraitCard {
-  width: 11%;
+  width: 11.4%;
   padding-right: 0.5em;
   padding-left: 0.5em;
 }
 
-@media (min-height: 31.25em) {
-  [dir="ltr"] .padded-right-withalphapicker {
+.layout-desktop #seriesTab .portraitCard {
+  width: 11.4%;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.cardFooter {
+  padding: .2em .2em .4em .2em;
+  position: relative;
+  margin-top: 0em;
+}
+
+.cardScalable .cardImageContainer {
+  contain: strict;
+  height: 100%;
+  width: 100%;
+}
+
+.visualCardBox {
+  background-color: #0000005e;
+}
+
+.backdropCard {
+    width: 16.3%;
+}
+
+.cardOverlayButton-hover {
+  background: transparent;
+  opacity: 0;
+  padding: .25em;
+    padding-left: 0.25em;
+  transition: .2s;
+  padding-left: 3em;
+}
+
+.layout-desktop .padded-right-withalphapicker {
     padding-right: 1em;
   }
-}
+
+.layout-desktop .alphaPicker-fixed-right {
+    right: 1em;
+    right: max(env(safe-area-inset-right),2em) !important;
+  }
+ 
+ /* Top padding */
+ .pageWithAbsoluteTabs:not(.noSecondaryNavPage) {
+    padding-top: 3.7em !important;
+  }
 
 /* --- Detail Page --- */
 
@@ -380,7 +468,7 @@
   align-items: center;
   display: flex;
   position: fixed;
-  top: 17.3em;
+  top: 16.3em;
   left: 2.5em;
   font-size: 200%;
 }
@@ -408,7 +496,7 @@
     font-weight: 400;
     font-style: normal;
     position: fixed;
-    top: 36.75em;
+    top: 34.85em;
 	left: 9.5em;
     color: white;
     font-weight: bold;
@@ -419,7 +507,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
-    top: 12.0em;
+    top: 11.4em;
 	left: 12.3em;
     font-weight: bold;
     font-size: 12pt;
@@ -429,7 +517,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
     position: fixed;
-    top: 12.0em;
+    top: 11.4em;
     left: 6.5em;
     font-weight: bold; 
     font-size: 10pt;
@@ -438,7 +526,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
     position: fixed;
-    top: 12.0em;
+    top: 11.4em;
 	left: 6.5em;
     font-weight: bold;
     font-size: 10pt;
@@ -447,7 +535,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.favorite {
     position: fixed;
-    top: 12.0em;
+    top: 11.4em;
 	left: 8.5em;
     font-weight: bold;
     font-size: 12pt;
@@ -464,7 +552,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.more_vert {
     position: fixed;
-    top: 12.0em;
+    top: 11.4em;
 	left: 10.5em;
     font-weight: bold;
     font-size: 12pt;
@@ -487,10 +575,14 @@
   right: auto;
   left: 1.1em;
   width: 65%;
+  overflow: hidden;
   white-space: normal;
-  overflow: visible;
-  word-wrap: break-word;
   line-height: 0.93em;
+  max-height: 2em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
 }
 
 .layout-desktop .itemName.infoText.originalTitle {
@@ -519,7 +611,7 @@ body {
 }
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
-  top: 30.5em;
+  top: 24.5em;
   left: 7.48em;
   max-width: 50%;
   font-size: 10pt;
@@ -898,7 +990,7 @@ body {
   background-color: rgba(0,0,0,0);
   font-size: 100%;
   height: 3em;
-  left: 50%;
+  left: 49.5%;
   margin-left: -1.5em;
   margin-top: -1.5em;
   padding: 0;
@@ -916,10 +1008,6 @@ body {
 
 .paper-icon-button-light {
 	background: transparent !important;
-}
-
-.noBackdropTransparency .detailPageSecondaryContainer {
-  background-color: #10101000;
 }
 
 /* --- Mobile View --- */
