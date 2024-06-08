@@ -717,6 +717,7 @@ body {
 	position: fixed;
     top: 39.3em;
     left: 92.8em;
+	height: 11.5em;
 }
 
 /* Season View */
@@ -846,9 +847,21 @@ body {
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
-  position: fixed;
-  top: 53.5em;
-  left: 3.5em;
+  position: absolute;
+  bottom: 0em;
+  left: 5.5em;
+  width: 119em;
+  max-width: 119em;
+}
+
+.layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
+	position: relative;
+	top: 0em;
+	left: 3em;
+}
+
+.layout-desktop #guestCastCollapsible .emby-scrollbuttons.padded-right {
+	display: none;
 }
 
 /* Specials */
