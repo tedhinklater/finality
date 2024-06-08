@@ -5,7 +5,1126 @@
     height: 400px !important;
     max-height: none !important;
     overflow-y: scroll !important;
+    resize: vertical !important;@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Limit Custom CSS code box size */
+#txtCustomCss {
+    height: 400px !important;
+    max-height: none !important;
+    overflow-y: scroll !important;
     resize: vertical !important;
+}
+.customCssContainer textarea {
+    height: auto !important;
+}
+
+/* Round menu hover background */
+.navMenuOption,
+.navMenuOption:hover,
+.navMenuOption-selected {
+    border-radius: 2em !important;
+    width: 90% !important;
+    margin-left: 1em !important;
+}
+
+@supports (backdrop-filter: blur(15px)) {
+  .dialog,
+  .mainDrawer,
+  .toast,
+  .appfooter {
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.79);
+  }
+
+/*Spinner*/
+.mdl-spinner__layer-1,
+.mdl-spinner__layer-2,
+.mdl-spinner__layer-3,
+.mdl-spinner__layer-4 {
+    border-color: #d90000 !important;
+}
+/* Video Playback Progress Bar */
+.mdl-slider-background-lower {
+    background: #dc0000 !important;
+}
+
+/* Edge & Chrome browser & JMP */
+
+.slider-browser-edge{margin-left:-.16em;margin-right:-.16em;width:150%}.mdl-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;background:#dc0000;}
+/*Red Selector*/
+.navMenuOption:hover {
+	background: #d90000 !important;
+}
+.mdl-slider::-moz-range-thumb {
+	background: #dc0000 !important;
+}
+	
+.sliderMarker.watched {
+  background-color: #dc0000f7;
+}
+
+/*Spinner*/
+.mdl-spinner__layer-1,
+.mdl-spinner__layer-2,
+.mdl-spinner__layer-3,
+.mdl-spinner__layer-4 {
+    border-color: #d90000 !important;
+}
+
+.starIcon {
+  margin-bottom: 0.2em;
+}
+
+.mediaInfoCriticRating {
+  margin-bottom: 0.2em;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #fff #0000 !important;
+}
+
+/* Progress ring */
+.progressring-spiner {
+  border-color: #dc0000f7;
+  border-width: .35em;
+}
+.progressring {
+    margin: .4em;
+}
+.progressring-bg {
+   display: none;
+}
+
+/* Dashboard & button colours */
+.css-17c09up.Mui-selected {
+  background-color: rgba(220, 0, 0, 0.2);
+}
+
+.css-17c09up.Mui-selected:hover {
+  background-color: rgba(220, 0, 0, 0.28);
+}
+
+.listItemIcon:not(.listItemIcon-transparent) {
+  background-color: #dc000099;
+  border-radius: 100em;
+  color: #fff;
+  padding: .5em;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .paper-icon-button-light:hover:not(:disabled) {
+        color: rgba(255, 0, 0, 0.8);
+        background-color: rgba(0, 164, 220, 0.2);
+    }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .paper-icon-button-light:hover:not(:disabled) {
+        color: #e10000;
+        background-color: rgba(0, 164, 220, 0.2);
+    }
+}
+
+.paper-icon-button-light:active:not(:disabled) {
+    color: #e10000;
+    background-color: rgba(0, 164, 220, 0.2);
+}
+
+.paper-icon-button-light.show-focus:focus {
+    color: #e10000;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
+  background-color: #000;
+}
+
+.button-submit {
+  background: #6e1010;
+  color: #fff;
+}
+
+.button-submit:focus {
+    background: #8a1313;
+    color: #fff;
+}
+
+.inputLabelFocused,
+.selectLabelFocused,
+.textareaLabelFocused {
+    color: #e10000;
+}
+
+.defaultCardBackground1 {
+    background-color: #5c0000;
+}
+
+.defaultCardBackground2 {
+    background-color: #e14444;
+}
+
+.defaultCardBackground3 {
+    background-color: #db0000;
+}
+
+.defaultCardBackground4 {
+    background-color: #5c1c1c;
+}
+
+.defaultCardBackground5 {
+    background-color: #a80000;
+}
+
+.itemSelectionPanel {
+    border: 1px solid #dc0000;
+}
+
+.selectionCommandsPanel {
+    background: #dc0000;
+    color: #fff;
+}
+
+.upNextDialog-countdownText {
+    color: #dc0000;
+}
+
+.alphaPickerButton {
+    color: #999;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+}
+
+.alphaPickerButton-selected {
+    color: #fff;
+}
+
+.alphaPickerButton-tv:focus {
+    background-color: #dc0000;
+    color: #fff !important;
+}
+
+.progressring-spiner {
+    border-color: #dc0000;
+}
+
+.button-flat:hover {
+    color: #dc0000;
+}
+
+.button-link {
+  color: #c36464;
+}
+
+.emby-input:focus,
+.emby-textarea:focus {
+    border-color: white;
+}
+
+.emby-select-withcolor:focus {
+    border-color: #dc0000 !important;
+}
+
+.emby-select-tv-withcolor:focus {
+    background-color: #dc0000 !important;
+    color: #fff !important;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline {
+    border-color: #8a1313;
+}
+
+.emby-checkbox:focus:not(:checked) + span + .checkboxOutline {
+    border-color: #7c0909;
+}
+
+.itemProgressBarForeground-recording {
+    background-color: #cb272a;
+}
+
+.countIndicator,
+.fullSyncIndicator,
+.mediaSourceIndicator,
+.playedIndicator {
+    background: #dc0000;
+}
+
+.navMenuOption-selected {
+    background: #dc0000 !important;
+    color: #fff;
+}
+
+.emby-button.show-focus:focus {
+    background: #dc0000;
+    color: #fff;
+}
+
+.emby-tab-button.show-focus:focus {
+    color: #dc0000;
+}
+
+.emby-tab-button:hover {
+    color: #dc0000;
+}
+
+.programCell-sports {
+    background: #ab3939 !important;
+}
+
+.programCell-movie {
+    background: #b13535 !important;
+}
+
+.programCell-kids {
+    background: #e50303 !important;
+}
+
+.programCell-news {
+    background: #a04343 !important;
+}
+
+.guide-channelHeaderCell:focus,
+.programCell:focus {
+    background-color: #dc0000 !important;
+    color: #fff !important;
+}
+
+.guide-date-tab-button.emby-tab-button-active,
+.guide-date-tab-button:focus {
+    color: #dc0000;
+}
+
+.downloadbutton-icon-complete,
+.downloadbutton-icon-on {
+    color: #f44242;
+}
+
+.buttonActive {
+    color: #dc0000 !important;
+}
+
+.card:focus .cardBox.visualCardBox,
+.card:focus .cardBox:not(.visualCardBox) .cardScalable {
+    border-color: #dc0000 !important;
+}
+
+.itemsContainer > .card > .cardBox {
+  margin-left: 0.3em !important;
+  margin-right: 1.2em;
+}
+
+.metadataSidebarIcon {
+    color: #dc0000;
+}
+
+.layout-tv .emby-button.detailFloatingButton:focus {
+    background-color: #f2f2f2;
+    color: #dc0000;
+}
+
+#dialogToc .bookplayerButtonIcon:hover {
+    color: #dc0000;
+}
+
+#dialogToc .toc li a:active,
+#dialogToc .toc li a:hover {
+    color: #dc0000;
+}
+
+/*Make watched icon and count indicator dark and red*/
+.innerCardFooter,
+.countIndicator, 
+.playedIndicator {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(255, 0, 0, 0.6) 100%);
+  box-shadow: none;
+  color: #fff;
+}
+
+.ratingbutton-icon-withrating {
+    color: #f00;
+}
+
+.downloadbutton-icon-complete,
+.downloadbutton-icon-on {
+    color: #4285f4;
+}
+
+.playstatebutton-icon-played {
+    color: #f00;
+}
+
+.buttonActive {
+    color: #00a4dc !important;
+}
+
+/* --- Homepage --- */
+
+/* Backdrop */
+.backdropImage {filter: blur(0px) saturate(0%) contrast(130%) brightness(50%);}
+
+.backgroundContainer.withBackdrop {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Header*/
+.skinHeader-withBackground {
+    background-color: transparent !important;
+}
+
+/*Vertical card size on homeTab */
+.layout-desktop #homeTab .overflowPortraitCard {
+  width: 12em;
+  padding-right: 0.05em;
+  padding-left: 0.05;
+}
+
+/*Square card size on homeTab */
+.overflowSquareCard {
+    width: 12.05em;
+}
+
+/* Reduce space between My Media cards and Next Up */
+.layout-desktop .sectionTitleContainer-cards {
+  margin-top: -1.5em;
+  margin-bottom: -0.3em;
+}
+
+/* Apply progress bar gradient */
+.itemProgressBarForeground {
+    background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+}
+
+.playbackProgress {
+	color: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+	background-color: #000 !important;
+	z-index: 1000;
+}
+
+/* hide Live TV text */
+.sectionTitleContainer.sectionTitleContainer-cards.padded-left > .sectionTitle.sectionTitle-cards {
+    display: none;
+}
+
+/* hide Live TV shortcuts */
+.padded-top.padded-bottom.scrollSlider.focuscontainer-x {
+    display: none;
+}
+
+
+/* --- Movies Page --- */
+
+.layout-desktop #moviesTab .portraitCard {
+  width: 11.4%;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.layout-desktop #seriesTab .portraitCard {
+  width: 11.4%;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.cardFooter {
+  padding: .2em .2em .4em .2em;
+  position: relative;
+  margin-top: 0em;
+}
+
+.cardScalable .cardImageContainer {
+  contain: strict;
+  height: 100%;
+  width: 100%;
+}
+
+.visualCardBox {
+  background-color: #0000005e;
+}
+
+.backdropCard {
+    width: 16.3%;
+}
+
+.cardOverlayButton-hover {
+  background: transparent;
+  opacity: 0;
+  padding: .25em;
+    padding-left: 0.25em;
+  transition: .2s;
+  padding-left: 3em;
+}
+
+.layout-desktop .padded-right-withalphapicker {
+    padding-right: 1em;
+  }
+
+.layout-desktop .alphaPicker-fixed-right {
+    right: 1em;
+    right: max(env(safe-area-inset-right),2em) !important;
+  }
+ 
+ /* Top padding */
+ .pageWithAbsoluteTabs:not(.noSecondaryNavPage) {
+    padding-top: 3.7em !important;
+  }
+
+/* --- Detail Page --- */
+
+/* Poster */
+.layout-desktop #itemDetailPage .detailImageContainer .card {
+    position: fixed;
+    top: -5.42em;
+    left: 91.5em;
+    width: 25em;
+	border: 2px solid white;
+    border-radius: 5px;
+}
+
+.layout-desktop .detailImageContainer .card {
+  max-width: 20em;
+  z-index: 3;
+}
+
+
+.layout-desktop #castCollapsible .card.portraitCard {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/* Hide Ribbon */
+.layout-desktop .detailPagePrimaryContainer {
+    z-index: 2;
+    background: transparent;
+}
+
+.layout-desktop .detailPagePrimaryContainer {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  width: 60%;
+}
+
+.layout-desktop .detailRibbon {
+  height: 7.2em;
+  margin-top: 13.8em;
+}
+.layout-desktop .detailPagePrimaryContainer {
+  position: fixed;
+}
+
+.layout-desktop .itemMiscInfo {
+  -webkit-align-items: center;
+  align-items: center;
+  position: absolute;
+  top: -6.7em;
+  left: 5.65em;
+  opacity: 0.8;
+}
+
+.layout-desktop .mainDetailButtons {
+  -webkit-align-items: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 16.23em;
+  left: 2.5em;
+  font-size: 200%;
+  margin: 0;
+}
+
+.layout-desktop .detailButton-icon {
+  font-size: 1.6em !important;
+  height: 1em;
+  width: 1em;
+}
+
+.layout-desktop .detailButton-icon.play_arrow {
+    background-color: rgba(255,0,0,1);
+	border-radius: 30px;
+	z-index: -2;
+	padding-right: 2.4em;
+}
+
+.layout-desktop .detailButton .detailButton-icon.play_arrow::before {
+    color: white;
+}
+
+.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
+    content: "WATCH NOW";
+	font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    top: 32.45em;
+	left: 9.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    white-space: nowrap;
+	z-index: 2;
+}
+
+.layout-desktop .detailButton .detailButton-icon.theaters {
+    position: fixed;
+    top: 10.55em;
+	left: 12.3em;
+    font-weight: bold;
+    font-size: 12pt;
+    white-space: nowrap;
+	padding-right: 2.4em;
+}
+
+.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
+    position: fixed;
+    top: 10.55em;
+    left: 6.5em;
+    font-weight: bold; 
+    font-size: 10pt;
+    white-space: nowrap;
+}
+
+.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
+    position: fixed;
+    top: 10.55em;
+	left: 6.5em;
+    font-weight: bold;
+    font-size: 10pt;
+    white-space: nowrap;
+}
+
+.layout-desktop .detailButton .detailButton-icon.favorite {
+    position: fixed;
+    top: 10.55em;
+	left: 8.5em;
+    font-weight: bold;
+    font-size: 12pt;
+    white-space: nowrap;
+}
+
+.layout-desktop .detailButton .detailButton-icon.replay {
+    display: none;
+}
+
+.layout-desktop .detailButton .detailButton-icon.shuffle {
+    display: none;
+}
+
+.layout-desktop .detailButton .detailButton-icon.more_vert {
+    position: fixed;
+    top: 10.55em;
+	left: 10.5em;
+    font-weight: bold;
+    font-size: 12pt;
+    white-space: nowrap;
+}
+
+.button-link:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  color: red;
+}
+
+/* Title */
+
+.layout-desktop .itemName.parentNameLast {
+  top: -0.75em !important;
+  position: absolute;
+  font-size: 5em;
+  text-transform: uppercase;
+  right: auto;
+  left: 1.1em;
+  width: 65%;
+  overflow: hidden;
+  white-space: normal;
+  line-height: 0.93em;
+  max-height: 2em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+}
+
+.layout-desktop .itemName.infoText.originalTitle {
+	position: fixed;
+	top: 8.05em;
+    left: 37em;
+}
+
+/* Logo */
+
+.detailLogo {
+  display: none;
+}
+
+/* Hide Tags */
+.itemTags {
+    display: none;
+}
+
+/* Description */
+
+body {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.layout-desktop .detailPagePrimaryContent {
+  position: fixed;
+  top: 22em;
+  left: 7.48em;
+  max-width: 50%;
+  font-size: 10pt;
+}
+
+/* Select Tracks */
+.layout-desktop .trackSelections {
+  width: auto;
+  max-width: 8.1em;
+  position: fixed;
+  top: 51.5em;
+  left: 103.8em;
+}
+/* Transparency */
+.emby-select-withcolor {
+  color: inherit;
+  background: transparent;
+  border: 0.07em solid #292929;
+}
+/* Width */
+.layout-desktop .trackSelections .selectContainer .detailTrackSelect {
+  font-size: inherit;
+  overflow: visible;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 30em;
+  border-radius: 2em;
+}
+
+.layout-desktop .trackSelections .selectContainer {
+  display: -webkit-flex;
+  display: flex;
+  margin: 0 0 .5em !important;
+  max-width: 6.7em;
+}
+
+/* Seasons carousel */
+.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 0em;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    max-width: 15.5%;
+    box-sizing: border-box;
+    scroll-snap-type: x mandatory;
+}
+
+/* Series */
+.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
+	position: fixed;
+    top: 39.3em;
+    left: 92.8em;
+	height: 11.5em;
+}
+
+/* Season View */
+
+.layout-desktop #itemDetailPage .itemName.infoText.subtitle {
+	position: fixed;
+    top: 32.3em;
+    left: 9.38em;
+}
+
+/* Hide genres director writers studio */
+.itemDetailsGroup {
+  margin-top: 1.5em;
+  display: none;
+}
+
+/* Hide Upcoming On TV section */
+#seriesScheduleSection {
+    display: none;
+}
+
+/* IMDb links etc */
+.layout-desktop .itemExternalLinks.focuscontainer-x {
+  display: block;
+  position: fixed;
+  top: 9.5em;
+  left: 124.5em;
+  transform: translateX(-50%);
+  opacity: 0.8;
+}
+
+/* Hide More Like This */
+.layout-desktop .verticalSection.detailVerticalSection.verticalSection-extrabottompadding.emby-scroller-container {
+  display: none;
+}
+
+/* Next Up */
+.layout-desktop #itemDetailPage .nextUpSection {
+	display: none;
+}
+
+.layout-desktop #itemDetailPage  .overflowBackdropCard, .overflowSmallBackdropCard {
+    width: 16.4em;
+}
+
+.layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
+	margin-top: 12em;
+}
+
+.layout-desktop #childrenCollapsible .overflowPortraitCard {
+	width: 6.9em;
+}
+
+.layout-desktop #itemDetailPage .overflowBackDropCard {
+	width: 25em;
+}
+
+/* More from season */
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
+  position: relative;
+  top: -2.3em;
+  left: 50.8em;
+  width: 38%;
+}
+
+.layout-desktop #itemDetailPage .emby-scrollbuttons {
+  position: relative;
+  top: 15em;
+  left: 14em;
+}
+
+.layout-desktop #itemDetailPage .parentName.focuscontainer-x {
+	text-transform: uppercase;
+  position: fixed;
+  top: 2em;
+  left: 1.3em;
+  font-size: 5em;
+  width: 65%
+}
+
+.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
+    position: fixed;
+    top: 16em;
+    left: 5.7em;
+}
+
+/* Cast & Crew */
+
+/* Hide "Cast & Crew" text */
+#castCollapsible .sectionTitle-cards {
+  margin: 0;
+  padding-bottom: .2em;
+  padding-top: .5em;
+  padding-left: 3em;
+  display: none;
+}
+
+/* Hide 3 dots on cast portrait */
+#castContent .cardOverlayButton-br.flex {
+	display: none;
+}
+
+/* More button in bio */
+.layout-desktop #childrenContent .raised.more.raised-mini.noIcon.emby-button {
+	position: fixed;
+	top: 52em;
+    right: 3em;
+}
+
+#childrenCollapsible .starRatingContainer {
+	margin-bottom: -1.39em;
+}
+
+/* Hide "Series" text */
+#childrenCollapsible .childrenSectionHeader.sectionTitle.sectionTitle-cards {
+	display: none;
+}
+
+/* Hide "Movies" text */
+#childrenContent .sectionTitle.sectionTitle-cards {
+	display: none;
+}
+
+/* Hide More from Season text */
+#itemDetailPage .sectionTitle.sectionTitle-cards.padded-right {
+  display: none;
+}
+
+.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
+  position: absolute;
+  bottom: 2.2em;
+  left: 5.5em;
+  width: 119em;
+  max-width: 119em;
+}
+
+.layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
+	position: relative;
+	top: 0em;
+	left: 3em;
+}
+
+.layout-desktop #guestCastCollapsible .emby-scrollbuttons.padded-right {
+	display: none;
+}
+
+/* Specials */
+
+.layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
+  position: relative;
+  top: -55.5em;
+  left: 3em;
+  width: 141%;
+}
+
+.layout-desktop #specialsContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
+	width: 10em;
+}
+
+.layout-desktop .personCard .overflowPortraitCard {
+    width: 40vw;
+	border: 2px solid white;
+}
+
+.layout-desktop .personCard .coveredImage {
+    clip-path: circle(50% at 50% 50%);
+}
+
+.layout-desktop .personCard .cardOverlayContainer {
+    clip-path: circle(50% at 50% 50%);
+}
+
+.layout-desktop .personCard .cardOverlayButton-br {
+    right: 20%;
+}
+
+.layout-desktop .personCard .cardPadder-overflowPortrait,
+.layout-desktop .personCard .cardPadder-portrait {
+    padding-bottom: 100%;
+    contain: strict;
+    border-radius: 50% !important;
+}
+
+.layout-desktop #castCollapsible .overflowPortraitCard {
+    width: 5em;
+    padding-right: 16em;
+    padding-left: 4em;
+    height: 4.2em;
+}
+
+.layout-desktop #castCollapsible .cardTextCentered, 
+.layout-desktop #castCollapsible .cardTextCentered > .textActionButton {
+  text-align: left !important;
+  width: 20em;
+  margin-left: -4em;
+  position: relative;
+  top: -2.2em;
+  left: 9em;
+  font-size: 10pt;
+}
+
+.layout-desktop #castCollapsible .cardText-first {
+  margin-top: -1.8em;
+}
+
+.layout-desktop #castCollapsible .cardText-secondary {
+  font-size: 86% !important;
+  padding-left: 2em;
+}
+
+.button-flat:hover {
+  color: red;
+}
+
+.layout-desktop #guestCastContent .overflowPortraitCard {
+	display: none !important;
+}
+
+.layout-desktop #guestCastCollapsible .sectionTitle.sectionTitle-cards.padded-right {
+	display: none;
+}
+
+/* Bio */
+.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
+	position: absolute;
+	top: 45em;
+	left: 50em;
+}
+
+.layout-desktop #childrenContent .childrenItemsContainer {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 128.5%;
+    position: absolute;
+    top: 40em;
+    left: 8.5em;
+    width: 92%;
+	padding-bottom: 1em;
+}
+
+.layout-desktop #childrenContent .listItem-content {
+  display: flex;
+  justify-content: space-between;
+  height: 11em;
+  padding: 0.5em;
+}
+
+.layout-desktop #childrenContent .listItemBody {
+  flex-grow: 1;
+}
+
+.layout-desktop #childrenContent .listItemBodyText {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.layout-desktop #childrenContent .listItem-overview {
+  height: 9.4em;
+}
+
+/* Play button hidden before hovering */
+.listItemImageButton {
+  -webkit-align-self: center;
+  align-self: center;
+  background: rgba(0,0,0,.4);
+  color: transparent;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 1.6em;
+  justify-self: center;
+  margin: auto;
+  transition: .2s ease-out;
+}
+
+.layout-desktop #childrenContent .listItem {
+    flex: 0 0 auto; 
+    margin-right: 0.2em; 
+    width: 33%; 
+}
+
+.layout-desktop #childrenContent .listItemImage-large {
+    width: 100%;
+    height: auto;
+}
+
+.layout-desktop #childrenContent .listItemImage {
+    flex-shrink: 0;
+    width: 22%;
+    height: auto;
+}
+
+.layout-desktop #childrenContent .listItemBody {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+	height: 13em;
+}
+
+.layout-desktop #childrenContent .listItemBodyText {
+    display: block;
+}
+
+.listItem:hover {
+  background: rgba(0,0,0,0.1);
+}
+
+@media all and (min-width: 70em){
+.cardOverlayFab-primary {
+    background-color: #00000000;
+  }
+  .cardOverlayButtonIcon {
+    background-color: #00000000 !important;
+  }
+  .cardOverlayContainer {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media all and (max-width: 70em){
+  .cardOverlayFab-primary {
+    background-color: #00000000;
+  }
+  .cardOverlayButtonIcon {
+    background-color: #00000000 !important;
+  }
+  .cardOverlayContainer {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .cardOverlayButton {
+    padding: 0.25em;
+  }
+}
+
+.cardOverlayContainer > .cardOverlayFab-primary {
+  background-color: rgba(0,0,0,0);
+  font-size: 100%;
+  height: 3em;
+  left: 49.2%;
+  margin-left: -1.5em;
+  margin-top: -1.5em;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  width: 3.1em;
+}
+
+.cardOverlayFab-primary {
+  background-color: rgba(0,0,0,0);
+  font-size: 100%;
+  height: 3em;
+  left: 50%;
+}
+
+.paper-icon-button-light:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* --- Mobile View --- */
+  .layout-mobile .itemBackdrop {
+    display: block;
+    -webkit-animation: backdrop-fadein .8s ease-in normal both;
+    animation: backdrop-fadein .8s ease-in normal both;
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh !important;
+    position: fixed !important;
+    top: 0;
+    margin-top: 0rem;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+	filter: blur(0px) saturate(0%) contrast(50%) brightness(50%);
+  }
+}
+
+.layout-mobile h1.itemName, .layout-mobile h1.parentName {
+  font-size: 1.6em;
+  padding-top: 4em;
+}
+
+.layout-mobile .detailRibbon {
+  background: transparent;
+  padding-top: 14em;
+}
+
+@media (orientation: landscape) {
+	.layout-mobile .detailRibbon {
+      background: transparent;
+      padding-top: 14em;
+    }
+}
 }
 .customCssContainer textarea {
     height: auto !important;
