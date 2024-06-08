@@ -19,7 +19,7 @@
 }
 /* Video Playback Progress Bar */
 .mdl-slider-background-lower {
-    background: #dc0000;
+    background: #dc0000 !important;
 }
 /*Red Selector*/
 .navMenuOption:hover {
