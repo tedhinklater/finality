@@ -10,16 +10,6 @@
 .customCssContainer textarea {
     height: auto !important;
 }
-
-/* Round menu hover background */
-.navMenuOption,
-.navMenuOption:hover,
-.navMenuOption-selected {
-    border-radius: 2em !important;
-    width: 90% !important;
-    margin-left: 1em !important;
-}
-
 /*Spinner*/
 .mdl-spinner__layer-1,
 .mdl-spinner__layer-2,
@@ -31,6 +21,10 @@
 .mdl-slider-background-lower {
     background: #dc0000 !important;
 }
+
+/* Edge & Chrome browser & JMP */
+
+.slider-browser-edge{margin-left:-.16em;margin-right:-.16em;width:150%}.mdl-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;background:#dc0000;}
 /*Red Selector*/
 .navMenuOption:hover {
 	background: #d90000 !important;
@@ -822,7 +816,7 @@ body {
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
   position: fixed;
-  top: 54em;
+  top: 53.5em;
   left: 3.5em;
 }
 
