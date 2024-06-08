@@ -717,7 +717,6 @@ body {
 	position: fixed;
     top: 39.3em;
     left: 92.8em;
-	height: 11em;
 }
 
 /* Season View */
@@ -785,8 +784,8 @@ body {
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
   position: relative;
-  top: 0em;
-  left: 55.5em;
+  top: 15em;
+  left: 14em;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
@@ -847,22 +846,18 @@ body {
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
-  position: relative;
-  top: 23.5em;
-  left: -33.5em;
-  width: 119em;
-  max-width: 119em;
-  height: 0em;
+  position: fixed;
+  top: 53.5em;
+  left: 3.5em;
 }
 
 /* Specials */
 
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
   position: relative;
-  top: 24.5em;
-  left: -33.5em;
-  max-width: 119em;
-  width: 119em;
+  top: -55.5em;
+  left: 3em;
+  width: 141%;
 }
 
 .layout-desktop #specialsContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
