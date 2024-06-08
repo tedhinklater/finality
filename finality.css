@@ -45,6 +45,11 @@
     scrollbar-color: #fff #20202047;
 }
 
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #d90000 #202020 !important;
+}
+
 /* Progress ring */
 .progressring-spiner {
   border-color: #dc0000f7;
