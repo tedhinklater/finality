@@ -724,7 +724,7 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	position: fixed;
-    top: 33em;
+    top: 32.3em;
     left: 9.38em;
 }
 
@@ -848,7 +848,7 @@ body {
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
   position: absolute;
-  bottom: 0em;
+  bottom: 2.2em;
   left: 5.5em;
   width: 119em;
   max-width: 119em;
@@ -904,7 +904,8 @@ body {
 .layout-desktop #castCollapsible .overflowPortraitCard {
     width: 5em;
     padding-right: 16em;
-	padding-left: 4em;
+    padding-left: 4em;
+    height: 4.2em;
 }
 
 .layout-desktop #castCollapsible .cardTextCentered, 
@@ -948,14 +949,16 @@ body {
 
 .layout-desktop #childrenContent .childrenItemsContainer {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  white-space: nowrap;
-  max-width: 93.5%;
-  position: fixed;
-  top: 41em;
-  left: 7em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 128.5%;
+    position: absolute;
+    top: 40em;
+    left: 8.5em;
+    width: 92%;
+	padding-bottom: 1em;
 }
 
 .layout-desktop #childrenContent .listItem-content {
@@ -979,7 +982,7 @@ body {
 }
 
 .layout-desktop #childrenContent .listItem-overview {
-  height: 7.1em;
+  height: 9.4em;
 }
 
 /* Play button hidden before hovering */
@@ -1017,6 +1020,7 @@ body {
     width: 70%;
     display: inline-block;
     vertical-align: top;
+	height: 13em;
 }
 
 .layout-desktop #childrenContent .listItemBodyText {
