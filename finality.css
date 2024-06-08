@@ -782,6 +782,11 @@ body {
     right: 3em;
 }
 
+/* Bring "Ends at ..." and Star Rating onto same line */
+#childrenCollapsible .starRatingContainer {
+	margin-bottom: -1.39em;
+}
+
 /* Hide "Series" text */
 #childrenCollapsible .childrenSectionHeader.sectionTitle.sectionTitle-cards {
 	display: none;
