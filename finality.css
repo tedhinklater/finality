@@ -10,12 +10,21 @@
 .customCssContainer textarea {
     height: auto !important;
 }
-
+/*Spinner*/
+.mdl-spinner__layer-1,
+.mdl-spinner__layer-2,
+.mdl-spinner__layer-3,
+.mdl-spinner__layer-4 {
+    border-color: #d90000 !important;
+}
 /* Video Playback Progress Bar */
 .mdl-slider-background-lower {
-    background: #dc0000;
+    background: #dc0000 !important;
 }
-
+/*Red Selector*/
+.navMenuOption:hover {
+	background: #d90000 !important;
+}
 .mdl-slider::-moz-range-thumb {
 	background: #dc0000 !important;
 }
@@ -42,7 +51,7 @@
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: #fff #20202047;
+    scrollbar-color: #f20000a1 #202020 !important;
 }
 
 /* Progress ring */
@@ -782,7 +791,6 @@ body {
     right: 3em;
 }
 
-/* Bring "Ends at ..." and Star Rating onto same line */
 #childrenCollapsible .starRatingContainer {
 	margin-bottom: -1.39em;
 }
@@ -898,14 +906,14 @@ body {
   white-space: nowrap;
   max-width: 93.5%;
   position: fixed;
-  top: 41.4em;
+  top: 43.4em;
   left: 7em;
 }
 
 .layout-desktop #childrenContent .listItem-content {
   display: flex;
   justify-content: space-between;
-  height: 13em;
+  height: 11em;
   padding: 0.5em;
 }
 
@@ -923,7 +931,7 @@ body {
 }
 
 .layout-desktop #childrenContent .listItem-overview {
-  height: 6em;
+  height: 7.1em;
 }
 
 /* Play button hidden before hovering */
@@ -1002,7 +1010,7 @@ body {
   background-color: rgba(0,0,0,0);
   font-size: 100%;
   height: 3em;
-  left: 49.5%;
+  left: 49.2%;
   margin-left: -1.5em;
   margin-top: -1.5em;
   padding: 0;
@@ -1018,8 +1026,8 @@ body {
   left: 50%;
 }
 
-.paper-icon-button-light {
-	background: transparent !important;
+.paper-icon-button-light:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 
 /* --- Mobile View --- */
