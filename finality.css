@@ -282,7 +282,8 @@
 /*Make watched icon and count indicator dark and red*/
 .innerCardFooter,
 .countIndicator, 
-.playedIndicator {
+.playedIndicator
+.mdl-slider{
   background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(255, 0, 0, 0.6) 100%);
   box-shadow: none;
   color: rgb(--accent);
@@ -468,7 +469,7 @@
   align-items: center;
   display: flex;
   position: fixed;
-  top: 16.3em;
+  top: 17.3em;
   left: 2.5em;
   font-size: 200%;
 }
@@ -496,7 +497,7 @@
     font-weight: 400;
     font-style: normal;
     position: fixed;
-    top: 34.85em;
+    top: 36.75em;
 	left: 9.5em;
     color: white;
     font-weight: bold;
@@ -507,7 +508,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
-    top: 11.4em;
+    top: 12.0em;
 	left: 12.3em;
     font-weight: bold;
     font-size: 12pt;
@@ -517,7 +518,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
     position: fixed;
-    top: 11.4em;
+    top: 12.0em;
     left: 6.5em;
     font-weight: bold; 
     font-size: 10pt;
@@ -526,7 +527,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
     position: fixed;
-    top: 11.4em;
+    top: 12.0em;
 	left: 6.5em;
     font-weight: bold;
     font-size: 10pt;
@@ -535,7 +536,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.favorite {
     position: fixed;
-    top: 11.4em;
+    top: 12.0em;
 	left: 8.5em;
     font-weight: bold;
     font-size: 12pt;
@@ -552,7 +553,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.more_vert {
     position: fixed;
-    top: 11.4em;
+    top: 12.0em;
 	left: 10.5em;
     font-weight: bold;
     font-size: 12pt;
@@ -607,7 +608,7 @@ body {
 }
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
-  top: 24.5em;
+  top: 30.5em;
   left: 7.48em;
   max-width: 50%;
   font-size: 10pt;
@@ -1004,6 +1005,10 @@ body {
 
 .paper-icon-button-light {
 	background: transparent !important;
+}
+
+.noBackdropTransparency .detailPageSecondaryContainer {
+  background-color: #10101000;
 }
 
 /* --- Mobile View --- */
