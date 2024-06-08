@@ -381,6 +381,12 @@
     background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
 }
 
+.playbackProgress {
+	color: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+	background-color: #000 !important;
+	z-index: 1000;
+}
+
 /* hide Live TV text */
 .sectionTitleContainer.sectionTitleContainer-cards.padded-left > .sectionTitle.sectionTitle-cards {
     display: none;
