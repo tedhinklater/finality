@@ -10,12 +10,21 @@
 .customCssContainer textarea {
     height: auto !important;
 }
-
+/*Spinner*/
+.mdl-spinner__layer-1,
+.mdl-spinner__layer-2,
+.mdl-spinner__layer-3,
+.mdl-spinner__layer-4 {
+    border-color: #d90000 !important;
+}
 /* Video Playback Progress Bar */
 .mdl-slider-background-lower {
     background: #dc0000;
 }
-
+/*Red Selector*/
+.navMenuOption:hover {
+	background: #d90000 !important;
+}
 .mdl-slider::-moz-range-thumb {
 	background: #dc0000 !important;
 }
@@ -43,6 +52,11 @@
 * {
     scrollbar-width: thin;
     scrollbar-color: #fff #20202047;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #d90000 #202020 !important;
 }
 
 /* Progress ring */
