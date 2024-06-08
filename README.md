@@ -6,9 +6,9 @@ WIP, feel free to fork if you have an idea
 ![1](https://i.imgur.com/MzIzN42.png)
 ![2](https://i.imgur.com/Rpe7uiI.png)
 ![3](https://i.imgur.com/eeLrzIR.png)
-![4](https://i.imgur.com/qMQj8AD.gif)
-![5](https://i.imgur.com/0jmvcH6.gif)
-![6](https://i.imgur.com/LPYtu6Z.gif)
+![4](https://i.imgur.com/LOTj8B7.gif)
+![5](https://i.imgur.com/ZYN9qGN.gif)
+![6](https://i.imgur.com/VILfV5c.gif)
 
 Import to your CSS with
 
