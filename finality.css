@@ -300,6 +300,11 @@
     border-color: #dc0000 !important;
 }
 
+.itemsContainer > .card > .cardBox {
+  margin-left: 0.3em !important;
+  margin-right: 1.2em;
+}
+
 .metadataSidebarIcon {
     color: #dc0000;
 }
