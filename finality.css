@@ -868,14 +868,25 @@ body {
 /* Specials */
 
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-  position: relative;
-  top: -55.5em;
-  left: 3em;
-  width: 141%;
+    position: fixed;
+    top: 2em;
+    left: 93em;
+    width: 12%;
 }
 
 .layout-desktop #specialsContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
 	width: 10em;
+}
+
+.layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
+	position: fixed;
+    top: 6.5em;
+    left: 60.8em;
+    z-index: 0;
+}
+
+.layout-desktop #specialsCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
+	padding-left: 20em;
 }
 
 .layout-desktop .personCard .overflowPortraitCard {
@@ -1119,4 +1130,5 @@ body {
       background: transparent;
       padding-top: 14em;
     }
+}
 }
