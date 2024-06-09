@@ -558,8 +558,8 @@
 
 .layout-desktop .detailButton .detailButton-icon.play_arrow::after {
     content: "WATCH NOW";
-	font-family: "Rubik", sans-serif;
-    font-weight: 400;
+	font-family: "Kanit", sans-serif;
+    font-weight: 800;
     font-style: normal;
     position: fixed;
     top: 35.75em;
@@ -860,7 +860,7 @@ body {
 }
 
 #childrenCollapsible .starRatingContainer {
-	margin-bottom: -1.39em;
+	margin-bottom: -1.5em;
 	margin-left: 6em;
 }
 
@@ -1031,7 +1031,12 @@ body {
 }
 
 .layout-desktop #childrenContent .listItem-overview {
-  height: 7.4em;
+  height: 8.3em;
+}
+
+.layout-desktop #childrenContent .secondary.listItem-overview.listItemBodyText, 
+.mediaInfoItem, .starRatingContainer mediaInfoItem, .endsAt.mediaInfoItem {
+	font-size:86%;
 }
 
 /* Play button hidden before hovering */
@@ -1069,7 +1074,7 @@ body {
     width: 70%;
     display: inline-block;
     vertical-align: top;
-	height: 11em;
+	height: 12em;
 }
 
 .layout-desktop #childrenContent .listItemBodyText {
