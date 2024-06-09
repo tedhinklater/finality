@@ -42,7 +42,11 @@
 .mdl-slider::-moz-range-thumb {
 	background: #dc0000 !important;
 }
-	
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #d90000 #0000 !important;
+}
+
 .sliderMarker.watched {
   background-color: #dc0000f7;
 }
