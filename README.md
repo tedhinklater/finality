@@ -4,8 +4,8 @@ Jellyfin Theme CSS
 WIP, feel free to fork if you have an idea
 
 ![1](https://i.imgur.com/CMXB1bY.png)
-![2](https://i.imgur.com/TkvCEvr.png)
-![3](https://i.imgur.com/pwe7KPZ.png)
+![2](https://i.imgur.com/bKZtoyU.png)
+![3](https://i.imgur.com/hLCFlkX.png)
 ![4](https://i.imgur.com/CHqkzhK.png)
 
 Import to your CSS with
