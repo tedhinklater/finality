@@ -782,6 +782,10 @@ body {
     width: 16.4em;
 }
 
+.layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
+	padding-left: 33.5em;
+}
+
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
 	margin-top: 12em;
 }
@@ -798,14 +802,14 @@ body {
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
   position: relative;
   top: -2.3em;
-  left: 50.8em;
+  left: 50.4em;
   width: 38%;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
   position: relative;
-  top: 15em;
-  left: 14em;
+  top: 6.5em;
+  left: -16.2em;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
@@ -822,8 +826,8 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
     position: fixed;
-    top: 16em;
-    left: 5.7em;
+  top: 18em;
+  left: 79.1em;
 }
 
 /* Cast & Crew */
@@ -871,7 +875,7 @@ body {
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
   position: absolute;
-  bottom: 1.7em;
+  bottom: 0.7em;
   left: 4em;
   width: 119em;
   max-width: 119em;
@@ -879,12 +883,12 @@ body {
 
 .layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
 	position: relative;
-	top: 6.2em;
-	left: -1em;
+	top: 5.2em;
+	left: -55em;
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-	padding-left: 8em;
+	padding-left: 117em;
 }
 
 .layout-desktop #guestCastCollapsible .emby-scrollbuttons.padded-right {
