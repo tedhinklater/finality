@@ -360,7 +360,10 @@
 /* --- Homepage --- */
 
 /* Backdrop */
-.backdropImage {filter: blur(0px) saturate(0%) contrast(130%) brightness(90%);}
+.backdropImage {
+    filter: blur(0px) saturate(0%) contrast(130%) brightness(90%);
+    transition: filter 0.3s;
+}
 
 .backgroundContainer.withBackdrop {
     background-color: rgba(0, 0, 0, 0.8);
@@ -775,7 +778,7 @@ body {
 
 /* Hide More Like This */
 .layout-desktop .verticalSection.detailVerticalSection.verticalSection-extrabottompadding.emby-scroller-container {
-  display: none;
+  display: block;
 }
 
 /* Next Up */
@@ -988,6 +991,66 @@ body {
 	display: none;
 }
 
+/* More Like This */ 
+
+.layout-desktop #similarCollapsible .cardText.cardTextCentered {
+	display: none;
+}
+ 
+.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: normal;
+    transition: none !important;
+	position: fixed;
+	top: 6.3em;
+	left: 123em;
+	max-height: 36em;
+	overflow-y: hidden;
+}
+
+.layout-desktop #similarCollapsible .cardBox {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
+    width: 4.5em;
+    margin-bottom: -1.5em;
+    filter: grayscale(100%);
+    opacity: 1;
+    transition: filter 0.3s, opacity 0.3s;
+}
+
+.layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.layout-desktop #similarCollapsible .cardScalable {
+	border: 1px solid white;
+	margin-right: 0.3em;
+}
+
+.layout-desktop #similarCollapsible .cardOverlayContainer.itemAction {
+	display: none;
+}
+
+.layout-desktop #similarCollapsible .emby-scrollbuttons.padded-right {
+	display: none;
+}
+
+/* Scenes */
+
+.layout-desktop #scenesCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
+	display: none;
+}
+
+.layout-desktop #scenesCollapsible .emby-scrollbuttons.padded-right {
+	display: none;
+}
+
 /* Bio */
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
 	position: absolute;
@@ -1130,6 +1193,17 @@ body {
   font-size: 100%;
   height: 3em;
   left: 50%;
+}
+
+.layout-desktop .button-flat.btnReplay.hide.detailButton.emby-button,
+.button-flat.btnDownload.hide.detailButton.emby-button,
+.button-flat.btnPlayTrailer.detailButton.emby-button,
+.button-flat.btnInstantMix.hide.detailButton.emby-button,
+.button-flat.btnShuffle.hide.detailButton.emby-button,
+.button-flat.btnCancelSeriesTimer.hide.detailButton.emby-button,
+.button-flat.btnMoreCommands.detailButton.emby-button,
+.button-flat.btnPlaystate.detailButton.emby-button.playstatebutton-played {
+	z-index: -2;
 }
 
 .paper-icon-button-light:hover {
