@@ -888,16 +888,18 @@ body {
   left: 4em;
   width: 119em;
   max-width: 119em;
+  z-index: 2;
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
 	position: relative;
 	top: 5.2em;
-	left: -55em;
+	left: -57em;
+        z-index: 0;
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-	padding-left: 117em;
+	padding-left: 118.5em;
 }
 
 .layout-desktop #guestCastCollapsible .emby-scrollbuttons.padded-right {
@@ -985,6 +987,12 @@ body {
 
 .layout-desktop #guestCastContent .overflowPortraitCard {
 	display: none !important;
+}
+
+.layout-desktop #castContent .cardScalable {
+  clip-path: circle(50% at 50% 50%);
+  border: 2px solid white;
+  border-radius: 2em;
 }
 
 .layout-desktop #guestCastCollapsible .sectionTitle.sectionTitle-cards.padded-right {
