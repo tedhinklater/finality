@@ -3,17 +3,15 @@ Jellyfin Theme CSS
 
 WIP, feel free to fork if you have an idea
 
-![1](https://i.imgur.com/MzIzN42.png)
-![2](https://i.imgur.com/Rpe7uiI.png)
-![3](https://i.imgur.com/M0SBFtT.png)
-![4](https://i.imgur.com/01vNVr5.gif)
-![5](https://i.imgur.com/0h0C8QO.gif)
-![6](https://i.imgur.com/dHAm4Hf.gif)
+![1](https://i.imgur.com/CMXB1bY.png)
+![2](https://i.imgur.com/bKZtoyU.png)
+![3](https://i.imgur.com/x7wMztr.png)
+![4](https://i.imgur.com/CHqkzhK.png)
 
 Import to your CSS with
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/finality.css");
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@latest/finality.css");
 
 ```
 Make sure you enable backdrops

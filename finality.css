@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Limit Custom CSS code box size */
@@ -10,6 +11,16 @@
 .customCssContainer textarea {
     height: auto !important;
 }
+
+/* Round menu hover background */
+.navMenuOption,
+.navMenuOption:hover,
+.navMenuOption-selected {
+    border-radius: 2em !important;
+    width: 80% !important;
+    margin-left: 2em !important;
+}
+
 /*Spinner*/
 .mdl-spinner__layer-1,
 .mdl-spinner__layer-2,
@@ -21,10 +32,30 @@
 .mdl-slider-background-lower {
     background: #dc0000 !important;
 }
+
+.iconOsdProgressInner {
+  background: #f00;
+  border-radius: .25em;
+  height: 100%;
+}
+
+/* Edge & Chrome browser & JMP */
+
+.slider-browser-edge{margin-left:-.16em;margin-right:-.16em;width:150%}.mdl-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;background:#dc0000;}
 /*Red Selector*/
 .navMenuOption:hover {
 	background: #d90000 !important;
 }
+
+.mainDrawer, .drawer-open {
+  background-color: #000;
+}
+
+.navMenuOptionIcon {
+  margin-right: 1em;
+  margin-left: -1em;
+}
+
 .mdl-slider::-moz-range-thumb {
 	background: #dc0000 !important;
 }
@@ -51,7 +82,7 @@
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: #f20000a1 #202020 !important;
+    scrollbar-color: #fff #0000 !important;
 }
 
 /* Progress ring */
@@ -277,6 +308,11 @@
     border-color: #dc0000 !important;
 }
 
+.itemsContainer > .card > .cardBox {
+  margin-left: 0.3em !important;
+  margin-right: 1.2em;
+}
+
 .metadataSidebarIcon {
     color: #dc0000;
 }
@@ -324,7 +360,7 @@
 /* --- Homepage --- */
 
 /* Backdrop */
-.backdropImage {filter: blur(0px) saturate(0%) contrast(130%) brightness(50%);}
+.backdropImage {filter: blur(0px) saturate(0%) contrast(130%) brightness(90%);}
 
 .backgroundContainer.withBackdrop {
     background-color: rgba(0, 0, 0, 0.8);
@@ -349,8 +385,15 @@
 
 /* Reduce space between My Media cards and Next Up */
 .layout-desktop .sectionTitleContainer-cards {
-  margin-top: -1.7em;
+  margin-top: -1.5em;
   margin-bottom: -0.3em;
+}
+
+/* Position chevron */
+.sectionTitleTextButton > .material-icons {
+  font-size: 1.5em;
+  margin-bottom: .2em;
+  margin-left: 0.2em;
 }
 
 /* Apply progress bar gradient */
@@ -358,13 +401,19 @@
     background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
 }
 
+.playbackProgress {
+	color: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+	background-color: #000 !important;
+	z-index: 1000;
+}
+
 /* hide Live TV text */
-.sectionTitleContainer.sectionTitleContainer-cards.padded-left > .sectionTitle.sectionTitle-cards {
+.layout-desktop .sectionTitleContainer.sectionTitleContainer-cards.padded-left > .sectionTitle.sectionTitle-cards {
     display: none;
 }
 
 /* hide Live TV shortcuts */
-.padded-top.padded-bottom.scrollSlider.focuscontainer-x {
+.layout-desktop .padded-top.padded-bottom.scrollSlider.focuscontainer-x {
     display: none;
 }
 
@@ -431,7 +480,7 @@
 /* Poster */
 .layout-desktop #itemDetailPage .detailImageContainer .card {
     position: fixed;
-    top: -3.15em;
+    top: -5.42em;
     left: 91.5em;
     width: 25em;
 	border: 2px solid white;
@@ -474,7 +523,7 @@
   -webkit-align-items: center;
   align-items: center;
   position: absolute;
-  top: -4.5em;
+  top: -6.7em;
   left: 5.65em;
   opacity: 0.8;
 }
@@ -484,9 +533,10 @@
   align-items: center;
   display: flex;
   position: fixed;
-  top: 16.3em;
+  top: 18em;
   left: 2.5em;
   font-size: 200%;
+  margin: 0;
 }
 
 .layout-desktop .detailButton-icon {
@@ -509,11 +559,11 @@
 .layout-desktop .detailButton .detailButton-icon.play_arrow::after {
     content: "WATCH NOW";
 	font-family: "Kanit", sans-serif;
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
     position: fixed;
-    top: 34.85em;
-	left: 9.5em;
+    top: 35.75em;
+	left: 9.2em;
     color: white;
     font-weight: bold;
     font-size: 12pt;
@@ -523,7 +573,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
-    top: 11.4em;
+    top: 11.6em;
 	left: 12.3em;
     font-weight: bold;
     font-size: 12pt;
@@ -533,7 +583,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
     position: fixed;
-    top: 11.4em;
+    top: 11.6em;
     left: 6.5em;
     font-weight: bold; 
     font-size: 10pt;
@@ -542,7 +592,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
     position: fixed;
-    top: 11.4em;
+    top: 11.6em;
 	left: 6.5em;
     font-weight: bold;
     font-size: 10pt;
@@ -551,7 +601,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.favorite {
     position: fixed;
-    top: 11.4em;
+    top: 11.6em;
 	left: 8.5em;
     font-weight: bold;
     font-size: 12pt;
@@ -568,7 +618,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.more_vert {
     position: fixed;
-    top: 11.4em;
+    top: 11.6em;
 	left: 10.5em;
     font-weight: bold;
     font-size: 12pt;
@@ -584,7 +634,7 @@
 /* Title */
 
 .layout-desktop .itemName.parentNameLast {
-  top: -0.3em !important;
+  top: -0.75em !important;
   position: absolute;
   font-size: 5em;
   text-transform: uppercase;
@@ -599,11 +649,15 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   text-overflow: ellipsis;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
+
 
 .layout-desktop .itemName.infoText.originalTitle {
 	position: fixed;
-	top: 10.15em;
+	top: 8.05em;
     left: 37em;
 }
 
@@ -618,19 +672,24 @@
     display: none;
 }
 
+/* Tagline */
+#itemDetailPage .tagline {
+  font-weight: 600;
+}
+
 /* Description */
 
 body {
-  font-family: "Kanit", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
-  top: 24.5em;
-  left: 7.48em;
+  top: 21.4em;
+  left: 6.65em;
   max-width: 50%;
-  font-size: 10pt;
+  font-size: 11pt;
 }
 
 /* Select Tracks */
@@ -638,8 +697,8 @@ body {
   width: auto;
   max-width: 8.1em;
   position: fixed;
-  top: 53.5em;
-  left: 103.8em;
+  top: 47.05em;
+  left: 94.4em;
 }
 /* Transparency */
 .emby-select-withcolor {
@@ -680,15 +739,16 @@ body {
 /* Series */
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 	position: fixed;
-    top: 41.6em;
+    top: 39.3em;
     left: 92.8em;
+	height: 11.5em;
 }
 
 /* Season View */
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	position: fixed;
-    top: 34.8em;
+    top: 32.3em;
     left: 9.38em;
 }
 
@@ -707,8 +767,8 @@ body {
 .layout-desktop .itemExternalLinks.focuscontainer-x {
   display: block;
   position: fixed;
-  top: 12em;
-  left: 124.5em;
+  top: 8.35em;
+  left: 113.2em;
   transform: translateX(-50%);
   opacity: 0.8;
 }
@@ -727,6 +787,10 @@ body {
     width: 16.4em;
 }
 
+.layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
+	padding-left: 33.5em;
+}
+
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
 	margin-top: 12em;
 }
@@ -741,37 +805,41 @@ body {
 
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-	position: relative;
-  top: 0em;
-  left: 50.8em;
+  position: relative;
+  top: 1.7em;
+  left: 44.9em;
   width: 38%;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
   position: relative;
-  top: 15em;
-  left: 14em;
+  top: 6.5em;
+  left: -16.2em;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
 	text-transform: uppercase;
   position: fixed;
-  top: 2.45em;
+  top: 2em;
   left: 1.3em;
   font-size: 5em;
-  width: 65%
+  width: 65%;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
-    position: fixed;
-    top: 18.5em;
-    left: 5.7em;
+  position: fixed;
+  top: 18em;
+  left: 88.26em;
+  transform: translateX(-50%);
 }
 
 /* Cast & Crew */
 
 /* Hide "Cast & Crew" text */
-#castCollapsible .sectionTitle-cards {
+.layout-desktop #castCollapsible .sectionTitle-cards {
   margin: 0;
   padding-bottom: .2em;
   padding-top: .5em;
@@ -792,41 +860,69 @@ body {
 }
 
 #childrenCollapsible .starRatingContainer {
-	margin-bottom: -1.39em;
+	margin-bottom: -1.5em;
+	margin-left: 6em;
 }
 
 /* Hide "Series" text */
-#childrenCollapsible .childrenSectionHeader.sectionTitle.sectionTitle-cards {
+.layout-desktop #childrenCollapsible .childrenSectionHeader.sectionTitle.sectionTitle-cards {
 	display: none;
 }
 
 /* Hide "Movies" text */
-#childrenContent .sectionTitle.sectionTitle-cards {
+.layout-desktop #childrenContent .sectionTitle.sectionTitle-cards {
 	display: none;
 }
 
 /* Hide More from Season text */
-#itemDetailPage .sectionTitle.sectionTitle-cards.padded-right {
+.layout-desktop #itemDetailPage .sectionTitle.sectionTitle-cards.padded-right {
   display: none;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
-  position: fixed;
-  top: 56.5em;
-  left: 3.5em;
+  position: absolute;
+  bottom: 0.7em;
+  left: 4em;
+  width: 119em;
+  max-width: 119em;
+}
+
+.layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
+	position: relative;
+	top: 5.2em;
+	left: -55em;
+}
+
+.layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
+	padding-left: 117em;
+}
+
+.layout-desktop #guestCastCollapsible .emby-scrollbuttons.padded-right {
+	display: none;
 }
 
 /* Specials */
 
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-  position: relative;
-  top: -55.5em;
-  left: 3em;
-  width: 141%;
+    position: fixed;
+    top: 2em;
+    left: 93em;
+    width: 12%;
 }
 
 .layout-desktop #specialsContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
 	width: 10em;
+}
+
+.layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
+	position: fixed;
+    top: 6.5em;
+    left: 60.8em;
+    z-index: 0;
+}
+
+.layout-desktop #specialsCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
+	padding-left: 20em;
 }
 
 .layout-desktop .personCard .overflowPortraitCard {
@@ -856,7 +952,8 @@ body {
 .layout-desktop #castCollapsible .overflowPortraitCard {
     width: 5em;
     padding-right: 16em;
-	padding-left: 4em;
+    padding-left: 4em;
+    height: 4.5em;
 }
 
 .layout-desktop #castCollapsible .cardTextCentered, 
@@ -900,14 +997,17 @@ body {
 
 .layout-desktop #childrenContent .childrenItemsContainer {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  white-space: nowrap;
-  max-width: 93.5%;
-  position: fixed;
-  top: 43.4em;
-  left: 7em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 94%;
+    position: absolute;
+    top: 44em;
+    left: 6em;
+    width: 94%;
+    padding-bottom: 1em;
+    z-index: 1000;
 }
 
 .layout-desktop #childrenContent .listItem-content {
@@ -931,14 +1031,19 @@ body {
 }
 
 .layout-desktop #childrenContent .listItem-overview {
-  height: 7.1em;
+  height: 8.3em;
+}
+
+.layout-desktop #childrenContent .secondary.listItem-overview.listItemBodyText, 
+.mediaInfoItem, .starRatingContainer mediaInfoItem, .endsAt.mediaInfoItem {
+	font-size:86%;
 }
 
 /* Play button hidden before hovering */
 .listItemImageButton {
   -webkit-align-self: center;
   align-self: center;
-  background: rgba(0,0,0,.4);
+  background: rgba(0,0,0,0);
   color: transparent;
   display: -webkit-flex;
   display: flex;
@@ -969,6 +1074,7 @@ body {
     width: 70%;
     display: inline-block;
     vertical-align: top;
+	height: 12em;
 }
 
 .layout-desktop #childrenContent .listItemBodyText {
@@ -1046,7 +1152,7 @@ body {
     left: 0;
     width: 100%;
     z-index: -1;
-	filter: blur(0px) saturate(0%) contrast(50%) brightness(50%);
+	filter: blur(0px) saturate(0%) contrast(130%) brightness(20%);
   }
 }
 
