@@ -806,7 +806,7 @@ body {
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
   position: relative;
-  top: -2.3em;
+  top: 1.7em;
   left: 44.9em;
   width: 38%;
 }
@@ -1001,13 +1001,13 @@ body {
     flex-wrap: nowrap;
     overflow-x: auto;
     white-space: nowrap;
-    max-width: 128.5%;
+    max-width: 94%;
     position: absolute;
     top: 44em;
-    left: 8.5em;
-    width: 92%;
-	padding-bottom: 1em;
-	z-index: 1000;
+    left: 6em;
+    width: 94%;
+    padding-bottom: 1em;
+    z-index: 1000;
 }
 
 .layout-desktop #childrenContent .listItem-content {
