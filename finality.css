@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Limit Custom CSS code box size */
@@ -558,7 +558,7 @@
 
 .layout-desktop .detailButton .detailButton-icon.play_arrow::after {
     content: "WATCH NOW";
-	font-family: "Play", sans-serif;
+	font-family: "Rubik", sans-serif;
     font-weight: 400;
     font-style: normal;
     position: fixed;
@@ -672,10 +672,15 @@
     display: none;
 }
 
+/* Tagline */
+#itemDetailPage .tagline {
+  font-weight: 600;
+}
+
 /* Description */
 
 body {
-  font-family: "Play", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -802,7 +807,7 @@ body {
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
   position: relative;
   top: -2.3em;
-  left: 50.4em;
+  left: 44.9em;
   width: 38%;
 }
 
@@ -825,9 +830,10 @@ body {
 }
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
-    position: fixed;
+  position: fixed;
   top: 18em;
-  left: 79.1em;
+  left: 88.26em;
+  transform: translateX(-50%);
 }
 
 /* Cast & Crew */
