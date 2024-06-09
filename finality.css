@@ -1008,6 +1008,7 @@ body {
 	left: 123em;
 	max-height: 36em;
 	overflow-y: hidden;
+	z-index: 1000;
 }
 
 .layout-desktop #similarCollapsible .cardBox {
@@ -1019,7 +1020,7 @@ body {
     width: 4.5em;
     margin-bottom: -1.5em;
     filter: grayscale(100%);
-    opacity: 1;
+    opacity: 0.4;
     transition: filter 0.3s, opacity 0.3s;
 }
 
