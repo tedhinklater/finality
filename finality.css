@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Limit Custom CSS code box size */
 #txtCustomCss {
@@ -648,7 +649,11 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   text-overflow: ellipsis;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
+
 
 .layout-desktop .itemName.infoText.originalTitle {
 	position: fixed;
@@ -809,7 +814,10 @@ body {
   top: 2em;
   left: 1.3em;
   font-size: 5em;
-  width: 65%
+  width: 65%;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
@@ -863,16 +871,16 @@ body {
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
   position: absolute;
-  bottom: 2.2em;
-  left: 2.5em;
+  bottom: 1.7em;
+  left: 4em;
   width: 119em;
   max-width: 119em;
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
 	position: relative;
-	top: 6.7em;
-	left: 1em;
+	top: 6.2em;
+	left: -1em;
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
