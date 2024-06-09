@@ -3,10 +3,10 @@ Jellyfin Theme CSS
 
 WIP, feel free to fork if you have an idea
 
-![1](https://i.imgur.com/GU1irHM.png)
-![2](https://i.imgur.com/oJGwoMV.gif)
-![3](https://i.imgur.com/rX6dy39.gif)
-![4](https://i.imgur.com/Yn92F54.gif)
+![1](https://i.imgur.com/tsXVwOF.png)
+![2](https://i.imgur.com/9OhgOIj.gif)
+![3](https://i.imgur.com/UFQLf4T.gif)
+![4](https://i.imgur.com/hPWwbND.gif)
 
 Import to your CSS with
 
