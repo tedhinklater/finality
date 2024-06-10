@@ -374,11 +374,16 @@
     background-color: transparent !important;
 }
 
+/* My Media Card size */
+
+.layout-desktop #indexPage .card.overflowBackdropCard.card-hoverable.card-withuserdata,
+.card.overflowSquareCard.card-hoverable {
+	width: 15.6em;
+}
+
 /*Vertical card size on homeTab */
-.layout-desktop #homeTab .overflowPortraitCard {
-  width: 12em;
-  padding-right: 0.05em;
-  padding-left: 0.05;
+.layout-desktop #homeTab .card.overflowPortraitCard.card-hoverable.card-withuserdata {
+  width: 15.6em;
 }
 
 /*Square card size on homeTab */
@@ -420,7 +425,6 @@
     display: none;
 }
 
-
 /* --- Movies Page --- */
 
 .layout-desktop #moviesTab .portraitCard {
@@ -461,7 +465,7 @@
   padding: .25em;
     padding-left: 0.25em;
   transition: .2s;
-  padding-left: 3em;
+  padding-left: 4em;
 }
 
 .layout-desktop .padded-right-withalphapicker {
@@ -1205,7 +1209,7 @@ body {
     background-color: #00000000 !important;
   }
   .cardOverlayContainer {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
   }
 }
 
@@ -1217,7 +1221,7 @@ body {
     background-color: #00000000 !important;
   }
   .cardOverlayContainer {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
   }
   .cardOverlayButton {
     padding: 0.25em;
@@ -1225,16 +1229,21 @@ body {
 }
 
 .cardOverlayContainer > .cardOverlayFab-primary {
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(255, 0, 0, 0.75);
   font-size: 100%;
-  height: 3em;
+  height: 2.5em;
   left: 49.2%;
   margin-left: -1.5em;
   margin-top: -1.5em;
   padding: 0;
   position: absolute;
   top: 50%;
-  width: 3.1em;
+  width: 2.5em;
+}
+
+.cardOverlayButton {
+  color: hsla(0,0%,100%,1);
+  font-size: 88%;
 }
 
 .cardOverlayFab-primary {
