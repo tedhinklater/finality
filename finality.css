@@ -795,7 +795,7 @@ body {
 }
 
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
-	margin-top: 12em;
+	margin-top: -4em;
 }
 
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
@@ -857,9 +857,10 @@ body {
 
 /* More button in bio */
 .layout-desktop #childrenContent .raised.more.raised-mini.noIcon.emby-button {
-	position: fixed;
-	top: 52em;
-    right: 3em;
+  position: fixed;
+  top: 34em;
+  left: 117em;
+  z-index: 2;
 }
 
 #childrenCollapsible .starRatingContainer {
@@ -1063,9 +1064,15 @@ body {
 
 /* Bio */
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
-	position: absolute;
-	top: 45em;
-	left: 50em;
+  position: relative;
+  top: 2.5em;
+  left: 9em;
+}
+
+.layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
+	width: 13em;
+	margin-bottom: 0em;
+	margin-top: -2.2em;
 }
 
 .layout-desktop #childrenContent .childrenItemsContainer {
