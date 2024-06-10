@@ -765,7 +765,7 @@ body {
 
 .layout-desktop .detailsGroupItem.genresGroup {
   position: fixed;
-  top: 4.62em;
+  top: 4.65em;
   left: 3.33em;
   font-family: kanit;
   text-transform: uppercase;
@@ -896,6 +896,17 @@ body {
 /* Hide More from Season text */
 .layout-desktop #itemDetailPage .sectionTitle.sectionTitle-cards.padded-right {
   display: none;
+}
+
+/* Special Features text */
+.layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
+  display: block;
+  position: fixed;
+  top: 0.5em;
+  left: 98em;
+  font-size: 100%;
+  opacity: 0.9;
+  text-transform: uppercase;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
