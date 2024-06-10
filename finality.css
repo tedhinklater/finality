@@ -448,15 +448,15 @@
 /* --- Movies Page --- */
 
 .layout-desktop #moviesTab .portraitCard {
-  width: 15.6em;
-  padding-right: 0.5em;
-  padding-left: 0.5em;
+  width: 14em;
+  padding-right: 0.6em;
+  padding-left: 0.6em;
 }
 
 .layout-desktop #seriesTab .portraitCard {
-  width: 15.6em;
-  padding-right: 0.5em;
-  padding-left: 0.5em;
+  width: 14em;
+  padding-right: 0.6em;
+  padding-left: 0.6em;
 }
 
 .cardFooter {
@@ -492,7 +492,8 @@
 }
 
 .layout-desktop .padded-right-withalphapicker {
-    padding-right: 1em;
+    padding-left: 2em;
+	padding-right: 2em;
   }
 
 .layout-desktop .alphaPicker-fixed-right {
