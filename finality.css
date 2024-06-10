@@ -479,12 +479,16 @@
     width: 16.3%;
 }
 
-.layout-desktop #homeTab .cardOverlayButton-hover {
-  background: transparent;
-  opacity: 1;
-  padding: .25em;
-    padding-left: 0.25em;
-  transition: .2s;
+.layout-desktop #homeTab .material-icons.cardOverlayButtonIcon.cardOverlayButtonIcon-hover.play_arrow {
+  background-color: rgba(255, 0, 0, 0.75);
+  font-size: 100%;
+  height: 2.5em;
+  width: 2.5em;
+
+}
+
+.layout-desktop #homeTab .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light.emby-button {
+	background: transparent;
 }
 
 .layout-desktop .padded-right-withalphapicker {
@@ -684,7 +688,7 @@
   -webkit-line-clamp: 2;
   text-overflow: ellipsis;
   font-family: "Kanit", sans-serif;
-  font-weight: 700;
+  font-weight: 700 !important;
   font-style: normal;
 }
 
