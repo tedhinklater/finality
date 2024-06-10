@@ -381,6 +381,11 @@
 	width: 15.6em;
 }
 
+/* Hide My Media text under cards */
+.verticalSection.section0 .textActionButton {
+  display: none;
+}
+
 /*Vertical card size on homeTab */
 .layout-desktop #homeTab .card.overflowPortraitCard.card-hoverable.card-withuserdata {
   width: 15.6em;
@@ -499,6 +504,14 @@
   z-index: 3;
 }
 
+.layout-desktop #homeTab .cardText.cardTextCentered.cardText-first {
+	font-family: "kanit";
+	text-transform: uppercase;
+}
+
+.layout-desktop #homeTab .cardText.cardTextCentered.cardText-secondary {
+	font-family: "Rubik";
+}
 
 .layout-desktop #castCollapsible .card.portraitCard {
     border: 2px solid white;
