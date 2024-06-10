@@ -4,7 +4,7 @@
 /* Limit Custom CSS code box size */
 #txtCustomCss {
     height: 400px !important;
-    max-height: none !important;
+    max-height: 400px !important;
     overflow-y: scroll !important;
     resize: vertical !important;
 }
@@ -1225,6 +1225,7 @@ body {
 	height: 12em;
 }
 
+
 .layout-desktop #childrenContent .listItemBodyText {
     display: block;
 }
@@ -1242,6 +1243,7 @@ body {
   }
   .cardOverlayContainer {
     background-color: rgba(255, 255, 255, 0.1);
+	border: solid 2px white;
   }
 }
 
