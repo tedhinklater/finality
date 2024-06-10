@@ -715,7 +715,7 @@ body {
   overflow: visible;
   padding-left: 1em;
   padding-right: 1em;
-  width: 30em;
+  width: 22em;
   border-radius: 2em;
 }
 
@@ -1014,9 +1014,9 @@ body {
     white-space: normal;
     transition: none !important;
 	position: fixed;
-	top: 6.3em;
-	left: 123em;
-	max-height: 36em;
+	top: 9.5em;
+	left: 123.5em;
+	max-height: 31em;
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -1027,10 +1027,10 @@ body {
 }
 
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-    width: 4.5em;
+    width: 4.84em;
     margin-bottom: -1.5em;
     filter: grayscale(100%);
-    opacity: 0.4;
+    opacity: 0.2;
     transition: filter 0.3s, opacity 0.3s;
 }
 
