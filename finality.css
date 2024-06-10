@@ -715,7 +715,7 @@ body {
   overflow: visible;
   padding-left: 1em;
   padding-right: 1em;
-  width: 22em;
+  width: 20em;
   border-radius: 2em;
 }
 
@@ -765,8 +765,8 @@ body {
 
 .layout-desktop .detailsGroupItem.genresGroup {
   position: fixed;
-  top: 2em;
-  left: 3.3em;
+  top: 4.62em;
+  left: 3.33em;
   font-family: kanit;
   text-transform: uppercase;
   text-align: left;
@@ -901,7 +901,7 @@ body {
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
   position: absolute;
   bottom: 0.7em;
-  left: 4em;
+  left: 2.5em;
   width: 119em;
   max-width: 119em;
   z-index: 1;
@@ -909,7 +909,7 @@ body {
 
 .layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
 	position: relative;
-	top: 5.2em;
+	top: 3.5em;
 	left: 2.3em;
         z-index: 0;
 }
@@ -1029,9 +1029,9 @@ body {
     white-space: normal;
     transition: none !important;
 	position: fixed;
-	top: 9.5em;
-	left: 123.5em;
-	max-height: 31em;
+	top: 3.3em;
+	left: 123.6em;
+	max-height: 60em;
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -1043,7 +1043,7 @@ body {
 
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
     width: 4.84em;
-    margin-bottom: -1.5em;
+    margin-bottom: -1.7em;
     filter: grayscale(100%);
     opacity: 0.2;
     transition: filter 0.3s, opacity 0.3s;
