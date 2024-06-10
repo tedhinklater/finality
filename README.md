@@ -4,7 +4,7 @@ Jellyfin Theme CSS
 WIP, feel free to fork if you have an idea
 
 ![1](https://i.imgur.com/0XGTGp1.gif)
-![2](https://i.imgur.com/BEDiM2t.gif)
+![2](https://i.imgur.com/jAbce1s.gif)
 ![3](https://i.imgur.com/UJVakUw.gif)
 ![4](https://i.imgur.com/d1I53HU.gif)
 
