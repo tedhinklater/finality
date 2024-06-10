@@ -765,13 +765,13 @@ body {
 
 .layout-desktop .detailsGroupItem.genresGroup {
   position: fixed;
-  top: 4.65em;
-  left: 3.33em;
+  top: 6.9em;
+  left: 4.72em;
   font-family: kanit;
   text-transform: uppercase;
   text-align: left;
   font-style: normal;
-  font-size: 2em;
+  font-size: 1.4em;
   opacity: 0.4;
   width: 34em;
 }
@@ -949,7 +949,7 @@ body {
 
 .layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
 	position: fixed;
-    top: 6.5em;
+    top: 3.5em;
     left: 60.8em;
     z-index: 0;
 }
