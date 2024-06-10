@@ -3,7 +3,7 @@ Jellyfin Theme CSS
 
 WIP, feel free to fork if you have an idea
 
-Index
+Home
 ![1](https://i.imgur.com/jjGBexZ.png)
 
 Gallery View
