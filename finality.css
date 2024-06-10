@@ -376,7 +376,7 @@
 
 /* move homeTab sections left */
 .layout-desktop #homeTab .sections.homeSectionsContainer {
-	margin-left: -2em;
+	margin-left: -2.5em;
 	max-width: 129em;
 }
 
@@ -939,12 +939,13 @@ body {
 .layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
   display: block;
   position: fixed;
-  top: 0.5em;
+  top: 1em;
   left: 98em;
   font-size: 100%;
   opacity: 0.9;
   text-transform: uppercase;
   font-family: "Kanit";
+  color: #ff1e1e;
 }
 
 .layout-desktop #specialsContent .cardText {
@@ -981,7 +982,7 @@ body {
 
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
     position: fixed;
-    top: 2em;
+    top: 2.3em;
     left: 93em;
     width: 12%;
 }
@@ -993,7 +994,7 @@ body {
 .layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
 	position: fixed;
     top: 3.5em;
-    left: 60.8em;
+    left: 61em;
     z-index: 0;
 }
 
