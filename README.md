@@ -5,7 +5,7 @@ WIP, feel free to fork if you have an idea
 
 ![1](https://i.imgur.com/alC6uGx.gif)
 ![2](https://i.imgur.com/xMJDzQb.gif)
-![3](https://i.imgur.com/P7yPAS4.gif)
+![3](https://i.imgur.com/duC0s4q.gif)
 ![4](https://i.imgur.com/GbK9Ik9.gif)
 
 Import to your CSS with
