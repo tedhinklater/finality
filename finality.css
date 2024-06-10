@@ -755,10 +755,25 @@ body {
     left: 9.38em;
 }
 
-/* Hide genres director writers studio */
-.itemDetailsGroup {
-  margin-top: 1.5em;
-  display: none;
+/* Hide directors writers studio */
+.layout-desktop .genresLabel.label,
+.detailsGroupItem.directorsGroup,
+.detailsGroupItem.writersGroup,
+.detailsGroupItem.studiosGroup {
+	display: none;
+}
+
+.layout-desktop .detailsGroupItem.genresGroup {
+  position: fixed;
+  top: 2em;
+  left: 3.3em;
+  font-family: kanit;
+  text-transform: uppercase;
+  text-align: left;
+  font-style: italic;
+  font-size: 2em;
+  opacity: 0.4;
+  width: 34em;
 }
 
 /* Hide Upcoming On TV section */
