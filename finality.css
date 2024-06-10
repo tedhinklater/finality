@@ -1048,7 +1048,7 @@ body {
 	position: fixed;
 	top: 3.3em;
 	left: 123.6em;
-	max-height: 60em;
+	max-height: 52em;
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -1097,8 +1097,8 @@ body {
 /* Bio */
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
   position: relative;
-  top: 2.5em;
-  left: 9em;
+  top: 13.5em;
+  left: -1em;
 }
 
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
