@@ -374,7 +374,22 @@
     background-color: transparent !important;
 }
 
+/* move homeTab sections left */
+.layout-desktop #homeTab .sections.homeSectionsContainer {
+	margin-left: -2em;
+	max-width: 129em;
+}
+
+/* move scrollbuttons right */
+.layout-desktop #homeTab .emby-scrollbuttons.padded-right {
+	right: -4em;
+}
+
 /* My Media Card size */
+
+.layout-desktop #indexPage .verticalSection.section0 .card.overflowBackdropCard.card-hoverable.card-withuserdata {
+	width: 20.81em;
+}
 
 .layout-desktop #indexPage .card.overflowBackdropCard.card-hoverable.card-withuserdata,
 .card.overflowSquareCard.card-hoverable {
@@ -433,13 +448,13 @@
 /* --- Movies Page --- */
 
 .layout-desktop #moviesTab .portraitCard {
-  width: 11.4%;
+  width: 15.6em;
   padding-right: 0.5em;
   padding-left: 0.5em;
 }
 
 .layout-desktop #seriesTab .portraitCard {
-  width: 11.4%;
+  width: 15.6em;
   padding-right: 0.5em;
   padding-left: 0.5em;
 }
@@ -464,7 +479,7 @@
     width: 16.3%;
 }
 
-.cardOverlayButton-hover {
+.layout-desktop #homeTab .cardOverlayButton-hover {
   background: transparent;
   opacity: 0;
   padding: .25em;
@@ -472,6 +487,8 @@
   transition: .2s;
   padding-left: 4em;
 }
+
+
 
 .layout-desktop .padded-right-withalphapicker {
     padding-right: 1em;
@@ -850,6 +867,7 @@ body {
   position: relative;
   top: 6.5em;
   left: -16.2em;
+  z-index: -2;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
