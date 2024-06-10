@@ -19,7 +19,7 @@ Season View
 ![5](https://i.imgur.com/81VZBql.gif)
 
 Episode View
-![6](https://i.imgur.com/PL0NGAv.gif)
+![6](https://github.com/tedhinklater/finality/assets/66086488/e3856026-ee00-41e6-bbe1-5f44415fa90f)
 
 
 Import to your CSS with
