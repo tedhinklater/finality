@@ -4,10 +4,10 @@ Jellyfin Theme CSS
 WIP, feel free to fork if you have an idea
 
 Home
-![1](https://i.imgur.com/jjGBexZ.png)
+![1](https://i.imgur.com/1fwHlX1.png)
 
 Gallery View
-![2](https://i.imgur.com/D58Dqze.png)
+![2](https://i.imgur.com/oyL9tLj.png)
 
 Movie View
 ![3](https://i.imgur.com/CsC3Lc5.gif)
