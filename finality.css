@@ -907,6 +907,12 @@ body {
   font-size: 100%;
   opacity: 0.9;
   text-transform: uppercase;
+  font-family: "Kanit";
+}
+
+.layout-desktop #specialsContent .cardText {
+  font-family: "Kanit";
+  font-size: 11pt;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
