@@ -481,14 +481,11 @@
 
 .layout-desktop #homeTab .cardOverlayButton-hover {
   background: transparent;
-  opacity: 0;
+  opacity: 1;
   padding: .25em;
     padding-left: 0.25em;
   transition: .2s;
-  padding-left: 4em;
 }
-
-
 
 .layout-desktop .padded-right-withalphapicker {
     padding-right: 1em;
