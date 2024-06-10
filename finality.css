@@ -894,12 +894,13 @@ body {
 .layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
 	position: relative;
 	top: 5.2em;
-	left: -57em;
+	left: 2.3em;
         z-index: 0;
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-	padding-left: 118.5em;
+	padding-left: 60em;
+        padding-right: 60em;
 }
 
 .layout-desktop #guestCastCollapsible .emby-scrollbuttons.padded-right {
