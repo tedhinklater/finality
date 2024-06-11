@@ -106,6 +106,63 @@
   background-color: rgba(220, 0, 0, 0.28);
 }
 
+.css-1ip8vbj.Mui-selected {
+  background-color: rgba(220, 0, 0, 0.2);
+}
+
+.css-1ip8vbj.Mui-selected:hover {
+  background-color: rgba(220, 0, 0, 0.28);
+}
+
+.css-77wcaa .MuiAlert-icon {
+	color: rgb(246, 41, 41);
+}
+
+.css-1fv02xh {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.css-1fv02xh:hover {
+	background-color: rgba(255, 31, 31, 0.85);
+}
+
+.css-77wcaa {
+	background-color: rgba(48, 6, 6, 0.26);
+}
+
+.css-195jjve {
+	background-color: rgb(52, 41, 41);
+}
+
+.css-1pjtbja {
+	color: #fff;
+}
+
+.css-1jmiiw3 .MuiDataGrid-row.Mui-selected {
+	background-color: rgba(220, 0, 0, 0.2);
+}
+
+.css-1jmiiw3 .MuiDataGrid-row.Mui-selected:hover {
+	background-color: rgba(220, 0, 0, 0.28);
+}
+
+#dashboardPage .listItemIcon.material-icons.notifications {
+	background-color: #af0a0a !important;
+}
+
+progress::-moz-progress-bar {
+  background-color: rgba(220, 0, 0, 0.9);
+}
+progress::-webkit-progress-value {
+  background-color: rgba(220, 0, 0, 0.9);
+}
+.taskProgressInner {
+  background: rgba(220, 0, 0, 0.9) !important;
+}
+#divRunningTasks span {
+    color: rgba(255,255,255,0.75) !important;
+}
+
 .listItemIcon:not(.listItemIcon-transparent) {
   background-color: #dc000099;
   border-radius: 100em;
@@ -457,6 +514,16 @@
   width: 15.6em;
   padding-right: 0em;
   padding-left: 0em;
+}
+
+.layout-desktop #moviesTab .cardText.cardTextCentered.cardText-first {
+	font-family: "kanit";
+	text-transform: uppercase;
+}
+
+.layout-desktop #seriesTab .cardText.cardTextCentered.cardText-first {
+	font-family: "kanit";
+	text-transform: uppercase;
 }
 
 .cardFooter {
