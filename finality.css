@@ -1153,9 +1153,9 @@ body {
     white-space: normal;
     transition: none !important;
 	position: fixed;
-	top: 3.3em;
-	left: 123.6em;
-	max-height: 52em;
+	top: 8.8em;
+	left: 122.3em;
+	max-height: 43.7em;
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -1166,8 +1166,8 @@ body {
 }
 
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-    width: 4.84em;
-    margin-bottom: -1.7em;
+    width: 5.92em;
+    margin-bottom: -2.15em;
     filter: grayscale(100%);
     opacity: 0.2;
     transition: filter 0.3s, opacity 0.3s;
