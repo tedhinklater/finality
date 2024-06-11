@@ -631,7 +631,9 @@ progress::-webkit-progress-value {
   position: absolute;
   top: -6.7em;
   left: 5.65em;
-  opacity: 0.8;
+  opacity: 1;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
 }
 
 .layout-desktop .mainDetailButtons {
