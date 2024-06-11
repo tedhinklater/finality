@@ -7,7 +7,7 @@ Home
 ![1](https://i.imgur.com/PLnMc6v.png)
 
 Gallery View
-![2](https://i.imgur.com/hwep3p4.png)
+![2](https://i.imgur.com/TlS1PyA.png)
 
 Movie View
 ![3](https://i.imgur.com/nLudHj6.png)
