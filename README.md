@@ -10,7 +10,7 @@ Gallery View
 ![2](https://i.imgur.com/TlS1PyA.png)
 
 Movie View
-![3](https://i.imgur.com/mxB1GZd.png)
+![3](https://i.imgur.com/9DmPvog.png)
 
 Show View
 ![4](https://i.imgur.com/JqznR2k.png)
