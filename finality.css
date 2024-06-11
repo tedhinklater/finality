@@ -559,7 +559,7 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop .padded-right-withalphapicker {
-    padding-left: 2em;
+    padding-left: 1.5em;
 	padding-right: 2em;
   }
 
