@@ -976,6 +976,14 @@ body {
 	display: none;
 }
 
+.layout-desktop #castContent .cardOverlayContainer.itemAction:hover {
+	border: none !important;
+}
+
+.layout-desktop .cardOverlayContainer {
+  background: rgba(255,255,255,.1);
+}
+
 /* More button in bio */
 .layout-desktop #childrenContent .raised.more.raised-mini.noIcon.emby-button {
   position: fixed;
@@ -1025,15 +1033,15 @@ body {
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
   position: absolute;
   bottom: 0.7em;
-  left: 2.5em;
-  width: 119em;
-  max-width: 119em;
+  left: 5.2em;
+  width: 117em;
+  max-width: 117em;
   z-index: 1;
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
 	position: relative;
-	top: 3.5em;
+	top: 3.87em;
 	left: 2.3em;
         z-index: 0;
 }
@@ -1097,8 +1105,8 @@ body {
 
 .layout-desktop #castCollapsible .overflowPortraitCard {
     width: 5em;
-    padding-right: 16em;
-    padding-left: 4em;
+    padding-right: 18em;
+    padding-left: 1em;
     height: 4.5em;
 }
 
@@ -1106,7 +1114,7 @@ body {
 .layout-desktop #castCollapsible .cardTextCentered > .textActionButton {
   text-align: left !important;
   width: 20em;
-  margin-left: -4em;
+  margin-left: -5em;
   position: relative;
   top: -2.2em;
   left: 9em;
@@ -1114,7 +1122,7 @@ body {
 }
 
 .layout-desktop #castCollapsible .cardText-first {
-  margin-top: -1.8em;
+  margin-top: -1.5em;
 }
 
 .layout-desktop #castCollapsible .cardText-secondary {
@@ -1312,7 +1320,15 @@ body {
   .cardOverlayButtonIcon {
     background-color: #00000000 !important;
   }
-  .cardOverlayContainer {
+  #moviesTab .cardOverlayContainer {
+    background-color: rgba(255, 255, 255, 0.1);
+	border: solid 2px white;
+  }
+  #seriesTab .cardOverlayContainer {
+    background-color: rgba(255, 255, 255, 0.1);
+	border: solid 2px white;
+  }
+  #homeTab .cardOverlayContainer {
     background-color: rgba(255, 255, 255, 0.1);
 	border: solid 2px white;
   }
