@@ -4,7 +4,7 @@
 /* Limit Custom CSS code box size */
 #txtCustomCss {
     height: 400px !important;
-    max-height: none !important;
+    max-height: 400px !important;
     overflow-y: scroll !important;
     resize: vertical !important;
 }
@@ -104,6 +104,63 @@
 
 .css-17c09up.Mui-selected:hover {
   background-color: rgba(220, 0, 0, 0.28);
+}
+
+.css-1ip8vbj.Mui-selected {
+  background-color: rgba(220, 0, 0, 0.2);
+}
+
+.css-1ip8vbj.Mui-selected:hover {
+  background-color: rgba(220, 0, 0, 0.28);
+}
+
+.css-77wcaa .MuiAlert-icon {
+	color: rgb(246, 41, 41);
+}
+
+.css-1fv02xh {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.css-1fv02xh:hover {
+	background-color: rgba(255, 31, 31, 0.85);
+}
+
+.css-77wcaa {
+	background-color: rgba(48, 6, 6, 0.26);
+}
+
+.css-195jjve {
+	background-color: rgb(52, 41, 41);
+}
+
+.css-1pjtbja {
+	color: #fff;
+}
+
+.css-1jmiiw3 .MuiDataGrid-row.Mui-selected {
+	background-color: rgba(220, 0, 0, 0.2);
+}
+
+.css-1jmiiw3 .MuiDataGrid-row.Mui-selected:hover {
+	background-color: rgba(220, 0, 0, 0.28);
+}
+
+#dashboardPage .listItemIcon.material-icons.notifications {
+	background-color: #af0a0a !important;
+}
+
+progress::-moz-progress-bar {
+  background-color: rgba(220, 0, 0, 0.9);
+}
+progress::-webkit-progress-value {
+  background-color: rgba(220, 0, 0, 0.9);
+}
+.taskProgressInner {
+  background: rgba(220, 0, 0, 0.9) !important;
+}
+#divRunningTasks span {
+    color: rgba(255,255,255,0.75) !important;
 }
 
 .listItemIcon:not(.listItemIcon-transparent) {
@@ -376,7 +433,7 @@
 
 /* move homeTab sections left */
 .layout-desktop #homeTab .sections.homeSectionsContainer {
-	margin-left: -2em;
+	margin-left: -2.5em;
 	max-width: 129em;
 }
 
@@ -389,6 +446,21 @@
 
 .layout-desktop #indexPage .verticalSection.section0 .card.overflowBackdropCard.card-hoverable.card-withuserdata {
 	width: 20.81em;
+}
+
+/* My Media (small) */
+.layout-desktop #indexPage .raised {
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 1em;
+}
+
+.layout-desktop #indexPage .homeLibraryButton {
+  min-width: 13.65em;
+  margin-top: 0.5em !important;
+  margin-right: 1.46em !important;
+  margin-bottom: 0.5em !important;
+  margin-left: 0.5em !important;
 }
 
 .layout-desktop #indexPage .card.overflowBackdropCard.card-hoverable.card-withuserdata,
@@ -449,14 +521,24 @@
 
 .layout-desktop #moviesTab .portraitCard {
   width: 15.6em;
-  padding-right: 0.5em;
-  padding-left: 0.5em;
+  padding-right: 0em;
+  padding-left: 0em;
 }
 
 .layout-desktop #seriesTab .portraitCard {
   width: 15.6em;
-  padding-right: 0.5em;
-  padding-left: 0.5em;
+  padding-right: 0em;
+  padding-left: 0em;
+}
+
+.layout-desktop #moviesTab .cardText.cardTextCentered.cardText-first {
+	font-family: "kanit";
+	text-transform: uppercase;
+}
+
+.layout-desktop #seriesTab .cardText.cardTextCentered.cardText-first {
+	font-family: "kanit";
+	text-transform: uppercase;
 }
 
 .cardFooter {
@@ -492,12 +574,13 @@
 }
 
 .layout-desktop .padded-right-withalphapicker {
-    padding-right: 1em;
+    padding-left: 1.5em;
+	padding-right: 2em;
   }
 
 .layout-desktop .alphaPicker-fixed-right {
     right: 1em;
-    right: max(env(safe-area-inset-right),2em) !important;
+    right: max(env(safe-area-inset-right),1em) !important;
   }
  
  /* Top padding */
@@ -563,7 +646,9 @@
   position: absolute;
   top: -6.7em;
   left: 5.65em;
-  opacity: 0.8;
+  opacity: 1;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
 }
 
 .layout-desktop .mainDetailButtons {
@@ -695,7 +780,7 @@
 
 .layout-desktop .itemName.infoText.originalTitle {
 	position: fixed;
-	top: 8.05em;
+	top: 7.9em;
     left: 37em;
 }
 
@@ -906,6 +991,14 @@ body {
 	display: none;
 }
 
+.layout-desktop #castContent .cardOverlayContainer.itemAction:hover {
+	border: none !important;
+}
+
+.layout-desktop .cardOverlayContainer {
+  background: rgba(255,255,255,.1);
+}
+
 /* More button in bio */
 .layout-desktop #childrenContent .raised.more.raised-mini.noIcon.emby-button {
   position: fixed;
@@ -938,12 +1031,13 @@ body {
 .layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
   display: block;
   position: fixed;
-  top: 0.5em;
+  top: 1em;
   left: 98em;
   font-size: 100%;
   opacity: 0.9;
   text-transform: uppercase;
   font-family: "Kanit";
+  color: #ff1e1e;
 }
 
 .layout-desktop #specialsContent .cardText {
@@ -954,15 +1048,15 @@ body {
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
   position: absolute;
   bottom: 0.7em;
-  left: 2.5em;
-  width: 119em;
-  max-width: 119em;
+  left: 5.2em;
+  width: 117em;
+  max-width: 117em;
   z-index: 1;
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
 	position: relative;
-	top: 3.5em;
+	top: 3.87em;
 	left: 2.3em;
         z-index: 0;
 }
@@ -980,7 +1074,7 @@ body {
 
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
     position: fixed;
-    top: 2em;
+    top: 2.3em;
     left: 93em;
     width: 12%;
 }
@@ -992,7 +1086,7 @@ body {
 .layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
 	position: fixed;
     top: 3.5em;
-    left: 60.8em;
+    left: 61em;
     z-index: 0;
 }
 
@@ -1026,8 +1120,8 @@ body {
 
 .layout-desktop #castCollapsible .overflowPortraitCard {
     width: 5em;
-    padding-right: 16em;
-    padding-left: 4em;
+    padding-right: 18em;
+    padding-left: 1em;
     height: 4.5em;
 }
 
@@ -1035,7 +1129,7 @@ body {
 .layout-desktop #castCollapsible .cardTextCentered > .textActionButton {
   text-align: left !important;
   width: 20em;
-  margin-left: -4em;
+  margin-left: -5em;
   position: relative;
   top: -2.2em;
   left: 9em;
@@ -1043,7 +1137,7 @@ body {
 }
 
 .layout-desktop #castCollapsible .cardText-first {
-  margin-top: -1.8em;
+  margin-top: -1.5em;
 }
 
 .layout-desktop #castCollapsible .cardText-secondary {
@@ -1082,9 +1176,9 @@ body {
     white-space: normal;
     transition: none !important;
 	position: fixed;
-	top: 3.3em;
-	left: 123.6em;
-	max-height: 52em;
+	top: 8.8em;
+	left: 122.3em;
+	max-height: 43.7em;
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -1095,8 +1189,8 @@ body {
 }
 
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-    width: 4.84em;
-    margin-bottom: -1.7em;
+    width: 5.92em;
+    margin-bottom: -2.15em;
     filter: grayscale(100%);
     opacity: 0.2;
     transition: filter 0.3s, opacity 0.3s;
@@ -1225,6 +1319,7 @@ body {
 	height: 12em;
 }
 
+
 .layout-desktop #childrenContent .listItemBodyText {
     display: block;
 }
@@ -1240,8 +1335,17 @@ body {
   .cardOverlayButtonIcon {
     background-color: #00000000 !important;
   }
-  .cardOverlayContainer {
+  #moviesTab .cardOverlayContainer {
     background-color: rgba(255, 255, 255, 0.1);
+	border: solid 2px white;
+  }
+  #seriesTab .cardOverlayContainer {
+    background-color: rgba(255, 255, 255, 0.1);
+	border: solid 2px white;
+  }
+  #homeTab .cardOverlayContainer {
+    background-color: rgba(255, 255, 255, 0.1);
+	border: solid 2px white;
   }
 }
 
@@ -1264,7 +1368,7 @@ body {
   background-color: rgba(255, 0, 0, 0.75);
   font-size: 100%;
   height: 2.5em;
-  left: 49.2%;
+  left: 51.5%;
   margin-left: -1.5em;
   margin-top: -1.5em;
   padding: 0;
