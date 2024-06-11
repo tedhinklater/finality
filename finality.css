@@ -448,6 +448,21 @@ progress::-webkit-progress-value {
 	width: 20.81em;
 }
 
+/* My Media (small) */
+.layout-desktop #indexPage .raised {
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 1em;
+}
+
+.layout-desktop #indexPage .homeLibraryButton {
+  min-width: 13.65em;
+  margin-top: 0.5em !important;
+  margin-right: 1.46em !important;
+  margin-bottom: 0.5em !important;
+  margin-left: 0.5em !important;
+}
+
 .layout-desktop #indexPage .card.overflowBackdropCard.card-hoverable.card-withuserdata,
 .card.overflowSquareCard.card-hoverable {
 	width: 15.6em;
