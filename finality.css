@@ -777,6 +777,14 @@ progress::-webkit-progress-value {
     left: 37em;
 }
 
+/* Series Air Time */
+
+.layout-desktop #itemDetailPage .detailSectionContent #seriesAirTime {
+	position: fixed;
+	top: 7.3em;
+    left: 23em;
+}
+
 /* Logo */
 
 .detailLogo {
