@@ -21,13 +21,6 @@
     margin-left: 2em !important;
 }
 
-/*Spinner*/
-.mdl-spinner__layer-1,
-.mdl-spinner__layer-2,
-.mdl-spinner__layer-3,
-.mdl-spinner__layer-4 {
-    border-color: #d90000 !important;
-}
 /* Video Playback Progress Bar */
 .mdl-slider-background-lower {
     background: #dc0000 !important;
