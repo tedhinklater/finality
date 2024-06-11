@@ -4,22 +4,22 @@ Jellyfin Theme CSS
 WIP, feel free to fork if you have an idea
 
 Home
-![1](https://i.imgur.com/1fwHlX1.png)
+![1](https://i.imgur.com/PLnMc6v.png)
 
 Gallery View
-![2](https://i.imgur.com/oyL9tLj.png)
+![2](https://i.imgur.com/hwep3p4.png)
 
 Movie View
-![3](https://i.imgur.com/CsC3Lc5.gif)
+![3](https://i.imgur.com/nLudHj6.png)
 
 Show View
-![4](https://i.imgur.com/uzGq1Rc.gif)
+![4](https://i.imgur.com/JqznR2k.png)
 
-Season View
-![5](https://i.imgur.com/81VZBql.gif)
+Season (& Special Features) View
+![5](https://i.imgur.com/1rMb0Tg.png)
 
 Episode View
-![6](https://github.com/tedhinklater/finality/assets/66086488/e3856026-ee00-41e6-bbe1-5f44415fa90f)
+![6](https://i.imgur.com/Gw4ICFU.png)
 
 
 Import to your CSS with
