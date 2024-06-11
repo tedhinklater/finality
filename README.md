@@ -3,23 +3,7 @@ Jellyfin Theme CSS
 
 WIP, feel free to fork if you have an idea
 
-Home
-![1](https://i.imgur.com/PLnMc6v.png)
-
-Gallery View
-![2](https://i.imgur.com/TlS1PyA.png)
-
-Movie View
 ![3](https://i.imgur.com/9DmPvog.png)
-
-Show View
-![4](https://i.imgur.com/JqznR2k.png)
-
-Season (& Special Features) View
-![5](https://i.imgur.com/1rMb0Tg.png)
-
-Episode View
-![6](https://i.imgur.com/Gw4ICFU.png)
 
 
 Import to your CSS with
