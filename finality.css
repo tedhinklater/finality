@@ -763,7 +763,7 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .detailImageContainer .card {
-  max-width: 20em;
+  max-width: 20.5em;
   z-index: 3;
 }
 
@@ -988,7 +988,7 @@ body {
   width: auto;
   max-width: 8.1em;
   position: fixed;
-  top: 47.05em;
+  top: 54em;
   left: 105em;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
@@ -1033,7 +1033,7 @@ body {
 /* Series */
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 	position: fixed;
-    top: 39.3em;
+    top: 40.22em;
     left: 92.8em;
 	height: 11.5em;
 }
@@ -1141,8 +1141,8 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
   position: fixed;
-  top: 18em;
-  left: 88.26em;
+  top: 18.22em;
+  left: 88.4em;
   transform: translateX(-50%);
 }
 
