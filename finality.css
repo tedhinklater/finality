@@ -268,7 +268,7 @@ progress::-webkit-progress-value {
 }
 
 .button-link {
-  color: #c36464;
+  color: #fff;
 }
 
 .emby-input:focus,
@@ -687,6 +687,44 @@ progress::-webkit-progress-value {
   text-transform: uppercase;
   font-weight: 500 !important;
   margin-left: 0.3em;
+}
+
+/* Search */
+
+.layout-desktop #searchPage .searchSuggestionsList.padded-left.padded-right {
+	font-family: "Kanit", sans-serif;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+}
+
+.layout-desktop #searchPage .cardText.cardTextCentered.cardText-first {
+	font-family: "kanit";
+	text-transform: uppercase;
+    font-weight: 700 !important;
+    margin-bottom: -0.2em;
+}
+
+.layout-desktop #searchPage .overflowPortraitCard {
+  width: 15.6em;
+  padding-right: 0em;
+  padding-left: 0em;
+}
+
+.layout-desktop #searchPage .verticalSection {
+  margin-top: 3em;
+  margin-bottom: -5em;
+}
+
+.layout-desktop #searchPage .sectionTitle.sectionTitle-cards {
+	font-size: 1em;
+	font-family: "Rubik", sans-serif;
+	text-transform: uppercase;
+	font-weight: 500 !important;
+	margin-left: 0.3em;
+}
+
+.layout-desktop #searchPage .emby-scrollbuttons.padded-right {
+	top: -1em;
 }
 
 .layout-desktop #moviesTab .cardText.cardTextCentered.cardText-first {
@@ -1305,6 +1343,7 @@ body {
   top: -2.2em;
   left: 9em;
   font-size: 10pt;
+  height: 1em;
 }
 
 .layout-desktop #castCollapsible .cardText-first {
