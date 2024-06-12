@@ -954,6 +954,8 @@ body {
   position: fixed;
   top: 47.05em;
   left: 94.4em;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
 }
 /* Transparency */
 .emby-select-withcolor {
@@ -975,7 +977,7 @@ body {
   display: -webkit-flex;
   display: flex;
   margin: 0 0 .5em !important;
-  max-width: 6.7em;
+  max-width: 0em;
 }
 
 /* Seasons carousel */
