@@ -899,7 +899,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
     top: 11.68em;
-	left: 20em;
+	left: 18.4em;
     font-weight: bold;
     font-size: 12pt;
     white-space: nowrap;
@@ -941,7 +941,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.more_vert {
     position: fixed;
     top: 11.68em;
-	left: 16em;
+	left: 15em;
     font-weight: bold;
     font-size: 12pt;
     white-space: nowrap;
@@ -1017,8 +1017,19 @@ body {
   position: fixed;
   top: 21.4em;
   left: 6.65em;
-  max-width: 50%;
+  max-width: 42%;
   font-size: 11pt;
+}
+
+.layout-desktop .overview-controls {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  position: relative;
+  top: -1em;
+  text-transform: uppercase;
+  opacity: 0.6;
 }
 
 /* Select Tracks */
