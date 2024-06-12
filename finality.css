@@ -385,7 +385,7 @@ progress::-webkit-progress-value {
 .innerCardFooter,
 .countIndicator, 
 .playedIndicator {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(255, 0, 0, 0.6) 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(255, 0, 0, 0.8) 100%);
   box-shadow: none;
   color: #fff;
 }
@@ -443,7 +443,7 @@ progress::-webkit-progress-value {
 
 /* My Media (small) */
 .layout-desktop #indexPage .raised {
-	background: transparent;
+	background: #0000007d;
 	border: 2px solid white;
 	border-radius: 1em;
 }
@@ -459,6 +459,22 @@ progress::-webkit-progress-value {
 .layout-desktop #indexPage .card.overflowBackdropCard.card-hoverable.card-withuserdata,
 .card.overflowSquareCard.card-hoverable {
 	width: 15.6em;
+}
+
+.layout-desktop #homeTab .homeLibraryText {
+	font-family: "Rubik", sans-serif;
+	font-size: 1em;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+}
+
+.layout-desktop #homeTab .raised.homeLibraryButton.emby-button {
+  margin-left: 1em !important;
+  margin-right: 1em !important;
+  padding-left: 3em !important;
+  padding-right: 3em !important;
+  align-content: center;
+  text-align: center;
 }
 
 /* Hide My Media text under cards */
@@ -487,6 +503,20 @@ progress::-webkit-progress-value {
   font-size: 1.5em;
   margin-bottom: .2em;
   margin-left: 0.2em;
+}
+
+/* Adjust alignment for the cards within the Continue Watching section */
+.layout-desktop #homeTab .section1.verticalSection .itemsContainer .card.overflowBackdropCard {
+    width: 31.35em !important;
+    margin-top: 0em;
+}
+
+.layout-desktop #homeTab .sectionTitle.sectionTitle-cards {
+	font-size: 1em;
+	font-family: "Rubik", sans-serif;
+	text-transform: uppercase;
+	font-weight: 500 !important;
+	margin-left: 0.3em;
 }
 
 /* Apply progress bar gradient */
@@ -524,11 +554,81 @@ progress::-webkit-progress-value {
   padding-left: 0em;
 }
 
+/* Favorites */
+
+.layout-desktop #favoritesTab .cardText.cardTextCentered.cardText-first {
+	font-family: "kanit";
+	text-transform: uppercase;
+    font-weight: 700 !important;
+    margin-bottom: -0.2em;
+}
+
+.layout-desktop #favoritesTab .overflowPortraitCard {
+  width: 15.6em;
+  padding-right: 0em;
+  padding-left: 0em;
+}
+
+.layout-desktop #favoritesTab .sections {
+	padding-top: 1em;
+}
+
+.layout-desktop #favoritesTab .verticalSection.emby-scroller-container {
+	margin-left: -2.5em;
+    max-width: 129em;
+}
+
+.layout-desktop #favoritesTab .sectionTitle.sectionTitle-cards {
+  font-size: 1em;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500 !important;
+  margin-left: 0.3em;
+}
+
+/* Suggestions */
+
+.layout-desktop #suggestionsTab .cardText.cardTextCentered.cardText-first {
+	font-family: "kanit";
+	text-transform: uppercase;
+    font-weight: 700 !important;
+    margin-bottom: -0.2em;
+}
+
+.layout-desktop #resumableItems .backdropCard {
+  width: 31.35em !important;
+  padding-right: 0em;
+  padding-left: 0em;
+}
+
+.layout-desktop #suggestionsTab .portraitCard {
+  width: 15.6em;
+  padding-right: 0em;
+  padding-left: 0em;
+}
+
+.layout-desktop #suggestionsTab .verticalSection {
+	padding-top: 3em;
+}
+
+.layout-desktop #suggestionsTab .verticalSection.emby-scroller-container {
+	margin-left: -2.5em;
+    max-width: 129em;
+}
+
+.layout-desktop #suggestionsTab .sectionTitle.sectionTitle-cards {
+  font-size: 1em;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500 !important;
+  margin-left: 0.3em;
+}
+
 .layout-desktop #moviesTab .cardText.cardTextCentered.cardText-first {
 	font-family: "kanit";
 	text-transform: uppercase;
-        font-weight: 700 !important;
-margin-bottom: -0.2em;
+    font-weight: 700 !important;
+    margin-bottom: -0.2em;
 }
 
 .layout-desktop #seriesTab .cardText.cardTextCentered.cardText-first {
