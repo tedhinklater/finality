@@ -92,7 +92,7 @@
 
 .cardBox:not(.visualCardBox) .cardPadder {
 	background-color: transparent !important;
-	border: 2px solid #b80000;
+	border: 2px solid hsla(2, 59%, 11%, 1);
 }
 
 /* Dashboard & button colours */
