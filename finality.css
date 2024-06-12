@@ -992,6 +992,7 @@ body {
   left: 94.4em;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
+  font-size: 0.9em;
 }
 /* Transparency */
 .emby-select-withcolor {
