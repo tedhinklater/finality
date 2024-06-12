@@ -527,11 +527,15 @@ progress::-webkit-progress-value {
 .layout-desktop #moviesTab .cardText.cardTextCentered.cardText-first {
 	font-family: "kanit";
 	text-transform: uppercase;
+        font-weight: 700 !important;
+margin-bottom: -0.2em;
 }
 
 .layout-desktop #seriesTab .cardText.cardTextCentered.cardText-first {
 	font-family: "kanit";
 	text-transform: uppercase;
+        font-weight: 700 !important;
+margin-bottom: -0.2em;
 }
 
 .cardFooter {
@@ -601,6 +605,8 @@ progress::-webkit-progress-value {
 .layout-desktop #homeTab .cardText.cardTextCentered.cardText-first {
 	font-family: "kanit";
 	text-transform: uppercase;
+        font-weight: 700 !important;
+margin-bottom: -0.2em;
 }
 
 .layout-desktop #homeTab .cardText.cardTextCentered.cardText-secondary {
@@ -1434,6 +1440,10 @@ body {
   padding-top: 14em;
 }
 
+.layout-mobile .headerTabs.sectionTabs {
+	margin-top: -2.1em;
+}
+
 /* ### Landscape ### */
 
 /* --- Movie page --- */
@@ -1442,13 +1452,11 @@ body {
 @media (orientation: landscape) {
 	.layout-mobile #itemDetailPage .nameContainer {
 		position: absolute;
-		top: 4em;
+		top: 4.3em;
 		left: 2.8%;
 		width: 70%;
 	}
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #itemDetailPage .itemName.parentNameLast {
 		font-family: "Kanit", sans-serif;
 		font-weight: 700 !important;
@@ -1466,10 +1474,8 @@ body {
 		text-overflow: ellipsis;
 		overflow: hidden;
 	}
-}
 
 /* Release Year, Rating etc */
-@media (orientation: landscape) {
 	.layout-mobile #itemDetailPage .itemMiscInfo.itemMiscInfo-primary {
 		position: absolute;
 		top: 4em;
@@ -1477,9 +1483,7 @@ body {
 		font-family: "Rubik", sans-serif;
 		font-size: 0.8em;
     }
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #itemDetailPage .mainDetailButtons.focuscontainer-x {
 		position: absolute;
 		top: 17em;
@@ -1487,27 +1491,21 @@ body {
 		padding-left: 0%;
 		z-index: 1000;
   }
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #itemDetailPage .card.portraitCard {
 		top: 3.5em;
 		left: 72%;
 		height: 16em;
 		width: 10em;
     }
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #itemDetailPage .genresLabel.label {
       display: none;
     }
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #itemDetailPage .detailsGroupItem.genresGroup {
-position: absolute;
-    top: -13.8em;
+    position: absolute;
+    top: -14.1em;
     left: -2.5%;
     font-family: "Kanit", sans-serif;
     text-transform: uppercase;
@@ -1515,33 +1513,25 @@ position: absolute;
     opacity: 0.4;
     font-size: 0.8em;
     }
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #itemDetailPage .trackSelections.focuscontainer-x {
 		position: absolute;
 		top: 7em;
 		left: 75%;
 		font-size: 0.5em;
-		width: 19.5em;
+		width: 25.5em;
     }
-}
-
-@media (orientation: landscape) {
+	
 	.layout-mobile #itemDetailPage .itemName.infoText.originalTitle {
 		position: absolute;
 		top: -1.4em;
 		left: 39.5em;
 		font-size: 0.7em;
     }
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #itemDetailPage .detailPagePrimaryContent.padded-right {
     }
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #itemDetailPage .detailSectionContent {
 		position: absolute;
 		top: -10.5em;
@@ -1550,22 +1540,16 @@ position: absolute;
 		font-family: "Rubik", sans-serif;
 		font-size: 0.6em;
     }
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #castContent .card.overflowPortraitCard.personCard.card-withuserdata {
 		width: 4em;
 		padding-right: 14%;
     }
-}
-
-@media (orientation: landscape) {
+	
 	.layout-mobile #castCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller.scrollX.hiddenScrollX {
       padding-top: 5em;
     }
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #castCollapsible .cardText-first {
 		margin-top: 0.5em;
 		font-size: 0.6em;
@@ -1574,7 +1558,6 @@ position: absolute;
 		margin-right: -13em;
 	}
 	
-@media (orientation: landscape) {
 	.layout-mobile #castCollapsible .cardText-secondary {
 		font-size: 0.6em;
 		padding-left: 0em;
@@ -1583,94 +1566,38 @@ position: absolute;
 		text-align: left !important;
 	}
 
-@media (orientation: landscape) {
 	.layout-mobile #itemDetailPage .itemExternalLinks.focuscontainer-x {
 		position: absolute;
         top: 13.5em;
         left: 0.2%;
     }
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #scenesContent .card.itemAction.chapterCard.overflowBackdropCard {
         width: 10em;
     }
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #similarCollapsible .card.overflowPortraitCard.card-withuserdata {
       width: 10em;
     }
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #scenesContent .innerCardFooter {
       background: linear-gradient(to right, rgba(255, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%) !important;
     }
-}
 
-@media (orientation: landscape) {
 	.layout-mobile #scenesContent .cardText {
 		opacity: 0.8;
     }
-}
 
-@media (orientation: landscape) {
-	.layout-mobile # .  {
-		
-    }
-}
 
-@media (orientation: landscape) {
-	.layout-mobile # .  {
-		
-    }
-}
+	.layout-mobile #moviesTab .cardText.cardTextCentered.cardText-first {
+		font-family: "Kanit", sans-serif;
+		font-weight: 700 !important;
+		text-transform: uppercase;
+	}
 
-@media (orientation: landscape) {
-	.layout-mobile # .  {
-		
-    }
-}
-
-@media (orientation: landscape) {
-	.layout-mobile # .  {
-		
-    }
-}
-
-@media (orientation: landscape) {
-	.layout-mobile # .  {
-		
-    }
-}
-
-@media (orientation: landscape) {
-	.layout-mobile # .  {
-		
-    }
-}
-
-@media (orientation: landscape) {
-	.layout-mobile # .  {
-		
-    }
-}
-
-@media (orientation: landscape) {
-	.layout-mobile # .  {
-		
-    }
-}
-
-@media (orientation: landscape) {
-	.layout-mobile # .  {
-		
-    }
-}
-
-@media (orientation: landscape) {
-	.layout-mobile # .  {
-		
-    }
+	.layout-mobile #seriesTab .cardText.cardTextCentered.cardText-first {
+		font-family: "Kanit", sans-serif;
+		font-weight: 700 !important;
+		text-transform: uppercase;
+	}
 }
