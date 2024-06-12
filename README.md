@@ -3,7 +3,7 @@ Jellyfin Theme CSS
 
 WIP, feel free to fork if you have an idea
 
-![3](https://i.imgur.com/RmeUmdn.png)
+![3](https://i.imgur.com/XoWJNKc.png)
 
 
 Import to your CSS with
