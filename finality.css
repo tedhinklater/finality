@@ -21,6 +21,13 @@
     margin-left: 2em !important;
 }
 
+/*Spinner*/
+.mdl-spinner__layer-1,
+.mdl-spinner__layer-2,
+.mdl-spinner__layer-3,
+.mdl-spinner__layer-4 {
+    border-color: #d90000 !important;
+}
 /* Video Playback Progress Bar */
 .mdl-slider-background-lower {
     background: #dc0000 !important;
@@ -777,14 +784,6 @@ progress::-webkit-progress-value {
     left: 37em;
 }
 
-/* Series Air Time */
-
-.layout-desktop #itemDetailPage .detailSectionContent #seriesAirTime {
-	position: fixed;
-	top: 7.3em;
-    left: 23em;
-}
-
 /* Logo */
 
 .detailLogo {
@@ -979,7 +978,7 @@ body {
 /* Cast & Crew */
 
 /* Hide "Cast & Crew" text */
-.layout-desktop #castCollapsible .sectionTitle-cards {
+#castCollapsible .sectionTitle-cards {
   margin: 0;
   padding-bottom: .2em;
   padding-top: .5em;
@@ -1100,11 +1099,11 @@ body {
 	border: 2px solid white;
 }
 
-.layout-desktop .personCard .coveredImage {
+.personCard .coveredImage {
     clip-path: circle(50% at 50% 50%);
 }
 
-.layout-desktop .personCard .cardOverlayContainer {
+.personCard .cardOverlayContainer {
     clip-path: circle(50% at 50% 50%);
 }
 
@@ -1112,8 +1111,8 @@ body {
     right: 20%;
 }
 
-.layout-desktop .personCard .cardPadder-overflowPortrait,
-.layout-desktop .personCard .cardPadder-portrait {
+.personCard .cardPadder-overflowPortrait,
+.personCard .cardPadder-portrait {
     padding-bottom: 100%;
     contain: strict;
     border-radius: 50% !important;
@@ -1435,9 +1434,243 @@ body {
   padding-top: 14em;
 }
 
+/* ### Landscape ### */
+
+/* --- Movie page --- */
+
+/* Title */
 @media (orientation: landscape) {
-	.layout-mobile .detailRibbon {
-      background: transparent;
-      padding-top: 14em;
+	.layout-mobile #itemDetailPage .nameContainer {
+		position: absolute;
+		top: 4em;
+		left: 2.8%;
+		width: 70%;
+	}
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #itemDetailPage .itemName.parentNameLast {
+		font-family: "Kanit", sans-serif;
+		font-weight: 700 !important;
+		text-transform: uppercase;
+		font-size: 2.5em;
+		text-align: left;
+		line-height: 0.85em;
+		white-space: normal;
+		line-height: 0.85em;
+		max-height: 2em;
+		max-width: 17.5em;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+}
+
+/* Release Year, Rating etc */
+@media (orientation: landscape) {
+	.layout-mobile #itemDetailPage .itemMiscInfo.itemMiscInfo-primary {
+		position: absolute;
+		top: 4em;
+		left: 2.8%;
+		font-family: "Rubik", sans-serif;
+		font-size: 0.8em;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #itemDetailPage .mainDetailButtons.focuscontainer-x {
+		position: absolute;
+		top: 17em;
+		left: 0.9%;
+		padding-left: 0%;
+		z-index: 1000;
+  }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #itemDetailPage .card.portraitCard {
+		top: 3.5em;
+		left: 72%;
+		height: 16em;
+		width: 10em;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #itemDetailPage .genresLabel.label {
+      display: none;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #itemDetailPage .detailsGroupItem.genresGroup {
+position: absolute;
+    top: -13.8em;
+    left: -2.5%;
+    font-family: "Kanit", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.4;
+    font-size: 0.8em;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #itemDetailPage .trackSelections.focuscontainer-x {
+		position: absolute;
+		top: 7em;
+		left: 75%;
+		font-size: 0.5em;
+		width: 19.5em;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #itemDetailPage .itemName.infoText.originalTitle {
+		position: absolute;
+		top: -1.4em;
+		left: 39.5em;
+		font-size: 0.7em;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #itemDetailPage .detailPagePrimaryContent.padded-right {
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #itemDetailPage .detailSectionContent {
+		position: absolute;
+		top: -10.5em;
+		left: -2.5%;
+		max-width: 76%;
+		font-family: "Rubik", sans-serif;
+		font-size: 0.6em;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #castContent .card.overflowPortraitCard.personCard.card-withuserdata {
+		width: 4em;
+		padding-right: 14%;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #castCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller.scrollX.hiddenScrollX {
+      padding-top: 5em;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #castCollapsible .cardText-first {
+		margin-top: 0.5em;
+		font-size: 0.6em;
+		text-align: left !important;
+		margin-left: 0em !important;
+		margin-right: -13em;
+	}
+	
+@media (orientation: landscape) {
+	.layout-mobile #castCollapsible .cardText-secondary {
+		font-size: 0.6em;
+		padding-left: 0em;
+		margin-right: -13em;
+		margin-left: 2em;
+		text-align: left !important;
+	}
+
+@media (orientation: landscape) {
+	.layout-mobile #itemDetailPage .itemExternalLinks.focuscontainer-x {
+		position: absolute;
+        top: 13.5em;
+        left: 0.2%;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #scenesContent .card.itemAction.chapterCard.overflowBackdropCard {
+        width: 10em;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #similarCollapsible .card.overflowPortraitCard.card-withuserdata {
+      width: 10em;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #scenesContent .innerCardFooter {
+      background: linear-gradient(to right, rgba(255, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%) !important;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile #scenesContent .cardText {
+		opacity: 0.8;
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile # .  {
+		
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile # .  {
+		
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile # .  {
+		
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile # .  {
+		
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile # .  {
+		
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile # .  {
+		
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile # .  {
+		
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile # .  {
+		
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile # .  {
+		
+    }
+}
+
+@media (orientation: landscape) {
+	.layout-mobile # .  {
+		
     }
 }
