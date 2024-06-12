@@ -1143,7 +1143,12 @@ body {
 }
 
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
-	width: 6.9em;
+	width: 7em;
+}
+
+.layout-desktop #childrenContent .textActionButton {
+	font-size: 0.9em;
+	padding-bottom: 0.2em !important;
 }
 
 .layout-desktop #itemDetailPage .overflowBackDropCard {
@@ -1337,13 +1342,13 @@ body {
 .layout-desktop #castCollapsible .cardTextCentered, 
 .layout-desktop #castCollapsible .cardTextCentered > .textActionButton {
   text-align: left !important;
-  width: 20em;
+  width: 17em;
   margin-left: -5em;
   position: relative;
   top: -2.2em;
   left: 9em;
   font-size: 10pt;
-  height: 1em;
+  height: 1.2em;
 }
 
 .layout-desktop #castCollapsible .cardText-first {
