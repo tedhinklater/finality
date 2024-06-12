@@ -861,7 +861,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
     top: 11.68em;
-	left: 12.3em;
+	left: 20em;
     font-weight: bold;
     font-size: 12pt;
     white-space: nowrap;
@@ -871,7 +871,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
   position: fixed;
   top: 11.68em;
-  left: 6.4em;
+  left: 7.8em;
   font-weight: bold;
   white-space: nowrap;
 }
@@ -879,7 +879,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
     position: fixed;
     top: 11.68em;
-	left: 6.4em;
+	left: 7.8em;
     font-weight: bold;
     white-space: nowrap;
 }
@@ -887,7 +887,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.favorite {
     position: fixed;
     top: 11.68em;
-	left: 8.5em;
+	left: 11.5em;
     font-weight: bold;
     white-space: nowrap;
 }
@@ -903,7 +903,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.more_vert {
     position: fixed;
     top: 11.68em;
-	left: 10.5em;
+	left: 16em;
     font-weight: bold;
     font-size: 12pt;
     white-space: nowrap;
@@ -1349,7 +1349,7 @@ body {
 	position: fixed;
 	top: 8.8em;
 	left: 122.3em;
-	max-height: 43.7em;
+	max-height: 45em;
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -1548,7 +1548,7 @@ body {
 }
 
 .cardOverlayContainer > .cardOverlayFab-primary {
-  background-color: rgba(255, 0, 0, 0.75);
+  background-color: rgba(255, 0, 0, 1);
   font-size: 100%;
   height: 2.5em;
   left: 51.5%;
@@ -1582,6 +1582,11 @@ body {
 .button-flat.btnPlaystate.detailButton.emby-button.playstatebutton-played {
 	z-index: -2;
 }
+
+.layout-desktop #itemDetailPage .detailButton {
+    padding-left: .85em !important;
+    margin-right: -11.5em !important;
+ }
 
 .paper-icon-button-light:hover {
   background-color: rgba(0, 0, 0, 0) !important;
