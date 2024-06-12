@@ -795,7 +795,7 @@ margin-bottom: -0.2em;
 
 .layout-desktop .detailButton-icon.play_arrow {
     background-color: rgba(255,0,0,1);
-	border-radius: 30px;
+	border-radius: 10px;
 	z-index: -2;
 	padding-right: 2.4em;
 }
@@ -821,7 +821,7 @@ margin-bottom: -0.2em;
 
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
-    top: 11.6em;
+    top: 11.68em;
 	left: 12.3em;
     font-weight: bold;
     font-size: 12pt;
@@ -830,29 +830,26 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
-    position: fixed;
-    top: 11.6em;
-    left: 6.5em;
-    font-weight: bold; 
-    font-size: 10pt;
-    white-space: nowrap;
+  position: fixed;
+  top: 11.68em;
+  left: 6.4em;
+  font-weight: bold;
+  white-space: nowrap;
 }
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
     position: fixed;
-    top: 11.6em;
-	left: 6.5em;
+    top: 11.68em;
+	left: 6.4em;
     font-weight: bold;
-    font-size: 10pt;
     white-space: nowrap;
 }
 
 .layout-desktop .detailButton .detailButton-icon.favorite {
     position: fixed;
-    top: 11.6em;
+    top: 11.68em;
 	left: 8.5em;
     font-weight: bold;
-    font-size: 12pt;
     white-space: nowrap;
 }
 
@@ -866,7 +863,7 @@ margin-bottom: -0.2em;
 
 .layout-desktop .detailButton .detailButton-icon.more_vert {
     position: fixed;
-    top: 11.6em;
+    top: 11.68em;
 	left: 10.5em;
     font-weight: bold;
     font-size: 12pt;
@@ -1019,7 +1016,7 @@ body {
 
 .layout-desktop .detailsGroupItem.genresGroup {
   position: fixed;
-  top: 6.9em;
+  top: 6.95em;
   left: 4.72em;
   font-family: kanit;
   text-transform: uppercase;
