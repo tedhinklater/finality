@@ -1640,6 +1640,7 @@ body {
     font-weight: 600;
     opacity: 0.4;
     font-size: 0.8em;
+    z-index: 2;
     }
 
 	.layout-mobile #itemDetailPage .trackSelections.focuscontainer-x {
