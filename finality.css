@@ -424,6 +424,32 @@ progress::-webkit-progress-value {
     background-color: transparent !important;
 }
 
+.emby-tab-button {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  font-family: "Rubik", sans-serif !important;
+  font-size: inherit;
+  font-weight: 600;
+  height: auto;
+  line-height: 1.25;
+  margin: 0;
+  min-width: 0;
+  min-width: auto;
+  outline: none;
+  overflow: hidden;
+  padding: 1.5em 1.5em;
+  position: relative;
+  vertical-align: middle;
+  width: auto;
+  text-transform: uppercase;
+}
+
 /* move homeTab sections left */
 .layout-desktop #homeTab .sections.homeSectionsContainer {
 	margin-left: -2.5em;
