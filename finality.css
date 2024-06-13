@@ -95,6 +95,10 @@
 	border: 2px solid hsla(2, 59%, 11%, 1);
 }
 
+.pageTitleWithDefaultLogo {
+  background-image: url(https://i.imgur.com/5d4W3M2.png);
+}
+
 /* Dashboard & button colours */
 .css-17c09up.Mui-selected {
   background-color: rgba(220, 0, 0, 0.2);
