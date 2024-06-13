@@ -1202,7 +1202,7 @@ body {
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
 	text-transform: uppercase;
   position: fixed;
-  top: 2em;
+  top: 2.7em;
   left: 1.3em;
   font-size: 5em;
   width: 65%;
@@ -1448,6 +1448,19 @@ body {
     opacity: 1;
 }
 
+.layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
+    width: 5.34em;
+    margin-bottom: -2.15em;
+    filter: grayscale(100%);
+    opacity: 0.2;
+    transition: filter 0.3s, opacity 0.3s;
+}
+
+.layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
 .layout-desktop #similarCollapsible .cardScalable {
 	border: 1px solid white;
 	margin-right: 0.3em;
@@ -1490,11 +1503,11 @@ body {
     flex-wrap: nowrap;
     overflow-x: auto;
     white-space: nowrap;
-    max-width: 94%;
+    max-width: 80.5%;
     position: absolute;
     top: 44em;
     left: 6em;
-    width: 94%;
+    width: 80.5%;
     padding-bottom: 1em;
     z-index: 1000;
 }
@@ -1545,7 +1558,7 @@ body {
 .layout-desktop #childrenContent .listItem {
     flex: 0 0 auto; 
     margin-right: 0.2em; 
-    width: 33%; 
+    width: 34%; 
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
