@@ -438,10 +438,6 @@ progress::-webkit-progress-value {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.pageTitleWithDefaultLogo {
-  filter: grayscale(100%);
-}
-
 .emby-tab-button {
   background: transparent;
   border-radius: 0;
