@@ -5,7 +5,7 @@ WIP, feel free to fork if you have an idea
 
 Homepage
 
-![1](https://i.imgur.com/yibHeFG.png)
+![1](https://i.imgur.com/FQpv9aq.png)
 
 Movie Gallery
 
