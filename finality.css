@@ -864,6 +864,12 @@ margin-bottom: -0.2em;
   font-size: 1.1111em;
 }
 
+.layout-desktop .itemMiscInfo.itemMiscInfo-secondary {
+	position: absolute;
+	top: -6.2em;
+	left: 10.5em;
+}
+
 .layout-desktop .mainDetailButtons {
   -webkit-align-items: center;
   align-items: center;
@@ -1203,6 +1209,9 @@ body {
   font-family: "Kanit", sans-serif;
   font-weight: 700;
   font-style: normal;
+  max-height: 0.9em;
+  margin-top: 0.2em;
+  margin-bottom: -1.8em;
 }
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
@@ -1732,6 +1741,7 @@ body {
 		font-family: "Rubik", sans-serif;
 		font-size: 0.8em;
     }
+	
 
 	.layout-mobile #itemDetailPage .mainDetailButtons.focuscontainer-x {
 		position: absolute;
