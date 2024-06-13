@@ -21,7 +21,7 @@ Show View
 
 Season View
 
-![5](https://i.imgur.com/pQDdYWk.png)
+![5](https://i.imgur.com/IkbuMQF.png)
 
 Episode View
 
