@@ -468,12 +468,18 @@ progress::-webkit-progress-value {
 .layout-desktop #homeTab .sections.homeSectionsContainer {
 	margin-left: -2.5em;
 	max-width: 129em;
+        margin-top: 2em;
 }
 
 /* move scrollbuttons right */
 .layout-desktop #homeTab .emby-scrollbuttons.padded-right {
 	right: -4em;
 	top: -0.5em;
+}
+
+/* Hide My Media text on desktop */
+.layout-desktop #homeTab .section0 .sectionTitle.sectionTitle-cards.padded-left {
+  display: none;
 }
 
 /* My Media Card size */
@@ -504,15 +510,24 @@ progress::-webkit-progress-value {
 
 .layout-desktop #homeTab .homeLibraryText {
 	font-family: "Rubik", sans-serif;
-	font-size: 1em;
+	font-size: 1.1em;
 	font-weight: 500 !important;
 	text-transform: uppercase;
 }
 
 .layout-desktop #homeTab .raised.homeLibraryButton.emby-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   margin-left: 0.25em !important;
   margin-right: 1.20666em !important;
   min-width: 14.15em !important;
+}
+
+.layout-desktop #homeTab .homeLibraryIcon {
+  display: none;
 }
 
 /* Hide My Media text under cards */
@@ -862,9 +877,9 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .itemMiscInfo.itemMiscInfo-secondary {
-	position: absolute;
-	top: -6.2em;
-	left: 10.5em;
+  position: absolute;
+  top: -7.5em;
+  left: 5em;
 }
 
 .layout-desktop .mainDetailButtons {
@@ -1213,9 +1228,17 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
   position: fixed;
-  top: 18.22em;
-  left: 88.4em;
+  top: 18.5em;
+  left: 89em;
   transform: translateX(-50%);
+  overflow: hidden;
+  white-space: normal;
+  line-height: 0.93em;
+  max-height: 2em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
 }
 
 /* Cast & Crew */
@@ -1711,6 +1734,44 @@ body {
 
 .paper-icon-button-light:hover {
   background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.layout-desktop .recordingFields {
+  position: absolute;
+  top: 7.95em;
+  left: 7em;
+}
+
+.layout-desktop .raised.recordingButton.seriesRecordingButton.emby-button {
+  background: transparent;
+  border-radius: 2em;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  border: 2px solid white;
+  max-height: 3em;
+}
+
+.layout-desktop .raised.recordingButton.seriesRecordingButton.emby-button .buttonText {
+  padding-left: 0.7em;
+  padding-right: 1.3em;
+}
+
+.layout-desktop .raised.recordingButton.singleRecordingButton.emby-button {
+  position: absolute;
+  top: 0em;
+  left: 15em;
+  background: transparent;
+  border-radius: 2em;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  border: 2px solid white;
+  max-height: 3em;
+}
+
+.layout-desktop .raised.recordingButton.singleRecordingButton.emby-button .buttonText {
+	padding-left: 1em;
 }
 
 /* --- Mobile View --- */
