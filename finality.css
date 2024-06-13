@@ -429,6 +429,10 @@ progress::-webkit-progress-value {
     background-color: transparent !important;
 }
 
+.pageTitleWithDefaultLogo {
+  filter: grayscale(100%);
+}
+
 .emby-tab-button {
   background: transparent;
   border-radius: 0;
@@ -846,11 +850,12 @@ margin-bottom: -0.2em;
   -webkit-align-items: center;
   align-items: center;
   position: absolute;
-  top: -6.7em;
-  left: 5.65em;
+  top: -6.2em;
+  left: 5em;
   opacity: 1;
   font-family: "Kanit", sans-serif;
   font-weight: 600;
+  font-size: 1.1111em;
 }
 
 .layout-desktop .mainDetailButtons {
@@ -1105,7 +1110,7 @@ body {
 
 .layout-desktop .detailsGroupItem.genresGroup {
   position: fixed;
-  top: 6.95em;
+  top: 6.9em;
   left: 4.72em;
   font-family: kanit;
   text-transform: uppercase;
