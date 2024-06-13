@@ -13,4 +13,4 @@ Import to your CSS with
 
 ```
 Make sure you enable backdrops
-[!Backdrops](https://i.imgur.com/18D9IO3.png)
+![Backdrops](https://i.imgur.com/18D9IO3.png)
