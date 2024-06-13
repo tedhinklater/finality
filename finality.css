@@ -1500,13 +1500,14 @@ body {
     flex-wrap: nowrap;
     overflow-x: auto;
     white-space: nowrap;
-    max-width: 80.5%;
+    max-width: 83.5%;
     position: absolute;
     top: 44em;
     left: 6em;
-    width: 80.5%;
+    width: 83.5%;
     padding-bottom: 1em;
     z-index: 1000;
+    padding-right: 0em;
 }
 
 .layout-desktop #childrenContent .listItem-content {
@@ -1555,7 +1556,8 @@ body {
 .layout-desktop #childrenContent .listItem {
     flex: 0 0 auto; 
     margin-right: 0.2em; 
-    width: 34%; 
+    width: 32.48%;
+    border-radius: 2em;
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
@@ -1584,6 +1586,39 @@ body {
 .listItem:hover {
   background: rgba(0,0,0,0.1);
 }
+
+
+#childrenContent .listItem {
+    background: transparent;
+}
+
+.listItem::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(1deg, rgb(0% 0% 0%) 0%, rgb(0.01% 0.01% 0.01% / 0.999892578125) 6.25%, rgb(0.08% 0.08% 0.08% / 0.999140625) 12.5%, rgb(0.271% 0.271% 0.271% / 0.997099609375) 18.75%, rgb(0.643% 0.643% 0.643% / 0.993125) 25%, rgb(1.257% 1.257% 1.257% / 0.986572265625) 31.25%, rgb(2.171% 2.171% 2.171% / 0.976796875) 37.5%, rgb(3.448% 3.448% 3.448% / 0.963154296875) 43.75%, rgb(5.147% 5.147% 5.147% / 0.9450000000000001) 50%, rgb(7.329% 7.329% 7.329% / 0.9216894531250001) 56.25%, rgb(10.053% 10.053% 10.053% / 0.892578125) 62.5%, rgb(13.38% 13.38% 13.38% / 0.857021484375) 68.75%, rgb(17.371% 17.371% 17.371% / 0.8143750000000001) 75%, rgb(22.086% 22.086% 22.086% / 0.763994140625) 81.25%, rgb(27.585% 27.585% 27.585% / 0.7052343750000001) 87.5%, rgb(33.928% 33.928% 33.928% / 0.637451171875) 93.75%, rgb(41.176% 41.176% 41.176% / 0.56) 100% );
+  filter: blur(30px) !important;
+  z-index: -1;
+}
+
+.layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
+    margin-bottom: 4.5em;
+    margin-right: 0em;
+    padding-left: 2em;
+}
+
+.layout-desktop #childrenContent .listViewUserDataButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-desktop #childrenContent .listViewUserDataButtons button {
+  margin-bottom: 5px;
+}
+  
 
 @media all and (min-width: 70em){
 .cardOverlayFab-primary {
