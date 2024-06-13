@@ -473,6 +473,7 @@ progress::-webkit-progress-value {
 /* move scrollbuttons right */
 .layout-desktop #homeTab .emby-scrollbuttons.padded-right {
 	right: -4em;
+	top: -0.5em;
 }
 
 /* My Media Card size */
