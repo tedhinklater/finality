@@ -986,16 +986,16 @@ margin-bottom: -0.2em;
 /* Title */
 
 .layout-desktop .itemName.parentNameLast {
-  top: -0.75em !important;
+  top: -0.53em !important;
   position: absolute;
-  font-size: 5em;
+  font-size: 6.2em;
   text-transform: uppercase;
   right: auto;
-  left: 1.1em;
+  left: 0.9em;
   width: 65%;
   overflow: hidden;
   white-space: normal;
-  line-height: 0.93em;
+  line-height: 0.85em;
   max-height: 2em;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -1034,6 +1034,7 @@ margin-bottom: -0.2em;
 /* Tagline */
 #itemDetailPage .tagline {
   font-weight: 600;
+  margin-bottom: -0.5em;
 }
 
 /* Description */
@@ -1045,8 +1046,8 @@ body {
 }
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
-  top: 21.4em;
-  left: 6.65em;
+  top: 22em;
+  left: 6.95em;
   max-width: 42%;
   font-size: 11pt;
 }
@@ -1212,14 +1213,14 @@ body {
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
-	text-transform: uppercase;
+  text-transform: uppercase;
   position: fixed;
-  top: 2.7em;
-  left: 1.3em;
-  font-size: 5em;
+  top: 6.333em;
+  left: 2.2em;
+  font-size: 3em;
   width: 65%;
   font-family: "Kanit", sans-serif;
-  font-weight: 700;
+  font-weight: 700 !important;
   font-style: normal;
   max-height: 0.9em;
   margin-top: 0.2em;
@@ -1229,12 +1230,11 @@ body {
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
   position: fixed;
   top: 18.5em;
-  left: 89em;
+  left: 88.5em;
   transform: translateX(-50%);
   overflow: hidden;
   white-space: normal;
-  line-height: 0.93em;
-  max-height: 2em;
+  max-height: 3em;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
