@@ -870,7 +870,7 @@ margin-bottom: -0.2em;
   display: flex;
   position: fixed;
   top: 18em;
-  left: 2.5em;
+  left: 2.7em;
   font-size: 200%;
   margin: 0;
 }
@@ -885,7 +885,8 @@ margin-bottom: -0.2em;
     background-color: rgba(255,0,0,1);
 	border-radius: 10px;
 	z-index: -2;
-	padding-right: 2.4em;
+	padding-right: 2.15em;
+	padding-left: 0.1em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.play_arrow::before {
@@ -899,7 +900,7 @@ margin-bottom: -0.2em;
     font-style: normal;
     position: fixed;
     top: 35.75em;
-	left: 9.65em;
+	left: 10em;
     color: white;
     font-weight: bold;
     font-size: 12pt;
