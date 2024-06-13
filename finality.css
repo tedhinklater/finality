@@ -893,13 +893,13 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.play_arrow::after {
-    content: "WATCH NOW";
+    content: "PLAY NOW";
 	font-family: "Kanit", sans-serif;
     font-weight: 800;
     font-style: normal;
     position: fixed;
     top: 35.75em;
-	left: 9.2em;
+	left: 9.65em;
     color: white;
     font-weight: bold;
     font-size: 12pt;
