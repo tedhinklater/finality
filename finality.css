@@ -512,7 +512,7 @@ progress::-webkit-progress-value {
 .layout-desktop #homeTab .raised.homeLibraryButton.emby-button {
   margin-left: 0.25em !important;
   margin-right: 1.20666em !important;
-  width: 14.15em !important;
+  min-width: 14.15em !important;
 }
 
 /* Hide My Media text under cards */
