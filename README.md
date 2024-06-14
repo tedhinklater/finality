@@ -9,7 +9,7 @@ Homepage
 
 Movie Gallery
 
-![2](https://github.com/tedhinklater/finality/assets/66086488/41a47abc-fd0e-4a13-98eb-f3a120606323)
+![2](https://github.com/tedhinklater/finality/assets/66086488/e65ceae0-174a-4123-943c-8ea9beaec024)
 
 Movie View
 
