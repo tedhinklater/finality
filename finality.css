@@ -1795,6 +1795,236 @@ body {
 	padding-left: 1em;
 }
 
+/* Ultrawide aspect ratios*/
+@media (min-aspect-ratio: 2/1) {
+
+	/* Poster */
+
+	.layout-desktop #itemDetailPage .detailImageContainer .card {
+	  position: fixed;
+	  top: -5.42em;
+	  left: 91.5em;
+	  width: 18em;
+	  border: 2px solid white;
+	  border-radius: 5px;
+	}
+
+	/* Series Carousel */
+	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
+		position: fixed;
+		top: 36.48em;
+		left: 92.3em;
+		height: 11.5em;
+		width: 18.5em;
+	}
+	
+	.layout-desktop #childrenCollapsible .overflowPortraitCard {
+		width: 6.5em;
+	}
+	
+	/* Cast & Crew */
+	
+	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
+	  position: absolute;
+	  bottom: 0.7em;
+	  left: 5.2em;
+	  width: 111em;
+	  max-width: 111em;
+	  z-index: 1;
+	}
+	
+	/* Video Audio Subs */
+	
+	.layout-desktop .trackSelections {
+	  width: auto;
+	  max-width: 8.1em;
+	  position: fixed;
+	  top: 45em;
+	  left: 105em;
+	  font-family: "Rubik", sans-serif;
+	  text-transform: uppercase;
+	  font-size: 0.9em;
+	}
+	
+	/* Season View */
+	
+	.layout-desktop #childrenContent .childrenItemsContainer {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		white-space: nowrap;
+		max-width: 83.5%;
+		position: absolute;
+		top: 39em;
+		left: 6em;
+		width: 81.5%;
+		max-height: 10.5em;
+		padding-bottom: 1em;
+		z-index: 1000;
+		padding-right: 0em;
+	}
+	
+	/* Movie Page Action Buttons */
+	
+	.layout-desktop .mainDetailButtons {
+	  -webkit-align-items: center;
+	  align-items: center;
+	  display: flex;
+	  position: fixed;
+	  top: 16em;
+	  left: 2.7em;
+	  font-size: 200%;
+	  margin: 0;
+	}
+
+	.layout-desktop .detailButton-icon {
+	  font-size: 1.6em !important;
+	  height: 1em;
+	  width: 1em;
+	}
+
+	.layout-desktop .detailButton-icon.play_arrow {
+		background-color: rgba(255,0,0,1);
+		border-radius: 10px;
+		z-index: -2;
+		padding-right: 2.15em;
+		padding-left: 0.1em;
+	}
+
+	.layout-desktop .detailButton .detailButton-icon.play_arrow::before {
+		color: white;
+	}
+
+	.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
+		content: "PLAY NOW";
+		font-family: "Kanit", sans-serif;
+		font-weight: 800;
+		font-style: normal;
+		position: fixed;
+		top: 32.03em;
+		left: 10em;
+		color: white;
+		font-weight: bold;
+		font-size: 12pt;
+		white-space: nowrap;
+		z-index: 2;
+	}
+
+	.layout-desktop .detailButton .detailButton-icon.theaters {
+		position: fixed;
+		top: 10.44em;
+		left: 18.4em;
+		font-weight: bold;
+		font-size: 12pt;
+		white-space: nowrap;
+		padding-right: 2.4em;
+	}
+
+	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
+	  position: fixed;
+	  top: 10.44em;
+	  left: 7.8em;
+	  font-weight: bold;
+	  white-space: nowrap;
+	}
+
+	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
+		position: fixed;
+		top: 10.44em;
+		left: 7.8em;
+		font-weight: bold;
+		white-space: nowrap;
+	}
+
+	.layout-desktop .detailButton .detailButton-icon.favorite {
+		position: fixed;
+		top: 10.44em;
+		left: 11.5em;
+		font-weight: bold;
+		white-space: nowrap;
+	}
+
+	.layout-desktop .detailButton .detailButton-icon.replay {
+		display: none;
+	}
+
+	.layout-desktop .detailButton .detailButton-icon.shuffle {
+		display: none;
+	}
+
+	.layout-desktop .detailButton .detailButton-icon.more_vert {
+		position: fixed;
+		top: 10.44em;
+		left: 15em;
+		font-weight: bold;
+		font-size: 12pt;
+		white-space: nowrap;
+	}
+	
+	.layout-desktop #childrenContent .listItem-overview {
+		height: 4.9em;
+	}
+	
+	.listItem::before {
+		content: "";
+		 position: absolute;
+		 top: 0;
+		 left: 0;
+		 right: 0;
+		 bottom: 3em;
+		 background: linear-gradient(141deg, rgb(39.216% 39.216% 39.216% / 0.45) 0%, rgb(39.215% 39.215% 39.215% / 0.44999801635742187) 6.25%, rgb(39.206% 39.206% 39.206% / 0.44996826171875) 12.5%, rgb(39.167% 39.167% 39.167% / 0.4498393249511719) 18.75%, rgb(39.063% 39.063% 39.063% / 0.44949218750000003) 25%, rgb(38.842% 38.842% 38.842% / 0.4487602233886719) 31.25%, rgb(38.44% 38.44% 38.44% / 0.44742919921875) 37.5%, rgb(37.779% 37.779% 37.779% / 0.44523727416992187) 43.75%, rgb(36.765% 36.765% 36.765% / 0.441875) 50%, rgb(35.29% 35.29% 35.29% / 0.4369853210449219) 56.25%, rgb(33.232% 33.232% 33.232% / 0.43016357421875) 62.5%, rgb(30.455% 30.455% 30.455% / 0.42095748901367186) 68.75%, rgb(26.808% 26.808% 26.808% / 0.4088671875) 75%, rgb(22.125% 22.125% 22.125% / 0.3933451843261719) 81.25%, rgb(16.228% 16.228% 16.228% / 0.37379638671875004) 87.5%, rgb(8.923% 8.923% 8.923% / 0.3495780944824219) 93.75%, rgb(0% 0% 0% / 0.32) 100% );
+		 filter: blur(30px) !important;
+		 z-index: -1;
+		 opacity: 0.5; 
+	}
+	
+	.layout-desktop #childrenContent .listViewUserDataButtons button {
+		  margin-bottom: -0.7em;
+	}
+	
+	.layout-desktop #itemDetailPage .itemName.infoText.subtitle {
+		position: fixed;
+		top: 31.8em;
+		left: 9.2em;
+	}
+	
+	.layout-desktop #childrenContent .listViewUserDataButtons {
+		display: flex;
+		flex-direction: column;
+		margin-top: -4em;
+	}
+	
+	.layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
+		position: fixed;
+		top: 2.3em;
+		left: 92.5em;
+		width: 10.5%;
+	}
+	
+	.layout-desktop #specialsCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
+		padding-left: 19em;
+	}
+	
+	.layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
+		position: fixed;
+		top: 4em;
+		left: 59.1em;
+		z-index: 0;
+	}
+	
+	.layout-desktop #specialsContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
+		width: 9.45em;
+	}
+	
+	/* More from season */
+	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
+		position: relative;
+		top: 0em;
+		left: 44.1em;
+		width: 38%;
+	}
+
 /* --- Mobile View --- */
   .layout-mobile .itemBackdrop {
     display: block;
