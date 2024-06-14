@@ -420,7 +420,7 @@ progress::-webkit-progress-value {
 
 /* Backdrop */
 .backdropImage {
-    filter: blur(0px) saturate(0%) contrast(130%) brightness(90%);
+    filter: blur(0px) saturate(0%) contrast(140%) brightness(90%);
     transition: filter 0.3s;
 }
 
@@ -489,7 +489,8 @@ progress::-webkit-progress-value {
 }
 
 /* My Media (small) */
-.layout-desktop #indexPage .raised {
+.layout-desktop #indexPage .raised,
+#indexPage .raised {
 	background: #0000007a;
 	border: 2px solid white;
 	border-radius: 1em;
@@ -1122,7 +1123,7 @@ body {
     padding-bottom: 0em;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
-    max-width: 15.5%;
+    max-width: 15.8%;
     box-sizing: border-box;
     scroll-snap-type: x mandatory;
 }
@@ -1131,16 +1132,25 @@ body {
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 	position: fixed;
     top: 40.22em;
-    left: 92.8em;
-	height: 11.5em;
+    left: 92.5em;
+	max-height: 13em;
+	width: 15.8%;
+}
+
+.layout-desktop #childrenCollapsible .overflowPortraitCard {
+	width: 6.8em;
+}
+
+.layout-desktop #childrenContent .cardOverlayButton-hover {
+  display: none;
 }
 
 /* Season View */
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	position: fixed;
-    top: 32.3em;
-    left: 9.38em;
+    top: 39.2em;
+    left: 8em;
 }
 
 /* Hide directors writers studio */
@@ -1201,10 +1211,6 @@ body {
 	margin-top: -4em;
 }
 
-.layout-desktop #childrenCollapsible .overflowPortraitCard {
-	width: 7em;
-}
-
 .layout-desktop #childrenContent .textActionButton {
 	font-size: 0.9em;
 	padding-bottom: 0.2em !important;
@@ -1217,7 +1223,7 @@ body {
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
   position: relative;
-  top: 1.7em;
+  top: 0em;
   left: 44.9em;
   width: 38%;
 }
@@ -1232,9 +1238,9 @@ body {
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
   text-transform: uppercase;
   position: fixed;
-  top: 6.333em;
-  left: 2.2em;
-  font-size: 3em;
+  top: 2em;
+  left: 1.43em;
+  font-size: 4.5em;
   width: 65%;
   font-family: "Kanit", sans-serif;
   font-weight: 700 !important;
@@ -1243,6 +1249,10 @@ body {
   margin-top: 0.2em;
   margin-bottom: -1.8em;
 }
+
+.layout-desktop #itemDetailPage .parentName.focuscontainer-x .button-link.itemAction.emby-button {
+	text-align: left;
+}	
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
   position: fixed;
@@ -1368,7 +1378,7 @@ body {
 
 .layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
 	position: fixed;
-    top: 3.5em;
+    top: 4em;
     left: 61em;
     z-index: 0;
 }
@@ -1462,7 +1472,7 @@ body {
 	position: fixed;
 	top: 8.8em;
 	left: 122.3em;
-	max-height: 45em;
+    max-height: 53.7em;
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -1544,7 +1554,7 @@ body {
     white-space: nowrap;
     max-width: 83.5%;
     position: absolute;
-    top: 44em;
+    top: 48em;
     left: 6em;
     width: 83.5%;
     padding-bottom: 1em;
@@ -1662,7 +1672,10 @@ body {
 .layout-desktop #childrenContent .listViewUserDataButtons button {
   margin-bottom: 5px;
 }
-  
+
+.layout-desktop #childrenContent .cardBox.cardBox-bottompadded {
+	margin-right: 0.1em;
+}  
 
 @media all and (min-width: 70em){
 .cardOverlayFab-primary {
@@ -1797,16 +1810,6 @@ body {
 
 /* Ultrawide aspect ratios*/
 @media (min-aspect-ratio: 2/1) {
-	
-/* IMDb links etc */
-	.layout-desktop .itemExternalLinks.focuscontainer-x {
-	  display: block;
-	  position: fixed;
-	  top: 8.35em;
-	  left: 112em;
-	  transform: translateX(-50%);
-	  opacity: 0.8;
-}
 
 	/* Poster */
 
@@ -1819,17 +1822,30 @@ body {
 	  border-radius: 5px;
 	}
 
-	/* Series Carousel */
+	/* Seasons carousel */
+	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
+		display: flex;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		padding-bottom: 0em;
+		-webkit-overflow-scrolling: touch;
+		scroll-behavior: smooth;
+		max-width: 15.8%;
+		box-sizing: border-box;
+		scroll-snap-type: x mandatory;
+	}
+
+	/* Series */
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 		position: fixed;
-		top: 36.48em;
-		left: 92.3em;
-		height: 11.5em;
-		width: 18.5em;
+		top: 36.5em;
+		left: 92.5em;
+		max-height: 11.7em;
+		width: 13.88%;
 	}
-	
+
 	.layout-desktop #childrenCollapsible .overflowPortraitCard {
-		width: 6.5em;
+		width: 6em;
 	}
 	
 	/* Cast & Crew */
@@ -1849,7 +1865,7 @@ body {
 	  width: auto;
 	  max-width: 8.1em;
 	  position: fixed;
-	  top: 45em;
+	  top: 48em;
 	  left: 105em;
 	  font-family: "Rubik", sans-serif;
 	  text-transform: uppercase;
@@ -2013,13 +2029,13 @@ body {
 	}
 	
 	.layout-desktop #specialsCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-		padding-left: 19em;
+		padding-left: 18.5em;
 	}
 	
 	.layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
 		position: fixed;
 		top: 4em;
-		left: 59.1em;
+		left: 60.2em;
 		z-index: 0;
 	}
 	
@@ -2034,9 +2050,34 @@ body {
 		left: 44.1em;
 		width: 38%;
 	}
-
-}
-
+	
+	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		white-space: normal;
+		transition: none !important;
+		position: fixed;
+		top: 8.8em;
+		left: 122.3em;
+		max-height: 45em;
+		overflow-y: hidden;
+		z-index: 1000;
+	}
+	
+	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
+	  position: fixed;
+	  top: 17em;
+	  left: 87.3em;
+	  transform: translateX(-50%);
+	  overflow: hidden;
+	  white-space: normal;
+	  max-height: 3em;
+	  display: -webkit-box;
+	  -webkit-box-orient: vertical;
+	  -webkit-line-clamp: 2;
+	  text-overflow: ellipsis;
+	}
 
 /* --- Mobile View --- */
   .layout-mobile .itemBackdrop {
