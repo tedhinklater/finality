@@ -1797,6 +1797,16 @@ body {
 
 /* Ultrawide aspect ratios*/
 @media (min-aspect-ratio: 2/1) {
+	
+/* IMDb links etc */
+	.layout-desktop .itemExternalLinks.focuscontainer-x {
+	  display: block;
+	  position: fixed;
+	  top: 8.35em;
+	  left: 112em;
+	  transform: translateX(-50%);
+	  opacity: 0.8;
+}
 
 	/* Poster */
 
@@ -2024,6 +2034,9 @@ body {
 		left: 44.1em;
 		width: 38%;
 	}
+
+}
+
 
 /* --- Mobile View --- */
   .layout-mobile .itemBackdrop {
