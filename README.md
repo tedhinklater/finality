@@ -13,7 +13,7 @@ Movie Gallery
 
 Movie View
 
-![3](https://i.imgur.com/HKHVjsJ.png)
+![3](https://i.imgur.com/hZ9QezS.png)
 
 Show View
 
