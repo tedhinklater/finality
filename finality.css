@@ -1483,6 +1483,8 @@ body {
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata:hover {
     filter: grayscale(0%);
     opacity: 1;
+	margin-left: -0.6em !important;
+	transition: margin-left 0.3s;
 }
 
 .layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
