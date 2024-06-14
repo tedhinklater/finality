@@ -13,19 +13,19 @@ Movie Gallery
 
 Movie View
 
-![3](https://i.imgur.com/0i3GMz3.png)
+![3](https://i.imgur.com/j5wA2At.png)
 
 Show View
 
-![4](https://i.imgur.com/LI7Ddv4.png)
+![4](https://i.imgur.com/uCWVqsq.png)
 
 Season View
 
-![5](https://i.imgur.com/5Hx4653.png)
+![5](https://i.imgur.com/l1lUB6u.png)
 
 Episode View
 
-![6](https://i.imgur.com/GHSFCOL.png)
+![6](https://i.imgur.com/dVEwHo9.png)
 
 Import to your CSS with
 
