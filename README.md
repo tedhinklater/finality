@@ -5,27 +5,27 @@ WIP, feel free to fork if you have an idea
 
 Homepage
 
-![1](https://i.imgur.com/43urNLj.png)
+![1](https://github.com/tedhinklater/finality/assets/66086488/79480698-50f5-43d8-bb9d-cf7823f9e754)
 
 Movie Gallery
 
-![2](https://i.imgur.com/yMpxWV6.png)
+![2](https://github.com/tedhinklater/finality/assets/66086488/41a47abc-fd0e-4a13-98eb-f3a120606323)
 
 Movie View
 
-![3](https://i.imgur.com/hZ9QezS.png)
+![3](https://github.com/tedhinklater/finality/assets/66086488/1c277dc5-c669-45e5-afe0-aabf1c4685a1)
 
 Show View
 
-![4](https://i.imgur.com/Y3OXqeo.png)
+![4](https://github.com/tedhinklater/finality/assets/66086488/0535f898-7d14-44b0-98b3-9651e59f154a)
 
 Season View
 
-![5](https://i.imgur.com/MAL2Dqn.png)
+![5](https://github.com/tedhinklater/finality/assets/66086488/e1745e5e-bffb-4e06-857e-03b718220108)
 
 Episode View
 
-![6](https://i.imgur.com/eZGeGum.png)
+![6](https://github.com/tedhinklater/finality/assets/66086488/c50b4ca2-7f3a-4198-a8a7-ee895132b41f)
 
 Import to your CSS with
 
