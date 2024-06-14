@@ -1064,7 +1064,7 @@ body {
   filter: blur(2px) !important;
   z-index: -1;
   border-radius: 3em;
-  opacity: 0.3;
+  opacity: 0.2;
   min-width: 82em;
 }
 
