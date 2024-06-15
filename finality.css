@@ -1283,8 +1283,8 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
   position: fixed;
-  top: 18.5em;
-  left: 88.5em;
+  top: 20.5em;
+  left: 86.5em;
   transform: translateX(-50%);
   overflow: hidden;
   white-space: normal;
@@ -2121,8 +2121,8 @@ body {
 	
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 	  position: fixed;
-	  top: 17em;
-	  left: 87.3em;
+	  top: 20em;
+	  left: 88.2em;
 	  transform: translateX(-50%);
 	  overflow: hidden;
 	  white-space: normal;
