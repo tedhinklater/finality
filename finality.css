@@ -1251,7 +1251,7 @@ body {
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
   position: relative;
   top: 0em;
-  left: 44.9em;
+  left: 43.2em;
   width: 38%;
 }
 
@@ -1649,6 +1649,7 @@ body {
     flex-shrink: 0;
     width: 22%;
     height: auto;
+	border-radius: 1.2em;
 }
 
 .layout-desktop #childrenContent .listItemBody {
