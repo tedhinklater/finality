@@ -1635,6 +1635,7 @@ body {
   justify-self: center;
   margin: auto;
   transition: .2s ease-out;
+  padding-right: 1.55em;
 }
 
 .layout-desktop #childrenContent .listItem {
