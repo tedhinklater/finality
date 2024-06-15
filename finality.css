@@ -1671,6 +1671,14 @@ body {
 	padding-top: 1.1em;
 }
 
+.layout-desktop #childrenContent .listItem-indexnumberleft {
+  margin-right: 4.5em;
+  min-width: 2%;
+  text-align: center;
+  margin-top: -8.6em;
+  padding-left: 8em;
+}
+
 .listItem:hover {
   background: rgba(0,0,0,0.1);
 }
@@ -1996,6 +2004,14 @@ body {
 		font-size: 12pt;
 		white-space: nowrap;
 		z-index: 2;
+	}
+	
+	.layout-desktop .detailButton-icon.explore {
+		position: fixed;
+		top: 10.44em;
+		left: 7.68em;
+		font-weight: bold;
+		white-space: nowrap;
 	}
 
 	.layout-desktop .detailButton .detailButton-icon.theaters {
