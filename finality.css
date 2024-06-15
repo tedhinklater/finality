@@ -827,8 +827,8 @@ margin-bottom: -0.2em;
 .layout-desktop #itemDetailPage .detailImageContainer .card {
     position: fixed;
     top: -5.42em;
-    left: 88.7em;
-    width: 23em;
+    left: 87.1em;
+    width: 25em;
 	border: 2px solid white;
     border-radius: 5px;
 }
@@ -1132,7 +1132,7 @@ body {
     padding-bottom: 0em;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
-    max-width: 15.8%;
+    max-width: 18.7%;
     box-sizing: border-box;
     scroll-snap-type: x mandatory;
 }
@@ -1140,17 +1140,17 @@ body {
 /* Series */
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 	position: fixed;
-    top: 33.7em;
-    left: 91em;
-	max-height: 13em;
-	width: 15.8%;
+    top: 35em;
+    left: 88.6em;
+	max-height: 14.5em;
+	width: 18.7%;
 	z-index: 1;
 	transition: top 0.5s;
 }
 
 		/* Series */
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
-		top: 43.5em;
+		top: 46.9em;
 		transition: top 0.3s
 	}
 	
@@ -1159,7 +1159,7 @@ body {
 }
 
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
-	width: 6.8em;
+	width: 8em;
 }
 
 .layout-desktop #childrenContent .cardOverlayButton-hover {
@@ -1862,7 +1862,7 @@ body {
 		padding-bottom: 0em;
 		-webkit-overflow-scrolling: touch;
 		scroll-behavior: smooth;
-		max-width: 15.8%;
+		max-width: 16.3%;
 		box-sizing: border-box;
 		scroll-snap-type: x mandatory;
 	}
@@ -1870,17 +1870,17 @@ body {
 	/* Series */
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 		position: fixed;
-		top: 35em;
-		left: 92.5em;
-		max-height: 11.4em;
-		width: 13.88%;
+		top: 33.5em;
+		left: 91.5em;
+		max-height: 13em;
+		width: 16.3%;
 		z-index: 1;
 		transition: top 0.5s;
 	}
 	
 		/* Series */
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
-		top: 44em;
+		top: 43.9em;
 		transition: top 0.3s
 	}
 	
@@ -1889,7 +1889,7 @@ body {
 }
 
 	.layout-desktop #childrenCollapsible .overflowPortraitCard {
-		width: 6em;
+		width: 7em;
 	}
 	
 	/* Cast & Crew */
