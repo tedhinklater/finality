@@ -430,12 +430,11 @@ progress::-webkit-progress-value {
 
 /* Header*/
 .skinHeader-withBackground {
-  background: linear-gradient(180deg, rgb(0% 0% 0% / 0.55) 0%, rgb(0% 0% 0% / 0.5478515625) 6.25%, rgb(0% 0% 0% / 0.5414062500000001) 12.5%, rgb(0% 0% 0% / 0.5306640625000001) 18.75%, rgb(0% 0% 0% / 0.515625) 25%, rgb(0% 0% 0% / 0.49628906250000004) 31.25%, rgb(0% 0% 0% / 0.47265625000000006) 37.5%, rgb(0% 0% 0% / 0.44472656250000003) 43.75%, rgb(0% 0% 0% / 0.41250000000000003) 50%, rgb(0% 0% 0% / 0.3759765625) 56.25%, rgb(0% 0% 0% / 0.33515625000000004) 62.5%, rgb(0% 0% 0% / 0.2900390625) 68.75%, rgb(0% 0% 0% / 0.24062500000000003) 75%, rgb(0% 0% 0% / 0.18691406250000003) 81.25%, rgb(0% 0% 0% / 0.12890625) 87.5%, rgb(0% 0% 0% / 0.06660156249999999) 93.75%, rgb(0% 0% 0% / 0) 100% );
+  background: linear-gradient(180deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0% / 0.9999847412109375) 6.25%, rgb(0% 0% 0% / 0.999755859375) 12.5%, rgb(0% 0% 0% / 0.9987640380859375) 18.75%, rgb(0% 0% 0% / 0.99609375) 25%, rgb(0% 0% 0% / 0.9904632568359375) 31.25%, rgb(0% 0% 0% / 0.980224609375) 37.5%, rgb(0% 0% 0% / 0.9633636474609375) 43.75%, rgb(0% 0% 0% / 0.9375) 50%, rgb(0% 0% 0% / 0.8998870849609375) 56.25%, rgb(0% 0% 0% / 0.847412109375) 62.5%, rgb(0% 0% 0% / 0.7765960693359375) 68.75%, rgb(0% 0% 0% / 0.68359375) 75%, rgb(0% 0% 0% / 0.5641937255859375) 81.25%, rgb(0% 0% 0% / 0.413818359375) 87.5%, rgb(0% 0% 0% / 0.2275238037109375) 93.75%, rgb(0% 0% 0% / 0) 100% );
 }
 
 .skinHeader.semiTransparent {
-  backdrop-filter: none !important;
-  background-color: rgba(0, 0, 0, 0);
+  background: transparent;
 }
 
 .emby-tab-button {
@@ -520,6 +519,11 @@ progress::-webkit-progress-value {
 	font-size: 1.1em;
 	font-weight: 500 !important;
 	text-transform: uppercase;
+}
+
+.layout-desktop #homeTab .homeLibraryText:hover {
+	color: #f00;
+	transition: color 3s;
 }
 
 .layout-desktop #homeTab .raised.homeLibraryButton.emby-button {
@@ -823,14 +827,13 @@ margin-bottom: -0.2em;
 .layout-desktop #itemDetailPage .detailImageContainer .card {
     position: fixed;
     top: -5.42em;
-    left: 91.5em;
+    left: 88.7em;
     width: 25em;
 	border: 2px solid white;
     border-radius: 5px;
 }
 
 .layout-desktop .detailImageContainer .card {
-  max-width: 20.5em;
   z-index: 3;
 }
 
@@ -1067,11 +1070,11 @@ body {
   left: -3.5em;
   right: -57em;
   bottom: -24em;
-  background: linear-gradient(139deg, rgb(39.216% 39.216% 39.216% / 0.5) 0%, rgb(34.467% 34.467% 34.467% / 0.439453125) 6.25%, rgb(30.025% 30.025% 30.025% / 0.3828125) 12.5%, rgb(25.888% 25.888% 25.888% / 0.330078125) 18.75%, rgb(22.059% 22.059% 22.059% / 0.28125) 25%, rgb(18.536% 18.536% 18.536% / 0.236328125) 31.25%, rgb(15.319% 15.319% 15.319% / 0.1953125) 37.5%, rgb(12.408% 12.408% 12.408% / 0.158203125) 43.75%, rgb(9.804% 9.804% 9.804% / 0.125) 50%, rgb(7.506% 7.506% 7.506% / 0.095703125) 56.25%, rgb(5.515% 5.515% 5.515% / 0.0703125) 62.5%, rgb(3.83% 3.83% 3.83% / 0.048828125) 68.75%, rgb(2.451% 2.451% 2.451% / 0.03125) 75%, rgb(1.379% 1.379% 1.379% / 0.017578125) 81.25%, rgb(0.613% 0.613% 0.613% / 0.0078125) 87.5%, rgb(0.153% 0.153% 0.153% / 0.001953125) 93.75%, rgb(0% 0% 0% / 0) 100% );
+  background: linear-gradient(153deg, rgb(100% 100% 100% / 0.4) 0%, rgb(82.397% 82.397% 82.397% / 0.35247314453125) 6.25%, rgb(66.992% 66.992% 66.992% / 0.31087890625000003) 12.5%, rgb(53.638% 53.638% 53.638% / 0.27482177734375) 18.75%, rgb(42.188% 42.188% 42.188% / 0.24390625000000002) 25%, rgb(32.495% 32.495% 32.495% / 0.21773681640625) 31.25%, rgb(24.414% 24.414% 24.414% / 0.19591796875) 37.5%, rgb(17.798% 17.798% 17.798% / 0.17805419921875001) 43.75%, rgb(12.5% 12.5% 12.5% / 0.16375) 50%, rgb(8.374% 8.374% 8.374% / 0.15260986328125) 56.25%, rgb(5.273% 5.273% 5.273% / 0.14423828125) 62.5%, rgb(3.052% 3.052% 3.052% / 0.13823974609375) 68.75%, rgb(1.563% 1.563% 1.563% / 0.13421875) 75%, rgb(0.659% 0.659% 0.659% / 0.13177978515625) 81.25%, rgb(0.195% 0.195% 0.195% / 0.13052734375000002) 87.5%, rgb(0.024% 0.024% 0.024% / 0.13006591796875) 93.75%, rgb(0% 0% 0% / 0.13) 100% );
   filter: blur(2px) !important;
   z-index: -1;
   border-radius: 3em;
-  opacity: 0.5;
+  opacity: 0.3;
   min-width: 82em;
 }
 
@@ -1137,10 +1140,22 @@ body {
 /* Series */
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 	position: fixed;
-    top: 40.22em;
-    left: 92.5em;
+    top: 37em;
+    left: 92em;
 	max-height: 13em;
 	width: 15.8%;
+	z-index: 1;
+	transition: top 0.5s;
+}
+
+		/* Series */
+	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
+		top: 47em;
+		transition: top 0.3s
+	}
+	
+	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:not(:hover) {
+    transition-delay: 2s;
 }
 
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
@@ -1150,6 +1165,11 @@ body {
 .layout-desktop #childrenContent .cardOverlayButton-hover {
   display: none;
 }
+
+.layout-desktop #childrenContent .cardText.cardTextCentered.cardText-first {
+	text-transform: uppercase;
+}
+
 
 /* Season View */
 
@@ -1218,7 +1238,7 @@ body {
 }
 
 .layout-desktop #childrenContent .textActionButton {
-	font-size: 0.9em;
+	font-size: 0.8em;
 	padding-bottom: 0.2em !important;
 }
 
@@ -1341,7 +1361,7 @@ body {
 
 .layout-desktop #specialsContent .cardText {
   font-family: "Kanit";
-  font-size: 11pt;
+  font-size: 8pt;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
@@ -1558,11 +1578,11 @@ body {
     flex-wrap: nowrap;
     overflow-x: auto;
     white-space: nowrap;
-    max-width: 83.5%;
+    max-width: 85%;
     position: absolute;
     top: 48em;
     left: 6em;
-    width: 83.5%;
+    width: 85%;
     padding-bottom: 1em;
     z-index: 1000;
     padding-right: 0em;
@@ -1824,8 +1844,8 @@ body {
 	.layout-desktop #itemDetailPage .detailImageContainer .card {
 	  position: fixed;
 	  top: -5.42em;
-	  left: 91.5em;
-	  width: 18em;
+	  left: 89.9em;
+	  width: 23em;
 	  border: 2px solid white;
 	  border-radius: 5px;
 	}
@@ -1846,11 +1866,23 @@ body {
 	/* Series */
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 		position: fixed;
-		top: 36.5em;
+		top: 35em;
 		left: 92.5em;
-		max-height: 11.7em;
+		max-height: 11.4em;
 		width: 13.88%;
+		z-index: 1;
+		transition: top 0.5s;
 	}
+	
+		/* Series */
+	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
+		top: 44em;
+		transition: top 0.3s
+	}
+	
+	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:not(:hover) {
+    transition-delay: 2s;
+}
 
 	.layout-desktop #childrenCollapsible .overflowPortraitCard {
 		width: 6em;
@@ -1873,7 +1905,7 @@ body {
 	  width: auto;
 	  max-width: 8.1em;
 	  position: fixed;
-	  top: 48em;
+	  top: 51em;
 	  left: 105em;
 	  font-family: "Rubik", sans-serif;
 	  text-transform: uppercase;
@@ -1888,11 +1920,11 @@ body {
 		flex-wrap: nowrap;
 		overflow-x: auto;
 		white-space: nowrap;
-		max-width: 83.5%;
+		max-width: 84%;
 		position: absolute;
-		top: 39em;
+		top: 45em;
 		left: 6em;
-		width: 81.5%;
+		width: 84%;
 		max-height: 10.5em;
 		padding-bottom: 1em;
 		z-index: 1000;
@@ -2031,8 +2063,8 @@ body {
 	
 	.layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
 		position: fixed;
-		top: 2.3em;
-		left: 92.5em;
+		top: 2.7em;
+		left: 93.5em;
 		width: 10.5%;
 	}
 	
@@ -2043,7 +2075,7 @@ body {
 	.layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
 		position: fixed;
 		top: 4em;
-		left: 60.2em;
+		left: 62em;
 		z-index: 0;
 	}
 	
