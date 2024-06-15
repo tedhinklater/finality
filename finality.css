@@ -1176,7 +1176,7 @@ body {
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	position: fixed;
     top: 39.2em;
-    left: 8em;
+    left: 7.7em;
 	text-transform: uppercase;
 }
 
@@ -2065,7 +2065,7 @@ body {
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 		position: fixed;
 		top: 36.8em;
-		left: 8em;
+		left: 7.6em;
 	}
 	
 	.layout-desktop #childrenContent .listViewUserDataButtons {
