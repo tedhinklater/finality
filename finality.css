@@ -1175,8 +1175,9 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	position: fixed;
-    top: 36.2em;
+    top: 39.2em;
     left: 8em;
+	text-transform: uppercase;
 }
 
 /* Hide directors writers studio */
@@ -2063,8 +2064,8 @@ body {
 	
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 		position: fixed;
-		top: 31.8em;
-		left: 9.2em;
+		top: 36.8em;
+		left: 8em;
 	}
 	
 	.layout-desktop #childrenContent .listViewUserDataButtons {
