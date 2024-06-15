@@ -936,6 +936,14 @@ margin-bottom: -0.2em;
 	z-index: 2;
 }
 
+.layout-desktop .detailButton-icon.explore {
+	position: fixed;
+	top: 11.68em;
+	left: 7.68em;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
     top: 11.68em;
@@ -1967,7 +1975,7 @@ body {
 	  align-items: center;
 	  display: flex;
 	  position: fixed;
-	  top: 16em;
+	  top: 18em;
 	  left: 2.7em;
 	  font-size: 200%;
 	  margin: 0;
@@ -1997,7 +2005,7 @@ body {
 		font-weight: 800;
 		font-style: normal;
 		position: fixed;
-		top: 32.03em;
+		top: 35.7em;
 		left: 10em;
 		color: white;
 		font-weight: bold;
@@ -2008,7 +2016,7 @@ body {
 	
 	.layout-desktop .detailButton-icon.explore {
 		position: fixed;
-		top: 10.44em;
+		top: 11.68em;
 		left: 7.68em;
 		font-weight: bold;
 		white-space: nowrap;
@@ -2016,7 +2024,7 @@ body {
 
 	.layout-desktop .detailButton .detailButton-icon.theaters {
 		position: fixed;
-		top: 10.44em;
+		top: 11.68em;
 		left: 18.4em;
 		font-weight: bold;
 		font-size: 12pt;
@@ -2026,7 +2034,7 @@ body {
 
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
 	  position: fixed;
-	  top: 10.44em;
+	  top: 11.68em;
 	  left: 7.8em;
 	  font-weight: bold;
 	  white-space: nowrap;
@@ -2034,7 +2042,7 @@ body {
 
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
 		position: fixed;
-		top: 10.44em;
+		top: 11.68em;
 		left: 7.8em;
 		font-weight: bold;
 		white-space: nowrap;
@@ -2042,7 +2050,7 @@ body {
 
 	.layout-desktop .detailButton .detailButton-icon.favorite {
 		position: fixed;
-		top: 10.44em;
+		top: 11.68em;
 		left: 11.5em;
 		font-weight: bold;
 		white-space: nowrap;
@@ -2058,7 +2066,7 @@ body {
 
 	.layout-desktop .detailButton .detailButton-icon.more_vert {
 		position: fixed;
-		top: 10.44em;
+		top: 11.68em;
 		left: 15em;
 		font-weight: bold;
 		font-size: 12pt;
