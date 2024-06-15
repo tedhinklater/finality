@@ -1265,7 +1265,7 @@ body {
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
   text-transform: uppercase;
   position: fixed;
-  top: 0.9em;
+  top: 0.98em;
   left: 0.763em;
   font-size: 7.75em;
   width: 65%;
@@ -1275,11 +1275,11 @@ body {
   max-height: 0.9em;
   margin-top: 0.2em;
   margin-bottom: -1.8em;
-  opacity: 0.171;
+  opacity: 0.3;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x .emby-button {
-	line-height: 0.7 !important;
+	line-height: 0.858 !important;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x .button-link.itemAction.emby-button {
