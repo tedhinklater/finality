@@ -21,7 +21,7 @@ Show View
 
 Season View
 
-![5](https://i.imgur.com/6i2UQcR.gif)
+![5](https://github.com/tedhinklater/finality/assets/66086488/e8982116-7b92-4e6a-be34-dc3bc17fc037)
 
 Episode View
 
