@@ -1419,11 +1419,11 @@ body {
 	border: 2px solid white;
 }
 
-.personCard .coveredImage {
+.layout-desktop .personCard .coveredImage {
     clip-path: circle(50% at 50% 50%);
 }
 
-.personCard .cardOverlayContainer {
+.layout-desktop .personCard .cardOverlayContainer {
     clip-path: circle(50% at 50% 50%);
 }
 
@@ -1431,8 +1431,8 @@ body {
     right: 20%;
 }
 
-.personCard .cardPadder-overflowPortrait,
-.personCard .cardPadder-portrait {
+.layout-desktop .personCard .cardPadder-overflowPortrait,
+.layout-desktop .personCard .cardPadder-portrait {
     padding-bottom: 100%;
     contain: strict;
     border-radius: 50% !important;
@@ -2132,6 +2132,7 @@ body {
 	  -webkit-line-clamp: 2;
 	  text-overflow: ellipsis;
 	}
+} 
 
 /* --- Mobile View --- */
   .layout-mobile .itemBackdrop {
