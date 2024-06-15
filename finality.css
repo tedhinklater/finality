@@ -1095,8 +1095,8 @@ body {
   width: auto;
   max-width: 8.1em;
   position: fixed;
-  top: 51em;
-  left: 101.5em;
+  top: 55em;
+  left: 100.5em;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   font-size: 0.9em;
@@ -1210,7 +1210,7 @@ body {
   display: block;
   position: fixed;
   top: 8.35em;
-  left: 111.9em;
+  left: 111.15em;
   transform: translateX(-50%);
   opacity: 0.8;
 }
@@ -1351,7 +1351,7 @@ body {
   display: block;
   position: fixed;
   top: 1em;
-  left: 98em;
+  left: 96.3em;
   font-size: 100%;
   opacity: 0.9;
   text-transform: uppercase;
@@ -1394,7 +1394,7 @@ body {
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
     position: fixed;
     top: 2.3em;
-    left: 93em;
+    left: 91.2em;
     width: 12%;
 }
 
@@ -1405,7 +1405,7 @@ body {
 .layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
 	position: fixed;
     top: 4em;
-    left: 61em;
+    left: 57em;
     z-index: 0;
 }
 
@@ -1578,11 +1578,11 @@ body {
     flex-wrap: nowrap;
     overflow-x: auto;
     white-space: nowrap;
-    max-width: 85%;
+    max-width: 83.5%;
     position: absolute;
-    top: 45em;
+    top: 48em;
     left: 6em;
-    width: 85%;
+    width: 83.5%;
     padding-bottom: 1em;
     z-index: 1000;
     padding-right: 0em;
@@ -1933,6 +1933,14 @@ body {
 		padding-bottom: 1em;
 		z-index: 1000;
 		padding-right: 0em;
+	}
+	
+	/* Special Features text */
+	.layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
+	  display: block;
+	  position: fixed;
+	  top: 1em;
+	  left: 98em;
 	}
 	
 	/* Movie Page Action Buttons */
