@@ -826,7 +826,7 @@ margin-bottom: -0.2em;
 /* Poster */
 .layout-desktop #itemDetailPage .detailImageContainer .card {
     position: fixed;
-    top: -5.42em;
+    top: -6.789em;
     left: 94.1em;
     width: 25em;
 	border: 2px solid white;
@@ -878,7 +878,7 @@ margin-bottom: -0.2em;
   -webkit-align-items: center;
   align-items: center;
   position: absolute;
-  top: -5.5em;
+  top: -6.15em;
   left: 2.5em;
   opacity: 1;
   font-family: "Kanit", sans-serif;
@@ -893,12 +893,11 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .mainDetailButtons {
-  -webkit-align-items: center;
   align-items: center;
   display: flex;
   position: fixed;
-  top: 20em;
-  left: 2.7em;
+  top: 21em;
+  left: 1.6em;
   font-size: 200%;
   margin: 0;
 }
@@ -910,11 +909,11 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .detailButton-icon.play_arrow {
-    background-color: rgba(255,0,0,1);
-	border-radius: 10px;
-	z-index: -2;
-	padding-right: 2.15em;
-	padding-left: 0.1em;
+  background-color: rgba(255,0,0,1);
+  border-radius: 10px;
+  z-index: -2;
+  padding-right: 2.65em;
+  padding-left: 0.55em;;
 }
 
 .layout-desktop .detailButton .detailButton-icon.play_arrow::before {
@@ -922,23 +921,22 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.play_arrow::after {
-    content: "PLAY NOW";
-	font-family: "Kanit", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    position: fixed;
-    top: 39.44em;
-	left: 10em;
-    color: white;
-    font-weight: bold;
-    font-size: 12pt;
-    white-space: nowrap;
-	z-index: 2;
+  content: "PLAY NOW";
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  position: fixed;
+  top: 41.352744em;
+  left: 9.3em;
+  color: white;
+  font-weight: bold;
+  font-size: 12pt;
+  white-space: nowrap;
+  z-index: 2;
 }
 
 .layout-desktop .detailButton-icon.explore {
 	position: fixed;
-	top: 12.92em;
+	top: 13.549em;
 	left: 7.68em;
 	font-weight: bold;
 	white-space: nowrap;
@@ -946,7 +944,7 @@ margin-bottom: -0.2em;
 
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
-    top: 12.92em;
+    top: 13.549em;
 	left: 18.4em;
     font-weight: bold;
     font-size: 12pt;
@@ -956,7 +954,7 @@ margin-bottom: -0.2em;
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
   position: fixed;
-  top: 12.92em;
+  top: 13.549em;
   left: 7.8em;
   font-weight: bold;
   white-space: nowrap;
@@ -964,7 +962,7 @@ margin-bottom: -0.2em;
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
     position: fixed;
-    top: 12.92em;
+    top: 13.549em;
 	left: 7.8em;
     font-weight: bold;
     white-space: nowrap;
@@ -972,7 +970,7 @@ margin-bottom: -0.2em;
 
 .layout-desktop .detailButton .detailButton-icon.favorite {
     position: fixed;
-    top: 12.92em;
+    top: 13.549em;
 	left: 11.5em;
     font-weight: bold;
     white-space: nowrap;
@@ -980,7 +978,7 @@ margin-bottom: -0.2em;
 
 .layout-desktop .detailButton .detailButton-icon.more_vert {
     position: fixed;
-    top: 12.92em;
+    top: 13.549em;
 	left: 15em;
     font-weight: bold;
     font-size: 12pt;
@@ -1004,20 +1002,20 @@ margin-bottom: -0.2em;
 /* Title */
 
 .layout-desktop .itemName.parentNameLast {
-  top: -0.43em !important;
+  top: -0.543em !important;
   position: absolute;
-  font-size: 7em;
+  font-size: 10em;
   text-transform: uppercase;
   right: auto;
-  left: 0.5em;
+  left: 0.35em;
   width: 71.9%;
   overflow: hidden;
   white-space: normal;
-  line-height: 0.85em;
-  max-height: 2em;
+  line-height: 0.83em;
+  max-height: 4em;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 4;
   text-overflow: ellipsis;
   font-family: "Kanit", sans-serif;
   font-weight: 700 !important;
@@ -1034,8 +1032,8 @@ margin-bottom: -0.2em;
 
 .layout-desktop .itemName.infoText.originalTitle {
 	position: fixed;
-	top: 8.5em;
-    left: 3.74em;
+	top: 4.415em;
+    left: 39.74em;
 	font-size: 1.252em;
 }
 
@@ -1053,7 +1051,7 @@ margin-bottom: -0.2em;
 /* Tagline */
 #itemDetailPage .tagline {
   font-weight: 600;
-  margin-bottom: 0em;
+  margin-bottom: -0.5em;
   font-size: 1.82em;
   margin-top: -0.1em;
 }
@@ -1067,7 +1065,7 @@ body {
 }
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
-  top: 24.8em;
+  top: 49em;
   left: 4.95em;
   max-width: 49%;
   font-size: 11pt;
@@ -1075,7 +1073,7 @@ body {
 
 @media (min-width: 40em) {
   .detail-clamp-text {
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 4;
   }
 }
 
@@ -1083,8 +1081,8 @@ body {
 .layout-desktop .detailPagePrimaryContent:before {
   content: "";
   position: absolute;
-  top: -20em;
-  left: -3.5em;
+  top: -45em;
+  left: -2.7em;
   right: -57em;
   bottom: -24em;
   background: linear-gradient(153deg, rgb(100% 100% 100% / 0.4) 0%, rgb(82.397% 82.397% 82.397% / 0.35247314453125) 6.25%, rgb(66.992% 66.992% 66.992% / 0.31087890625000003) 12.5%, rgb(53.638% 53.638% 53.638% / 0.27482177734375) 18.75%, rgb(42.188% 42.188% 42.188% / 0.24390625000000002) 25%, rgb(32.495% 32.495% 32.495% / 0.21773681640625) 31.25%, rgb(24.414% 24.414% 24.414% / 0.19591796875) 37.5%, rgb(17.798% 17.798% 17.798% / 0.17805419921875001) 43.75%, rgb(12.5% 12.5% 12.5% / 0.16375) 50%, rgb(8.374% 8.374% 8.374% / 0.15260986328125) 56.25%, rgb(5.273% 5.273% 5.273% / 0.14423828125) 62.5%, rgb(3.052% 3.052% 3.052% / 0.13823974609375) 68.75%, rgb(1.563% 1.563% 1.563% / 0.13421875) 75%, rgb(0.659% 0.659% 0.659% / 0.13177978515625) 81.25%, rgb(0.195% 0.195% 0.195% / 0.13052734375000002) 87.5%, rgb(0.024% 0.024% 0.024% / 0.13006591796875) 93.75%, rgb(0% 0% 0% / 0.13) 100% );
@@ -1102,7 +1100,7 @@ body {
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
   position: relative;
-  top: -2.2em;
+  top: -7.5em;
   text-transform: uppercase;
   opacity: 0.6;
   left: 8em;
@@ -1157,7 +1155,7 @@ body {
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 	position: fixed;
-    top: 35em;
+    top: 33.7em;
     left: 95.6em;
 	max-height: 14.5em;
 	width: 18.7%;
@@ -1167,7 +1165,7 @@ body {
 
 		/* Series */
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
-		top: 46.9em;
+		top: 45.5em;
 		transition: top 0.3s
 	}
 	
@@ -1192,8 +1190,8 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	position: fixed;
-    top: 39.2em;
-    left: 2.9em;
+    top: 5.2em;
+    left: 7.5em;
 	text-transform: uppercase;
 }
 
@@ -1207,7 +1205,7 @@ body {
 
 .layout-desktop .detailsGroupItem.genresGroup {
   position: fixed;
-  top: 5em;
+  top: 4.2em;
   left: 2.63em;
   font-family: kanit;
   text-transform: uppercase;
@@ -1227,7 +1225,7 @@ body {
 .layout-desktop .itemExternalLinks.focuscontainer-x {
   display: block;
   position: fixed;
-  top: 8.35em;
+  top: 6.89em;
   left: 119.15em;
   transform: translateX(-50%);
   opacity: 0.8;
@@ -1248,7 +1246,7 @@ body {
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
-	padding-left: 33.5em;
+	padding-left: 3.5em;
 }
 
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
@@ -1266,16 +1264,16 @@ body {
 
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-  position: relative;
-  top: 0em;
-  left: 49.8em;
+  position: absolute;
+  top: 23em;
+  left: 79em;
   width: 38%;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
   position: relative;
-  top: 6.5em;
-  left: -16.2em;
+  top: 0.5em;
+  left: 17.8em;
   z-index: -2;
 }
 
@@ -1305,16 +1303,10 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
   position: fixed;
-  top: 20.5em;
-  left: 92.45em;
-  transform: translateX(-50%);
-  overflow: hidden;
+  top: 40.5em;
+  left: 4.1em;
+  overflow: visible;
   white-space: normal;
-  max-height: 3em;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  text-overflow: ellipsis;
 }
 
 /* Cast & Crew */
@@ -1373,8 +1365,8 @@ body {
 .layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
   display: block;
   position: fixed;
-  top: 7em;
-  left: 80.2em;
+  top: 46.5em;
+  left: 7.6em;
   font-size: 100%;
   opacity: 0.9;
   text-transform: uppercase;
@@ -1415,20 +1407,17 @@ body {
 /* Specials */
 
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-  position: fixed;
-  top: 9.3em;
-  left: 77em;
-  width: 9%;
-  overflow-y: auto !important;
-  height: 38em;
+    position: fixed;
+	top: 48em;
+	left: 6em;
 }
 
 .layout-desktop #specialsCollapsible .card.overflowBackdropCard.card-hoverable.card-withuserdata {
-	width: 16em;
+	width: 13em;
 }
 
 .layout-desktop #specialsCollapsible .scrollSlider.focuscontainer-x.itemsContainer {
-	display: block !important;
+	display: flex !important;
 }
 
 .layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
@@ -1526,7 +1515,7 @@ body {
     white-space: normal;
     transition: none !important;
 	position: fixed;
-	top: 8.8em;
+	top: 7.5em;
 	left: 122.3em;
     max-height: 53.7em;
 	overflow-y: hidden;
@@ -1605,15 +1594,16 @@ body {
 .layout-desktop #childrenContent .childrenItemsContainer {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  white-space: nowrap;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  overflow-x: hidden;
   max-width: 100%;
   position: absolute;
-  top: 48em;
-  left: 0em;
-  width: 100%;
-  padding-bottom: 1em;
+  top: 8em;
+  left: 5em;
+  width: 69%;
+  max-height: 32.5em;
+  padding-bottom: 0em;
   z-index: 1000;
   padding-right: 0em;
 }
@@ -1621,7 +1611,7 @@ body {
 .layout-desktop #childrenContent .listItem-content {
   display: flex;
   justify-content: space-between;
-  height: 11em;
+  height: 14em;
   padding: 0.5em;
 }
 
@@ -1659,15 +1649,15 @@ body {
   justify-self: center;
   margin: auto;
   transition: .2s ease-out;
-  padding-right: 1.55em;
+  padding-right: 3.55em;
 }
 
 .layout-desktop #childrenContent .listItem {
-    flex: 0 0 auto; 
-    margin-right: 0.2em; 
-    width: 18.7%;
-    border-radius: 2em;
-	margin-right: 1em;
+  flex: 0 0 auto; 
+  width: 31%;
+  border-radius: 2em;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
@@ -1685,8 +1675,7 @@ body {
 .layout-desktop #childrenContent .listItemBody {
     width: 70%;
     display: inline-block;
-    vertical-align: top;
-	height: 12em;
+    height: 11.6em;
 }
 
 
@@ -1880,77 +1869,7 @@ body {
 
 /* Ultrawide aspect ratios*/
 @media (max-height: calc(100vw * 985 / 1920)) {
-	
-	.layout-desktop .itemExternalLinks.focuscontainer-x {
-	  left:117.7em;
-}
 
-	/* Poster */
-
-	.layout-desktop #itemDetailPage .detailImageContainer .card {
-	  position: fixed;
-	  top: -5.42em;
-	  left: 93.9em;
-	  width: 23em;
-	  border: 2px solid white;
-	  border-radius: 5px;
-	}
-	
-	.layout-desktop #itemDetailPage .detailImageContainer .card.squareCard {
-	  position: fixed;
-	  top: -5.42em;
-	  left: 86.9em;
-	  width: 33em;
-	  border: 2px solid white;
-	  border-radius: 5px;
-	}
-	
-	
-	.layout-desktop .detailPagePrimaryContent {
-	  position: fixed;
-	  top: 24.8em;
-	  left: 4.95em;
-	  max-width: 49%;
-	  font-size: 11pt;
-	}
-
-	/* Seasons carousel */
-	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
-		display: flex;
-		flex-wrap: nowrap;
-		overflow-x: auto;
-		padding-bottom: 0em;
-		-webkit-overflow-scrolling: touch;
-		scroll-behavior: smooth;
-		max-width: 16.3%;
-		box-sizing: border-box;
-		scroll-snap-type: x mandatory;
-	}
-
-	/* Series */
-	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
-		position: fixed;
-		top: 33.5em;
-		left: 95.8em;
-		max-height: 13em;
-		width: 16.3%;
-		z-index: 1;
-		transition: top 0.5s;
-	}
-	
-		/* Series */
-	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
-		top: 43.9em;
-		transition: top 0.3s
-	}
-	
-	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:not(:hover) {
-    transition-delay: 2s;
-}
-
-	.layout-desktop #childrenCollapsible .overflowPortraitCard {
-		width: 7em;
-	}
 	
 	/* Cast & Crew */
 	
@@ -1963,218 +1882,6 @@ body {
 	  z-index: 0;
 	}
 	
-	/* Video Audio Subs */
-	
-	.layout-desktop .trackSelections {
-	  width: auto;
-	  max-width: 8.1em;
-	  position: fixed;
-	  top: 51em;
-	  left: 107.2em;
-	  font-family: "Rubik", sans-serif;
-	  text-transform: uppercase;
-	  font-size: 0.9em;
-	}
-	
-	/* Season View */
-	
-	.layout-desktop #childrenContent .childrenItemsContainer {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		overflow-x: auto;
-		white-space: nowrap;
-		max-width: 100%;
-		position: absolute;
-		top: 45em;
-		left: 0em;
-		width: 100%;
-		max-height: 10.5em;
-		padding-bottom: 1em;
-		z-index: 1000;
-		padding-right: 0em;
-	}
-	
-	/* Special Features text */
-	.layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
-	  display: block;
-	  position: fixed;
-      top: 7.5em;
-      left: 80.2em;
-	}
-	
-	/* Movie Page Action Buttons */
-	
-	.layout-desktop .mainDetailButtons {
-	  -webkit-align-items: center;
-	  align-items: center;
-	  display: flex;
-	  position: fixed;
-	  top: 18em;
-	  left: 2.7em;
-	  font-size: 200%;
-	  margin: 0;
-	}
-
-	.layout-desktop .detailButton-icon {
-	  font-size: 1.6em !important;
-	  height: 1em;
-	  width: 1em;
-	}
-
-	.layout-desktop .detailButton-icon.play_arrow {
-		background-color: rgba(255,0,0,1);
-		border-radius: 10px;
-		z-index: -2;
-		padding-right: 2.15em;
-		padding-left: 0.1em;
-	}
-
-	.layout-desktop .detailButton .detailButton-icon.play_arrow::before {
-		color: white;
-	}
-
-	.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
-		content: "PLAY NOW";
-		font-family: "Kanit", sans-serif;
-		font-weight: 800;
-		font-style: normal;
-		position: fixed;
-		top: 35.7em;
-		left: 10em;
-		color: white;
-		font-weight: bold;
-		font-size: 12pt;
-		white-space: nowrap;
-		z-index: 2;
-	}
-	
-	.layout-desktop .detailButton-icon.explore {
-		position: fixed;
-		top: 11.68em;
-		left: 7.68em;
-		font-weight: bold;
-		white-space: nowrap;
-	}
-
-	.layout-desktop .detailButton .detailButton-icon.theaters {
-		position: fixed;
-		top: 11.68em;
-		left: 18.4em;
-		font-weight: bold;
-		font-size: 12pt;
-		white-space: nowrap;
-		padding-right: 2.4em;
-	}
-
-	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
-	  position: fixed;
-	  top: 11.68em;
-	  left: 7.8em;
-	  font-weight: bold;
-	  white-space: nowrap;
-	}
-
-	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
-		position: fixed;
-		top: 11.68em;
-		left: 7.8em;
-		font-weight: bold;
-		white-space: nowrap;
-	}
-
-	.layout-desktop .detailButton .detailButton-icon.favorite {
-		position: fixed;
-		top: 11.68em;
-		left: 11.5em;
-		font-weight: bold;
-		white-space: nowrap;
-	}
-
-	.layout-desktop .detailButton .detailButton-icon.replay {
-		display: none;
-	}
-
-	.layout-desktop .detailButton .detailButton-icon.shuffle {
-		display: none;
-	}
-
-	.layout-desktop .detailButton .detailButton-icon.more_vert {
-		position: fixed;
-		top: 11.68em;
-		left: 15em;
-		font-weight: bold;
-		font-size: 12pt;
-		white-space: nowrap;
-	}
-	
-	.layout-desktop #childrenContent .listItem-overview {
-		height: 4.85em;
-	}
-	
-	.listItem::before {
-		content: "";
-		 position: absolute;
-		 top: 0;
-		 left: 0;
-		 right: 0;
-		 bottom: 3em;
-		 background: linear-gradient(141deg, rgb(39.216% 39.216% 39.216% / 0.45) 0%, rgb(39.215% 39.215% 39.215% / 0.44999801635742187) 6.25%, rgb(39.206% 39.206% 39.206% / 0.44996826171875) 12.5%, rgb(39.167% 39.167% 39.167% / 0.4498393249511719) 18.75%, rgb(39.063% 39.063% 39.063% / 0.44949218750000003) 25%, rgb(38.842% 38.842% 38.842% / 0.4487602233886719) 31.25%, rgb(38.44% 38.44% 38.44% / 0.44742919921875) 37.5%, rgb(37.779% 37.779% 37.779% / 0.44523727416992187) 43.75%, rgb(36.765% 36.765% 36.765% / 0.441875) 50%, rgb(35.29% 35.29% 35.29% / 0.4369853210449219) 56.25%, rgb(33.232% 33.232% 33.232% / 0.43016357421875) 62.5%, rgb(30.455% 30.455% 30.455% / 0.42095748901367186) 68.75%, rgb(26.808% 26.808% 26.808% / 0.4088671875) 75%, rgb(22.125% 22.125% 22.125% / 0.3933451843261719) 81.25%, rgb(16.228% 16.228% 16.228% / 0.37379638671875004) 87.5%, rgb(8.923% 8.923% 8.923% / 0.3495780944824219) 93.75%, rgb(0% 0% 0% / 0.32) 100% );
-		 filter: blur(30px) !important;
-		 z-index: -1;
-		 opacity: 0.5; 
-	}
-	
-	.layout-desktop #childrenContent .listViewUserDataButtons button {
-		  margin-bottom: -0.7em;
-	}
-	
-	.layout-desktop #itemDetailPage .itemName.infoText.subtitle {
-		position: fixed;
-		top: 36.8em;
-		left: 2.9em;
-	}
-	
-	.layout-desktop #childrenContent .listViewUserDataButtons {
-		display: flex;
-		flex-direction: column;
-		margin-top: -4em;
-	}
-	
-	.layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-	  position: fixed;
-	  top: 9.3em;
-	  left: 77em;
-	  width: 9%;
-	  overflow-y: auto !important;
-	  height: 34em;
-	}
-	
-	.layout-desktop #specialsCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-		padding-left: 18.5em;
-	}
-	
-	.layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
-		position: fixed;
-		top: 4em;
-		left: 62em;
-		z-index: 0;
-		display: none;
-	}
-	
-	.layout-desktop #specialsContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
-		width:16em;
-		margin-bottom: -2em;
-	}
-	
-	/* More from season */
-	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-		position: relative;
-		top: 0em;
-		left: 48.5em;
-		width: 38%;
-	}
-	
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
 		display: flex;
 		flex-direction: column;
@@ -2182,27 +1889,13 @@ body {
 		white-space: normal;
 		transition: none !important;
 		position: fixed;
-		top: 8.8em;
+		top: 7.45em;
 		left: 122.3em;
 		max-height: 45em;
 		overflow-y: hidden;
 		z-index: 1000;
 	}
-	
-	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
-	  position: fixed;
-	  top: 20em;
-	  left: 88.2em;
-	  transform: translateX(-50%);
-	  overflow: hidden;
-	  white-space: normal;
-	  max-height: 3em;
-	  display: -webkit-box;
-	  -webkit-box-orient: vertical;
-	  -webkit-line-clamp: 2;
-	  text-overflow: ellipsis;
-	}
-} 
+
 
 /* --- Mobile View --- */
   .layout-mobile .itemBackdrop {
