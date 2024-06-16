@@ -909,7 +909,7 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .detailButton-icon.play_arrow {
-  background-color: rgba(255,0,0,1);
+  background: linear-gradient(180deg, rgb(83.529% 0% 0%) 0%, rgb(83.516% 0% 0.001%) 6.25%, rgb(83.425% 0% 0.005%) 12.5%, rgb(83.178% 0% 0.018%) 18.75%, rgb(82.696% 0% 0.043%) 25%, rgb(81.902% 0% 0.084%) 31.25%, rgb(80.717% 0% 0.145%) 37.5%, rgb(79.063% 0% 0.23%) 43.75%, rgb(76.863% 0% 0.343%) 50%, rgb(74.037% 0% 0.489%) 56.25%, rgb(70.509% 0% 0.67%) 62.5%, rgb(66.199% 0% 0.892%) 68.75%, rgb(61.029% 0% 1.158%) 75%, rgb(54.923% 0% 1.472%) 81.25%, rgb(47.8% 0% 1.839%) 87.5%, rgb(39.584% 0% 2.262%) 93.75%, rgb(30.196% 0% 2.745%) 100% );
   border-radius: 10px;
   z-index: -2;
   padding-right: 2.65em;
@@ -1067,7 +1067,7 @@ body {
   position: fixed;
   top: 49em;
   left: 4.95em;
-  max-width: 49%;
+  max-width: 45%;
   font-size: 11pt;
 }
 
@@ -1077,7 +1077,7 @@ body {
   }
 }
 
-/* Gradient behind description */
+/* Gradient behind title */
 .layout-desktop .detailPagePrimaryContent:before {
   content: "";
   position: absolute;
@@ -1091,6 +1091,21 @@ body {
   border-radius: 3em;
   opacity: 0.3;
   min-width: 82em;
+}
+
+/* Gradient behind Play Now buttons */
+.layout-desktop .detailImageContainer.padded-left:after {
+  content: "";
+  position: absolute;
+  top: 27em;
+  left: 1em;
+  bottom: -26em;
+  background: linear-gradient(180deg, rgb(49.412% 49.412% 49.412% / 0.47) 0%, rgb(40.714% 40.714% 40.714% / 0.406630859375) 6.25%, rgb(33.102% 33.102% 33.102% / 0.35117187499999997) 12.5%, rgb(26.503% 26.503% 26.503% / 0.303095703125) 18.75%, rgb(20.846% 20.846% 20.846% / 0.26187499999999997) 25%, rgb(16.056% 16.056% 16.056% / 0.22698242187499998) 31.25%, rgb(12.063% 12.063% 12.063% / 0.197890625) 37.5%, rgb(8.794% 8.794% 8.794% / 0.174072265625) 43.75%, rgb(6.176% 6.176% 6.176% / 0.15499999999999997) 50%, rgb(4.138% 4.138% 4.138% / 0.140146484375) 56.25%, rgb(2.606% 2.606% 2.606% / 0.12898437499999998) 62.5%, rgb(1.508% 1.508% 1.508% / 0.12098632812499999) 68.75%, rgb(0.772% 0.772% 0.772% / 0.11562499999999998) 75%, rgb(0.326% 0.326% 0.326% / 0.112373046875) 81.25%, rgb(0.097% 0.097% 0.097% / 0.11070312500000001) 87.5%, rgb(0.012% 0.012% 0.012% / 0.11008789062499996) 93.75%, rgb(0% 0% 0% / 0.10999999999999999) 100% );
+  filter: blur(2px) !important;
+  z-index: -1;
+  border-radius: 1em;
+  opacity: 0.123;
+  width: 63.5em;
 }
 
 
