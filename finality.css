@@ -1398,20 +1398,20 @@ body {
   position: absolute;
   bottom: 0.7em;
   left: 5.2em;
-  width: 117em;
-  max-width: 117em;
-  z-index: 0;
+  width: 116em;
+  max-width: 114em;
+  z-index: 0
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
 	position: relative;
 	top: 3.87em;
 	left: 2.3em;
-        z-index: 0;
+    z-index: 0;
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-	padding-left: 60em;
+	padding-left: 58em;
         padding-right: 60em;
 }
 
@@ -1532,7 +1532,7 @@ body {
 	position: fixed;
 	top: 7.5em;
 	left: 122.3em;
-    max-height: 53.7em;
+    max-height: 62.7em;
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -1888,15 +1888,6 @@ body {
 	
 	/* Cast & Crew */
 	
-	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
-	  position: absolute;
-	  bottom: 0.7em;
-	  left: 5.2em;
-	  width: 111em;
-	  max-width: 111em;
-	  z-index: 0;
-	}
-	
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
 		display: flex;
 		flex-direction: column;
@@ -1906,7 +1897,7 @@ body {
 		position: fixed;
 		top: 7.45em;
 		left: 122.3em;
-		max-height: 45em;
+		max-height: 53.8em;
 		overflow-y: hidden;
 		z-index: 1000;
 	}
