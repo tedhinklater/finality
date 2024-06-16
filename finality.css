@@ -878,12 +878,12 @@ margin-bottom: -0.2em;
   -webkit-align-items: center;
   align-items: center;
   position: absolute;
-  top: -6.2em;
-  left: 3.3em;
+  top: -5.5em;
+  left: 2.5em;
   opacity: 1;
   font-family: "Kanit", sans-serif;
   font-weight: 600;
-  font-size: 1.1111em;
+  font-size: 1.5111em;
 }
 
 .layout-desktop .itemMiscInfo.itemMiscInfo-secondary {
@@ -1034,8 +1034,9 @@ margin-bottom: -0.2em;
 
 .layout-desktop .itemName.infoText.originalTitle {
 	position: fixed;
-	top: 7.9em;
-    left: 37em;
+	top: 8.5em;
+    left: 3.74em;
+	font-size: 1.252em;
 }
 
 /* Logo */
@@ -1052,7 +1053,9 @@ margin-bottom: -0.2em;
 /* Tagline */
 #itemDetailPage .tagline {
   font-weight: 600;
-  margin-bottom: -0.5em;
+  margin-bottom: 0em;
+  font-size: 1.82em;
+  margin-top: -0.1em;
 }
 
 /* Description */
@@ -1068,6 +1071,12 @@ body {
   left: 4.95em;
   max-width: 49%;
   font-size: 11pt;
+}
+
+@media (min-width: 40em) {
+  .detail-clamp-text {
+    -webkit-line-clamp: 5;
+  }
 }
 
 /* Gradient behind description */
@@ -1093,9 +1102,10 @@ body {
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
   position: relative;
-  top: -1em;
+  top: -2.2em;
   text-transform: uppercase;
   opacity: 0.6;
+  left: 8em;
 }
 
 /* Select Tracks */
@@ -1183,7 +1193,7 @@ body {
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	position: fixed;
     top: 39.2em;
-    left: 4em;
+    left: 2.9em;
 	text-transform: uppercase;
 }
 
@@ -1197,13 +1207,13 @@ body {
 
 .layout-desktop .detailsGroupItem.genresGroup {
   position: fixed;
-  top: 6.9em;
-  left: 3.32em;
+  top: 5em;
+  left: 2.63em;
   font-family: kanit;
   text-transform: uppercase;
   text-align: left;
   font-style: normal;
-  font-size: 1.4em;
+  font-size: 1.8em;
   opacity: 0.4;
   width: 34em;
 }
@@ -1282,7 +1292,7 @@ body {
   max-height: 0.9em;
   margin-top: 0.2em;
   margin-bottom: -1.8em;
-  opacity: 0.3;
+  opacity: 0;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x .emby-button {
@@ -1598,11 +1608,11 @@ body {
   flex-wrap: nowrap;
   overflow-x: auto;
   white-space: nowrap;
-  max-width: 91.6%;
+  max-width: 100%;
   position: absolute;
   top: 48em;
-  left: 3em;
-  width: 91.6%;
+  left: 0em;
+  width: 100%;
   padding-bottom: 1em;
   z-index: 1000;
   padding-right: 0em;
@@ -1657,7 +1667,7 @@ body {
     margin-right: 0.2em; 
     width: 18.7%;
     border-radius: 2em;
-	margin-right: 0.8em;
+	margin-right: 1em;
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
@@ -1719,7 +1729,7 @@ body {
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
     margin-bottom: 6em;
     margin-right: 0em;
-    padding-left: 2em;
+    padding-left: 5em;
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons {
@@ -1974,11 +1984,11 @@ body {
 		flex-wrap: nowrap;
 		overflow-x: auto;
 		white-space: nowrap;
-		max-width: 87.5%;
+		max-width: 100%;
 		position: absolute;
 		top: 45em;
-		left: 6em;
-		width: 87.5%;
+		left: 0em;
+		width: 100%;
 		max-height: 10.5em;
 		padding-bottom: 1em;
 		z-index: 1000;
@@ -2099,7 +2109,7 @@ body {
 	}
 	
 	.layout-desktop #childrenContent .listItem-overview {
-		height: 4.9em;
+		height: 4.85em;
 	}
 	
 	.listItem::before {
@@ -2122,7 +2132,7 @@ body {
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 		position: fixed;
 		top: 36.8em;
-		left: 6.4em;
+		left: 2.9em;
 	}
 	
 	.layout-desktop #childrenContent .listViewUserDataButtons {
