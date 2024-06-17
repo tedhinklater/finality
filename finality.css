@@ -1698,8 +1698,8 @@ body {
 .layout-desktop #childrenContent .listItemImage {
   flex-shrink: 0;
   width: 21%;
-  height: 6em;
-  border-radius: 1.2em;
+  height: 7.4em;
+  border-radius: 2em;
 }
 
 .layout-desktop #childrenContent .listItemBody {
@@ -1752,7 +1752,7 @@ body {
     margin-bottom: 7em;
 	margin-right: 0em;
 	padding-left: 5em;
-	margin-top: 1.7em;
+	margin-top: 1.75em;
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons {
