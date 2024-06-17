@@ -839,12 +839,12 @@ margin-bottom: -0.2em;
 
 /* Poster */
 .layout-desktop #itemDetailPage .detailImageContainer .card {
-    position: fixed;
-    top: -6.789em;
-    left: 94.1em;
-    width: 25em;
-	border: 2px solid white;
-    border-radius: 5px;
+  position: fixed;
+  top: -5.789em;
+  left: 3.61em;
+  width: 25em;
+  border: 2px solid white;
+  border-radius: 5px;
 }
 
 .layout-desktop .detailImageContainer .card {
@@ -892,7 +892,7 @@ margin-bottom: -0.2em;
   -webkit-align-items: center;
   align-items: center;
   position: absolute;
-  top: -6.15em;
+  top: -6.95em;
   left: 2.5em;
   opacity: 1;
   font-family: "Kanit", sans-serif;
@@ -911,7 +911,7 @@ margin-bottom: -0.2em;
   display: flex;
   position: fixed;
   top: 21em;
-  left: 1.6em;
+  left: 15.04em;
   font-size: 200%;
   margin: 0;
 }
@@ -940,7 +940,7 @@ margin-bottom: -0.2em;
   font-style: normal;
   position: fixed;
   top: 41.283em;
-  left: 9.3em;
+  left: 34.3em;
   color: white;
   font-weight: bold;
   font-size: 12pt;
@@ -959,7 +959,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
     top: 13.549em;
-	left: 18.4em;
+	left: 31.4em;
     font-weight: bold;
     font-size: 12pt;
     white-space: nowrap;
@@ -969,7 +969,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
   position: fixed;
   top: 13.549em;
-  left: 7.8em;
+  left: 17em;
   font-weight: bold;
   white-space: nowrap;
 }
@@ -977,7 +977,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
     position: fixed;
     top: 13.549em;
-	left: 7.8em;
+	left: 17em;
     font-weight: bold;
     white-space: nowrap;
 }
@@ -985,7 +985,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.favorite {
     position: fixed;
     top: 13.549em;
-	left: 11.5em;
+	left: 22em;
     font-weight: bold;
     white-space: nowrap;
 }
@@ -993,7 +993,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.more_vert {
     position: fixed;
     top: 13.549em;
-	left: 15em;
+	left: 27em;
     font-weight: bold;
     font-size: 12pt;
     white-space: nowrap;
@@ -1016,13 +1016,13 @@ margin-bottom: -0.2em;
 /* Title */
 
 .layout-desktop .itemName.parentNameLast {
-  top: -0.543em !important;
+  top: -0.6843em !important;
   position: absolute;
   font-size: 10em;
   text-transform: uppercase;
   right: auto;
-  left: 0.35em;
-  width: 67.6%;
+  left: 3.05em;
+  width: 72.6%;
   overflow: hidden;
   white-space: normal;
   line-height: 0.83em;
@@ -1079,8 +1079,8 @@ body {
 }
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
-  top: 49em;
-  left: 4.95em;
+  top: 47.7em;
+  left: 32.45em;
   max-width: 45%;
   font-size: 11pt;
 }
@@ -1154,7 +1154,7 @@ body {
   width: auto;
   max-width: 8.1em;
   position: fixed;
-  top: 55em;
+  top: 57.5em;
   left: 108.5em;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
@@ -1197,18 +1197,18 @@ body {
 }
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
-	position: fixed;
-    top: 33.7em;
-    left: 95.6em;
-	max-height: 14.5em;
-	width: 18.7%;
-	z-index: 1;
-	transition: top 0.5s;
+  position: fixed;
+  top: 34.7em;
+  left: 5.25em;
+  max-height: 14.5em;
+  width: 18.7%;
+  z-index: 1;
+  transition: top 0.5s;
 }
 
 		/* Series */
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
-		top: 45.5em;
+		top: 46.55em;
 		transition: top 0.3s
 	}
 	
@@ -1234,7 +1234,7 @@ body {
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	position: fixed;
     top: 5.2em;
-    left: 90em;
+    left: 12em;
 	text-transform: uppercase;
 }
 
@@ -1248,7 +1248,7 @@ body {
 
 .layout-desktop .detailsGroupItem.genresGroup {
   position: fixed;
-  top: 4.2em;
+  top: 3.5em;
   left: 2.63em;
   font-family: kanit;
   text-transform: uppercase;
@@ -1268,10 +1268,11 @@ body {
 .layout-desktop .itemExternalLinks.focuscontainer-x {
   display: block;
   position: fixed;
-  top: 6.89em;
-  left: 119.15em;
+  top: 7.89em;
+  left: 142.45em;
   transform: translateX(-50%);
   opacity: 0.8;
+  font-size: 0.8em !important;
 }
 
 /* Hide More Like This */
@@ -1285,7 +1286,7 @@ body {
 }
 
 .layout-desktop #itemDetailPage  .overflowBackdropCard, .overflowSmallBackdropCard {
-    width: 16.4em;
+    width: 20em;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
@@ -1308,8 +1309,8 @@ body {
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
   position: absolute;
-  top: 23em;
-  left: 79em;
+  top: 25em;
+  left: 4.4em;
   width: 38%;
 }
 
@@ -1347,7 +1348,7 @@ body {
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
   position: fixed;
   top: 40.5em;
-  left: 4.1em;
+  left: 27.75em;
   overflow: visible;
   white-space: normal;
 }
@@ -1644,7 +1645,7 @@ body {
   max-width: 100%;
   position: absolute;
   top: 8em;
-  left: 4.2em;
+  left: 31.8em;
   width: 68.6%;
   max-height: 35.1em;
   padding-bottom: 0em;
@@ -1702,7 +1703,7 @@ body {
   border-radius: 2em;
   margin-right: 1em;
   margin-bottom: 0.5em;
-  height: 7.78em;
+  height: 10.76em;
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
@@ -1713,17 +1714,18 @@ body {
 .layout-desktop #childrenContent .listItemImage {
   flex-shrink: 0;
   width: 21%;
-  height: 7.4em;
+  height: 10.1em;
   border-radius: 2em;
+  border: 1px solid #fffa;
 }
 
 .layout-desktop #childrenContent .listItemBody {
   width: 70%;
   display: inline-block;
-  height: 6.2em;
-  margin-top: -7em;
+  height: 9.3em;
+  margin-top: -3.5em;
   text-overflow: ellipsis;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 
@@ -1757,17 +1759,18 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(116deg, rgb(72.157% 72.157% 72.157% / 0.74) 0%, rgb(63.419% 63.419% 63.419% / 0.7218359375) 6.25%, rgb(55.245% 55.245% 55.245% / 0.70484375) 12.5%, rgb(47.635% 47.635% 47.635% / 0.6890234375) 18.75%, rgb(40.588% 40.588% 40.588% / 0.674375) 25%, rgb(34.105% 34.105% 34.105% / 0.6608984375) 31.25%, rgb(28.186% 28.186% 28.186% / 0.64859375) 37.5%, rgb(22.831% 22.831% 22.831% / 0.6374609375) 43.75%, rgb(18.039% 18.039% 18.039% / 0.6275) 50%, rgb(13.811% 13.811% 13.811% / 0.6187109375) 56.25%, rgb(10.147% 10.147% 10.147% / 0.61109375) 62.5%, rgb(7.047% 7.047% 7.047% / 0.6046484375) 68.75%, rgb(4.51% 4.51% 4.51% / 0.599375) 75%, rgb(2.537% 2.537% 2.537% / 0.5952734375) 81.25%, rgb(1.127% 1.127% 1.127% / 0.59234375) 87.5%, rgb(0.282% 0.282% 0.282% / 0.5905859375) 93.75%, rgb(0% 0% 0% / 0.59) 100% );
-  filter: blur(2px) !important;
+  background: linear-gradient(110deg, rgb(161, 161, 161) 0%, rgb(82.397% 82.397% 82.397%) 6.25%, rgb(66.992% 66.992% 66.992%) 12.5%, rgb(53.638% 53.638% 53.638%) 18.75%, rgb(42.188% 42.188% 42.188%) 25%, rgb(32.495% 32.495% 32.495%) 31.25%, rgb(24.414% 24.414% 24.414%) 37.5%, rgb(17.798% 17.798% 17.798%) 43.75%, rgb(12.5% 12.5% 12.5%) 50%, rgb(8.374% 8.374% 8.374%) 56.25%, rgb(5.273% 5.273% 5.273%) 62.5%, rgb(3.052% 3.052% 3.052%) 68.75%, rgb(1.563% 1.563% 1.563%) 75%, rgb(0.659% 0.659% 0.659%) 81.25%, rgb(0.195% 0.195% 0.195%) 87.5%, rgb(0.024% 0.024% 0.024%) 93.75%, rgb(0% 0% 0%) 100% );
+  filter: blur(9px) !important;
   z-index: -1;
   opacity: 0.95;
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
-    margin-bottom: 7em;
-	margin-right: 0em;
-	padding-left: 5em;
-	margin-top: 1.75em;
+  margin-bottom: 4em;
+  margin-right: 0em;
+  padding-left: 5em;
+  margin-top: 1.7em;
+  margin-left: 0.1em;
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons {
@@ -1776,8 +1779,8 @@ body {
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons button {
-  margin-bottom: -0.8em;
-  top: -5em;
+  margin-bottom: -0.2em;
+  top: -3.3em;
 }
 
 .layout-desktop #childrenContent .cardBox.cardBox-bottompadded {
@@ -1933,6 +1936,18 @@ body {
 .layout-desktop #childrenContent .listViewUserDataButtons {
 	margin-top: 4em;
 }
+
+.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
+	  display: flex;
+	  flex-direction: column;
+	  overflow-y: auto;
+	  overflow-x: hidden;
+	  max-height: 28em;
+	  width: 21em;
+	  position: absolute;
+	  top: 0em;
+	  left: 3.1em;
+	}
 
 /* Ultrawide aspect ratios*/
 @media (max-height: calc(100vw * 985 / 1920)) {
