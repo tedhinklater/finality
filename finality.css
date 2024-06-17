@@ -1947,7 +1947,42 @@ body {
 	  position: absolute;
 	  top: 0em;
 	  left: 3.1em;
-	}
+}
+
+.layout-desktop #itemDetailPage .collectionItems .itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right {
+  position: absolute;
+  top: 8.25em;
+  left: 3.3em;
+  display: flex;
+  overflow-x: scroll;
+  width: 27em;
+  z-index: 1000;
+  height: 44.8em;
+  background-color: #101010;
+  padding-left: 1em;
+  opacity: 0;
+  transition: opacity 0.3s;
+    transition-delay: 0s;
+  padding-right: 0em;
+  transition-delay: 2s;
+  border-radius: 1em;
+}
+
+.layout-desktop #itemDetailPage .collectionItems .itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right:hover {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.layout-desktop #itemDetailPage .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
+	width: 13.4em;
+}
+
+.layout-desktop #itemDetailPage .collectionItems .cardText-first {
+	font-family: "kanit";
+	text-transform: uppercase;
+    font-weight: 700 !important;
+    margin-bottom: -0.2em;
+}
 
 /* Ultrawide aspect ratios*/
 @media (max-height: calc(100vw * 985 / 1920)) {
