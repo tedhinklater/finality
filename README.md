@@ -1,13 +1,8 @@
 # finality
 Jellyfin Theme CSS
 
-![1b](https://github.com/tedhinklater/finality/assets/66086488/00d5ae34-43ad-4fad-8fdc-a98f60ef8cff)
 
-![3](https://github.com/tedhinklater/finality/assets/66086488/20b0cb70-b81a-486b-b8ca-167ba5f84c79)
-
-![4](https://github.com/tedhinklater/finality/assets/66086488/018542c8-7e61-44a0-a378-2eba0e36e7b4)
-
-![5](https://github.com/tedhinklater/finality/assets/66086488/e62a0bdf-a0c9-410a-9108-0dff21b89246)
+![3](https://github.com/tedhinklater/finality/assets/66086488/2d671950-3521-4db3-83b2-7284b000d8bd)
 
 
 Import with
