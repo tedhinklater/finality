@@ -249,9 +249,9 @@ progress::-webkit-progress-value {
 }
 
 .alphaPickerButton {
-    color: #999;
-    color: rgba(255, 255, 255, 0.5);
-    background-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  margin-bottom: 0.21em;
 }
 
 .alphaPickerButton-selected {
@@ -1008,7 +1008,7 @@ margin-bottom: -0.2em;
   text-transform: uppercase;
   right: auto;
   left: 0.35em;
-  width: 71.9%;
+  width: 67.6%;
   overflow: hidden;
   white-space: normal;
   line-height: 0.83em;
@@ -1077,35 +1077,49 @@ body {
   }
 }
 
-/* Gradient behind title */
+/* Gradient behind title 
 .layout-desktop .detailPagePrimaryContent:before {
   content: "";
   position: absolute;
   top: -45em;
   left: -2.7em;
-  right: -57em;
-  bottom: -24em;
+  right: -21.8em;
+  bottom: 11em;
   background: linear-gradient(153deg, rgb(100% 100% 100% / 0.4) 0%, rgb(82.397% 82.397% 82.397% / 0.35247314453125) 6.25%, rgb(66.992% 66.992% 66.992% / 0.31087890625000003) 12.5%, rgb(53.638% 53.638% 53.638% / 0.27482177734375) 18.75%, rgb(42.188% 42.188% 42.188% / 0.24390625000000002) 25%, rgb(32.495% 32.495% 32.495% / 0.21773681640625) 31.25%, rgb(24.414% 24.414% 24.414% / 0.19591796875) 37.5%, rgb(17.798% 17.798% 17.798% / 0.17805419921875001) 43.75%, rgb(12.5% 12.5% 12.5% / 0.16375) 50%, rgb(8.374% 8.374% 8.374% / 0.15260986328125) 56.25%, rgb(5.273% 5.273% 5.273% / 0.14423828125) 62.5%, rgb(3.052% 3.052% 3.052% / 0.13823974609375) 68.75%, rgb(1.563% 1.563% 1.563% / 0.13421875) 75%, rgb(0.659% 0.659% 0.659% / 0.13177978515625) 81.25%, rgb(0.195% 0.195% 0.195% / 0.13052734375000002) 87.5%, rgb(0.024% 0.024% 0.024% / 0.13006591796875) 93.75%, rgb(0% 0% 0% / 0.13) 100% );
   filter: blur(2px) !important;
   z-index: -1;
   border-radius: 3em;
   opacity: 0.3;
-  min-width: 82em;
+  min-width: 50em;
 }
 
-/* Gradient behind Play Now buttons */
+/* Gradient behind Play Now buttons
 .layout-desktop .detailImageContainer.padded-left:after {
   content: "";
   position: absolute;
-  top: 27em;
+  top: -5em;
   left: 1em;
   bottom: -26em;
-  background: linear-gradient(180deg, rgb(49.412% 49.412% 49.412% / 0.47) 0%, rgb(40.714% 40.714% 40.714% / 0.406630859375) 6.25%, rgb(33.102% 33.102% 33.102% / 0.35117187499999997) 12.5%, rgb(26.503% 26.503% 26.503% / 0.303095703125) 18.75%, rgb(20.846% 20.846% 20.846% / 0.26187499999999997) 25%, rgb(16.056% 16.056% 16.056% / 0.22698242187499998) 31.25%, rgb(12.063% 12.063% 12.063% / 0.197890625) 37.5%, rgb(8.794% 8.794% 8.794% / 0.174072265625) 43.75%, rgb(6.176% 6.176% 6.176% / 0.15499999999999997) 50%, rgb(4.138% 4.138% 4.138% / 0.140146484375) 56.25%, rgb(2.606% 2.606% 2.606% / 0.12898437499999998) 62.5%, rgb(1.508% 1.508% 1.508% / 0.12098632812499999) 68.75%, rgb(0.772% 0.772% 0.772% / 0.11562499999999998) 75%, rgb(0.326% 0.326% 0.326% / 0.112373046875) 81.25%, rgb(0.097% 0.097% 0.097% / 0.11070312500000001) 87.5%, rgb(0.012% 0.012% 0.012% / 0.11008789062499996) 93.75%, rgb(0% 0% 0% / 0.10999999999999999) 100% );
+  background: linear-gradient(358deg, rgba(255, 255, 255, 0.4) 0%, rgba(210, 210, 210, 0.35) 6.25%, rgba(171, 171, 171, 0.31) 12.5%, rgba(137, 137, 137, 0.28) 18.75%, rgba(108, 108, 108, 0.24) 25%, rgba(83, 83, 83, 0.22) 31.25%, rgba(62, 62, 62, 0.2) 37.5%, rgba(45, 45, 45, 0.18) 43.75%, rgba(32, 32, 32, 0.17) 50%, rgba(21, 21, 21, 0.15) 56.25%, rgba(13, 13, 13, 0.14) 62.5%, rgba(8, 8, 8, 0.14) 68.75%, rgba(4, 4, 4, 0.13) 75%, rgba(2, 2, 2, 0.13) 81.25%, rgba(0, 0, 0, 0.13) 87.5%, rgba(0, 0, 0, 0.13) 93.75%, rgba(0, 0, 0, 0.13) 100% );
   filter: blur(2px) !important;
   z-index: -1;
-  border-radius: 1em;
-  opacity: 0.123;
-  width: 63.5em;
+  border-radius: 3em;
+  opacity: 0.3;
+  width: 86.5em;
+} */
+
+.layout-desktop .dialog {
+	background: #000;
+}
+
+.layout-desktop .listItem.listItem-button.actionSheetMenuItem.emby-button {
+	opacity: 0.85;
+	transition: opacity 0.3s;
+}
+
+.layout-desktop .listItem.listItem-button.actionSheetMenuItem.emby-button:hover {
+	opacity: 1;
+	transition: opacity 0.3s;
 }
 
 
@@ -1206,7 +1220,7 @@ body {
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	position: fixed;
     top: 5.2em;
-    left: 7.5em;
+    left: 90em;
 	text-transform: uppercase;
 }
 
@@ -1615,9 +1629,9 @@ body {
   max-width: 100%;
   position: absolute;
   top: 8em;
-  left: 5em;
-  width: 69%;
-  max-height: 32.5em;
+  left: 4.2em;
+  width: 68.6%;
+  max-height: 35.1em;
   padding-bottom: 0em;
   z-index: 1000;
   padding-right: 0em;
@@ -1626,8 +1640,8 @@ body {
 .layout-desktop #childrenContent .listItem-content {
   display: flex;
   justify-content: space-between;
-  height: 14em;
-  padding: 0.5em;
+  height: 13em;
+  margin-bottom: 2em;
 }
 
 .layout-desktop #childrenContent .listItemBody {
@@ -1668,11 +1682,12 @@ body {
 }
 
 .layout-desktop #childrenContent .listItem {
-  flex: 0 0 auto; 
-  width: 31%;
+  flex: 0 0 auto;
+  width: 30.8%;
   border-radius: 2em;
   margin-right: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
+  height: 7.78em;
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
@@ -1681,16 +1696,19 @@ body {
 }
 
 .layout-desktop #childrenContent .listItemImage {
-    flex-shrink: 0;
-    width: 22%;
-    height: auto;
-	border-radius: 1.2em;
+  flex-shrink: 0;
+  width: 25%;
+  height: 6em;
+  border-radius: 1.2em;
 }
 
 .layout-desktop #childrenContent .listItemBody {
-    width: 70%;
-    display: inline-block;
-    height: 11.6em;
+  width: 70%;
+  display: inline-block;
+  height: 6em;
+  margin-top: -7em;
+  text-overflow: ellipsis;
+  overflow: hidden; 
 }
 
 
@@ -1717,23 +1735,24 @@ body {
     background: transparent;
 }
 
-.listItem::before {
+#childrenContent .listItem::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(141deg, rgb(39.216% 39.216% 39.216% / 0.45) 0%, rgb(39.215% 39.215% 39.215% / 0.44999801635742187) 6.25%, rgb(39.206% 39.206% 39.206% / 0.44996826171875) 12.5%, rgb(39.167% 39.167% 39.167% / 0.4498393249511719) 18.75%, rgb(39.063% 39.063% 39.063% / 0.44949218750000003) 25%, rgb(38.842% 38.842% 38.842% / 0.4487602233886719) 31.25%, rgb(38.44% 38.44% 38.44% / 0.44742919921875) 37.5%, rgb(37.779% 37.779% 37.779% / 0.44523727416992187) 43.75%, rgb(36.765% 36.765% 36.765% / 0.441875) 50%, rgb(35.29% 35.29% 35.29% / 0.4369853210449219) 56.25%, rgb(33.232% 33.232% 33.232% / 0.43016357421875) 62.5%, rgb(30.455% 30.455% 30.455% / 0.42095748901367186) 68.75%, rgb(26.808% 26.808% 26.808% / 0.4088671875) 75%, rgb(22.125% 22.125% 22.125% / 0.3933451843261719) 81.25%, rgb(16.228% 16.228% 16.228% / 0.37379638671875004) 87.5%, rgb(8.923% 8.923% 8.923% / 0.3495780944824219) 93.75%, rgb(0% 0% 0% / 0.32) 100% );
-  filter: blur(30px) !important;
+  background: linear-gradient(116deg, rgb(35.294% 35.294% 35.294%) 0%, rgb(31.19% 31.19% 31.19%) 6.25%, rgb(27.829% 27.829% 27.829%) 12.5%, rgb(25.117% 25.117% 25.117%) 18.75%, rgb(22.963% 22.963% 22.963%) 25%, rgb(21.285% 21.285% 21.285%) 31.25%, rgb(20.007% 20.007% 20.007%) 37.5%, rgb(19.061% 19.061% 19.061%) 43.75%, rgb(18.382% 18.382% 18.382%) 50%, rgb(17.916% 17.916% 17.916%) 56.25%, rgb(17.612% 17.612% 17.612%) 62.5%, rgb(17.427% 17.427% 17.427%) 68.75%, rgb(17.325% 17.325% 17.325%) 75%, rgb(17.277% 17.277% 17.277%) 81.25%, rgb(17.259% 17.259% 17.259%) 87.5%, rgb(17.255% 17.255% 17.255%) 93.75%, rgb(17.255% 17.255% 17.255%) 100% );
+  filter: blur(2px) !important;
   z-index: -1;
-  opacity: 0.5; 
+  opacity: 0.7;
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
-    margin-bottom: 6em;
-    margin-right: 0em;
-    padding-left: 5em;
+    margin-bottom: 7em;
+	margin-right: 0em;
+	padding-left: 5em;
+	margin-top: 1.7em;
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons {
@@ -1742,7 +1761,8 @@ body {
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons button {
-  margin-bottom: 5px;
+  margin-bottom: -0.8em;
+  top: -3em;
 }
 
 .layout-desktop #childrenContent .cardBox.cardBox-bottompadded {
