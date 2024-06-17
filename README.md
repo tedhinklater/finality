@@ -7,7 +7,7 @@ Jellyfin Theme CSS
 
 ![4](https://github.com/tedhinklater/finality/assets/66086488/018542c8-7e61-44a0-a378-2eba0e36e7b4)
 
-![5](https://github.com/tedhinklater/finality/assets/66086488/d28dc069-e2d7-415d-8caa-423d4f9f5d6d)
+![6](https://github.com/tedhinklater/finality/assets/66086488/2b6e11fd-afd4-439a-a249-1475d7ae8019)
 
 
 Import with
