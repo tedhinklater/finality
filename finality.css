@@ -93,6 +93,7 @@
 .cardBox:not(.visualCardBox) .cardPadder {
 	background-color: transparent !important;
 	border: 2px solid hsla(2, 59%, 11%, 1);
+	border-radius: 2em;
 }
 
 .pageTitleWithDefaultLogo {
@@ -554,6 +555,19 @@ progress::-webkit-progress-value {
 /*Square card size on homeTab */
 .overflowSquareCard {
     width: 12.05em;
+}
+
+
+.layout-desktop #homeTab .cardImageContainer.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
+.layout-desktop #homeTab .cardImageContainer.coveredImage.cardContent.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast,
+.layout-desktop #moviesPage .cardImageContainer.coveredImage.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
+.layout-desktop #moviesPage .cardOverlayContainer.itemAction,
+.layout-desktop #tvRecommendedPage .cardImageContainer.coveredImage.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
+.layout-desktop #favoritesTab .cardImageContainer.coveredImage.cardContent.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast,
+.layout-desktop #tvRecommendedPage .cardOverlayContainer.itemAction,
+.layout-desktop #tvRecommendedPage .cardImageContainer.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
+.layout-desktop #studiosTab .cardImageContainer.defaultCardBackground {
+	border-radius: 1em;
 }
 
 /* Reduce space between My Media cards and Next Up */
@@ -1587,6 +1601,7 @@ body {
 .layout-desktop #similarCollapsible .cardScalable {
 	border: 1px solid white;
 	margin-right: 0.3em;
+	border-radius: 0.26em;
 }
 
 .layout-desktop #similarCollapsible .cardOverlayContainer.itemAction {
@@ -1787,6 +1802,7 @@ body {
   #homeTab .cardOverlayContainer {
     background-color: rgba(255, 255, 255, 0.1);
 	border: solid 2px white;
+	border-radius: 1em;
   }
   #suggestionsTab .cardOverlayContainer {
     background-color: rgba(255, 255, 255, 0.1);
@@ -1799,7 +1815,15 @@ body {
   #genresTab .cardOverlayContainer {
     background-color: rgba(255, 255, 255, 0.1);
 	border: solid 2px white;
-  } 
+  }
+  #studiosTab .cardOverlayContainer {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: solid 2px white;
+  }
+  #episodesTab .cardOverlayContainer {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: solid 2px white;
+  }
 }
 
 @media all and (max-width: 70em){
