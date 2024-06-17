@@ -1719,11 +1719,11 @@ body {
 }
 
 .layout-desktop #childrenContent .listItem-indexnumberleft {
-  margin-right: 4.5em;
+  margin-right: 1.5em;
   min-width: 2%;
   text-align: center;
-  margin-top: -8.6em;
-  padding-left: 8em;
+  margin-top: -3.1em;
+  padding-left: 0em;
 }
 
 .listItem:hover {
@@ -1745,7 +1745,7 @@ body {
   background: linear-gradient(116deg, rgb(35.294% 35.294% 35.294%) 0%, rgb(31.19% 31.19% 31.19%) 6.25%, rgb(27.829% 27.829% 27.829%) 12.5%, rgb(25.117% 25.117% 25.117%) 18.75%, rgb(22.963% 22.963% 22.963%) 25%, rgb(21.285% 21.285% 21.285%) 31.25%, rgb(20.007% 20.007% 20.007%) 37.5%, rgb(19.061% 19.061% 19.061%) 43.75%, rgb(18.382% 18.382% 18.382%) 50%, rgb(17.916% 17.916% 17.916%) 56.25%, rgb(17.612% 17.612% 17.612%) 62.5%, rgb(17.427% 17.427% 17.427%) 68.75%, rgb(17.325% 17.325% 17.325%) 75%, rgb(17.277% 17.277% 17.277%) 81.25%, rgb(17.259% 17.259% 17.259%) 87.5%, rgb(17.255% 17.255% 17.255%) 93.75%, rgb(17.255% 17.255% 17.255%) 100% );
   filter: blur(2px) !important;
   z-index: -1;
-  opacity: 0.7;
+  opacity: 0.95;
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
@@ -1902,6 +1902,14 @@ body {
 	padding-left: 1em;
 }
 
+.layout-desktop .listItemBody.itemAction.listItemBody-noleftpadding {
+  margin-top: 1em !important;
+}
+
+.layout-desktop #childrenContent .listViewUserDataButtons {
+	margin-top: 4em;
+}
+
 /* Ultrawide aspect ratios*/
 @media (max-height: calc(100vw * 985 / 1920)) {
 
@@ -1922,7 +1930,6 @@ body {
 		z-index: 1000;
 	}
 }
-
 
 /* --- Mobile View --- */
   .layout-mobile .itemBackdrop {
