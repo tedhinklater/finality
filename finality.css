@@ -1697,7 +1697,7 @@ body {
 
 .layout-desktop #childrenContent .listItemImage {
   flex-shrink: 0;
-  width: 25%;
+  width: 21%;
   height: 6em;
   border-radius: 1.2em;
 }
@@ -1705,7 +1705,7 @@ body {
 .layout-desktop #childrenContent .listItemBody {
   width: 70%;
   display: inline-block;
-  height: 6em;
+  height: 6.2em;
   margin-top: -7em;
   text-overflow: ellipsis;
   overflow: hidden; 
@@ -1762,7 +1762,7 @@ body {
 
 .layout-desktop #childrenContent .listViewUserDataButtons button {
   margin-bottom: -0.8em;
-  top: -3em;
+  top: -5em;
 }
 
 .layout-desktop #childrenContent .cardBox.cardBox-bottompadded {
