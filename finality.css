@@ -1346,11 +1346,12 @@ body {
 }	
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
-  position: fixed;
-  top: 40.5em;
-  left: 27.75em;
+position: fixed;
+  top: 1.8em;
+  left: 6.75em;
   overflow: visible;
   white-space: normal;
+  font-size: 5em;
 }
 
 /* Cast & Crew */
