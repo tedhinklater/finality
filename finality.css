@@ -1645,10 +1645,10 @@ position: fixed;
   overflow-x: hidden;
   max-width: 100%;
   position: absolute;
-  top: 8em;
+  top: 8.9em;
   left: 31.8em;
   width: 68.6%;
-  max-height: 35.1em;
+  max-height: 33.75em;
   padding-bottom: 0em;
   z-index: 1000;
   padding-right: 0em;
@@ -1703,7 +1703,7 @@ position: fixed;
   width: 30.8%;
   border-radius: 2em;
   margin-right: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
   height: 10.76em;
 }
 
@@ -1760,10 +1760,10 @@ position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(110deg, rgb(161, 161, 161) 0%, rgb(82.397% 82.397% 82.397%) 6.25%, rgb(66.992% 66.992% 66.992%) 12.5%, rgb(53.638% 53.638% 53.638%) 18.75%, rgb(42.188% 42.188% 42.188%) 25%, rgb(32.495% 32.495% 32.495%) 31.25%, rgb(24.414% 24.414% 24.414%) 37.5%, rgb(17.798% 17.798% 17.798%) 43.75%, rgb(12.5% 12.5% 12.5%) 50%, rgb(8.374% 8.374% 8.374%) 56.25%, rgb(5.273% 5.273% 5.273%) 62.5%, rgb(3.052% 3.052% 3.052%) 68.75%, rgb(1.563% 1.563% 1.563%) 75%, rgb(0.659% 0.659% 0.659%) 81.25%, rgb(0.195% 0.195% 0.195%) 87.5%, rgb(0.024% 0.024% 0.024%) 93.75%, rgb(0% 0% 0%) 100% );
-  filter: blur(9px) !important;
+  background: linear-gradient(140deg, rgba(0, 0, 0, 0.61) 0%, rgba(0, 0, 0, 0.62) 6.25%, rgba(0, 0, 0, 0.63) 12.5%, rgba(0, 0, 0, 0.65) 18.75%, rgba(0, 0, 0, 0.66) 25%, rgba(0, 0, 0, 0.67) 31.25%, rgba(0, 0, 0, 0.69) 37.5%, rgba(0, 0, 0, 0.7) 43.75%, rgba(0, 0, 0, 0.71) 50%, rgba(0, 0, 0, 0.72) 56.25%, rgba(0, 0, 0, 0.73) 62.5%, rgba(0, 0, 0, 0.75) 68.75%, rgba(0, 0, 0, 0.76) 75%, rgba(0, 0, 0, 0.77) 81.25%, rgba(0, 0, 0, 0.78) 87.5%, rgba(0, 0, 0, 0.8) 93.75%, rgba(0, 0, 0, 0.81) 100% );
+  filter: blur(5px) !important;
   z-index: -1;
-  opacity: 0.95;
+  opacity: 1;
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
@@ -2055,6 +2055,11 @@ position: fixed;
 
 @media (orientation: landscape) {
 	.layout-mobile .itemName.parentNameLast {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700 !important;
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-top: -2em;
 		padding-left: 1em;
 	}
 }
