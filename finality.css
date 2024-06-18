@@ -1239,7 +1239,7 @@ body {
 }
 
 /* Hide directors writers studio */
-.layout-desktop .genresLabel.label,
+.genresLabel.label,
 .detailsGroupItem.directorsGroup,
 .detailsGroupItem.writersGroup,
 .detailsGroupItem.studiosGroup {
@@ -1276,7 +1276,7 @@ body {
 }
 
 /* Hide More Like This */
-.layout-desktop .verticalSection.detailVerticalSection.verticalSection-extrabottompadding.emby-scroller-container {
+.verticalSection.detailVerticalSection.verticalSection-extrabottompadding.emby-scroller-container {
   display: block;
 }
 
@@ -2033,9 +2033,40 @@ position: fixed;
 
 .layout-mobile .detailRibbon {
   background: transparent;
-  padding-top: 14em;
+  padding-top: 7em;
+}
+
+@media (orientation: landscape) {
+	.layout-mobile .detailRibbon {
+		padding-top: 14em;
+	}
 }
 
 .layout-mobile .headerTabs.sectionTabs {
 	margin-top: -2.1em;
+}
+
+.layout-mobile .itemName.parentNameLast {
+	font-family: "Kanit", sans-serif;
+	font-weight: 700 !important;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+@media (orientation: landscape) {
+	.layout-mobile .itemName.parentNameLast {
+		padding-left: 1em;
+	}
+}
+
+.layout-mobile #itemDetailPage .tagline {
+  font-weight: 600;
+  margin-bottom: -0.5em;
+  font-size: 1.2em;
+  margin-top: -0.1em;
+}
+
+.layout-mobile #itemDetailPage .detailButton {
+	padding-right: 1.5em !important;
+    padding-left: 1.5em !important;
 }
