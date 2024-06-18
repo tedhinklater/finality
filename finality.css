@@ -1217,7 +1217,7 @@ body {
 }
 
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
-	width: 8em;
+	width: 6em;
 }
 
 .layout-desktop #childrenContent .cardOverlayButton-hover {
@@ -1636,8 +1636,8 @@ position: fixed;
 /* Bio */
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
   position: relative;
-  top: 13.5em;
-  left: -1em;
+  top: -9.5em;
+  left: -10em;
 }
 
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
@@ -1661,6 +1661,10 @@ position: fixed;
   padding-bottom: 0em;
   z-index: 1000;
   padding-right: 0em;
+}
+
+.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap [data-type="Episode"] {
+	display: none;
 }
 
 .layout-desktop #childrenContent .listItem-content {
