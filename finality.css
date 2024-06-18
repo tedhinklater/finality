@@ -1217,7 +1217,7 @@ body {
 }
 
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
-	width: 6em;
+	width: 8em;
 }
 
 .layout-desktop #childrenContent .cardOverlayButton-hover {
@@ -2053,50 +2053,80 @@ position: fixed;
 	.layout-mobile .detailRibbon {
 		padding-top: 14em;
 	}
-}
 
-.layout-mobile .headerTabs.sectionTabs {
-	margin-top: -2.1em;
-}
-
-.layout-mobile .itemName.parentNameLast {
-	font-family: "Kanit", sans-serif;
-	font-weight: 700 !important;
-	font-size: 2em;
-	text-transform: uppercase;
-}
-
-@media (orientation: landscape) {
-	.layout-mobile .itemName.parentNameLast {
-  font-family: "Kanit", sans-serif;
-  font-weight: 700 !important;
-  font-size: 3em;
-  text-transform: uppercase;
-  margin-top: -2em;
-		padding-left: 1em;
+	.layout-mobile .headerTabs.sectionTabs {
+		margin-top: -2.1em;
 	}
-}
 
-.layout-mobile #itemDetailPage .tagline {
-  font-weight: 600;
-  margin-bottom: -0.5em;
-  font-size: 1.2em;
-  margin-top: -0.1em;
-}
+	.layout-mobile .itemName.parentNameLast {
+	  font-family: "Kanit", sans-serif;
+	  font-weight: 700 !important;
+	  font-size: 2em;
+	  text-transform: uppercase;
+	  margin-left: 3.84em;
+	}
 
-.layout-mobile #itemDetailPage .detailButton {
-	padding-right: 1.5em !important;
-    padding-left: 1.5em !important;
-}
+	.layout-mobile .mainDetailButtons.focuscontainer-x .button-flat {
+		padding-left: 1.5em !important;
+		padding-right: 1.5em !important;
+	}
+	
+	.layout-mobile .itemName.parentNameLast {
+		font-family: "Kanit", sans-serif;
+		font-weight: 700 !important;
+		font-size: 3em;
+		text-transform: uppercase;
+		margin-top: -2em;
+		margin-left: 0.2em;
+		width: 85%;
+		text-align: left;
+	}
 
-@media (orientation: landscape) {
-  .layout-mobile .detailPageSecondaryContainer.padded-bottom-page {
-	  margin-left: 12em;
-  }
-  .layout-mobile .detailImageContainer .card {
-	position: fixed !important;
-    top: 5em;
-    left: 2em;
-    height: 17em;
-  }
+	.layout-mobile #itemDetailPage .tagline {
+		font-weight: 600;
+		margin-bottom: -0.5em;
+		font-size: 1.2em;
+		margin-top: -0.1em;
+	}
+
+	.layout-mobile #itemDetailPage .detailButton {
+		padding-right: 3em !important;
+		padding-left: 1.5em !important;
+	}
+
+	.layout-mobile .detailPageSecondaryContainer.padded-bottom-page {
+		margin-left: 12em;
+	}
+	
+	.layout-mobile .detailImageContainer .card {
+		position: fixed !important;
+		top: 13%;
+		left: 2%;
+		height: 24em;
+		width: 13em;
+	}
+
+	.layout-mobile .nameContainer {
+		position: relative;
+		display: inline-block;
+	}
+
+
+	  .layout-mobile .detailPageWrapperContainer {
+		padding-left: 3%;
+	}
+	
+	.layout-mobile .itemMiscInfo.itemMiscInfo-primary {
+		margin-left: 2.5em;
+	}
+	
+	.layout-mobile .itemMiscInfo {
+		justify-content: left;
+        text-align: center;
+    }
+	
+	.layout-mobile .mainDetailButtons.focuscontainer-x {
+		margin-left: 0em;
+		justify-content: left;
+	}
 }
