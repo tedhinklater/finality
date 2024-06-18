@@ -5,7 +5,7 @@ Jellyfin Theme CSS
 
 ![3](https://github.com/tedhinklater/finality/assets/66086488/4761e113-6bd7-47b0-a1e3-76df43319c5f)
 
-![4](https://github.com/tedhinklater/finality/assets/66086488/72e94c85-eb43-4104-afa5-4943b85e6d03)
+![g4](https://github.com/tedhinklater/finality/assets/66086488/b0ab6641-8dd9-46c3-9c14-ba2e0853f25d)
 
 ![g5](https://github.com/tedhinklater/finality/assets/66086488/a550a064-1eea-4212-8680-b741921e1c26)
 
