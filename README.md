@@ -1,7 +1,7 @@
 # finality
 Jellyfin Theme CSS
 
-![mockup](https://i.imgur.com/7xk9pwX.png)
+![mockup](https://i.imgur.com/eUmDkgG.png)
 
 ![3](https://github.com/tedhinklater/finality/assets/66086488/4761e113-6bd7-47b0-a1e3-76df43319c5f)
 
