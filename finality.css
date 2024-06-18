@@ -2075,3 +2075,15 @@ position: fixed;
 	padding-right: 1.5em !important;
     padding-left: 1.5em !important;
 }
+
+@media (orientation: landscape) {
+  .layout-mobile .detailPageSecondaryContainer.padded-bottom-page {
+	  margin-left: 12em;
+  }
+  .layout-mobile .detailImageContainer .card {
+	position: fixed !important;
+    top: 5em;
+    left: 2em;
+    height: 17em;
+  }
+}
