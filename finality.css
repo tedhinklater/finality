@@ -1255,8 +1255,17 @@ body {
   text-align: left;
   font-style: normal;
   font-size: 1.8em;
-  opacity: 0.4;
   width: 34em;
+}
+
+.layout-desktop .detailsGroupItem.genresGroup .button-link.emby-button {
+	opacity: 0.4;
+	transition: opacity 0.3s;
+}
+
+.layout-desktop .detailsGroupItem.genresGroup .button-link.emby-button:hover {
+	opacity: 1;
+	transition: opacity 0.3s;
 }
 
 /* Hide Upcoming On TV section */
