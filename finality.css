@@ -2044,6 +2044,12 @@ position: fixed;
   padding-top: 4em;
 }
 
+.layout-mobile .itemName.infoText.parentNameLast {
+  font-family:"Kanit", sans-serif;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+}
+
 .layout-mobile .detailRibbon {
   background: transparent;
   padding-top: 7em;
@@ -2108,7 +2114,7 @@ position: fixed;
 
 	.layout-mobile .nameContainer {
 		position: relative;
-		display: inline-block;
+		display: flex;
 	}
 
 
