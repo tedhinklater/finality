@@ -1,0 +1,13 @@
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/finality.css");
+
+
+/* Backdrop */
+.backdropImage {
+    filter: blur(5px) saturate(100%) contrast(120%) brightness(40%);
+    transition: filter 0.3s;
+}
+
+.backgroundContainer.withBackdrop {
+    background: linear-gradient(109deg, rgb(99.608% 31.373% 0%) 0%, rgb(99.608% 31.127% 0%) 6.25%, rgb(99.611% 29.407% 0%) 12.5%, rgb(99.618% 24.739% 0%) 18.75%, rgb(99.632% 15.646% 0%) 25%, rgb(99.656% 0.65% 0%) 31.25%, rgb(99.691% 0% 21.735%) 37.5%, rgb(99.739% 0% 53.001%) 43.75%, rgb(99.804% 0% 94.654%) 50%, rgb(63.376% 0% 99.869%) 56.25%, rgb(32.095% 0% 99.917%) 62.5%, rgb(9.663% 0% 99.952%) 68.75%, rgb(0% 5.383% 99.975%) 75%, rgb(0% 14.513% 99.99%) 81.25%, rgb(0% 19.202% 99.997%) 87.5%, rgb(0% 20.93% 100%) 93.75%, rgb(0% 21.176% 100%) 100% );
+opacity: 0.1;
+}
