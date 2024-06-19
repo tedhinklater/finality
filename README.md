@@ -33,7 +33,7 @@ Import with
 
 ```css
 
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/Finality-Coloured");
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/Finality-Coloured.css");
 
 ```
 
