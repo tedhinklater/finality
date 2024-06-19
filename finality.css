@@ -1046,7 +1046,7 @@ margin-bottom: -0.2em;
 
 .layout-desktop .itemName.infoText.originalTitle {
 	position: fixed;
-	top: 4.415em;
+	top: 3.415em;
     left: 39.74em;
 	font-size: 1.252em;
 }
@@ -1155,7 +1155,7 @@ body {
   max-width: 8.1em;
   position: fixed;
   top: 57.5em;
-  left: 108.5em;
+  left: 104.5em;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   font-size: 0.9em;
@@ -1277,7 +1277,7 @@ body {
 .layout-desktop .itemExternalLinks.focuscontainer-x {
   display: block;
   position: fixed;
-  top: 7.89em;
+  top: 8.15em;
   left: 142.45em;
   transform: translateX(-50%);
   opacity: 0.8;
@@ -1295,7 +1295,7 @@ body {
 }
 
 .layout-desktop #itemDetailPage  .overflowBackdropCard, .overflowSmallBackdropCard {
-    width: 20em;
+    width: 12em;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
@@ -1355,12 +1355,13 @@ body {
 }	
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
-position: fixed;
-  top: 1.8em;
+  position: fixed;
+  top: 1.33em;
   left: 6.35em;
   overflow: visible;
   white-space: normal;
   font-size: 5em;
+  max-width: 17em;
 }
 
 /* Cast & Crew */
@@ -1809,36 +1810,36 @@ position: fixed;
     background-color: #00000000 !important;
   }
   #moviesTab .cardOverlayContainer {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
 	border: solid 2px white;
   }
   #seriesTab .cardOverlayContainer {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
 	border: solid 2px white;
   }
   #homeTab .cardOverlayContainer {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
 	border: solid 2px white;
 	border-radius: 1em;
   }
   #suggestionsTab .cardOverlayContainer {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
 	border: solid 2px white;
   }
   #favoritesTab .cardOverlayContainer {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
 	border: solid 2px white;
   }
   #genresTab .cardOverlayContainer {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
 	border: solid 2px white;
   }
   #studiosTab .cardOverlayContainer {
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: rgba(255, 255, 255, 0.05);
 	border: solid 2px white;
   }
   #episodesTab .cardOverlayContainer {
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: rgba(255, 255, 255, 0.05);
 	border: solid 2px white;
   }
 }
@@ -1952,15 +1953,19 @@ position: fixed;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
-	  display: flex;
-	  flex-direction: column;
-	  overflow-y: auto;
-	  overflow-x: hidden;
-	  max-height: 28em;
-	  width: 21em;
-	  position: absolute;
-	  top: 0em;
-	  left: 3.1em;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-height: 58em;
+	width: 11.5em;
+	position: absolute;
+	top: -16.6em;
+	left: 113.15em;
+}
+
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .cardText.cardTextCentered.cardText-first {
+	font-size: 76%;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right {
@@ -1998,6 +2003,10 @@ position: fixed;
     margin-bottom: -0.2em;
 }
 
+.layout-desktop #childrenContent .listItemImageButton.itemAction.paper-icon-button-light {
+	display: none;
+}
+
 /* Ultrawide aspect ratios*/
 @media (max-height: calc(100vw * 985 / 1920)) {
 
@@ -2016,6 +2025,10 @@ position: fixed;
 		max-height: 53.8em;
 		overflow-y: hidden;
 		z-index: 1000;
+	}
+	
+		.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
+	max-height: 50em;
 	}
 }
 
