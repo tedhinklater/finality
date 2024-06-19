@@ -1065,7 +1065,7 @@ margin-bottom: -0.2em;
 /* Tagline */
 #itemDetailPage .tagline {
   font-weight: 600;
-  margin-bottom: -0.5em;
+  margin-bottom: 0.8em;
   font-size: 1.82em;
   margin-top: -0.1em;
 }
@@ -1081,7 +1081,7 @@ body {
   position: fixed;
   top: 47.7em;
   left: 32.45em;
-  max-width: 45%;
+  max-width: 56%;
   font-size: 11pt;
 }
 
@@ -1154,8 +1154,8 @@ body {
   width: auto;
   max-width: 8.1em;
   position: fixed;
-  top: 57.5em;
-  left: 104.5em;
+  top: 54.5em;
+  left: 5.75em;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   font-size: 0.9em;
@@ -1172,8 +1172,11 @@ body {
   overflow: visible;
   padding-left: 1em;
   padding-right: 1em;
-  width: 20em;
-  border-radius: 2em;
+  border-radius: 0.35em;
+  border: 1px solid white !important;
+  width: 21em;
+  min-width: 21em;
+  background-color: #000a !important;
 }
 
 .layout-desktop .trackSelections .selectContainer {
@@ -1181,6 +1184,14 @@ body {
   display: flex;
   margin: 0 0 .5em !important;
   max-width: 0em;
+}
+
+.layout-desktop .trackSelections .selectContainer .selectLabel {
+	border: 1px solid white;
+	border-radius: 0.35em;
+	justify-content: center !important;
+	display: grid;
+	background-color: #000a;
 }
 
 /* Seasons carousel */
@@ -1318,9 +1329,9 @@ body {
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
   position: absolute;
-  top: 25em;
-  left: 4.4em;
-  width: 38%;
+  top: 6.3em;
+  left: 117.05em;
+  width: 10%;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
@@ -1959,7 +1970,10 @@ body {
 	overflow-x: hidden;
 	max-height: 58em;
 	width: 11.5em;
-	position: absolute;
+}
+
+.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
+		position: absolute;
 	top: -16.6em;
 	left: 113.15em;
 }
@@ -2027,7 +2041,7 @@ body {
 		z-index: 1000;
 	}
 	
-		.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
+	.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
 	max-height: 50em;
 	}
 }
