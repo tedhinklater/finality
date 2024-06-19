@@ -1338,6 +1338,7 @@ body {
   top: 6.3em;
   left: 117.05em;
   width: 10%;
+  z-index: 10;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
