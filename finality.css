@@ -1220,6 +1220,7 @@ body {
   width: 18.7%;
   z-index: 1;
   transition: top 0.5s;
+  padding-right: 0em;
 }
 
 		/* Series */
@@ -1663,7 +1664,7 @@ body {
 	margin-top: -2.2em;
 }
 
-.layout-desktop #childrenContent .childrenItemsContainer {
+.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
