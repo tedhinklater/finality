@@ -26,7 +26,7 @@ Import with
 
 ```
 
-##Now in Colour!
+## Now in Colour!
 ![colour](https://github.com/tedhinklater/finality/assets/66086488/f3f2e2ce-b3ad-4997-9354-4f7ef9d20d83)
 
 Import with
