@@ -632,6 +632,13 @@ progress::-webkit-progress-value {
   padding-left: 0em;
 }
 
+.layout-desktop #episodesTab .cardText.cardTextCentered.cardText-first {
+	font-family: "kanit";
+	text-transform: uppercase;
+    font-weight: 700 !important;
+    margin-bottom: -0.2em;
+}	
+
 /* Favorites */
 
 .layout-desktop #favoritesTab .cardText.cardTextCentered.cardText-first {
@@ -902,8 +909,8 @@ margin-bottom: -0.2em;
 
 .layout-desktop .itemMiscInfo.itemMiscInfo-secondary {
   position: absolute;
-  top: -7.5em;
-  left: 5em;
+  top: -6.95em;
+  left: 59em;
 }
 
 .layout-desktop .mainDetailButtons {
@@ -1869,6 +1876,8 @@ body {
   }
 }
 
+
+
 .cardOverlayContainer > .cardOverlayFab-primary {
   display: none;
   background-color: rgba(255, 0, 0, 1);
@@ -1918,8 +1927,8 @@ body {
 
 .layout-desktop .recordingFields {
   position: absolute;
-  top: 7.95em;
-  left: 7em;
+  top: -2.18em;
+  left: 8.3em;
 }
 
 .layout-desktop .raised.recordingButton.seriesRecordingButton.emby-button {
@@ -2018,6 +2027,13 @@ body {
 
 .layout-desktop #childrenContent .listItemImageButton.itemAction.paper-icon-button-light {
 	display: none;
+}
+
+.layout-desktop .programGuideSection.verticalSection.detailVerticalSection {
+  position: absolute;
+  top: 17em;
+  width: 40em;
+  left: 90.5em;
 }
 
 /* Ultrawide aspect ratios*/
