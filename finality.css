@@ -1173,10 +1173,9 @@ body {
   padding-left: 1em;
   padding-right: 1em;
   border-radius: 0.35em;
-  border: 1px solid white !important;
   width: 21em;
   min-width: 21em;
-  background-color: #000a !important;
+  background-color: #00000070 !important;
 }
 
 .layout-desktop .trackSelections .selectContainer {
@@ -1187,11 +1186,10 @@ body {
 }
 
 .layout-desktop .trackSelections .selectContainer .selectLabel {
-	border: 1px solid white;
 	border-radius: 0.35em;
 	justify-content: center !important;
 	display: grid;
-	background-color: #000a;
+	background-color: #00000070;
 }
 
 /* Seasons carousel */
@@ -1673,6 +1671,7 @@ body {
   padding-bottom: 0em;
   z-index: 1000;
   padding-right: 0em;
+  border-radius: 2em;
 }
 
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap [data-type="Episode"] {
