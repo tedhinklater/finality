@@ -3,14 +3,21 @@ Jellyfin Theme CSS
 
 ![mockup](https://i.imgur.com/eUmDkgG.png)
 
+## Movie View
 
-![g3](https://github.com/tedhinklater/finality/assets/66086488/529ee67d-ac8f-4c46-bb44-ae6f80d9f07d)
+![3](https://i.imgur.com/gAUbEre.gif)
 
-![g4](https://github.com/tedhinklater/finality/assets/66086488/b0ab6641-8dd9-46c3-9c14-ba2e0853f25d)
+## Show View
 
-![g5](https://github.com/tedhinklater/finality/assets/66086488/a550a064-1eea-4212-8680-b741921e1c26)
+![4](https://github.com/tedhinklater/finality/assets/66086488/833efa40-d98e-4bf8-9c12-09b49c761643)
 
-![g6](https://github.com/tedhinklater/finality/assets/66086488/eddf237d-9581-4861-9bfc-6786ef2e7de2)
+## Season View
+
+![5](https://github.com/tedhinklater/finality/assets/66086488/c270e2ad-a888-439f-b996-86fc129d8f58)
+
+## Episode View
+
+![6](https://i.imgur.com/Wk10ZsI.png)
 
 Import with
 
