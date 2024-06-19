@@ -1458,7 +1458,7 @@ body {
   left: 5.2em;
   width: 116em;
   max-width: 114em;
-  z-index: 0
+  z-index: 10;
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
