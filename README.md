@@ -11,7 +11,7 @@ Import with
 ```
 
 ## Now in Colour!
-![colour](https://i.imgur.com/InhEYed.png)
+![colour](https://i.imgur.com/qUj2Y8C.png)
 
 Import with
 
