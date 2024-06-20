@@ -1700,6 +1700,13 @@ body {
   justify-content: space-between;
   height: 13em;
   margin-bottom: 2em;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast:hover {
+  filter: brightness(115%);
+  transition: filter 0.3s;
 }
 
 .layout-desktop #childrenContent .listItemBody {
@@ -2051,8 +2058,6 @@ body {
 	border-radius: 0.5em;
 }
 
-
-
 /* Ultrawide aspect ratios*/
 @media (max-height: calc(100vw * 985 / 1920)) {
 
@@ -2188,7 +2193,7 @@ body {
 	.layout-mobile .itemMiscInfo {
 		justify-content: left;
         text-align: center;
-    }
+        }
 	
 	.layout-mobile .mainDetailButtons.focuscontainer-x {
 		margin-left: 0em;
