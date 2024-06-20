@@ -1102,6 +1102,7 @@ body {
 @media (min-width: 40em) {
   .detail-clamp-text {
     -webkit-line-clamp: 4;
+    font-size: 1.1em;
   }
 }
 
