@@ -1661,10 +1661,10 @@ body {
 	display: none;
 }
 
-/* Bio */
+/* Bio Movies */
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
   position: relative;
-  top: -9.5em;
+  top: -2.5em;
   left: -10em;
 }
 
