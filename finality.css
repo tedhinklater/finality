@@ -1695,6 +1695,14 @@ body {
 	display: none;
 }
 
+.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap [data-type="Series"] {
+	display: none;
+}
+
+.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap [data-type="Movie"] {
+	display: none;
+}
+
 .layout-desktop #childrenContent .listItem-content {
   display: flex;
   justify-content: space-between;
