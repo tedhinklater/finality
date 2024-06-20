@@ -1280,16 +1280,17 @@ body {
   font-style: normal;
   font-size: 1.8em;
   width: 34em;
+  color: #fff5;
 }
 
 .layout-desktop .detailsGroupItem.genresGroup .button-link.emby-button {
-	opacity: 0.4;
-	transition: opacity 0.3s;
+	color: #fff5 !important;
+	transition: color 0.3s;
 }
 
 .layout-desktop .detailsGroupItem.genresGroup .button-link.emby-button:hover {
-	opacity: 1;
-	transition: opacity 0.3s;
+	color: #fff !important;
+	transition: color 0.3s;
 }
 
 /* Hide Upcoming On TV section */
@@ -1381,12 +1382,12 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
   position: fixed;
-  top: 1.33em;
-  left: 6.35em;
+  top: 3em;
+  left: 10.35em;
   overflow: visible;
   white-space: normal;
-  font-size: 5em;
-  max-width: 17em;
+  font-size: 3em;
+  max-width: 8em;
 }
 
 /* Cast & Crew */
@@ -2095,6 +2096,7 @@ body {
     z-index: -1;
 	filter: blur(0px) saturate(0%) contrast(130%) brightness(20%);
   }
+}
 
 .layout-mobile h1.itemName, .layout-mobile h1.parentName {
   font-size: 1.6em;
