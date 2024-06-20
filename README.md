@@ -2,6 +2,7 @@
 Jellyfin Theme CSS
 
 ![1](https://i.imgur.com/hfpl8Ak.png)
+![2](https://i.imgur.com/vFbUCUx.png)
 
 Import with
 
