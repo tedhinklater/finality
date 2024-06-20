@@ -1,7 +1,7 @@
 # finality
 Jellyfin Theme CSS
 
-![mockup](https://i.imgur.com/eUmDkgG.png)
+![1](https://i.imgur.com/hfpl8Ak.png)
 
 Import with
 
@@ -11,7 +11,7 @@ Import with
 ```
 
 ## Now in Colour!
-![colour](https://i.imgur.com/qUj2Y8C.png)
+![colour](https://i.imgur.com/jBNmKXT.png)
 
 Import with
 
