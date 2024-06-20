@@ -1316,11 +1316,10 @@ body {
 .layout-desktop .itemExternalLinks.focuscontainer-x {
   display: block;
   position: fixed;
-  top: 8.15em;
-  left: 142.45em;
-  transform: translateX(-50%);
+  top: 4.1em;
+  right: 8em;
   opacity: 0.8;
-  font-size: 0.8em !important;
+  font-size: 1em !important;
 }
 
 /* Hide More Like This */
