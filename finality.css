@@ -1108,7 +1108,7 @@ body {
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
   top: 47.7em;
-  left: 32.45em;
+  left: 33.45em;
   max-width: 56%;
   font-size: 11pt;
 }
@@ -1120,37 +1120,6 @@ body {
 	margin-top: -0.35em;
   }
 }
-
-/* Gradient behind title 
-.layout-desktop .detailPagePrimaryContent:before {
-  content: "";
-  position: absolute;
-  top: -45em;
-  left: -2.7em;
-  right: -21.8em;
-  bottom: 11em;
-  background: linear-gradient(153deg, rgb(100% 100% 100% / 0.4) 0%, rgb(82.397% 82.397% 82.397% / 0.35247314453125) 6.25%, rgb(66.992% 66.992% 66.992% / 0.31087890625000003) 12.5%, rgb(53.638% 53.638% 53.638% / 0.27482177734375) 18.75%, rgb(42.188% 42.188% 42.188% / 0.24390625000000002) 25%, rgb(32.495% 32.495% 32.495% / 0.21773681640625) 31.25%, rgb(24.414% 24.414% 24.414% / 0.19591796875) 37.5%, rgb(17.798% 17.798% 17.798% / 0.17805419921875001) 43.75%, rgb(12.5% 12.5% 12.5% / 0.16375) 50%, rgb(8.374% 8.374% 8.374% / 0.15260986328125) 56.25%, rgb(5.273% 5.273% 5.273% / 0.14423828125) 62.5%, rgb(3.052% 3.052% 3.052% / 0.13823974609375) 68.75%, rgb(1.563% 1.563% 1.563% / 0.13421875) 75%, rgb(0.659% 0.659% 0.659% / 0.13177978515625) 81.25%, rgb(0.195% 0.195% 0.195% / 0.13052734375000002) 87.5%, rgb(0.024% 0.024% 0.024% / 0.13006591796875) 93.75%, rgb(0% 0% 0% / 0.13) 100% );
-  filter: blur(2px) !important;
-  z-index: -1;
-  border-radius: 3em;
-  opacity: 0.3;
-  min-width: 50em;
-}
-
-/* Gradient behind Play Now buttons
-.layout-desktop .detailImageContainer.padded-left:after {
-  content: "";
-  position: absolute;
-  top: -5em;
-  left: 1em;
-  bottom: -26em;
-  background: linear-gradient(358deg, rgba(255, 255, 255, 0.4) 0%, rgba(210, 210, 210, 0.35) 6.25%, rgba(171, 171, 171, 0.31) 12.5%, rgba(137, 137, 137, 0.28) 18.75%, rgba(108, 108, 108, 0.24) 25%, rgba(83, 83, 83, 0.22) 31.25%, rgba(62, 62, 62, 0.2) 37.5%, rgba(45, 45, 45, 0.18) 43.75%, rgba(32, 32, 32, 0.17) 50%, rgba(21, 21, 21, 0.15) 56.25%, rgba(13, 13, 13, 0.14) 62.5%, rgba(8, 8, 8, 0.14) 68.75%, rgba(4, 4, 4, 0.13) 75%, rgba(2, 2, 2, 0.13) 81.25%, rgba(0, 0, 0, 0.13) 87.5%, rgba(0, 0, 0, 0.13) 93.75%, rgba(0, 0, 0, 0.13) 100% );
-  filter: blur(2px) !important;
-  z-index: -1;
-  border-radius: 3em;
-  opacity: 0.3;
-  width: 86.5em;
-} */
 
 .layout-desktop .dialog {
 	background: #000;
@@ -1462,7 +1431,7 @@ body {
 .layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
   display: block;
   position: fixed;
-  top: 46.5em;
+  top: 52.5em;
   left: 7.6em;
   font-size: 100%;
   opacity: 0.9;
@@ -1505,7 +1474,7 @@ body {
 
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
     position: fixed;
-	top: 48em;
+	top: 54em;
 	left: 6em;
 }
 
