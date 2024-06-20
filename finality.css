@@ -1814,7 +1814,7 @@ body {
   right: 0;
   bottom: 0;
   background: linear-gradient(140deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 6.25%, rgba(0, 0, 0, 0.9) 12.5%, rgba(0, 0, 0, 0.9) 18.75%, rgba(0, 0, 0, 0.91) 25%, rgba(0, 0, 0, 0.91) 31.25%, rgba(0, 0, 0, 0.92) 37.5%, rgba(0, 0, 0, 0.92) 43.75%, rgba(0, 0, 0, 0.92) 50%, rgba(0, 0, 0, 0.93) 56.25%, rgba(0, 0, 0, 0.93) 62.5%, rgba(0, 0, 0, 0.93) 68.75%, rgba(0, 0, 0, 0.94) 75%, rgba(0, 0, 0, 0.94) 81.25%, rgba(0, 0, 0, 0.95) 87.5%, rgba(0, 0, 0, 0.95) 93.75%, rgba(0, 0, 0, 0.96) 100% );
-  filter: blur(0px) !important;
+  filter: blur(2px) !important;
   z-index: -1;
   opacity: 1;
 }
