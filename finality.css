@@ -859,6 +859,7 @@ margin-bottom: -0.2em;
   width: 25em;
   border: 2px solid white;
   border-radius: 5px;
+  filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
 }
 
 .layout-desktop .detailImageContainer .card {
@@ -1116,6 +1117,7 @@ body {
   .detail-clamp-text {
     -webkit-line-clamp: 4;
     font-size: 1.1em;
+	margin-top: -0.35em;
   }
 }
 
@@ -1242,6 +1244,7 @@ body {
   z-index: 1;
   transition: top 0.5s;
   padding-right: 0em;
+  filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
 }
 
 		/* Series */
