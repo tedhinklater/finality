@@ -3,22 +3,6 @@ Jellyfin Theme CSS
 
 ![mockup](https://i.imgur.com/eUmDkgG.png)
 
-## Movie View
-
-![3](https://i.imgur.com/gAUbEre.gif)
-
-## Show View
-
-![4](https://github.com/tedhinklater/finality/assets/66086488/833efa40-d98e-4bf8-9c12-09b49c761643)
-
-## Season View
-
-![5](https://github.com/tedhinklater/finality/assets/66086488/c270e2ad-a888-439f-b996-86fc129d8f58)
-
-## Episode View
-
-![6](https://i.imgur.com/Wk10ZsI.png)
-
 Import with
 
 ```css
