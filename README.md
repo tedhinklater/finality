@@ -22,7 +22,7 @@ or, import the colour version with
 ![c2](https://i.imgur.com/QPHEaM4.png)
 ![3](https://github.com/tedhinklater/finality/assets/66086488/fb4e559e-01a5-43ba-bc46-d6f3ee79568a)
 ![4](https://github.com/tedhinklater/finality/assets/66086488/c089c0d6-e4de-4a54-b0fe-aebed5bdd27d)
-![5](https://github.com/tedhinklater/finality/assets/66086488/974efd92-8beb-4fb2-9be9-092a610ef27f)
+![5](https://github.com/tedhinklater/finality/assets/66086488/798edd98-5898-4cf9-9e6d-cd446cce104c)
 ![6](https://github.com/tedhinklater/finality/assets/66086488/fa9fa875-fab6-46b1-b057-b22b4a69559b)
 
 Make sure you enable backdrops and under Display settings use the Dark theme
