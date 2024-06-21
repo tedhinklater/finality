@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Limit Custom CSS code box size */
 #txtCustomCss, #txtLocalCustomCss {
@@ -447,7 +446,7 @@ progress::-webkit-progress-value {
   display: inline-block;
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
-  font-family: "Rubik", sans-serif !important;
+  font-family: inherit;
   font-size: inherit;
   font-weight: 600;
   height: auto;
@@ -516,7 +515,7 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #homeTab .homeLibraryText {
-	font-family: "Rubik", sans-serif;
+	font-family: inherit;
 	font-size: 1.1em;
 	font-weight: 500 !important;
 	text-transform: uppercase;
@@ -591,7 +590,7 @@ progress::-webkit-progress-value {
 
 .layout-desktop #homeTab .sectionTitle.sectionTitle-cards {
 	font-size: 1em;
-	font-family: "Rubik", sans-serif;
+	font-family: inherit;
 	text-transform: uppercase;
 	font-weight: 500 !important;
 	margin-left: 0.3em;
@@ -640,7 +639,7 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #episodesTab .cardText.cardTextCentered.cardText-first {
-	font-family: "kanit";
+	font-family: inherit;
 	text-transform: uppercase;
     font-weight: 700 !important;
     margin-bottom: -0.2em;
@@ -649,7 +648,7 @@ progress::-webkit-progress-value {
 /* Favorites */
 
 .layout-desktop #favoritesTab .cardText.cardTextCentered.cardText-first {
-	font-family: "kanit";
+	font-family: inherit;
 	text-transform: uppercase;
     font-weight: 700 !important;
     margin-bottom: -0.2em;
@@ -672,7 +671,7 @@ progress::-webkit-progress-value {
 
 .layout-desktop #favoritesTab .sectionTitle.sectionTitle-cards {
   font-size: 1em;
-  font-family: "Rubik", sans-serif;
+  font-family: inherit;
   text-transform: uppercase;
   font-weight: 500 !important;
   margin-left: 0.3em;
@@ -681,7 +680,7 @@ progress::-webkit-progress-value {
 /* Genres */
 
 .layout-desktop #genresTab .cardText.cardTextCentered.cardText-first {
-	font-family: "kanit";
+	font-family: inherit;
 	text-transform: uppercase;
     font-weight: 700 !important;
     margin-bottom: -0.2em;
@@ -705,7 +704,7 @@ progress::-webkit-progress-value {
 
 .layout-desktop #genresTab .sectionTitle.sectionTitle-cards {
   font-size: 1em;
-  font-family: "Rubik", sans-serif;
+  font-family: inherit;
   text-transform: uppercase;
   font-weight: 500 !important;
   margin-left: 0.3em;
@@ -714,7 +713,7 @@ progress::-webkit-progress-value {
 /* Suggestions */
 
 .layout-desktop #suggestionsTab .cardText.cardTextCentered.cardText-first {
-	font-family: "kanit";
+	font-family: inherit;
 	text-transform: uppercase;
     font-weight: 700 !important;
     margin-bottom: -0.2em;
@@ -744,7 +743,7 @@ progress::-webkit-progress-value {
 
 .layout-desktop #suggestionsTab .sectionTitle.sectionTitle-cards {
   font-size: 1em;
-  font-family: "Rubik", sans-serif;
+  font-family: inherit;
   text-transform: uppercase;
   font-weight: 500 !important;
   margin-left: 0.3em;
@@ -753,13 +752,13 @@ progress::-webkit-progress-value {
 /* Search */
 
 .layout-desktop #searchPage .searchSuggestionsList.padded-left.padded-right {
-	font-family: "Kanit", sans-serif;
+	font-family: inherit;
 	font-weight: 700 !important;
 	text-transform: uppercase;
 }
 
 .layout-desktop #searchPage .cardText.cardTextCentered.cardText-first {
-	font-family: "kanit";
+	font-family: inherit;
 	text-transform: uppercase;
     font-weight: 700 !important;
     margin-bottom: -0.2em;
@@ -778,7 +777,7 @@ progress::-webkit-progress-value {
 
 .layout-desktop #searchPage .sectionTitle.sectionTitle-cards {
 	font-size: 1em;
-	font-family: "Rubik", sans-serif;
+	font-family: inherit;
 	text-transform: uppercase;
 	font-weight: 500 !important;
 	margin-left: 0.3em;
@@ -789,14 +788,14 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #moviesTab .cardText.cardTextCentered.cardText-first {
-	font-family: "kanit";
+	font-family: inherit;
 	text-transform: uppercase;
     font-weight: 700 !important;
     margin-bottom: -0.2em;
 }
 
 .layout-desktop #seriesTab .cardText.cardTextCentered.cardText-first {
-	font-family: "kanit";
+	font-family: inherit;
 	text-transform: uppercase;
         font-weight: 700 !important;
 margin-bottom: -0.2em;
@@ -867,14 +866,14 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop #homeTab .cardText.cardTextCentered.cardText-first {
-	font-family: "kanit";
+	font-family: inherit;
 	text-transform: uppercase;
         font-weight: 700 !important;
 margin-bottom: -0.2em;
 }
 
 .layout-desktop #homeTab .cardText.cardTextCentered.cardText-secondary {
-	font-family: "Rubik";
+	font-family: inherit;
 }
 
 .layout-desktop #castCollapsible .card.portraitCard {
@@ -910,7 +909,7 @@ margin-bottom: -0.2em;
   top: -6.95em;
   left: 2.5em;
   opacity: 1;
-  font-family: "Kanit", sans-serif;
+  font-family: inherit;
   font-weight: 600;
   font-size: 1.5111em;
 }
@@ -1046,7 +1045,7 @@ margin-bottom: -0.2em;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
   text-overflow: ellipsis;
-  font-family: "Kanit", sans-serif;
+  font-family: inherit;
   font-weight: 700 !important;
   font-style: normal;
 }
@@ -1101,7 +1100,7 @@ margin-bottom: -0.2em;
 /* Description */
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -1155,7 +1154,7 @@ body {
   position: fixed;
   top: 53.3em;
   left: 5.75em;
-  font-family: "Rubik", sans-serif;
+  font-family: inherit;
   text-transform: uppercase;
   font-size: 0.9em;
 }
@@ -1260,7 +1259,7 @@ body {
   position: fixed;
   top: 3.5em;
   left: 2.63em;
-  font-family: kanit;
+  font-family: inherit;
   text-transform: uppercase;
   text-align: left;
   font-style: normal;
@@ -1348,7 +1347,7 @@ body {
   left: 4.586em;
   font-size: 7.75em;
   width: 59%;
-  font-family: "Kanit", sans-serif;
+  font-family: inherit;
   font-weight: 700 !important;
   font-style: normal;
   max-height: 4em;
@@ -1372,7 +1371,7 @@ body {
   white-space: normal;
   font-size: 2em;
   max-width: 12.4em;
-  font-family: "Kanit", sans-serif;
+  font-family: inherit;
 }
 
 /* Cast & Crew */
@@ -1436,12 +1435,12 @@ body {
   font-size: 100%;
   opacity: 0.9;
   text-transform: uppercase;
-  font-family: "Kanit";
+  font-family: inherit;
   color: #ff1e1e;
 }
 
 .layout-desktop #specialsContent .cardText {
-  font-family: "Kanit";
+  font-family: inherit;
   font-size: 8pt;
 }
 
@@ -1668,7 +1667,7 @@ body {
   position: absolute;
   top: 8.9em;
   left: 31.8em;
-  width: 68.6%;
+  width: 74.6%;
   max-height: 33.75em;
   padding-bottom: 0em;
   z-index: 1000;
@@ -1798,7 +1797,7 @@ body {
   right: 0;
   bottom: 0;
   background: linear-gradient(90deg, rgb(8.627% 8.627% 11.373% / 0.96) 0%, rgb(8.594% 8.594% 11.328% / 0.9601171875) 6.25%, rgb(8.493% 8.493% 11.195% / 0.96046875) 12.5%, rgb(8.324% 8.324% 10.973% / 0.9610546875) 18.75%, rgb(8.088% 8.088% 10.662% / 0.9618749999999999) 25%, rgb(7.785% 7.785% 10.262% / 0.9629296875) 31.25%, rgb(7.414% 7.414% 9.773% / 0.96421875) 37.5%, rgb(6.976% 6.976% 9.196% / 0.9657421875) 43.75%, rgb(6.471% 6.471% 8.529% / 0.9675) 50%, rgb(5.898% 5.898% 7.774% / 0.9694921875) 56.25%, rgb(5.257% 5.257% 6.93% / 0.97171875) 62.5%, rgb(4.55% 4.55% 5.997% / 0.9741796875) 68.75%, rgb(3.775% 3.775% 4.975% / 0.9768749999999999) 75%, rgb(2.932% 2.932% 3.865% / 0.9798046874999999) 81.25%, rgb(2.022% 2.022% 2.665% / 0.98296875) 87.5%, rgb(1.045% 1.045% 1.377% / 0.9863671875) 93.75%, rgb(0% 0% 0% / 0.99) 100% );
-  filter: blur(2px) !important;
+  filter: blur(1px) !important;
   z-index: -1;
   opacity: 1;
 }
@@ -1940,7 +1939,7 @@ body {
 .layout-desktop .raised.recordingButton.seriesRecordingButton.emby-button {
   background: transparent;
   border-radius: 2em;
-  font-family: "Kanit", sans-serif;
+  font-family: inherit;
   font-weight: 700 !important;
   text-transform: uppercase;
   border: 2px solid white;
@@ -1958,7 +1957,7 @@ body {
   left: 15em;
   background: transparent;
   border-radius: 2em;
-  font-family: "Kanit", sans-serif;
+  font-family: inherit;
   font-weight: 700 !important;
   text-transform: uppercase;
   border: 2px solid white;
@@ -2025,7 +2024,7 @@ body {
 }
 
 .layout-desktop #itemDetailPage .collectionItems .cardText-first {
-	font-family: "kanit";
+	font-family: inherit;
 	text-transform: uppercase;
     font-weight: 700 !important;
     margin-bottom: -0.2em;
@@ -2098,7 +2097,7 @@ body {
 }
 
 .layout-mobile .itemName.infoText.parentNameLast {
-  font-family:"Kanit", sans-serif;
+  font-family: inherit;
   font-weight: 700 !important;
   text-transform: uppercase;
 }
@@ -2118,7 +2117,7 @@ body {
 	}
 
 	.layout-mobile .itemName.parentNameLast {
-	  font-family: "Kanit", sans-serif;
+	  font-family: inherit;
 	  font-weight: 700 !important;
 	  font-size: 2em;
 	  text-transform: uppercase;
@@ -2131,7 +2130,7 @@ body {
 	}
 	
 	.layout-mobile .itemName.parentNameLast {
-		font-family: "Kanit", sans-serif;
+		font-family: inherit;
 		font-weight: 700 !important;
 		font-size: 3em;
 		text-transform: uppercase;
