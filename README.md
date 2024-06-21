@@ -18,12 +18,12 @@ or, import the colour version with
 
 ```
 
-![c1](https://i.imgur.com/ktCaoIU.gif)
-![c2](https://i.imgur.com/QPHEaM4.gif)
-![c3](https://i.imgur.com/KKYxnct.gif)
-![c4](https://i.imgur.com/4QA55l6.gif)
-![c5](https://i.imgur.com/x1m00rB.gif)
-![c6](https://i.imgur.com/24jkNLy.gif)
+![c1](https://i.imgur.com/ktCaoIU.png)
+![c2](https://i.imgur.com/QPHEaM4.png)
+![3](https://github.com/tedhinklater/finality/assets/66086488/fb4e559e-01a5-43ba-bc46-d6f3ee79568a)
+![4](https://github.com/tedhinklater/finality/assets/66086488/c089c0d6-e4de-4a54-b0fe-aebed5bdd27d)
+![5](https://github.com/tedhinklater/finality/assets/66086488/974efd92-8beb-4fb2-9be9-092a610ef27f)
+![6](https://github.com/tedhinklater/finality/assets/66086488/fa9fa875-fab6-46b1-b057-b22b4a69559b)
 
 Make sure you enable backdrops and under Display settings use the Dark theme
 ![Backdrops](https://i.imgur.com/18D9IO3.png)
