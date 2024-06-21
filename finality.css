@@ -1804,7 +1804,7 @@ body {
   background: linear-gradient(90deg, rgb(3.922% 3.922% 5.49%) 0%, rgb(3.231% 3.231% 4.524%) 6.25%, rgb(2.627% 2.627% 3.678%) 12.5%, rgb(2.103% 2.103% 2.945%) 18.75%, rgb(1.654% 1.654% 2.316%) 25%, rgb(1.274% 1.274% 1.784%) 31.25%, rgb(0.957% 0.957% 1.34%) 37.5%, rgb(0.698% 0.698% 0.977%) 43.75%, rgb(0.49% 0.49% 0.686%) 50%, rgb(0.328% 0.328% 0.46%) 56.25%, rgb(0.207% 0.207% 0.29%) 62.5%, rgb(0.12% 0.12% 0.168%) 68.75%, rgb(0.061% 0.061% 0.086%) 75%, rgb(0.026% 0.026% 0.036%) 81.25%, rgb(0.008% 0.008% 0.011%) 87.5%, rgb(0.001% 0.001% 0.001%) 93.75%, rgb(0% 0% 0%) 100% );
   filter: blur(0px) !important;
   z-index: -1;
-  opacity: 1;
+  opacity: 0.95;
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
