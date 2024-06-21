@@ -1107,7 +1107,7 @@ body {
 }
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
-  top: 47.7em;
+  top: 48.55em;
   left: 33.45em;
   max-width: 63%;
   font-size: 11pt;
@@ -1153,7 +1153,7 @@ body {
   width: auto;
   max-width: 8.1em;
   position: fixed;
-  top: 54.5em;
+  top: 53.3em;
   left: 5.75em;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
@@ -1372,6 +1372,7 @@ body {
   white-space: normal;
   font-size: 2em;
   max-width: 12.4em;
+  font-family: "Kanit", sans-serif;
 }
 
 /* Cast & Crew */
