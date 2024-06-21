@@ -6,7 +6,7 @@ Jellyfin Theme CSS
 Import with
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/finality.css");
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@latest/finality.css");
 
 ```
 
@@ -14,7 +14,7 @@ or, import the colour version with
 
 ```css
 
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/Finality-Coloured.css");
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@latest/Finality-Coloured.css");
 
 ```
 
