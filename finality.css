@@ -1407,8 +1407,9 @@ body {
 }
 
 #childrenCollapsible .starRatingContainer {
-	margin-bottom: -1.5em;
-	margin-left: 6em;
+  margin-bottom: -1.6em;
+  margin-left: 6em;
+  margin-top: 0.61em;
 }
 
 /* Hide "Series" text */
@@ -1668,11 +1669,12 @@ body {
   top: 8.9em;
   left: 31.8em;
   width: 74.6%;
-  max-height: 33.75em;
+  max-height: 32.35em;
   padding-bottom: 0em;
   z-index: 1000;
   padding-right: 0em;
-  border-radius: 2em;
+  border-radius: 0.15em;
+  scroll-snap-type: y mandatory;
 }
 
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap [data-type="Episode"] {
@@ -1693,7 +1695,7 @@ body {
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast:hover {
-  filter: brightness(115%);
+  filter: brightness(135%);
   transition: filter 0.3s;
   cursor: pointer;
 }
@@ -1737,11 +1739,11 @@ body {
 
 .layout-desktop #childrenContent .listItem {
   flex: 0 0 auto;
-  width: 30.8%;
-  border-radius: 2em;
-  margin-right: 1em;
-  margin-bottom: 0em;
-  height: 10.76em;
+  width: 47.8%;
+  border-radius: 0.15em;
+  border: 1px solid #111;
+  height: 4.76em;
+  scroll-snap-align: start;
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
@@ -1751,9 +1753,11 @@ body {
 
 .layout-desktop #childrenContent .listItemImage {
   flex-shrink: 0;
-  width: 21%;
-  height: 10.1em;
-  border-radius: 2em;
+  width: 19%;
+  height: 4.8em;
+  border-radius: 0.5em;
+  margin-bottom: 9.5em !important;
+  margin-left: 1em !important;
 }
 
 .layout-desktop #childrenContent .listItemBody {
@@ -1767,16 +1771,17 @@ body {
 
 
 .layout-desktop #childrenContent .listItemBodyText {
-    display: block;
-	padding-top: 1.1em;
-	margin-top: -0.8em;
+  display: block;
+  padding-top: 1.1em;
+  margin-top: 1em;
+  font-size: 92%;
 }
 
 .layout-desktop #childrenContent .listItem-indexnumberleft {
   margin-right: 1.5em;
   min-width: 2%;
   text-align: center;
-  margin-top: -6.5em;
+  margin-top: -3.4em;
   padding-left: 1em;
 }
 
@@ -1796,23 +1801,20 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(90deg, rgb(8.627% 8.627% 11.373% / 0.96) 0%, rgb(8.594% 8.594% 11.328% / 0.9601171875) 6.25%, rgb(8.493% 8.493% 11.195% / 0.96046875) 12.5%, rgb(8.324% 8.324% 10.973% / 0.9610546875) 18.75%, rgb(8.088% 8.088% 10.662% / 0.9618749999999999) 25%, rgb(7.785% 7.785% 10.262% / 0.9629296875) 31.25%, rgb(7.414% 7.414% 9.773% / 0.96421875) 37.5%, rgb(6.976% 6.976% 9.196% / 0.9657421875) 43.75%, rgb(6.471% 6.471% 8.529% / 0.9675) 50%, rgb(5.898% 5.898% 7.774% / 0.9694921875) 56.25%, rgb(5.257% 5.257% 6.93% / 0.97171875) 62.5%, rgb(4.55% 4.55% 5.997% / 0.9741796875) 68.75%, rgb(3.775% 3.775% 4.975% / 0.9768749999999999) 75%, rgb(2.932% 2.932% 3.865% / 0.9798046874999999) 81.25%, rgb(2.022% 2.022% 2.665% / 0.98296875) 87.5%, rgb(1.045% 1.045% 1.377% / 0.9863671875) 93.75%, rgb(0% 0% 0% / 0.99) 100% );
-  filter: blur(1px) !important;
+  background: linear-gradient(90deg, rgb(3.922% 3.922% 5.49%) 0%, rgb(3.231% 3.231% 4.524%) 6.25%, rgb(2.627% 2.627% 3.678%) 12.5%, rgb(2.103% 2.103% 2.945%) 18.75%, rgb(1.654% 1.654% 2.316%) 25%, rgb(1.274% 1.274% 1.784%) 31.25%, rgb(0.957% 0.957% 1.34%) 37.5%, rgb(0.698% 0.698% 0.977%) 43.75%, rgb(0.49% 0.49% 0.686%) 50%, rgb(0.328% 0.328% 0.46%) 56.25%, rgb(0.207% 0.207% 0.29%) 62.5%, rgb(0.12% 0.12% 0.168%) 68.75%, rgb(0.061% 0.061% 0.086%) 75%, rgb(0.026% 0.026% 0.036%) 81.25%, rgb(0.008% 0.008% 0.011%) 87.5%, rgb(0.001% 0.001% 0.001%) 93.75%, rgb(0% 0% 0%) 100% );
+  filter: blur(0px) !important;
   z-index: -1;
   opacity: 1;
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
-  margin-bottom: 4em;
   margin-right: 0em;
-  padding-left: 5em;
-  margin-top: 1.7em;
-  margin-left: 0.1em;
+  margin-left: -0.1em !important;
+  margin-top: 1.2em;
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons {
   display: flex;
-  flex-direction: column;
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons button {
@@ -1973,7 +1975,7 @@ body {
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons {
-	margin-top: 4em;
+	margin-top: -1.4em;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
