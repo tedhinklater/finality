@@ -23,4 +23,4 @@ Import the colour version with
 ```
 
 Make sure you enable backdrops and under Display settings use the Dark theme
-![Backdrops](https://i.imgur.com/uQiKzy4.png)
+![Backdrops](https://i.imgur.com/18D9IO3.png)
