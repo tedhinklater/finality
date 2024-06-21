@@ -14,7 +14,7 @@ Import with
 ## Now in Colour!
 ![colour](https://i.imgur.com/PkUwErw.png)
 
-Import with
+Import the colour version with
 
 ```css
 
