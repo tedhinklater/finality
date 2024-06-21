@@ -1345,15 +1345,14 @@ body {
   text-transform: uppercase;
   position: fixed;
   top: 0.98em;
-  left: 0.5863em;
+  left: 4.586em;
   font-size: 7.75em;
-  width: 65%;
+  width: 59%;
   font-family: "Kanit", sans-serif;
   font-weight: 700 !important;
   font-style: normal;
-  max-height: 0.9em;
+  max-height: 4em;
   margin-top: 0.2em;
-  margin-bottom: -1.8em;
   opacity: 0;
 }
 
