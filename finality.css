@@ -1624,7 +1624,7 @@ body {
 .layout-desktop #similarCollapsible .cardScalable {
 	border: 1px solid white;
 	margin-right: 0.3em;
-	border-radius: 0.26em;
+	border-radius: 0.5em;
 }
 
 .layout-desktop #similarCollapsible .cardOverlayContainer.itemAction {
