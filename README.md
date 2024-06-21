@@ -12,7 +12,7 @@ Import with
 ```
 
 ## Now in Colour!
-![colour](https://i.imgur.com/PkUwErw.png)
+![colour](https://i.imgur.com/uQiKzy4.png)
 
 Import the colour version with
 
