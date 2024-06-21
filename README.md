@@ -1,8 +1,8 @@
 # finality
 Jellyfin Theme CSS
 
-![1](https://i.imgur.com/hfpl8Ak.png)
-![2](https://i.imgur.com/vFbUCUx.png)
+![bw1](https://i.imgur.com/b1vK9Ch.png)
+![bw2](https://i.imgur.com/5RB1eeG.png)
 
 Import with
 
@@ -12,8 +12,8 @@ Import with
 ```
 
 ## Now in Colour!
-![colour](https://i.imgur.com/qqAD0lt.png)
-![colour2](https://i.imgur.com/kiUuVmL.png)
+![colour](https://i.imgur.com/5LBUGzt.png)
+![colour2](https://i.imgur.com/4rdCtgy.png)
 
 Import with
 
