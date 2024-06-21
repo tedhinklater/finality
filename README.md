@@ -13,7 +13,6 @@ Import with
 
 ## Now in Colour!
 ![colour](https://i.imgur.com/5LBUGzt.png)
-![colour2](https://i.imgur.com/4rdCtgy.png)
 
 Import with
 
