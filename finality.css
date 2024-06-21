@@ -1073,12 +1073,12 @@ margin-bottom: -0.2em;
   left: 41em;
   display: block;
   filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.95));
-  width: 71em;
-  height: 29em;
-  margin-top: 4em;
+  width: 66em;
+  height: 21em;
+  margin-top: 0em;
   margin-bottom: 0em;
   padding: 0;
-  top: 7em;
+  top: 14em;
 }
 
 .layout-desktop .itemName.parentNameLast {
