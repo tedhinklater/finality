@@ -1430,20 +1430,16 @@ body {
 
 /* Special Features text */
 .layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
-  display: block;
+display: block;
   position: fixed;
-  top: 1em;
-  left: 5.6em;
-  font-size: 202%;
+  top: 0.65em;
+  left: 15.6em;
+  font-size: 120%;
   opacity: 0.9;
   text-transform: uppercase;
   font-family: inherit;
-  color: #ff1e1e;
-  font-weight: 700;
-  background: #000000e8;
-  margin: 0;
-  padding: 0.1em;
-  border-radius: 0.05em;
+  color: #fff;
+  font-weight: 600;
 }
 
 .layout-desktop #specialsContent .cardText {
