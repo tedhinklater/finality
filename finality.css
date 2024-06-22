@@ -488,7 +488,7 @@ progress::-webkit-progress-value {
 }
 
 /* My Media (small) */
-.layout-desktop #indexPage .raised {
+#indexPage .raised {
 	background: #000000d9;
 	border: 2px solid white;
 	border-radius: 0.5em;
@@ -2053,8 +2053,8 @@ display: block;
 .layout-desktop .programGuideSection.verticalSection.detailVerticalSection {
   position: absolute;
   top: 17em;
-  width: 37em;
-  left: 93.5em;
+  width: 40em;
+  left: 90.5em;
 }
 
 .layout-desktop .cardImageContainer.coveredImage.cardContent.itemAction.lazy.lazy-image-fadein-fast,
@@ -2122,6 +2122,8 @@ display: block;
   background: transparent;
   padding-top: 10em;
 }
+
+
 
 @media (orientation: landscape) {
 	.layout-mobile .detailRibbon {
