@@ -18,7 +18,7 @@ or, import the colour version with
 
 ```
 
-![c1](https://i.imgur.com/v5rHYlk.png)
+![c1](https://i.imgur.com/pbwAoGv.png)
 ![c2](https://i.imgur.com/QPHEaM4.png)
 ![3](https://github.com/tedhinklater/finality/assets/66086488/fb4e559e-01a5-43ba-bc46-d6f3ee79568a)
 ![4](https://github.com/tedhinklater/finality/assets/66086488/c089c0d6-e4de-4a54-b0fe-aebed5bdd27d)
