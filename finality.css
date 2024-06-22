@@ -523,7 +523,7 @@ progress::-webkit-progress-value {
 
 .layout-desktop #homeTab .homeLibraryText:hover {
 	color: #f00;
-	transition: color 3s;
+	transition: color 30s;
 }
 
 .layout-desktop #homeTab .raised.homeLibraryButton.emby-button {
