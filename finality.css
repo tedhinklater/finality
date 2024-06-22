@@ -855,7 +855,7 @@ margin-bottom: -0.2em;
 .layout-desktop #itemDetailPage .detailImageContainer .card {
   position: fixed;
   top: -5.789em;
-  left: 3.61em;
+  left: 0.7em;
   width: 25em;
   border: 2px solid white;
   border-radius: 5px;
@@ -908,7 +908,7 @@ margin-bottom: -0.2em;
   align-items: center;
   position: absolute;
   top: -6.95em;
-  left: 2.5em;
+  left: 0.5em;
   opacity: 1;
   font-family: inherit;
   font-weight: 600;
@@ -926,7 +926,7 @@ margin-bottom: -0.2em;
   display: flex;
   position: fixed;
   top: 21em;
-  left: 15.6em;
+  left: 14em;
   font-size: 200%;
   margin: 0;
 }
@@ -954,8 +954,8 @@ margin-bottom: -0.2em;
   font-family: "Kanit", sans-serif;
   font-style: normal;
   position: fixed;
-  top: 41.283em;
-  left: 35.4em;
+  top: 41.33em;
+  left: 32.4em;
   color: white;
   font-weight: bold;
   font-size: 12pt;
@@ -974,7 +974,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.theaters {
     position: fixed;
     top: 13.549em;
-	left: 33.6em;
+	left: 33.9em;
     font-weight: bold;
     font-size: 12pt;
     white-space: nowrap;
@@ -984,7 +984,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
   position: fixed;
   top: 13.549em;
-  left: 17.94em;
+  left: 17em;
   font-weight: bold;
   white-space: nowrap;
 }
@@ -992,7 +992,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
     position: fixed;
     top: 13.549em;
-	left: 17.94em;
+	left: 17em;
     font-weight: bold;
     white-space: nowrap;
 }
@@ -1000,7 +1000,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.favorite {
     position: fixed;
     top: 13.549em;
-	left: 23.5em;
+	left: 22.6em;
     font-weight: bold;
     white-space: nowrap;
 }
@@ -1008,7 +1008,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton .detailButton-icon.more_vert {
     position: fixed;
     top: 13.549em;
-	left: 28.7em;
+	left: 28.5em;
     font-weight: bold;
     font-size: 12pt;
     white-space: nowrap;
@@ -1070,15 +1070,15 @@ margin-bottom: -0.2em;
 
 .detailLogo {
   position: fixed;
-  left: 41em;
+  left: 38.5em;
   display: block;
   filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.95));
-  width: 66em;
-  height: 21em;
+  width: 72.75em;
+  height: 25em;
   margin-top: 0em;
   margin-bottom: 0em;
   padding: 0;
-  top: 14em;
+  top: 10em;
 }
 
 .layout-desktop .itemName.parentNameLast {
@@ -1108,8 +1108,8 @@ body {
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
   top: 48.55em;
-  left: 33.45em;
-  max-width: 63%;
+  left: 30em;
+  max-width: 65%;
   font-size: 11pt;
 }
 
@@ -1154,7 +1154,7 @@ body {
   max-width: 8.1em;
   position: fixed;
   top: 53.3em;
-  left: 5.75em;
+  left: 2.4em;
   font-family: inherit;
   text-transform: uppercase;
   font-size: 0.9em;
@@ -1207,11 +1207,12 @@ body {
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
   position: fixed;
   top: 34.7em;
-  left: 5.25em;
+  left: 2.55em;
   max-height: 14.5em;
-  width: 18.7%;
+  width: 18.6%;
   z-index: 1;
   transition: top 0.5s;
+    transition-delay: 0s;
   padding-right: 0em;
   filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
 }
@@ -1244,7 +1245,7 @@ body {
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
   position: fixed;
   top: 4.2em;
-  left: 9.2em;
+  left: 7.2em;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 150%;
@@ -1261,7 +1262,7 @@ body {
 .layout-desktop .detailsGroupItem.genresGroup {
   position: fixed;
   top: 3.5em;
-  left: 2.63em;
+  left: 1em;
   font-family: inherit;
   text-transform: uppercase;
   text-align: left;
@@ -1369,7 +1370,7 @@ body {
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
   position: fixed;
   top: 12em;
-  left: 2.6em;
+  left: 1em;
   overflow: visible;
   white-space: normal;
   font-size: 2em;
@@ -1435,7 +1436,7 @@ body {
 display: block;
   position: fixed;
   top: 0.65em;
-  left: 15.6em;
+  left: 12.6em;
   font-size: 120%;
   opacity: 0.9;
   text-transform: uppercase;
@@ -1453,8 +1454,8 @@ display: block;
   position: absolute;
   bottom: 0.7em;
   left: 5.2em;
-  width: 116em;
-  max-width: 114em;
+  width: 118em;
+  max-width: 118em;
   z-index: 10;
 }
 
@@ -1466,8 +1467,8 @@ display: block;
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-	padding-left: 58em;
-        padding-right: 60em;
+	padding-left: 60em;
+    padding-right: 60em;
 }
 
 .layout-desktop #guestCastCollapsible .emby-scrollbuttons.padded-right {
@@ -1479,11 +1480,11 @@ display: block;
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
   position: fixed;
   top: -0.5em;
-  left: 30em;
+  left: 27em;
   display: flex;
-  width: 42.6em;
+  width: 42.7em;
   overflow-x: scroll !important;
-  height: 9.78em;
+  height: 9.6em;
   background: #131313c4;
   border-radius: 0.25em;
   border: 1px solid #030303;
@@ -1550,7 +1551,7 @@ display: block;
   top: -2.2em;
   left: 9em;
   font-size: 10pt;
-  height: 1.2em;
+  height: 1.4em;
 }
 
 .layout-desktop #castCollapsible .cardText-first {
@@ -1595,7 +1596,7 @@ display: block;
 	position: fixed;
 	top: 4.3em;
 	left: 122.685em;
-    max-height: 64.2em;
+    max-height: 55em;
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -1609,7 +1610,7 @@ display: block;
     width: 5.92em;
     margin-bottom: -1.9em;
     filter: grayscale(100%);
-    opacity: 0.2;
+    opacity: 0.1;
     transition: filter 0.3s, opacity 0.3s;
 }
 
@@ -1621,12 +1622,12 @@ display: block;
 }
 
 .layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
-  width: 5em;
-  margin-bottom: -6.25em;
+  width: 6em;
+  margin-bottom: -6.4em;
   filter: grayscale(100%);
   opacity: 0.2;
   transition: filter 0.3s, opacity 0.3s;
-  margin-left: 1.2em;
+  margin-left: 0em;
   margin-top: 4.3em;
 }
 
@@ -1681,7 +1682,7 @@ display: block;
   max-width: 100%;
   position: absolute;
   top: 9.2em;
-  left: 30em;
+  left: 27.1em;
   width: 73%;
   max-height: 32.35em;
   padding-bottom: 0em;
@@ -1765,7 +1766,7 @@ display: block;
 
 .layout-desktop #childrenContent .listItemImage {
   flex-shrink: 0;
-  width: 19%;
+  width: 29%;
   height: 4.8em;
   border-radius: 0.5em;
   margin-bottom: 9.5em !important;
@@ -1815,15 +1816,15 @@ display: block;
   left: 0;
   right: 0;
   bottom: 0;
-  background: #131313;
+  background: #060606;
   z-index: -1;
-  opacity: 0.75;
+  opacity: 0.8;
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
   margin-right: 0em;
   margin-left: -0.25em !important;
-  margin-top: 1.2em;
+  margin-top: 1.25em;
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons {
@@ -2077,7 +2078,7 @@ display: block;
 		position: fixed;
 		top: 4.3em;
 		left: 122.685em;
-		max-height: 55.1em;
+		max-height: 55em;
 		overflow-y: hidden;
 		z-index: 1000;
 	}
