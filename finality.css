@@ -1242,10 +1242,12 @@ body {
 /* Season View */
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
-	position: fixed;
-    top: 5.2em;
-    left: 12em;
-	text-transform: uppercase;
+  position: fixed;
+  top: 4.2em;
+  left: 9.2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 150%;
 }
 
 /* Hide directors writers studio */
