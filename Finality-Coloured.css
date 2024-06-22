@@ -1,5 +1,3 @@
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@latest/finality.css");
-
 /* Backdrop */
 .backdropImage {
   filter: blur(0px) saturate(100%) contrast(120%) brightness(65%);
@@ -28,3 +26,8 @@
     z-index: -1;
     filter: blur(0px) saturate(100%) contrast(130%) brightness(20%);
  }
+
+.layout-mobile .backdropImage {
+  filter: blur(0px) saturate(100%) contrast(120%) brightness(65%);
+  transition: filter 0.3s;
+}
