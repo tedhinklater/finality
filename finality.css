@@ -811,6 +811,7 @@ margin-bottom: -0.2em;
   contain: strict;
   height: 100%;
   width: 100%;
+  scroll-snap-align: start;
 }
 
 .visualCardBox {
@@ -1755,7 +1756,6 @@ body {
   height: 4.8em;
   border-radius: 0.5em;
   margin-bottom: 9.5em !important;
-  margin-left: 1em !important;
 }
 
 .layout-desktop #childrenContent .listItemBody {
@@ -1770,9 +1770,12 @@ body {
 
 .layout-desktop #childrenContent .listItemBodyText {
   display: block;
-  padding-top: 1.1em;
-  margin-top: 1em;
+  padding-top: 1.8em;
+  margin-top: 0.1em;
   font-size: 92%;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 10em;
 }
 
 .layout-desktop #childrenContent .listItem-indexnumberleft {
@@ -1806,7 +1809,7 @@ body {
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
   margin-right: 0em;
-  margin-left: -0.1em !important;
+  margin-left: -0.25em !important;
   margin-top: 1.2em;
 }
 
@@ -1972,7 +1975,7 @@ body {
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons {
-	margin-top: -1.4em;
+	margin-top: -1.8em;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
@@ -1982,6 +1985,7 @@ body {
 	overflow-x: hidden;
 	max-height: 58em;
 	width: 11.5em;
+	scroll-snap-type: y mandatory;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
