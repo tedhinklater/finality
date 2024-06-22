@@ -2154,7 +2154,7 @@ display: block;
 		font-size: 3em;
 		text-transform: uppercase;
 		margin-top: -2em;
-		margin-left: 0.2em;
+		margin-left: 0.4em;
 		width: 94%;
 		text-align: left;
 	}
@@ -2172,15 +2172,15 @@ display: block;
 	}
 
 	.layout-mobile .detailPageSecondaryContainer.padded-bottom-page {
-		margin-left: 12em;
+                padding-left: 21%;
 	}
 	
 	.layout-mobile .detailImageContainer .card {
 		position: fixed !important;
 		top: 13%;
 		left: 2%;
-		height: 24em;
-		width: 13em;
+                height: 35vw;
+   		width: 23vw;
 	}
 
 	.layout-mobile .nameContainer {
@@ -2194,7 +2194,7 @@ display: block;
 	}
 	
 	.layout-mobile .itemMiscInfo.itemMiscInfo-primary {
-		margin-left: 2.5em;
+		margin-left: 1.4em;
 	}
 	
 	.layout-mobile .itemMiscInfo {
@@ -2206,4 +2206,15 @@ display: block;
 		margin-left: 0em;
 		justify-content: left;
 	}
+
+	
+        .layout-mobile [dir="ltr"] .infoWrapper {
+                padding-left: 21%;
+        }
+
+	.layout-mobile [dir="ltr"] .mainDetailButtons {
+                margin-left: 0;
+                padding-left: 21%;
 }
+}
+
