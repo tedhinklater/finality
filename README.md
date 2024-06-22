@@ -1,7 +1,7 @@
 # finality
 Jellyfin Theme CSS
 
-![bw1](https://i.imgur.com/hqwHYmR.gif)
+![bw1](https://i.imgur.com/khIG7VT.gif)
 
 Import with
 
@@ -18,12 +18,12 @@ or, import the colour version with
 
 ```
 
-![c1](https://i.imgur.com/pbwAoGv.png)
-![c2](https://i.imgur.com/QPHEaM4.png)
-![3](https://github.com/tedhinklater/finality/assets/66086488/fb4e559e-01a5-43ba-bc46-d6f3ee79568a)
-![4](https://i.imgur.com/lfl8S4t.png)
-![5](https://github.com/tedhinklater/finality/assets/66086488/07c92af4-44b5-4185-b8bb-806f351aa511)
-![6](https://i.imgur.com/IBj3iie.png)
+![c1](https://i.imgur.com/5vG33ih.png)
+![c2](https://i.imgur.com/NzbjRCi.png)
+![c3](https://i.imgur.com/Btg1Vdc.png)
+![c4](https://i.imgur.com/UySmZDg.png)
+![c5](https://i.imgur.com/UMNdDZv.png)
+![c6](https://i.imgur.com/MHUz0IO.png)
 
 Make sure you enable backdrops and under Display settings use the Dark theme
 ![Backdrops](https://i.imgur.com/18D9IO3.png)
