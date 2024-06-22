@@ -1432,13 +1432,18 @@ body {
 .layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
   display: block;
   position: fixed;
-  top: 52.5em;
-  left: 7.6em;
-  font-size: 100%;
+  top: 1em;
+  left: 5.6em;
+  font-size: 202%;
   opacity: 0.9;
   text-transform: uppercase;
   font-family: inherit;
   color: #ff1e1e;
+  font-weight: 700;
+  background: #000000e8;
+  margin: 0;
+  padding: 0.1em;
+  border-radius: 0.05em;
 }
 
 .layout-desktop #specialsContent .cardText {
@@ -1474,13 +1479,21 @@ body {
 /* Specials */
 
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-    position: fixed;
-	top: 54em;
-	left: 6em;
+  position: fixed;
+  top: -0.5em;
+  left: 30em;
+  display: flex;
+  width: 42.6em;
+  overflow-x: scroll !important;
+  height: 9.78em;
+  background: #131313c4;
+  border-radius: 0.25em;
+  border: 1px solid #030303;
 }
 
 .layout-desktop #specialsCollapsible .card.overflowBackdropCard.card-hoverable.card-withuserdata {
-	width: 13em;
+  width: 11em;
+  padding: 0.5em;
 }
 
 .layout-desktop #specialsCollapsible .scrollSlider.focuscontainer-x.itemsContainer {
@@ -1610,11 +1623,13 @@ body {
 }
 
 .layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
-    width: 5.34em;
-    margin-bottom: -2.15em;
-    filter: grayscale(100%);
-    opacity: 0.2;
-    transition: filter 0.3s, opacity 0.3s;
+  width: 5em;
+  margin-bottom: -6.25em;
+  filter: grayscale(100%);
+  opacity: 0.2;
+  transition: filter 0.3s, opacity 0.3s;
+  margin-left: 1.2em;
+  margin-top: 4.3em;
 }
 
 .layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable:hover {
@@ -1669,7 +1684,7 @@ body {
   position: absolute;
   top: 9.2em;
   left: 30em;
-  width: 74.6%;
+  width: 73%;
   max-height: 32.35em;
   padding-bottom: 0em;
   z-index: 1000;
