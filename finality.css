@@ -2128,7 +2128,7 @@ display: block;
 
 @media (orientation: landscape) {
 	.layout-mobile .detailRibbon {
-		padding-top: 14em;
+		padding-top: 12em;
 	}
 
 	.layout-mobile .headerTabs.sectionTabs {
