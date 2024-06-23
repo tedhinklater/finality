@@ -2423,6 +2423,7 @@ position: fixed;
   width: 110.5em;
   max-width: 110.5em;
   z-index: 10;
+  padding-bottom: 0em;
 }
 
 .layout-tv .verticalSection.detailVerticalSection.verticalSection-extrabottompadding {
