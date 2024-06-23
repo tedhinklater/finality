@@ -2502,7 +2502,7 @@ position: fixed;
   transition-behavior: ;
   position: fixed;
   top: 4.3em;
-  left: 113.685em;
+  left: 111.685em;
   max-height: 50em;
   overflow-y: hidden;
   z-index: 1000;
@@ -2735,4 +2735,29 @@ position: fixed;
   position: relative;
   top: 17em !important;
   left: -10.7em;
+}
+
+.layout-tv .card.show-focus:focus {
+    border: 2px solid white;
+    box-sizing: border-box;
+   padding-left: 1em;
+}
+
+.layout-tv #similarCollapsible .card.overflowPortraitCard.show-focus.show-animation.card-withuserdata.itemAction {
+padding-left: 1em;
+padding-right: 0em;
+padding-bottom: 0em;
+}
+
+
+.layout-tv .card:focus {
+    outline: none;
+}
+
+.layout-tv .card.overflowBackdropCard.show-focus:focus {
+  will-change: none !important;
+}
+
+.layout-tv .raised:focus {
+  will-change: none !Important;
 }
