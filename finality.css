@@ -2738,7 +2738,7 @@ position: fixed;
 }
 
 .layout-tv .card.show-focus:focus {
-    border: 2px solid white;
+    border: 2px solid red;
     box-sizing: border-box;
    padding-left: 1em;
 }
