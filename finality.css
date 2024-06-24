@@ -1120,7 +1120,7 @@ body {
   position: fixed;
   top: 50.1em;
   left: 32.7em;
-  max-width: 53.5%;
+  max-width: 61.5%;
   font-size: 11pt;
 }
 
@@ -1609,7 +1609,7 @@ display: block;
     transition: none !important;
 	position: fixed;
 	top: 6em;
-	left: 124em;
+	left: 123.8em;
     max-height: 37em;
 	overflow-y: hidden;
 	z-index: 1000;
@@ -2838,3 +2838,4 @@ padding-bottom: 0em;
 .layout-tv .raised:focus {
   will-change: none !Important;
 }
+
