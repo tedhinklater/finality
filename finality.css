@@ -1494,16 +1494,17 @@ display: block;
   top: -0.5em;
   left: 27em;
   display: flex;
-  width: 42.7em;
+  width: auto;
+  max-width: 79.7em;
   overflow-x: scroll !important;
-  height: 9.6em;
+  height: 11.1em;
   background: #131313c4;
   border-radius: 0.25em;
   border: 1px solid #030303;
 }
 
 .layout-desktop #specialsCollapsible .card.overflowBackdropCard.card-hoverable.card-withuserdata {
-  width: 11em;
+  width: 13em;
   padding: 0.5em;
 }
 
@@ -1606,8 +1607,8 @@ display: block;
     white-space: normal;
     transition: none !important;
 	position: fixed;
-	top: 4.5em;
-	left: 122.685em;
+	top: 6em;
+	left: 124em;
     max-height: 37em;
 	overflow-y: hidden;
 	z-index: 1000;
@@ -1619,7 +1620,7 @@ display: block;
 }
 
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-    width: 5.92em;
+    width: 4.7em;
     margin-bottom: -1.9em;
     filter: grayscale(100%);
     opacity: 0.1;
@@ -1675,20 +1676,21 @@ display: block;
 /* Bio Movies */
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
   position: fixed;
-  top: 9.2em;
+  top: 10.7em;
   left: 27em;
   width: 99em;
-  height: 33em;
+  height: 32.3em;
   display: flex;
   overflow: hidden;
     overflow-y: hidden;
+  overflow-y: hidden;
   overflow-y: hidden;
   overflow-y: auto;
   z-index: 10;
 }
 
 .layout-desktop #childrenContent .verticalSection .itemsContainer.padded-right.vertical-wrap {
-	background: #0000008a;
+	background: #060606f5;
 }
 
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
@@ -1710,10 +1712,10 @@ display: block;
   overflow-x: hidden;
   max-width: 100%;
   position: absolute;
-  top: 9.2em;
+  top: 10.68em;
   left: 27.1em;
   width: 103em;
-  max-height: 32.35em;
+  max-height: 32.4em;
   padding-bottom: 0em;
   z-index: 2;
   padding-right: 0em;
@@ -1729,7 +1731,7 @@ display: block;
 }
 
 .layout-desktop #childrenContent .secondary.listItemMediaInfo {
-	margin-top: -3.7em;
+	margin-top: -3.2em;
 }
 
 .layout-desktop #childrenContent .listItem-content {
@@ -1803,7 +1805,7 @@ display: block;
 
 .layout-desktop #childrenContent .listItemImage {
   flex-shrink: 0;
-  width: 29%;
+  width: 25%;
   height: 4.8em;
   border-radius: 0.5em;
   margin-bottom: 9.5em !important;
@@ -1825,7 +1827,7 @@ display: block;
   display: block;
   padding-top: 1.8em;
   margin-top: 0.1em;
-  font-size: 92%;
+  font-size: 100%;
   text-align: center;
   font-weight: 600;
   margin-bottom: 10em;
@@ -1835,7 +1837,7 @@ display: block;
   margin-right: 1.5em;
   min-width: 2%;
   text-align: center;
-  margin-top: -3.4em;
+  margin-top: -3.2em;
   padding-left: 1em;
 }
 
@@ -1864,6 +1866,7 @@ display: block;
   margin-right: 0em;
   margin-left: -0.25em !important;
   margin-top: 1.25em;
+  background-position: 50% 40%;
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons {
@@ -2100,31 +2103,6 @@ display: block;
 .layout-desktop .cardImageContainer.coveredImage.cardContent.itemAction.lazy.lazy-image-fadein-fast,
 .layout-desktop .cardImageContainer.cardContent.itemAction.lazy.lazy-image-fadein-fast {
 	border-radius: 0.5em;
-}
-
-/* Ultrawide aspect ratios*/
-@media (max-height: calc(100vw * 985 / 1920)) {
-
-	
-	/* Cast & Crew */
-	
-	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		white-space: normal;
-		transition: none !important;
-		position: fixed;
-		top: 4.5em;
-		left: 122.685em;
-		max-height: 37em;
-		overflow-y: hidden;
-		z-index: 1000;
-	}
-	
-	.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
-	max-height: 50em;
-	}
 }
 
 /* --- Mobile View --- */
