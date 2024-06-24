@@ -1081,10 +1081,10 @@ margin-bottom: -0.2em;
 
 .detailLogo {
   position: fixed;
-  left: 38.5em;
+  left: 34.5em;
   display: block;
   filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.95));
-  width: 72.75em;
+  width: 76.9em;
   height: 25em;
   margin-top: 0em;
   margin-bottom: 0em;
@@ -1118,7 +1118,7 @@ body {
 }
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
-  top: 48.55em;
+  top: 50.1em;
   left: 32.7em;
   max-width: 53.5%;
   font-size: 11pt;
@@ -1496,7 +1496,7 @@ display: block;
   left: 29em;
   display: flex;
   width: auto;
-  max-width: 61.7em;
+  max-width: 67em;
   overflow-x: scroll !important;
   height: 11.1em;
   background: #131313c4;
@@ -1505,7 +1505,7 @@ display: block;
 }
 
 .layout-desktop #specialsCollapsible .card.overflowBackdropCard.card-hoverable.card-withuserdata {
-  width: 12.4em;
+  width: 13.4em;
   padding: 0.5em;
 }
 
@@ -1678,8 +1678,8 @@ display: block;
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
   position: fixed;
   top: 10.7em;
-  left: 27em;
-  width: 92.1em;
+  left: 29em;
+  width: 77em;
   height: 32.3em;
   display: flex;
   overflow: hidden;
