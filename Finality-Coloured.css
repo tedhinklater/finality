@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/finality.css");
+
 /* Backdrop */
 .backdropImage {
   filter: blur(0px) saturate(100%) contrast(120%) brightness(65%);
