@@ -1765,7 +1765,7 @@ display: block;
 
 .layout-desktop #childrenContent .listItem {
   flex: 0 0 auto;
-  width: 49%;
+  width: 45.7em;
   border: 1px solid #111;
   height: 4.76em;
   scroll-snap-align: start;
