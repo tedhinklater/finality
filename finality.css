@@ -1681,15 +1681,17 @@ display: block;
   position: fixed;
   top: 10.7em;
   left: 27em;
-  width: 99em;
+  width: 92.1em;
   height: 32.3em;
   display: flex;
   overflow: hidden;
     overflow-y: hidden;
   overflow-y: hidden;
   overflow-y: hidden;
+  overflow-y: hidden;
   overflow-y: auto;
   z-index: 10;
+  padding-right: 0;
 }
 
 .layout-desktop #childrenContent .verticalSection .itemsContainer.padded-right.vertical-wrap {
