@@ -428,11 +428,9 @@ progress::-webkit-progress-value {
 	margin-top: -0.1em !important;
 }
 
-
-
 /* Backdrop */
 .backdropImage {
-    filter: blur(0px) saturate(0%) contrast(140%) brightness(90%);
+    filter: blur(0px) saturate(0%) contrast(130%) brightness(70%);
     transition: filter 0.3s;
 }
 
