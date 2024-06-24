@@ -1688,7 +1688,7 @@ display: block;
 }
 
 .layout-desktop #childrenContent .verticalSection .itemsContainer.padded-right.vertical-wrap {
-	background: #000;
+	background: transparent;
 }
 
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
