@@ -2015,7 +2015,7 @@ display: block;
 .layout-desktop #itemDetailPage .collectionItems .itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right {
   position: absolute;
   top: 8.25em;
-  left: 3.3em;
+  left: 1em;
   display: flex;
   overflow-x: scroll;
   width: 27em;
@@ -2037,7 +2037,7 @@ display: block;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
-	width: 13.4em;
+	width: 12.9em;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .cardText-first {
