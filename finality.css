@@ -418,6 +418,18 @@ progress::-webkit-progress-value {
 
 /* --- Homepage --- */
 
+.pageTitle {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.layout-desktop .pageTitle {
+	margin-top: -0.1em !important;
+}
+
+
+
 /* Backdrop */
 .backdropImage {
     filter: blur(0px) saturate(0%) contrast(140%) brightness(90%);
@@ -2089,7 +2101,7 @@ display: block;
 }
 
 /* --- Mobile View --- */
-  .layout-mobile .itemBackdrop {
+.layout-mobile .itemBackdrop {
     display: block;
     -webkit-animation: backdrop-fadein .8s ease-in normal both;
     animation: backdrop-fadein .8s ease-in normal both;
@@ -2104,13 +2116,16 @@ display: block;
     left: 0;
     width: 100%;
     z-index: -1;
-	filter: blur(0px) saturate(0%) contrast(130%) brightness(20%);
-  }
+    filter: blur(0px) saturate(0%) contrast(130%) brightness(20%);
 }
 
 .layout-mobile h1.itemName, .layout-mobile h1.parentName {
   font-size: 1.6em;
   padding-top: 4em;
+  justify-content: left !important;
+  position: relative;
+  display: flex;
+  margin-left: 0.8em;
 }
 
 .layout-mobile .itemName.infoText.parentNameLast {
@@ -2121,15 +2136,49 @@ display: block;
 
 .layout-mobile .detailRibbon {
   background: transparent;
-  padding-top: 10em;
+  padding-top: 14em;
+}
+
+.layout-mobile .pageWithAbsoluteTabs .pageTabContent {
+  padding-bottom: 5em !important;
+  padding-bottom: calc(env(safe-area-inset-bottom) + 5em) !important;
+  margin-top: 2em;
 }
 
 .layout-mobile [dir="ltr"] .mainDetailButtons {
         margin-left: 0;
-   	padding-left: 21%;
+   	padding-left: 35%;
 	z-index: 10 !important;
     	position: relative;
 }
+
+.layout-mobile #similarCollapsible .cardText.cardTextCentered.cardText-first {
+	text-transform: uppercase;
+}
+
+.layout-mobile #homeTab .cardText.cardTextCentered.cardText-first {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.layout-mobile #homeTab .sectionTitle.sectionTitle-cards {
+  text-transform: uppercase;
+  font-size: 119%;
+  margin-left: 0.3em;
+}
+
+
+
+.layout-mobile .subtitle {
+  margin: .2em 0 .2em;
+    margin-left: 0px;
+  padding-left: 0;
+  justify-content: left !important;
+  display: flex;
+  margin-left: 1.2em;
+}
+
+
 
 @media (orientation: landscape) {
 	.layout-mobile .detailRibbon {
@@ -2732,7 +2781,8 @@ position: fixed;
 	margin-left: 0.3em;
 }
 
-.alphaPickerRow-vertical {
+.layout-tv .alphaPickerRow-vertical,
+.layout-desktop .alphaPickerRow-vertical {
   flex-direction: column;
   height: 54em;
   position: fixed;
