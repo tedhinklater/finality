@@ -1606,9 +1606,9 @@ display: block;
     white-space: normal;
     transition: none !important;
 	position: fixed;
-	top: 4.3em;
+	top: 4.5em;
 	left: 122.685em;
-    max-height: 55em;
+    max-height: 37em;
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -1634,7 +1634,7 @@ display: block;
 }
 
 .layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
-  width: 6em;
+  width: 5.11em;
   margin-bottom: -6.4em;
   filter: grayscale(100%);
   opacity: 0.2;
@@ -1677,7 +1677,7 @@ display: block;
   position: fixed;
   top: 9.2em;
   left: 27em;
-  width: 62em;
+  width: 99em;
   height: 33em;
   display: flex;
   overflow: hidden;
@@ -1712,10 +1712,10 @@ display: block;
   position: absolute;
   top: 9.2em;
   left: 27.1em;
-  width: 75em;
+  width: 103em;
   max-height: 32.35em;
   padding-bottom: 0em;
-  z-index: 1000;
+  z-index: 2;
   padding-right: 0em;
   scroll-snap-type: y mandatory;
 }
@@ -1786,8 +1786,12 @@ display: block;
 
 .layout-desktop #childrenContent .listItem {
   flex: 0 0 auto;
-  width: 73.5em;
+  width: 101.5em;
   border: 1px solid #111;
+    border-top-color: rgb(17, 17, 17);
+    border-right-color: rgb(17, 17, 17);
+    border-bottom-color: rgb(17, 17, 17);
+    border-left-color: rgb(17, 17, 17);
   height: 4.76em;
   scroll-snap-align: start;
 }
@@ -1805,14 +1809,16 @@ display: block;
   margin-bottom: 9.5em !important;
 }
 
+
 .layout-desktop #childrenContent .listItemBody {
-  width: 70%;
+  max-width: 40em;
   display: inline-block;
   height: 9.3em;
   margin-top: -3.5em;
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 
 
 .layout-desktop #childrenContent .listItemBodyText {
@@ -2109,9 +2115,9 @@ display: block;
 		white-space: normal;
 		transition: none !important;
 		position: fixed;
-		top: 4.3em;
+		top: 4.5em;
 		left: 122.685em;
-		max-height: 55em;
+		max-height: 37em;
 		overflow-y: hidden;
 		z-index: 1000;
 	}
