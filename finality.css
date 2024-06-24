@@ -2124,6 +2124,13 @@ display: block;
   padding-top: 10em;
 }
 
+.layout-mobile [dir="ltr"] .mainDetailButtons {
+        margin-left: 0;
+   	padding-left: 21%;
+	z-index: 10 !important;
+    	position: relative;
+}
+
 @media (orientation: landscape) {
 	.layout-mobile .detailRibbon {
 		padding-top: 12em;
@@ -2208,10 +2215,12 @@ display: block;
         padding-left: 21%;
     }
 
-	.layout-mobile [dir="ltr"] .mainDetailButtons {
+    .layout-mobile [dir="ltr"] .mainDetailButtons {
         margin-left: 0;
-        padding-left: 21%;
-	}
+   	padding-left: 21%;
+	z-index: 10 !important;
+    	position: relative;
+    }
 }
 
 /* --- TV Mode --- */
