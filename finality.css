@@ -1495,7 +1495,7 @@ display: block;
   left: 27em;
   display: flex;
   width: auto;
-  max-width: 79.7em;
+  max-width: 61.7em;
   overflow-x: scroll !important;
   height: 11.1em;
   background: #131313c4;
@@ -1504,7 +1504,7 @@ display: block;
 }
 
 .layout-desktop #specialsCollapsible .card.overflowBackdropCard.card-hoverable.card-withuserdata {
-  width: 13em;
+  width: 12.4em;
   padding: 0.5em;
 }
 
@@ -1690,7 +1690,11 @@ display: block;
 }
 
 .layout-desktop #childrenContent .verticalSection .itemsContainer.padded-right.vertical-wrap {
-	background: #060606f5;
+	background: transparent;
+}
+
+.layout-desktop #childrenContent .verticalSection {
+	z-index: 20;
 }
 
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
@@ -1788,7 +1792,7 @@ display: block;
 
 .layout-desktop #childrenContent .listItem {
   flex: 0 0 auto;
-  width: 101.5em;
+  width: 65.15em;
   border: 1px solid #111;
     border-top-color: rgb(17, 17, 17);
     border-right-color: rgb(17, 17, 17);
@@ -1796,6 +1800,7 @@ display: block;
     border-left-color: rgb(17, 17, 17);
   height: 4.76em;
   scroll-snap-align: start;
+  border-radius: 0.25em;
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
@@ -1834,11 +1839,10 @@ display: block;
 }
 
 .layout-desktop #childrenContent .listItem-indexnumberleft {
-  margin-right: 1.5em;
   min-width: 2%;
   text-align: center;
   margin-top: -3.2em;
-  padding-left: 1em;
+  padding-left: 5em;
 }
 
 .listItem:hover {
@@ -1880,6 +1884,8 @@ display: block;
 
 .layout-desktop #childrenContent .cardBox.cardBox-bottompadded {
 	margin-right: 0.1em;
+  background: #090909d4;
+  border-radius: 0.4em;
 }  
 
 @media all and (min-width: 70em){
@@ -2042,6 +2048,8 @@ display: block;
 	max-height: 58em;
 	width: 11.5em;
 	scroll-snap-type: y mandatory;
+	background: #090909d4;
+    border-radius: 0.4em;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
