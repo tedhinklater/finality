@@ -1559,7 +1559,7 @@ display: block;
 .layout-desktop #castCollapsible .cardTextCentered, 
 .layout-desktop #castCollapsible .cardTextCentered > .textActionButton {
   text-align: left !important;
-  width: 17em;
+  width: 13em;
   margin-left: -5em;
   position: relative;
   top: -2.2em;
