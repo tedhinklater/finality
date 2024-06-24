@@ -1721,7 +1721,7 @@ display: block;
   position: absolute;
   top: 10.68em;
   left: 29.1em;
-  width: 71.6em;
+  width: 82.6em;
   max-height: 32.4em;
   padding-bottom: 0em;
   z-index: 2;
@@ -1795,7 +1795,7 @@ display: block;
 
 .layout-desktop #childrenContent .listItem {
   flex: 0 0 auto;
-  width: 70.5em;
+  width: 81.5em;
   border: 1px solid #111;
     border-top-color: rgb(17, 17, 17);
     border-right-color: rgb(17, 17, 17);
@@ -1885,6 +1885,7 @@ display: block;
 .layout-desktop #childrenContent .listViewUserDataButtons button {
   margin-bottom: -0.2em;
   top: -3.3em;
+  margin-right: 1.75em;
 }
 
 .layout-desktop #childrenContent .cardBox.cardBox-bottompadded {
