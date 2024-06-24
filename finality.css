@@ -1674,15 +1674,32 @@ display: block;
 
 /* Bio Movies */
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
-  position: relative;
-  top: -2.5em;
-  left: -10em;
+  position: fixed;
+  top: 9.2em;
+  left: 27em;
+  width: 62em;
+  height: 33em;
+  display: flex;
+  overflow: hidden;
+    overflow-y: hidden;
+  overflow-y: hidden;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.layout-desktop #childrenContent .verticalSection .itemsContainer.padded-right.vertical-wrap {
+	background: #000;
 }
 
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
 	width: 13em;
 	margin-bottom: 0em;
 	margin-top: -2.2em;
+}
+
+.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap .card.overflowSquareCard.card-hoverable {
+	width: 11.3em;
+	margin-left: 4em;
 }
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
@@ -1695,7 +1712,7 @@ display: block;
   position: absolute;
   top: 9.2em;
   left: 27.1em;
-  width: 73%;
+  width: 75em;
   max-height: 32.35em;
   padding-bottom: 0em;
   z-index: 1000;
@@ -1709,6 +1726,10 @@ display: block;
 
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap [data-type="Series"] {
 	display: none;
+}
+
+.layout-desktop #childrenContent .secondary.listItemMediaInfo {
+	margin-top: -3.7em;
 }
 
 .layout-desktop #childrenContent .listItem-content {
@@ -1765,7 +1786,7 @@ display: block;
 
 .layout-desktop #childrenContent .listItem {
   flex: 0 0 auto;
-  width: 45.7em;
+  width: 73.5em;
   border: 1px solid #111;
   height: 4.76em;
   scroll-snap-align: start;
@@ -1828,9 +1849,9 @@ display: block;
   left: 0;
   right: 0;
   bottom: 0;
-  background: #060606;
+  background: #060606fa;
   z-index: -1;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
@@ -2781,8 +2802,7 @@ position: fixed;
 	margin-left: 0.3em;
 }
 
-.layout-tv .alphaPickerRow-vertical,
-.layout-desktop .alphaPickerRow-vertical {
+.layout-tv .alphaPickerRow-vertical {
   flex-direction: column;
   height: 54em;
   position: fixed;
