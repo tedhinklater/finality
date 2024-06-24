@@ -21,7 +21,7 @@ or, import the colour version with
 ![c3](https://i.imgur.com/vNmbSwS.png)
 ![c4](https://i.imgur.com/j9hWs8X.gif)
 ![c5](https://i.imgur.com/HM9e6Jx.png)
-![c6](https://i.imgur.com/cXrUYrX.png)
+![c6](https://i.imgur.com/TCN1kmj.png)
 
 Make sure you enable backdrops and under Display settings use the Dark theme
 ![Backdrops](https://i.imgur.com/18D9IO3.png)
