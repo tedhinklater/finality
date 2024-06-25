@@ -1263,6 +1263,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 150%;
+  filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
 
 /* Hide directors writers studio */
@@ -1391,6 +1392,7 @@ body {
   font-size: 2em;
   max-width: 12.4em;
   font-family: inherit;
+  filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
 
 /* Cast & Crew */
