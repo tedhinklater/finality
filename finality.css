@@ -1877,7 +1877,7 @@ display: block;
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
   margin-right: 0em;
-  margin-left: -0.25em !important;
+  margin-left: 1.2em !important;
   margin-top: 1.25em;
   background-position: 50% 40%;
 }
