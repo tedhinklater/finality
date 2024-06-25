@@ -20,7 +20,7 @@ or, import the colour version with
 
 ![c3](https://i.imgur.com/dGjuXPn.png)
 ![c4](https://i.imgur.com/xzAQXSQ.png)
-![c5](https://i.imgur.com/cqv2xdV.png)
+![c5](https://i.imgur.com/SqxR5tv.png)
 ![c6](https://i.imgur.com/ENdqefM.png)
 
 Make sure you enable backdrops and under Display settings use the Dark theme
