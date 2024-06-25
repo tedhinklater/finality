@@ -1725,7 +1725,7 @@ display: block;
   position: absolute;
   top: 10.68em;
   left: 29.1em;
-  width: 82.6em;
+  width: 68.96em;
   max-height: 32.4em;
   padding-bottom: 0em;
   z-index: 2;
@@ -1799,7 +1799,7 @@ display: block;
 
 .layout-desktop #childrenContent .listItem {
   flex: 0 0 auto;
-  width: 81.5em;
+  width: 67.9em;
   border: 1px solid #111;
     border-top-color: rgb(17, 17, 17);
     border-right-color: rgb(17, 17, 17);
@@ -1844,6 +1844,8 @@ display: block;
   text-align: center;
   font-weight: 600;
   margin-bottom: 10em;
+  margin-right: 2em;
+  margin-left: 1em;
 }
 
 .layout-desktop #childrenContent .listItem-indexnumberleft {
@@ -1877,7 +1879,7 @@ display: block;
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
   margin-right: 0em;
-  margin-left: 1.2em !important;
+  margin-left: 3em !important;
   margin-top: 1.25em;
   background-position: 50% 40%;
 }
@@ -1889,7 +1891,8 @@ display: block;
 .layout-desktop #childrenContent .listViewUserDataButtons button {
   margin-bottom: -0.2em;
   top: -3.3em;
-  margin-right: 1.75em;
+  margin-right: 1.8em;
+  margin-left: 0.95em;
 }
 
 .layout-desktop #childrenContent .cardBox.cardBox-bottompadded {
