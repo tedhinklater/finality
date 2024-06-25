@@ -1307,7 +1307,7 @@ body {
 .layout-desktop .itemExternalLinks.focuscontainer-x {
   display: block;
   position: fixed;
-  top: 4.1em;
+  top: 6.2em;
   right: 8em;
   opacity: 0.8;
   font-size: 1em !important;
@@ -1347,7 +1347,7 @@ body {
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
   position: absolute;
-  top: 6.3em;
+  top: 7em;
   left: 117.05em;
   width: 10%;
   z-index: 10;
@@ -1470,7 +1470,7 @@ display: block;
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
   position: absolute;
   bottom: 0.7em;
-  left: 28.2em;
+  left: 30.5em;
   width: 89em;
   max-width: 89em;
   z-index: 10;
@@ -1485,7 +1485,7 @@ display: block;
 
 .layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
 	padding-left: 46.5em;
-  padding-right: 50em;
+  padding-right: 46em;
 }
 
 .layout-desktop #guestCastCollapsible .emby-scrollbuttons.padded-right {
@@ -1612,9 +1612,9 @@ display: block;
     white-space: normal;
     transition: none !important;
 	position: fixed;
-	top: 6em;
-	left: 123.8em;
-    max-height: 59em;
+	top: 9em;
+	left: 123.65em;
+    max-height: 49.4em;
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -1625,7 +1625,7 @@ display: block;
 }
 
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-    width: 4.7em;
+    width: 5.3em;
     margin-bottom: -1.9em;
     filter: grayscale(100%);
     opacity: 0.1;
@@ -2833,7 +2833,6 @@ padding-right: 0em;
 padding-bottom: 0em;
 }
 
-
 .layout-tv .card:focus {
     outline: none;
 }
@@ -2845,4 +2844,3 @@ padding-bottom: 0em;
 .layout-tv .raised:focus {
   will-change: none !Important;
 }
-
