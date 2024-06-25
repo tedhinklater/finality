@@ -1259,7 +1259,7 @@ body {
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
   position: fixed;
   top: 4.2em;
-  left: 7.2em;
+  left: 8em;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 150%;
