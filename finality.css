@@ -925,6 +925,7 @@ margin-bottom: -0.2em;
   font-family: inherit;
   font-weight: 600;
   font-size: 1.5111em;
+  filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
 
 .layout-desktop .itemMiscInfo.itemMiscInfo-secondary {
@@ -1283,6 +1284,7 @@ body {
   font-size: 1.8em;
   width: 34em;
   color: #fff5;
+  filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
 
 .layout-desktop .detailsGroupItem.genresGroup .button-link.emby-button {
