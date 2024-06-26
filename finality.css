@@ -2764,6 +2764,10 @@ position: fixed;
   left: -10.7em;
 }
 
+.layout-desktop .verticalSection.detailVerticalSection.moreFromArtistSection.emby-scroller-container .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
+  display: none;
+}
+
 .layout-tv .card.show-focus:focus {
     border: 2px solid red;
     box-sizing: border-box;
