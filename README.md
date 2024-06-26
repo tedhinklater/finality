@@ -19,9 +19,9 @@ or, import the colour version with
 ```
 
 ![c3](https://i.imgur.com/5ctM8f1.png)
-![c4](https://i.imgur.com/DgGpvY6.png)
-![c5](https://i.imgur.com/GC2m5HH.png)
-![c6](https://i.imgur.com/Aw9WwrX.png)
+![c4](https://i.imgur.com/2TcAiAb.png)
+![c5](https://i.imgur.com/idFBinY.png)
+![c6](https://i.imgur.com/qhmZTDX.png)
 
 Make sure you enable backdrops and under Display settings use the Dark theme
 ![Backdrops](https://i.imgur.com/18D9IO3.png)
