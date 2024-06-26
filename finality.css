@@ -1447,16 +1447,17 @@ body {
 
 /* Special Features text */
 .layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
-display: block;
+  display: block;
   position: fixed;
-  top: 0.65em;
-  left: 12.6em;
-  font-size: 120%;
-  opacity: 0.9;
+  top: 0.5em;
+  left: 11.6em;
+  font-size: 141%;
+  opacity: 1;
   text-transform: uppercase;
   font-family: inherit;
-  color: #fff;
+  color: rgb(255, 230, 0);
   font-weight: 600;
+  filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
 
 .layout-desktop #specialsContent .cardText {
@@ -1497,16 +1498,16 @@ display: block;
   left: 29em;
   display: flex;
   width: auto;
-  max-width: 67em;
+  max-width: 62.4em;
   overflow-x: scroll !important;
-  height: 11.1em;
+  height: 10.4em;
   background: #131313c4;
   border-radius: 0.25em;
   border: 1px solid #030303;
 }
 
 .layout-desktop #specialsCollapsible .card.overflowBackdropCard.card-hoverable.card-withuserdata {
-  width: 13.4em;
+  width: 12.4em;
   padding: 0.5em;
 }
 
@@ -1717,7 +1718,7 @@ display: block;
   top: 10em;
   left: 29em;
   z-index: 20;
-  max-height: 30em;
+  max-height: 33em;
   display: block;
   overflow-y: auto;
   min-width: 53.8em;
@@ -1727,6 +1728,11 @@ display: block;
 .layout-desktop #childrenContent .listItemImage-large {
     width: 14.222em;
     height: 8em;
+}
+
+.listItem:hover {
+  filter: brightness(110%);
+  background: transparent;
 }
 
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap [data-type="Episode"] {
@@ -1742,11 +1748,11 @@ display: block;
 }
 
 .layout-desktop #childrenContent .listItem-content {
-
+width: 66.3em;
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast:hover {
-  filter: brightness(135%);
+  filter: brightness(115%);
   transition: filter 0.3s;
   cursor: pointer;
 }
