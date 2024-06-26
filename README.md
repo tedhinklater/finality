@@ -1,5 +1,8 @@
 # finality
-Jellyfin Theme CSS (Finishing TV mode and Mobile, they're functional though)
+
+![mockup](https://i.imgur.com/P8dHF8c.png)
+
+Jellyfin Theme CSS (Finishing up TV mode and Mobile, they're functional though)
 
 ![bw1](https://i.imgur.com/qaNGzGN.png)
 
