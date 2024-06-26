@@ -1254,6 +1254,10 @@ body {
 }
 
 
+.layout-desktop .verticalSection.detailVerticalSection.moreFromArtistSection.emby-scroller-container .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
+  display: none;
+}
+
 /* Season View */
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
@@ -1721,7 +1725,7 @@ body {
   max-height: 33em;
   display: block;
   overflow-y: auto;
-  min-width: 53.2em;
+  min-width: 29.2em;
   padding-right: 0em;
 }
 
@@ -2762,10 +2766,6 @@ position: fixed;
   position: relative;
   top: 17em !important;
   left: -10.7em;
-}
-
-.layout-desktop .verticalSection.detailVerticalSection.moreFromArtistSection.emby-scroller-container .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-  display: none;
 }
 
 .layout-tv .card.show-focus:focus {
