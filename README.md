@@ -1,7 +1,7 @@
 # finality
 Jellyfin Theme CSS (Finishing TV mode and Mobile, they're functional though)
 
-![bw1](https://i.imgur.com/kwQ1unx.png)
+![bw1](https://i.imgur.com/qaNGzGN.png)
 
 Import with
 
@@ -18,10 +18,10 @@ or, import the colour version with
 
 ```
 
-![c3](https://i.imgur.com/vWYbwnU.png)
-![c4](https://i.imgur.com/pGZNUqS.png)
-![c5](https://i.imgur.com/VTD1jR4.png)
-![c6](https://i.imgur.com/SsVy290.png)
+![c3](https://i.imgur.com/5ctM8f1.png)
+![c4](https://i.imgur.com/DgGpvY6.png)
+![c5](https://i.imgur.com/GC2m5HH.png)
+![c6](https://i.imgur.com/Aw9WwrX.png)
 
 Make sure you enable backdrops and under Display settings use the Dark theme
 ![Backdrops](https://i.imgur.com/18D9IO3.png)
