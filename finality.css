@@ -861,6 +861,10 @@ margin-bottom: -0.2em;
     padding-top: 3.7em !important;
   }
 
+.layout-desktop .cardTextCentered {
+  filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
+}
+
 /* --- Detail Page --- */
 
 /* Poster */
