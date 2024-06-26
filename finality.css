@@ -1218,7 +1218,7 @@ body {
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
   position: fixed;
-  top: 36.7em;
+  top: 38.3em;
   left: 2.25em;
   max-height: 15.8em;
   width: 20%;
@@ -1428,9 +1428,6 @@ body {
 }
 
 #childrenCollapsible .starRatingContainer {
-  margin-bottom: -1.6em;
-  margin-left: 6em;
-  margin-top: 0.61em;
 }
 
 /* Hide "Series" text */
@@ -1716,21 +1713,20 @@ display: block;
 }
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  overflow-y: auto;
-  overflow-x: hidden;
-  max-width: 100%;
   position: absolute;
-  top: 10.68em;
-  left: 29.1em;
-  width: 68.96em;
-  max-height: 32.4em;
-  padding-bottom: 0em;
-  z-index: 2;
+  top: 10em;
+  left: 29em;
+  z-index: 20;
+  max-height: 30em;
+  display: block;
+  overflow-y: auto;
+  min-width: 53.8em;
   padding-right: 0em;
-  scroll-snap-type: y mandatory;
+}
+
+.layout-desktop #childrenContent .listItemImage-large {
+    width: 14.222em;
+    height: 8em;
 }
 
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap [data-type="Episode"] {
@@ -1742,16 +1738,11 @@ display: block;
 }
 
 .layout-desktop #childrenContent .secondary.listItemMediaInfo {
-	margin-top: -3.2em;
+
 }
 
 .layout-desktop #childrenContent .listItem-content {
-  display: flex;
-  justify-content: space-between;
-  height: 13em;
-  margin-bottom: 2em;
-  background-color: transparent;
-  transition: background-color 0.3s;
+
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast:hover {
@@ -1761,108 +1752,59 @@ display: block;
 }
 
 .layout-desktop #childrenContent .listItemBody {
-  flex-grow: 1;
+
 }
 
 .layout-desktop #childrenContent .listItemBodyText {
-  white-space: normal;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
+
 }
 
 .layout-desktop #childrenContent .listItem-overview {
-  height: 8.3em;
+
 }
 
 .layout-desktop #childrenContent .secondary.listItem-overview.listItemBodyText, 
 .mediaInfoItem, .starRatingContainer mediaInfoItem, .endsAt.mediaInfoItem {
-	font-size:86%;
+
 }
 
 /* Play button hidden before hovering */
 .listItemImageButton {
-  -webkit-align-self: center;
-  align-self: center;
-  background: rgba(0,0,0,0);
-  color: transparent;
-  display: -webkit-flex;
-  display: flex;
-  font-size: 1.6em;
-  justify-self: center;
-  margin: auto;
-  transition: .2s ease-out;
-  padding-right: 3.55em;
+
 }
 
 .layout-desktop #childrenContent .listItem {
-  flex: 0 0 auto;
-  width: 67.9em;
-  border: 1px solid #111;
-    border-top-color: rgb(17, 17, 17);
-    border-right-color: rgb(17, 17, 17);
-    border-bottom-color: rgb(17, 17, 17);
-    border-left-color: rgb(17, 17, 17);
-  height: 4.76em;
-  scroll-snap-align: start;
-  border-radius: 0.25em;
+
 }
 
-.layout-desktop #childrenContent .listItemImage-large {
-    width: 100%;
-    height: auto;
-}
+
 
 .layout-desktop #childrenContent .listItemImage {
-  flex-shrink: 0;
-  width: 25%;
-  height: 4.8em;
-  border-radius: 0.5em;
-  margin-bottom: 9.5em !important;
+
 }
 
 
 .layout-desktop #childrenContent .listItemBody {
-  max-width: 58.5em;
-  display: inline-block;
-  height: 9.3em;
-  margin-top: -3.5em;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  margin-right: -2em;
+
 }
 
 
 
 .layout-desktop #childrenContent .listItemBodyText {
-  display: block;
-  padding-top: 1.8em;
-  margin-top: 0.1em;
-  font-size: 100%;
-  text-align: center;
-  font-weight: 600;
-  margin-bottom: 10em;
-  margin-right: 2em;
-  margin-left: 1em;
+
 }
 
 .layout-desktop #childrenContent .listItem-indexnumberleft {
-  min-width: 2%;
-  text-align: center;
-  margin-top: -3.2em;
-  padding-left: 5em;
-  margin-right: 0em;
+
 }
 
 .listItem:hover {
-  background: rgba(0,0,0,0.1);
+
 }
 
 
 #childrenContent .listItem {
-    background: transparent;
+
 }
 
 #childrenContent .listItem::before {
@@ -1878,27 +1820,19 @@ display: block;
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
-  margin-right: 0em;
-  margin-left: 3em !important;
-  margin-top: 1.25em;
-  background-position: 50% 40%;
+
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons {
-  display: flex;
+
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons button {
-  margin-bottom: -0.2em;
-  top: -3.3em;
-  margin-right: 1.8em;
-  margin-left: 0.95em;
+
 }
 
 .layout-desktop #childrenContent .cardBox.cardBox-bottompadded {
-	margin-right: 0.1em;
-  background: #090909d4;
-  border-radius: 0.4em;
+
 }  
 
 @media all and (min-width: 70em){
@@ -2046,11 +1980,11 @@ display: block;
 }
 
 .layout-desktop .listItemBody.itemAction.listItemBody-noleftpadding {
-  margin-top: 1em !important;
+
 }
 
 .layout-desktop #childrenContent .listViewUserDataButtons {
-	margin-top: -1.8em;
+
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
