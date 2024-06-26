@@ -1219,8 +1219,8 @@ body {
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
   position: fixed;
   top: 37.6em;
-  left: 2.25em;
-  max-height: 15.8em;
+  left: 2.5em;
+  max-height: 14.5em;
   width: 20%;
   z-index: 1;
   transition: top 0.5s;
