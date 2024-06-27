@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <style>
-        /* CSS styles for the slideshow elements */
+       /* CSS styles for the slideshow elements */
         body {
             margin: 0;
             padding: 0;
@@ -117,6 +117,19 @@
 			padding-bottom: 0em;
 			filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
         }
+		
+/* Mobile */
+	@media (max-width: 600px) {
+		.plot {
+			display: none !important;
+		}
+	}
+	
+	@media (orientation: landscape) and (max-width: 1200px) {
+		.logo {
+			top: 5em;
+		}
+	}
     </style>
 </head>
 
