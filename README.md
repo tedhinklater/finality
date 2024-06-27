@@ -43,7 +43,7 @@ Make sure you enable backdrops and under Display settings use the Dark theme
 
 7) Paste this after the >
 
-```
+```html
 <style>.featurediframe { width: 89vw; height: 300px; display: block; border: 1px solid #000; margin: 0 auto}</style> <iframe class="featurediframe" src="/web/avatars/slideshow.html"></iframe>
 ```
 8) Save the file.
