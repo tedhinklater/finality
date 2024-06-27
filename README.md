@@ -50,7 +50,7 @@ Make sure you enable backdrops and under Display settings use the Dark theme
 
 9) Add this to your Custom CSS box in the Dashboard
 
-```
+```css
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/slideshow.css");
 ```
 
