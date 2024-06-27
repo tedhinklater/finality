@@ -2095,9 +2095,12 @@ width: 99.3em;
     filter: blur(0px) saturate(0%) contrast(130%) brightness(20%);
 }
 
+.backgroundContainer {
+  background-color: transparent;
+}
+
 .layout-mobile h1.itemName, .layout-mobile h1.parentName {
   font-size: 1.6em;
-  padding-top: 4em;
   justify-content: left !important;
   position: relative;
   display: flex;
@@ -2108,6 +2111,7 @@ width: 99.3em;
   font-family: inherit;
   font-weight: 700 !important;
   text-transform: uppercase;
+  justify-content: center !important;
 }
 
 .layout-mobile .detailRibbon {
@@ -2223,7 +2227,8 @@ width: 99.3em;
 	}
 	
 	.layout-mobile .itemMiscInfo.itemMiscInfo-primary {
-		margin-left: 1.4em;
+		margin-left: -2em;
+		justify-content: center;
 	}
 	
 	.layout-mobile .itemMiscInfo {
@@ -2245,6 +2250,7 @@ width: 99.3em;
    	padding-left: 21%;
 	z-index: 10 !important;
     	position: relative;
+		justify-content: center;
     }
 }
 
@@ -2795,3 +2801,4 @@ padding-bottom: 0em;
 .layout-tv .raised:focus {
   will-change: none !Important;
 }
+
