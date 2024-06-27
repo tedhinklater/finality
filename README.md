@@ -2,7 +2,7 @@
 
 
 
-Jellyfin Theme CSS (Finishing up TV mode and Mobile, they're functional though)
+Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
 ![bw1](https://i.imgur.com/qaNGzGN.png)
 
