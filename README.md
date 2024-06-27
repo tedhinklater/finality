@@ -1,6 +1,6 @@
 # finality
 
-![mockup](https://i.imgur.com/vvstfsg.png)
+![mockup](https://i.imgur.com/8lrqtld.png)
 
 Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
