@@ -18,7 +18,6 @@
 	margin-top: -3.5em;
 }
 
-
 @media only screen and (max-device-width: 767px) {.featurediframe {height: 33vh !important;}}
 
 .featurediframe {
@@ -46,4 +45,21 @@
   align-items: center;
   justify-content: flex-start;
   z-index: 3;
+}
+
+/* Mobile */
+@media (max-width: 1800px) {
+	.plot {
+		display: none !important;
+	}
+	
+	.featurediframe {
+		margin-top: 3em;
+	}
+}
+
+@media (orientation: landscape) and (max-width: 1200px) {
+	.featurediframe {
+		margin-top: 3em;
+	}
 }
