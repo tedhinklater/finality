@@ -496,7 +496,8 @@ progress::-webkit-progress-value {
 /* My Media Card size */
 
 .layout-desktop #indexPage .verticalSection.section0 .card.overflowBackdropCard.card-hoverable.card-withuserdata {
-	width: 20.81em;
+	width: 23.4em;
+	padding-bottom: 1.5em;
 }
 
 /* My Media (small) */
@@ -520,6 +521,9 @@ progress::-webkit-progress-value {
   margin-left: 0.5em !important;
 }
 
+.layout-desktop .verticalSection.section0.emby-scroller-container .emby-scrollbuttons.padded-right {
+	top: -3em !important;
+}
 
 .layout-desktop #indexPage .card.overflowBackdropCard.card-hoverable.card-withuserdata,
 .card.overflowSquareCard.card-hoverable {
@@ -2825,4 +2829,3 @@ padding-bottom: 0em;
 .layout-tv .raised:focus {
   will-change: none !Important;
 }
-
