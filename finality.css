@@ -1889,6 +1889,30 @@ width: 99.3em;
 	background-color: rgba(255, 255, 255, 0.05);
 	border: solid 2px white;
   }
+  #albumsTab .cardOverlayContainer {
+	background-color: rgba(255, 255, 255, 0.05);
+	border: solid 2px white;
+  }
+  #albumArtistsTab .cardOverlayContainer {
+	background-color: rgba(255, 255, 255, 0.05);
+	border: solid 2px white;
+  }
+  #artistsTab .cardOverlayContainer {
+	background-color: rgba(255, 255, 255, 0.05);
+	border: solid 2px white;
+  }
+  #playlistsTab .cardOverlayContainer {
+	background-color: rgba(255, 255, 255, 0.05);
+	border: solid 2px white;
+  }
+  #songsTab .cardOverlayContainer {
+	background-color: rgba(255, 255, 255, 0.05);
+	border: solid 2px white;
+  }
+  #channelsTab .cardOverlayContainer {
+	background-color: rgba(255, 255, 255, 0.05);
+	border: solid 2px white;
+  }
 }
 
 @media all and (max-width: 70em){
