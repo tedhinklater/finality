@@ -1,6 +1,6 @@
 # finality
 
-![mockup](https://i.imgur.com/P8dHF8c.png)
+
 
 Jellyfin Theme CSS (Finishing up TV mode and Mobile, they're functional though)
 
@@ -20,7 +20,7 @@ or, import the colour version with
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/Finality-Coloured.css");
 
 ```
-
+![c1](https://i.imgur.com/73vsPMk.png)
 ![c3](https://i.imgur.com/5ctM8f1.png)
 ![c4](https://i.imgur.com/2TcAiAb.png)
 ![c5](https://i.imgur.com/idFBinY.png)
@@ -28,3 +28,4 @@ or, import the colour version with
 
 Make sure you enable backdrops and under Display settings use the Dark theme
 ![Backdrops](https://i.imgur.com/18D9IO3.png)
+
