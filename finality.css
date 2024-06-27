@@ -627,12 +627,12 @@ progress::-webkit-progress-value {
 }
 
 /* hide Live TV text */
-.layout-desktop .sectionTitleContainer.sectionTitleContainer-cards.padded-left > .sectionTitle.sectionTitle-cards {
+.sectionTitleContainer.sectionTitleContainer-cards.padded-left > .sectionTitle.sectionTitle-cards {
     display: none;
 }
 
 /* hide Live TV shortcuts */
-.layout-desktop .padded-top.padded-bottom.scrollSlider.focuscontainer-x {
+.padded-top.padded-bottom.scrollSlider.focuscontainer-x {
     display: none;
 }
 
