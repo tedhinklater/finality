@@ -21,7 +21,9 @@ or, import the colour version with
 
 ```
 ![c1](https://i.imgur.com/73vsPMk.png)
+
 ![c3](https://i.imgur.com/5ctM8f1.png)
+
 ![c4](https://i.imgur.com/2TcAiAb.png)
 
 Mobile Layout 
