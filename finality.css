@@ -1423,6 +1423,13 @@ body {
 	display: none;
 }
 
+@media (max-width: 62.5em) {
+  .layout-desktop .detailPageWrapperContainer, .layout-tv .detailPageWrapperContainer {
+    bottom: 0em;
+    position: absolute;
+  }
+}
+
 .layout-desktop #castContent .cardOverlayContainer.itemAction:hover {
 	border: none !important;
 }
