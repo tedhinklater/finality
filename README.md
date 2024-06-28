@@ -32,7 +32,7 @@ Mobile Layout
 Make sure you enable backdrops and under Display settings use the Dark theme
 ![Backdrops](https://i.imgur.com/18D9IO3.png)
 
-# Featured Content Bar by [BobHasNoSoul](https://github.com/BobHasNoSoul)
+# Featured Content Bar by [BobHasNoSoul](https://github.com/BobHasNoSoul) and [SethBacon](https://forum.jellyfin.org/u-sethbacon)
 
 1) Download [slideshow.html](https://github.com/tedhinklater/finality/blob/main/slideshow.html)
 
