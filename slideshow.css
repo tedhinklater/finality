@@ -15,7 +15,7 @@
 }
 
 .layout-desktop #homeTab .verticalSection.section2.emby-scroller-container {
-	margin-top: -3.5em;
+	margin-top: -2.5em;
 }
 
 @media only screen and (max-device-width: 767px) {.featurediframe {height: 33vh !important;}}
