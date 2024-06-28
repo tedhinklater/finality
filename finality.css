@@ -2966,3 +2966,128 @@ padding-bottom: 0em;
 		top: 15.35em;
 	}
 }
+
+/* 4k works at 150% zoom */
+
+@media only screen and (min-width: 2600px) and (max-width: 3840px) {
+	.layout-desktop #homeTab .sections.homeSectionsContainer {
+		max-width: 174em !important;
+	}
+	
+	.layout-desktop .padded-right-withalphapicker {
+		padding-left: 1.5em;
+		padding-right: 2em;
+		width: 157em;
+	}
+	.layout-desktop #genresTab .itemsContainer.vertical-wrap.lazy.padded-left.padded-right {
+		width: 180em;
+	}
+	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
+		left: 164.3em;
+		max-height: 57.3em;
+	}
+	.layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
+		width: 7.4em;
+	}
+	.layout-desktop .detailLogo {
+		left: 43.2em;
+		width: 114.9em;
+		height: 31em;
+	}
+	.layout-desktop .mainDetailButtons {
+		top: 29em;
+		left: 20em;
+	}
+	.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
+		top: 42em;
+		left: 31.7em;
+	}
+	.layout-desktop .detailButton .detailButton-icon.theaters {
+		left: 43.9em;
+		top: 18.55em;
+	}
+	.layout-desktop .detailButton .detailButton-icon.more_vert {
+		left: 36.3em;
+		top: 18.55em;
+	}
+	.layout-desktop .detailButton .detailButton-icon.favorite {
+		left: 28.8em;
+		top: 18.55em;
+	}
+	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
+		left: 21.5em;
+		top: 18.55em;
+	}	
+	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
+		left: 21.5em;
+		top: 18.55em;
+	}
+	.layout-desktop .detailsGroupItem.genresGroup {
+		top: 3.65em;
+	}
+	.layout-desktop #itemDetailPage .detailImageContainer .card {
+		width: 36em;
+	}
+	.layout-desktop .trackSelections {
+		top: 75.3em;
+	}
+	.layout-desktop .trackSelections .selectContainer .detailTrackSelect {
+		width: 33em;
+		min-width: 33em;
+	}
+	.layout-desktop .detailPagePrimaryContent {
+		left: 40.7em;
+		top: 66.5em;
+	}
+	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
+		left: 35.5em;
+		width: 126em;
+		max-width: 126em;
+	}
+	.layout-desktop #castCollapsible .overflowPortraitCard {
+		padding-right: 19em;
+	}
+	.layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
+		padding-left: 63.5em;
+		padding-right: 63.5em;
+	}
+	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
+		top: 46.8em;
+		width: 20%;
+		max-height: 19em;
+	}
+	.layout-desktop #childrenCollapsible .overflowPortraitCard {
+		width: 12em;
+	}
+	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
+		top: 63.2em;
+	}
+	.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
+		left: 38em;
+	}
+	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
+		left: 38em;
+		max-height: 47.7em;
+	}
+	.layout-desktop .detailButton-icon.explore {
+		top: 18.55em;
+		left: 21em;
+	}
+	.layout-desktop .collectionItems {
+		height: 54.3em;
+		width: 36.1em;
+	}
+	.layout-desktop #itemDetailPage .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
+		width: 34.2em;
+	}
+	.layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
+		left: 38em;
+		max-width: 94.2em;
+	}
+	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
+		left: 158em;
+	}
+	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
+		top: 15.35em;
+	}
+}
