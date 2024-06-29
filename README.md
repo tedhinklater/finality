@@ -24,7 +24,7 @@ or, import the colour version with
 
 ![c3](https://i.imgur.com/jSU5Wbl.png)
 
-![c4](https://i.imgur.com/vlcdiGj.png)
+![c4](https://i.imgur.com/SuZHrZP.png)
 
 Mobile Layout 
 ![MobileLayout](https://i.imgur.com/aQz6P5Z.png)
