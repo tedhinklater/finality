@@ -1097,7 +1097,7 @@ margin-bottom: -0.2em;
   position: fixed;
   left: 34.5em;
   display: block;
-  filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.95));
+  filter: drop-shadow(15px 14px 4px rgba(2, 2, 2, 0.65));
   width: 76.9em;
   height: 25em;
   margin-top: 0em;
