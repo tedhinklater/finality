@@ -4,7 +4,7 @@
 
 Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
-![bw1](https://i.imgur.com/qaNGzGN.png)
+![bw1](https://i.imgur.com/K18hsQi.png)
 
 Import with
 
