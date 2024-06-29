@@ -20,7 +20,7 @@ or, import the colour version with
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/Finality-Coloured.css");
 
 ```
-![c1](https://i.imgur.com/73vsPMk.png)
+![c1](https://i.imgur.com/WsSv0wK.png)
 
 ![c3](https://i.imgur.com/5ctM8f1.png)
 
