@@ -20,11 +20,11 @@ or, import the colour version with
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/Finality-Coloured.css");
 
 ```
-![c1](https://i.imgur.com/WsSv0wK.png)
+![c1](https://i.imgur.com/15oQGlV.png)
 
-![c3](https://i.imgur.com/5ctM8f1.png)
+![c3](https://i.imgur.com/jSU5Wbl.png)
 
-![c4](https://i.imgur.com/2TcAiAb.png)
+![c4](https://i.imgur.com/vlcdiGj.png)
 
 Mobile Layout 
 ![MobileLayout](https://i.imgur.com/aQz6P5Z.png)
