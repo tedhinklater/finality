@@ -1256,6 +1256,7 @@ body {
 
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
 	width: 9em;
+  display: inline-block;
 }
 
 .layout-desktop #childrenContent .cardOverlayButton-hover {
@@ -1701,21 +1702,14 @@ body {
 }
 
 /* Bio Movies */
-.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
+ .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
   position: fixed;
   top: 10.7em;
   left: 29em;
   width: 77em;
-  height: 32.3em;
-  display: flex;
-  overflow: hidden;
-    overflow-y: hidden;
-  overflow-y: hidden;
-  overflow-y: hidden;
-  overflow-y: hidden;
-  overflow-y: auto;
+  max-height: 29em;
   z-index: 10;
-  padding-right: 0;
+  overflow-y: scroll;
 }
 
 .layout-desktop #childrenContent .verticalSection .itemsContainer.padded-right.vertical-wrap {
@@ -1735,6 +1729,7 @@ body {
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap .card.overflowSquareCard.card-hoverable {
 	width: 11.3em;
 	margin-left: 3.9em;
+	display: inline-block;
 }
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
