@@ -119,21 +119,27 @@
         }
 		
 /* Mobile */
-	@media (max-width: 600px) {
+	@media (max-width: 1700px) {
 		.plot {
 			display: none !important;
 		}
 	}
 	
-	@media (orientation: landscape) and (max-width: 600px) {
+	@media (orientation: landscape) and (max-width: 800px) {
 		.logo {
-			top: 5em;
+			top: 60vh;
+		}
+	}	
+	
+	@media (orientation: landscape) and (min-width:801px) and (max-width: 900px) {
+		.logo {
+			top: 50vh;
 		}
 	}
 	
-		@media (orientation: landscape) and (min-width: 601px) and (max-width: 1800px) {
+		@media (orientation: landscape) and (min-width: 901px) and (max-width: 1800px) {
 		.logo {
-			top: 9em;
+			top: 50vh;
 		}
 	}
     </style>
