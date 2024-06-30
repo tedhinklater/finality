@@ -1,7 +1,7 @@
 # finality 
 Desktop 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k (150%) :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
-![mockup](https://i.imgur.com/0f14BJb.png)
+![mockup](https://i.imgur.com/PFZQzWj.png)
 
 Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
