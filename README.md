@@ -7,7 +7,7 @@ Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
 ![bw1](https://i.imgur.com/K18hsQi.png)
 
-Import with
+For the black & white version, import with
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/finality.css");
