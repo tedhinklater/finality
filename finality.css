@@ -2111,9 +2111,11 @@ width: 99.3em;
 
 .layout-desktop .programGuideSection.verticalSection.detailVerticalSection {
   position: absolute;
-  top: 17em;
-  width: 37em;
-  left: 93.5em;
+  top: 0em;
+  width: 69.38em;
+  left: 29em;
+  background: #101010;
+  z-index: 10;
 }
 
 .layout-desktop .cardImageContainer.coveredImage.cardContent.itemAction.lazy.lazy-image-fadein-fast,
