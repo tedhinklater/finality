@@ -28,7 +28,7 @@ or, import the colour version with
 ![c4](https://i.imgur.com/SuZHrZP.png)
 
 Mobile Layout 
-![MobileLayout](https://i.imgur.com/aQz6P5Z.png)
+![MobileLayout](https://i.imgur.com/BDrolMp.png)
 
 Make sure you enable backdrops and under Display settings use the Dark theme
 ![Backdrops](https://i.imgur.com/18D9IO3.png)
