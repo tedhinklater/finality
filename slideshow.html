@@ -67,7 +67,7 @@
 
         .logo {
 			position: absolute;
-			top: 9.5em;
+			top: 10.5em;
 			left: 2.5em;
 			transform: translateY(-50%);
 			max-height: 77%;
@@ -102,12 +102,12 @@
         }
 
         .plot {
-			position: absolute;
+			position: relative;
 			bottom: 0%;
 			left: 0%;
 			right: 0%;
 			color: white;
-			width: 100%;
+			width: 45%;
 			font-family: "Exo 2", sans-serif;
 			font-size: 0.95em;
 			padding-left: 3em;
@@ -116,18 +116,22 @@
 			box-sizing: border-box;
 			padding-bottom: 0em;
 			filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
+			transform: translateY(-100%);
+			top: 20em;
+			left: 54%;
         }
 		
 /* Mobile */
-	@media (max-width: 1700px) {
-		.plot {
-			display: none !important;
+
+	@media (orientation: landscape) and (max-width: 1700px) {
+		.logo {
+			left: 1em;
 		}
 	}
 	
 	@media (orientation: landscape) and (max-width: 800px) {
 		.logo {
-			top: 60vh;
+			top: 55vh;
 		}
 	}	
 	
@@ -137,9 +141,38 @@
 		}
 	}
 	
-		@media (orientation: landscape) and (min-width: 901px) and (max-width: 1800px) {
+	@media (orientation: landscape) and (min-width: 901px) and (max-width: 1700px) {
 		.logo {
 			top: 50vh;
+		}
+	}
+	
+	@media (max-height: 400px) and (max-width: 800px) {
+		.plot {
+			left: 52%;
+			width: 47%;
+			font-size: 0.8em;
+			top: 100vh;
+			transform: translateY(-100%);
+		}
+	}
+	
+	@media (orientation: landscape) and (min-height: 401px) and (max-width: 800px) {
+		.plot {
+			left: 52%;
+			width: 47%;
+			font-size: 0.8em;
+			top: 91vh;
+			transform: translateY(-100%);
+		}
+	}
+	
+	@media (orientation: landscape) and (min-width: 801px) and (max-width: 1700px) {
+		.plot {
+			left: 52%;
+			width: 47%;
+			top: 100vh;
+			transform: translateY(-100%);
 		}
 	}
     </style>
