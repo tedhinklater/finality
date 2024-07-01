@@ -879,7 +879,7 @@ margin-bottom: -0.2em;
 /* Poster */
 .layout-desktop #itemDetailPage .detailImageContainer .card {
   position: fixed;
-  top: -5.789em;
+  top: -6.789em;
   left: 0.7em;
   width: 27em;
   border: 2px solid white;
@@ -932,7 +932,7 @@ margin-bottom: -0.2em;
   -webkit-align-items: center;
   align-items: center;
   position: absolute;
-  top: -6.95em;
+  top: -7.5em;
   left: 0.5em;
   opacity: 1;
   font-family: inherit;
@@ -1134,7 +1134,7 @@ body {
   position: fixed;
   top: 50.1em;
   left: 32.7em;
-  max-width: 65.5%;
+  max-width: 84em;
   font-size: 11pt;
 }
 
@@ -1178,7 +1178,7 @@ body {
   width: auto;
   max-width: 8.1em;
   position: fixed;
-  top: 57.3em;
+  top: 56em;
   left: 2.4em;
   font-family: inherit;
   text-transform: uppercase;
@@ -1231,7 +1231,7 @@ body {
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
   position: fixed;
-  top: 37.6em;
+  top: 36.6em;
   left: 2.5em;
   max-height: 14.5em;
   width: 20%;
@@ -1246,7 +1246,7 @@ body {
 
 		/* Series */
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
-		top: 49.5em;
+		top: 48.5em;
 		transition: top 0.3s
 	}
 	
@@ -1276,7 +1276,7 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
   position: fixed;
-  top: 4.2em;
+  top: 3.8em;
   left: 8em;
   text-transform: uppercase;
   font-weight: 600;
@@ -1294,7 +1294,7 @@ body {
 
 .layout-desktop .detailsGroupItem.genresGroup {
   position: fixed;
-  top: 3.5em;
+  top: 3em;
   left: 1em;
   font-family: inherit;
   text-transform: uppercase;
@@ -1734,14 +1734,15 @@ body {
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
   position: absolute;
-  top: 10em;
+  top: 8.2em;
   left: 29em;
   z-index: 20;
-  max-height: 33em;
+  height: 40.6em;
   display: block;
   overflow-y: auto;
   min-width: 76.2em;
   padding-right: 0em;
+  background: #060606;
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
@@ -1839,9 +1840,10 @@ width: 99.3em;
   left: 0;
   right: 0;
   bottom: 0;
-  background: #060606f5;
+  background: #090909;
   z-index: -1;
   opacity: 1;
+  border: 1px solid #070707;
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
@@ -2951,7 +2953,7 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 		left: 38em;
-		max-height: 47.7em;
+		height: 54.45em;
 	}
 	.layout-desktop .detailButton-icon.explore {
 		top: 18.55em;
@@ -3076,7 +3078,7 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 		left: 38em;
-		max-height: 47.7em;
+		height: 54.45em;
 	}
 	.layout-desktop .detailButton-icon.explore {
 		top: 18.55em;
