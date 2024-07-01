@@ -1,7 +1,7 @@
 # finality 
 Desktop 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k (150%) :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
-![mockup](https://i.imgur.com/PFZQzWj.png)
+![mockup](https://i.imgur.com/UerpieG.png)
 
 Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
@@ -21,14 +21,14 @@ or, import the colour version with
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/Finality-Coloured.css");
 
 ```
-![c1](https://i.imgur.com/LPr4Y0U.png)
+![c1](https://i.imgur.com/N5nCXA8.png)
 
-![c3](https://i.imgur.com/jSU5Wbl.png)
+![c3](https://i.imgur.com/w28nIsu.png)
 
-![c4](https://i.imgur.com/SuZHrZP.png)
+![c4](https://i.imgur.com/sDtxGpZ.png)
 
 Mobile Layout 
-![MobileLayout](https://i.imgur.com/BDrolMp.png)
+![MobileLayout](https://i.imgur.com/FsUhw4u.png)
 
 Make sure you enable backdrops and under Display settings use the Dark theme
 ![Backdrops](https://i.imgur.com/18D9IO3.png)
