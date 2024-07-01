@@ -5,7 +5,7 @@ Desktop 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k (150%) :heavy_check
 
 Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
-![bw1](https://i.imgur.com/K18hsQi.png)
+![bw1](https://i.imgur.com/TljXs5D.png)
 
 For the black & white version, import with
 
