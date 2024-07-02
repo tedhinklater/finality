@@ -7,7 +7,7 @@ Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
 ![bw1](https://github.com/tedhinklater/finality/assets/66086488/2326f6e8-02cb-441e-b19b-dfca07e91119)
 
-For the black & white version, import with
+For the black & white version, paste this into your Custom CSS Box
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/finality.css");
@@ -27,9 +27,11 @@ or, import the colour version with
 
 <img src="https://github.com/tedhinklater/finality/assets/66086488/ac0d59a3-d394-4cd7-9575-580f67422e99" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/d9c3133e-e09f-4058-9c56-d353ad15ce13" width="49.5%" height="49.5%" />
 
+# Player 
+
 ![14](https://github.com/tedhinklater/finality/assets/66086488/84d70061-5216-4921-bff0-fbb25de59cca)
 
-Mobile Layout 
+# Mobile
 
 ![mobile](https://github.com/tedhinklater/finality/assets/66086488/335d3814-af8c-471e-a5f4-f5306afcf670)
 
