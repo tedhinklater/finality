@@ -2068,7 +2068,7 @@ width: 99.3em;
 .layout-desktop .collectionItems {
   position: fixed;
   display: inline-grid;
-  top: 9.15em;
+  top: 8.15em;
   z-index: 1000;
   opacity: 0;
   transition: opacity 0.3s;
