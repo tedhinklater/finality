@@ -416,6 +416,10 @@ progress::-webkit-progress-value {
     color: #00a4dc !important;
 }
 
+.layout-desktop #videoOsdPage .osdRatingsText {
+  opacity: 0;
+}
+
 /* --- Homepage --- */
 
 .pageTitle {
