@@ -5,7 +5,7 @@ Desktop 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k (150%) :heavy_check
 
 Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
-![bw1](https://i.imgur.com/TljXs5D.png)
+![bw1](https://github.com/tedhinklater/finality/assets/66086488/2326f6e8-02cb-441e-b19b-dfca07e91119)
 
 For the black & white version, import with
 
@@ -21,7 +21,7 @@ or, import the colour version with
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/Finality-Coloured.css");
 
 ```
-<img src="https://i.imgur.com/akUHme3.png" />
+![7](https://github.com/tedhinklater/finality/assets/66086488/dd34984d-cfc2-4f57-9aa3-d47d975ff16a)
 
 <img src="https://github.com/tedhinklater/finality/assets/66086488/497ccc9c-c903-4e1c-ba73-5a64e2366991" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/404b3262-28f8-48f5-84a3-cd340d5c978d" width="49.5%" height="49.5%" />
 
