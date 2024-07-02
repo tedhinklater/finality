@@ -1,7 +1,7 @@
 # finality 
 Desktop 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k (150%) :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
-![mockup](https://i.imgur.com/UerpieG.png)
+![mockup](https://github.com/tedhinklater/finality/assets/66086488/661b65ca-0b9c-4465-b587-ec028a463182)
 
 Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
@@ -28,7 +28,8 @@ or, import the colour version with
 <img src="https://i.imgur.com/LtZQyPz.png" width="49.5%" height="49.5%" /> <img src="https://i.imgur.com/i6IfG5l.png" width="49.5%" height="49.5%" />
 
 Mobile Layout 
-![MobileLayout](https://i.imgur.com/FsUhw4u.png)
+
+![mobile](https://github.com/tedhinklater/finality/assets/66086488/335d3814-af8c-471e-a5f4-f5306afcf670)
 
 Make sure you enable backdrops and under Display settings use the Dark theme
 ![Backdrops](https://i.imgur.com/18D9IO3.png)
