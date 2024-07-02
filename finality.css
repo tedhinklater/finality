@@ -2157,7 +2157,33 @@ width: 99.3em;
   margin-left: 0.8em;
 }
 
-.layout-mobile .itemName.infoText.parentNameLast {
+@media (orientation: landscape) {
+	.layout-mobile .detailLogo {
+		display: block;
+		position: relative;
+		top: 3em;
+		height: 18em;
+		margin-bottom: -8em;
+		width: 62%;
+		left: 28.5%;
+	}
+}
+
+@media (orientation: portrait) {
+	.layout-mobile .detailLogo {
+		display: block;
+		position: relative;
+		top: 7em;
+		height: 11em;
+		margin-bottom: -7em;
+		width: 49%;
+		left: 41.5%;
+	}
+}
+
+
+.layout-mobile #itemDetailPage .itemName.infoText.parentNameLast {
+  display: none;
   font-family: inherit;
   font-weight: 700 !important;
   text-transform: uppercase;
