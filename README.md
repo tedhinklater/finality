@@ -33,7 +33,7 @@ or, import the colour version with
 
 # Mobile
 
-![mobile](https://github.com/tedhinklater/finality/assets/66086488/335d3814-af8c-471e-a5f4-f5306afcf670)
+![mobile](https://github.com/tedhinklater/finality/assets/66086488/a0fb2aec-2794-4d68-b96c-9a144844729a)
 
 Make sure you enable backdrops and under Display settings use the Dark theme
 ![Backdrops](https://i.imgur.com/18D9IO3.png)
