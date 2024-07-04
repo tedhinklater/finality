@@ -23,7 +23,7 @@ or, import the colour version with
 ```
 ![7](https://github.com/tedhinklater/finality/assets/66086488/dd34984d-cfc2-4f57-9aa3-d47d975ff16a)
 
-<img src="https://github.com/tedhinklater/finality/assets/66086488/b2319d86-a364-4344-af35-79dbcc3cf091" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/404b3262-28f8-48f5-84a3-cd340d5c978d" width="49.5%" height="49.5%" />
+<img src="https://github.com/tedhinklater/finality/assets/66086488/b2319d86-a364-4344-af35-79dbcc3cf091" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/70a7d243-6bb6-42cb-9069-153ff91c0639" width="49.5%" height="49.5%" />
 
 <img src="https://github.com/tedhinklater/finality/assets/66086488/ac0d59a3-d394-4cd7-9575-580f67422e99" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/d9c3133e-e09f-4058-9c56-d353ad15ce13" width="49.5%" height="49.5%" />
 
