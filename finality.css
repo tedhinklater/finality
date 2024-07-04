@@ -3065,7 +3065,7 @@ padding-bottom: 0em;
 		top: 18.55em;
 	}
 	.layout-desktop .detailsGroupItem.genresGroup {
-		top: 3.65em;
+		top: 3em;
 	}
 	.layout-desktop #itemDetailPage .detailImageContainer .card {
 		width: 36em;
@@ -3094,7 +3094,7 @@ padding-bottom: 0em;
 		padding-right: 63.5em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
-		top: 46.8em;
+		top: 45.8em;
 		width: 20%;
 		max-height: 19em;
 	}
@@ -3102,7 +3102,7 @@ padding-bottom: 0em;
 		width: 12em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
-		top: 63.2em;
+		top: 62.5em;
 	}
 	.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
 		left: 38em;
