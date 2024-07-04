@@ -21,7 +21,7 @@ or, import the colour version with
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/Finality-Coloured.css");
 
 ```
-![7](https://github.com/tedhinklater/finality/assets/66086488/dd34984d-cfc2-4f57-9aa3-d47d975ff16a)
+![unknown_2024 07 04-14 29_1](https://github.com/tedhinklater/finality/assets/66086488/b888d43a-cc0d-4399-bbd6-f0c63414e87d)
 
 <img src="https://github.com/tedhinklater/finality/assets/66086488/b2319d86-a364-4344-af35-79dbcc3cf091" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/70a7d243-6bb6-42cb-9069-153ff91c0639" width="49.5%" height="49.5%" />
 
