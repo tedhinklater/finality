@@ -3080,6 +3080,7 @@ padding-bottom: 0em;
 	.layout-desktop .detailPagePrimaryContent {
 		left: 40.7em;
 		top: 66.5em;
+		max-width: 107em;
 	}
 	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
 		left: 35.5em;
