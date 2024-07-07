@@ -68,3 +68,12 @@ Make sure you enable backdrops and under Display settings use the Dark theme
 10) Empty your browser's cached web content (Ctrl+F5 or empty it from your browser's Cookies and Site Data settings section)
 
 That's it.
+
+# Changing the Finality logo
+
+```css
+/*Change top left logo for Finality*/
+.pageTitleWithDefaultLogo {
+  background-image: url(YOURURLHERE);
+}
+```
