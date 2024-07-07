@@ -2977,7 +2977,7 @@ padding-bottom: 0em;
 		top: 18.55em;
 	}
 	.layout-desktop .detailsGroupItem.genresGroup {
-		top: 3.65em;
+		top: 3em;
 	}
 	.layout-desktop #itemDetailPage .detailImageContainer .card {
 		width: 36em;
@@ -3044,7 +3044,17 @@ padding-bottom: 0em;
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 		top: 15.35em;
 	}
-}
+	.layout-desktop #lyricsSection .vertical-list.itemsContainer {
+		  position: absolute;
+		  top: 44.8em;
+		  left: 0em;
+		  z-index: 1;
+		  height: 40.5em;
+		  display: block;
+		  overflow-y: auto;
+		  min-width: 22%;
+	}
+	
 
 /* 4k works at 150% zoom */
 
