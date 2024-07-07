@@ -995,7 +995,7 @@ margin-bottom: -0.2em;
 .layout-desktop .detailButton-icon.explore {
 	position: fixed;
 	top: 13.549em;
-	left: 9.4em;
+	left: 18.4em;
 	font-weight: bold;
 	white-space: nowrap;
 }
@@ -2162,7 +2162,7 @@ width: 99.3em;
   overflow-y: auto;
   min-width: 22.5%;
   padding-right: 0em;
-  background: linear-gradient(0deg, rgb(1.176% 0% 3.529%) 0%, rgb(1.176% 0% 3.529% / 0.9998779296875) 6.25%, rgb(1.174% 0% 3.523% / 0.998046875) 12.5%, rgb(1.165% 0% 3.495% / 0.9901123046875) 18.75%, rgb(1.14% 0% 3.419% / 0.96875) 25%, rgb(1.087% 0% 3.26% / 0.9237060546875) 31.25%, rgb(0.99% 0% 2.971% / 0.841796875) 37.5%, rgb(0.832% 0% 2.495% / 0.7069091796875) 43.75%, rgb(0.588% 0% 1.765% / 0.5) 50%, rgb(0.345% 0% 1.034% / 0.2930908203125) 56.25%, rgb(0.186% 0% 0.558% / 0.158203125) 62.5%, rgb(0.09% 0% 0.269% / 0.0762939453125) 68.75%, rgb(0.037% 0% 0.11% / 0.03125) 75%, rgb(0.012% 0% 0.035% / 0.0098876953125) 81.25%, rgb(0.002% 0% 0.007% / 0.001953125) 87.5%, rgb(0% 0% 0% / 0.0001220703125) 93.75%, rgb(0% 0% 0% / 0) 100% );
+  background: #010101;
   text-align: center;
   border-radius: 0.25em;
 }
@@ -2977,7 +2977,7 @@ padding-bottom: 0em;
 		top: 18.55em;
 	}
 	.layout-desktop .detailsGroupItem.genresGroup {
-		top: 3em;
+		top: 2.93em;
 	}
 	.layout-desktop #itemDetailPage .detailImageContainer .card {
 		width: 36em;
@@ -3044,7 +3044,7 @@ padding-bottom: 0em;
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 		top: 15.35em;
 	}
-	.layout-desktop #lyricsSection .vertical-list.itemsContainer {
+        .layout-desktop #lyricsSection .vertical-list.itemsContainer {
 		  position: absolute;
 		  top: 44.8em;
 		  left: 0em;
@@ -3054,7 +3054,7 @@ padding-bottom: 0em;
 		  overflow-y: auto;
 		  min-width: 22%;
 	}
-	
+}
 
 /* 4k works at 150% zoom */
 
@@ -3112,7 +3112,7 @@ padding-bottom: 0em;
 		top: 18.55em;
 	}
 	.layout-desktop .detailsGroupItem.genresGroup {
-		top: 3em;
+		top: 2.93em;
 	}
 	.layout-desktop #itemDetailPage .detailImageContainer .card {
 		width: 36em;
@@ -3180,5 +3180,15 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 		top: 15.35em;
+	}
+        .layout-desktop #lyricsSection .vertical-list.itemsContainer {
+		  position: absolute;
+		  top: 44.8em;
+		  left: 0em;
+		  z-index: 1;
+		  height: 40.5em;
+		  display: block;
+		  overflow-y: auto;
+		  min-width: 22%;
 	}
 }
