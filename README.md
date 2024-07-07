@@ -69,10 +69,11 @@ Make sure you enable backdrops and under Display settings use the Dark theme
 
 That's it.
 
-# Changing the Finality logo
+# Customization
+<img src="https://i.imgur.com/5d4W3M2.png" width="10%" height="10%"  />
 
 ```css
-/*Change top left logo for Finality*/
+/*Use your own header logo*/
 .pageTitleWithDefaultLogo {
   background-image: url(YOURURLHERE);
 }
