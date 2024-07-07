@@ -2130,6 +2130,27 @@ width: 99.3em;
 	border-radius: 0.5em;
 }
 
+/* --- nxllxvxid edits --- */
+
+/* Change text box selected outline color */
+.emby-input:focus,
+.emby-textarea:focus {
+    border-color: red;
+    border-width: 2px;
+    transition: border-color 0.3s ease-in-out, border-width 0.3s ease-in-out;
+    box-shadow: 0 0 5px red, 0 0 10px red;
+}
+
+/*Link color and behavior*/
+.button-link {
+  color: white;
+}
+.button-link:hover {
+  -webkit-text-decoration: none;
+  text-decoration: underline;
+  color: red;
+}
+
 /* --- Mobile View --- */
 .layout-mobile .itemBackdrop {
     display: block;
