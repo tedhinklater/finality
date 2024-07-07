@@ -1738,7 +1738,7 @@ body {
 }
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
-  pposition: absolute;
+  position: absolute;
   top: 35.2em;
   left: 29em;
   z-index: 20;
