@@ -1,5 +1,5 @@
 # finality 
-1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k (150%) :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
+768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k (150%) :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
 ![mockup](https://github.com/tedhinklater/finality/assets/66086488/661b65ca-0b9c-4465-b587-ec028a463182)
 
