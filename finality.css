@@ -2120,7 +2120,7 @@ width: 99.3em;
   position: absolute;
   top: 0em;
   width: 69.38em;
-  left: 29em;
+  left: 48em;
   background: #101010;
   z-index: 10;
 }
@@ -2155,16 +2155,16 @@ width: 99.3em;
 .layout-desktop #lyricsSection .vertical-list.itemsContainer {
   position: absolute;
   top: 35.55em;
-  left: 0em;
+  left: 1.72em;
   z-index: 1;
   height: 22.9em;
   display: block;
   overflow-y: auto;
-  min-width: 22.5%;
   padding-right: 0em;
   background: #02000696;
   text-align: center;
   border-radius: 0.25em;
+  width: 27.2em;
 }
 
 /* --- Mobile View --- */
@@ -3045,14 +3045,14 @@ padding-bottom: 0em;
 		top: 15.35em;
 	}
         .layout-desktop #lyricsSection .vertical-list.itemsContainer {
-		  position: absolute;
-		  top: 44.8em;
-		  left: 0em;
-		  z-index: 1;
-		  height: 40.5em;
-		  display: block;
-		  overflow-y: auto;
-		  min-width: 22%;
+		position: absolute;
+		top: 44.8em;
+		left: 1.72em;
+		z-index: 1;
+		height: 40.5em;
+		display: block;
+		overflow-y: auto;
+		width: 36em;
 	}
 }
 
@@ -3182,13 +3182,13 @@ padding-bottom: 0em;
 		top: 15.35em;
 	}
         .layout-desktop #lyricsSection .vertical-list.itemsContainer {
-		  position: absolute;
-		  top: 44.8em;
-		  left: 0em;
-		  z-index: 1;
-		  height: 40.5em;
-		  display: block;
-		  overflow-y: auto;
-		  min-width: 22%;
+		position: absolute;
+		top: 44.8em;
+		left: 1.72em;
+		z-index: 1;
+		height: 40.5em;
+		display: block;
+		overflow-y: auto;
+		width: 36em;
 	}
 }
