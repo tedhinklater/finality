@@ -2174,6 +2174,20 @@ width: 99.3em;
   width: 27.2em;
 }
 
+/*Item details page hover animations*/
+.layout-desktop #itemDetailPage .cardScalable .cardImageContainer {
+    border: 3px solid transparent;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+}
+
+.layout-desktop #itemDetailPage .cardScalable .cardImageContainer:hover {
+    border-color: red;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+
+
 /* --- Mobile View --- */
 .layout-mobile .itemBackdrop {
     display: block;
