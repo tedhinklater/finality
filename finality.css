@@ -3045,14 +3045,14 @@ padding-bottom: 0em;
 		top: 15.35em;
 	}
         .layout-desktop #lyricsSection .vertical-list.itemsContainer {
-		  position: absolute;
-		  top: 44.8em;
-		  left: 0em;
-		  z-index: 1;
-		  height: 40.5em;
-		  display: block;
-		  overflow-y: auto;
-		  min-width: 22%;
+		position: absolute;
+		top: 44.8em;
+		left: 1.72em;
+		z-index: 1;
+		height: 40.5em;
+		display: block;
+		overflow-y: auto;
+		width: 36em;
 	}
 }
 
