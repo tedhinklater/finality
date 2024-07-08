@@ -275,6 +275,13 @@ progress::-webkit-progress-value {
   color: #fff;
 }
 
+/*Change Intro Skip Color*/
+#skipIntro .emby-button:hover,
+#skipIntro .emby-button:focus {
+    background-color: rgba(255, 0, 0, 0.7); /* Red color with 70% opacity */
+    transform: scale(1.05);
+}
+
 .emby-input:focus,
 .emby-textarea:focus {
     border-color: white;
