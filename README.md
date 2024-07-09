@@ -20,7 +20,7 @@ or, import the colour version with
 
 ```
 
-![g2](https://github.com/tedhinklater/finality/assets/66086488/a8b32508-a731-482f-bad0-26b077de8c27)
+![Screenshot from 2024-07-10 00-04-50](https://github.com/tedhinklater/finality/assets/66086488/c5c04c52-03f0-42a6-ae56-8cfe7d6c9b2b)
 
 <img src="https://github.com/tedhinklater/finality/assets/66086488/b2319d86-a364-4344-af35-79dbcc3cf091" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/4a288a68-eda0-47c4-8a33-5ac652965d8c" width="49.5%" height="49.5%" />
 
