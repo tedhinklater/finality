@@ -1014,7 +1014,7 @@ position: fixed;
   font-size: 0.5em !important;
   white-space: nowrap;
   border-top-right-radius: 0.5em;
-  background: #0006;
+  background: #0000001a;
   padding: 0.2em;
 }
 
@@ -1025,7 +1025,7 @@ position: fixed;
   font-weight: bold;
   white-space: nowrap;
   font-size: 0.5em !important;
-  background: #0006;
+  background: #0000001a;
   border-bottom-left-radius: 0.5em;
   padding: 0.2em;
 }
@@ -1037,7 +1037,7 @@ position: fixed;
   font-weight: bold;
   white-space: nowrap;
   font-size: 0.5em !important;
-  background: #0006;
+  background: #0000001a;
   border-bottom-left-radius: 0.5em;
   padding: 0.2em;
 }
@@ -1049,7 +1049,7 @@ position: fixed;
   font-weight: bold;
   white-space: nowrap;
   font-size: 0.5em !important;
-  background: #0006;
+  background: #0000001a;
   border-bottom-right-radius: 0.5em;
   padding: 0.2em;
 }
@@ -1062,7 +1062,7 @@ position: fixed;
   font-size: 0.5em !important;
   white-space: nowrap;
   border-top-left-radius: 0.5em;
-  background: #0006;
+  background: #0000001a;
   padding: 0.2em;
 }
 
@@ -1074,7 +1074,7 @@ position: fixed;
     position: fixed;
   left: 10.14em;
   font-size: 0.5em !important;
-  background: #0006;
+  background: #0000001a;
   border-bottom-left-radius: 0.5em;
   border-top-left-radius: 0.5em;
   padding: 0.2em;
@@ -1226,14 +1226,13 @@ body {
 /* Width */
 .layout-desktop .trackSelections .selectContainer .detailTrackSelect {
   font-size: inherit;
-  overflow: hidden;
+  overflow: visible;
   padding-left: 1em;
   padding-right: 1em;
   border-radius: 0.35em;
   width: 23em;
   min-width: 23em;
   background-color: #00000070 !important;
-  text-overflow: ellipsis;
 }
 
 .layout-desktop .trackSelections .selectContainer {
