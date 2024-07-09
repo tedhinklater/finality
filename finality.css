@@ -2159,6 +2159,10 @@ position: fixed;
 	border-radius: 0.5em;
 }
 
+#childrenContent .starRatingContainer.mediaInfoItem {
+	display: none;
+}
+
 /* --- nxllxvxxd edits --- */
 
 /* Change text box selected outline color */
