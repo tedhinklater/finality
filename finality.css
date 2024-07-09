@@ -1129,16 +1129,16 @@ position: fixed;
 /* Logo */
 
 .detailLogo {
-  position: fixed;
-  left: 34.5em;
-  display: block;
-  filter: drop-shadow(15px 14px 4px rgba(2, 2, 2, 0.65));
-  width: 76.9em;
-  height: 25em;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  padding: 0;
-  top: 10em;
+	position: fixed;
+	left: 32.5em;
+	display: block;
+	filter: drop-shadow(15px 14px 4px rgba(2, 2, 2, 0.65));
+	width: 82.9em;
+	height: 25em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	padding: 0;
+	top: 10em;
 }
 
 .layout-desktop .itemName.parentNameLast {
@@ -1775,7 +1775,7 @@ position: fixed;
 	height: calc(100vh - 35.2em);
 	display: block;
 	overflow-y: auto;
-	min-width: calc(100vw - 35em);
+	min-width: calc(100vw - 39em);
 	padding-right: 0em;
 	background: #010101;
 }
