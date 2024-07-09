@@ -34,3 +34,7 @@
   filter: blur(0px) saturate(100%) contrast(120%) brightness(65%);
   transition: filter 0.3s;
 }
+
+.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
+  background: #020006;
+}
