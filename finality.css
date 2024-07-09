@@ -988,10 +988,12 @@ margin-bottom: -0.2em;
 
 .layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button {
   opacity: 0;
+  transition-delay: 2s;
 }
 
 .layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button:hover {
   opacity: 1 !important;
+  transition-delay: 0s;
 }
 
 .layout-desktop .detailButton .detailButton-icon.play_arrow::before {
