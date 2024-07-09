@@ -1226,13 +1226,14 @@ body {
 /* Width */
 .layout-desktop .trackSelections .selectContainer .detailTrackSelect {
   font-size: inherit;
-  overflow: visible;
+  overflow: hidden;
   padding-left: 1em;
   padding-right: 1em;
   border-radius: 0.35em;
   width: 23em;
   min-width: 23em;
   background-color: #00000070 !important;
+  text-overflow: ellipsis;
 }
 
 .layout-desktop .trackSelections .selectContainer {
