@@ -1773,7 +1773,7 @@ position: fixed;
   height: calc(100vh - 35.2em);
   display: block;
   overflow-y: auto;
-  min-width: 76.2em;
+  min-width: 94.2em;
   padding-right: 0em;
   background: #010101;
 }
