@@ -1670,9 +1670,9 @@ position: fixed;
     white-space: normal;
     transition: none !important;
 	position: fixed;
-	top: 9em;
+	top: 6em;
 	left: 123.65em;
-    max-height: 41.5em;
+    max-height: calc(100vh - 6em);
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -3143,7 +3143,7 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
 		left: 164.3em;
-		max-height: 57.3em;
+		max-height: calc(100vh - 6em);
 	}
 	.layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
 		width: 7.4em;
@@ -3204,17 +3204,18 @@ padding-bottom: 0em;
 	.layout-desktop .detailPagePrimaryContent {
 		left: 40.7em;
 		top: 66.5em;
+		max-width: 115em;
 	}
 	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
 		left: 38.5em;
-		width: 126em;
-		max-width: 126em;
+		width: 124em;
+		max-width: 124em;
 	}
 	.layout-desktop #castCollapsible .overflowPortraitCard {
 		padding-right: 19em;
 	}
 	.layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-		padding-left: 63.5em;
+		padding-left: 61.5em;
 		padding-right: 63.5em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
