@@ -1767,10 +1767,10 @@ position: fixed;
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
   position: absolute;
-  top: 35.2em;
-  left: 29em;
+  top: 35.2em; /* or your desired top position */
+  left: 29em; /* or your desired left position */
   z-index: 20;
-  height: 26.7em;
+  height: calc(100vh - 35.2em);
   display: block;
   overflow-y: auto;
   min-width: 76.2em;
