@@ -3235,8 +3235,8 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 		left: 38em;
-		height: 37.45em;
-		top: 44.5em;
+    		height: calc(100vh - 44.5em);
+    		top: 44.5em;
 	}
 	.layout-desktop .detailButton-icon.explore {
 		top: 18.55em;
