@@ -2966,24 +2966,24 @@ padding-bottom: 0em;
 		width: 79em;
 	}
 
-    .layout-desktop .pageWithAbsoluteTabs:not(.noSecondaryNavPage) {
-        padding-top: 6.7em !important;
-    }
+    	.layout-desktop .pageWithAbsoluteTabs:not(.noSecondaryNavPage) {
+        	padding-top: 6.7em !important;
+    	}
 	.layout-desktop #genresTab .itemsContainer.vertical-wrap.lazy.padded-left.padded-right {
 		width: 180em;
 	}
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
-        left: 87em;
-        max-height: 29.3em;
-        top: 4em;
+        	left: 87em;
+        	max-height: 29.3em;
+        	top: 4em;
 	}
 	.layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
 		width: 4.7em;
 	}
 	.layout-desktop .detailLogo {
 		left: 21.2em;
-        width: 58.9em;
-        height: 14em;
+        	width: 58.9em;
+        	height: 14em;
 	}
 	.layout-desktop .mainDetailButtons {
 		top: 2.3em;
@@ -2991,7 +2991,7 @@ padding-bottom: 0em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
 		top: 19em;
-        left: 15.75em;
+        	left: 15.75em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.theaters {
 		left: 0.75em;
@@ -3017,10 +3017,10 @@ padding-bottom: 0em;
 		left: 4.95em;
 		top: 8.85em;
 	}
-    .layout-desktop #itemDetailPage .detailButton {
-        padding-left: .85em !important;
-        margin-right: 1.5em !important;
-    }
+    	.layout-desktop #itemDetailPage .detailButton {
+        	padding-left: .85em !important;
+        	margin-right: 1.5em !important;
+    	}
 	.layout-desktop .detailsGroupItem.genresGroup {
 		top: 2.93em;
 	}
@@ -3036,13 +3036,13 @@ padding-bottom: 0em;
 	}
 	.layout-desktop .detailPagePrimaryContent {
 		left: 17em;
-		top: 32.5em;
-        width: 63em;
+		top: 27em;
+        	width: 63em;
 	}
 	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
-        left: 17.5em;
-        width: 66em;
-        max-width: 66em;
+	        left: 17.5em;
+	        width: 66em;
+	        max-width: 66em;
 	}
 	.layout-desktop #castCollapsible .overflowPortraitCard {
 		padding-right: 11em;
@@ -3053,8 +3053,8 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 		top: 20.2em;
-        width: 12.7em;
-        max-height: 11.3em;
+	        width: 12.7em;
+	        max-height: 11.3em;
 	}
 	.layout-desktop #childrenCollapsible .overflowPortraitCard {
 		width: 7em;
@@ -3096,32 +3096,32 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 		left: 79em;
-        width: 14em;
+        	width: 14em;
 	}
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 		top: 9.35em;
-        width: 7em;
+        	width: 7em;
 	}
-    .layout-desktop #lyricsSection .vertical-list.itemsContainer {
+    	.layout-desktop #lyricsSection .vertical-list.itemsContainer {
 		position: absolute;
-        top: 28em;
-        left: 0em;
-        z-index: 2;
-        height: calc(100vh - 28em);
-        display: block;
-        overflow-y: auto;
-        width: 22em;
-        font-size: 9pt;
+        	top: 28em;
+	        left: 0em;
+	        z-index: 2;
+	        height: calc(100vh - 28em);
+	        display: block;
+	        overflow-y: auto;
+	        width: 22em;
+	        font-size: 9pt;
 	}
-    .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
-        max-height: 29em;
-    }
-    .layout-desktop .itemExternalLinks.focuscontainer-x {
-        top: 4.1em;
-    }
-    .layout-desktop #childrenContent .listItem-content {
-        width: 75.05em;
-    }
+    	.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
+        	max-height: 29em;
+   	}
+    	.layout-desktop .itemExternalLinks.focuscontainer-x {
+        	top: 4.1em;
+   	}
+    	.layout-desktop #childrenContent .listItem-content {
+       		width: 75.05em;
+    	}
 }
 
 
