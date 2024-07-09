@@ -987,7 +987,7 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button {
-  opacity: 0.25;
+  opacity: 0;
 }
 
 .layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button:hover {
