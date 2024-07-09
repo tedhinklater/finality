@@ -1,8 +1,6 @@
 # finality 
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k (150%) :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
-![mockup](https://github.com/tedhinklater/finality/assets/66086488/661b65ca-0b9c-4465-b587-ec028a463182)
-
 Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
 ![bw1](https://github.com/tedhinklater/finality/assets/66086488/a6d433f0-ccce-4e1f-9bd0-4f92928a9bf7)
