@@ -1698,7 +1698,7 @@ position: fixed;
 }
 
 .layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
-  width: 5.15em;
+  width: 5em;
   margin-bottom: -3.5em;
   filter: grayscale(100%);
   opacity: 0.2;
@@ -1775,7 +1775,7 @@ position: fixed;
   height: calc(100vh - 35.2em);
   display: block;
   overflow-y: auto;
-  min-width: 94.2em;
+  min-width: calc(100vw - 29em);
   padding-right: 0em;
   background: #010101;
 }
@@ -1803,7 +1803,7 @@ position: fixed;
 }
 
 .layout-desktop #childrenContent .listItem-content {
-width: 99.3em;
+
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast:hover {
@@ -3074,7 +3074,7 @@ padding-bottom: 0em;
 		left: 16em;
 		height: calc(100vh - 24.3em);
 		top: 24.3em;
-		min-width: 51em;
+		min-width: calc(100vw - 16em);
 	}
    	.layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 	        position: fixed;
@@ -3239,6 +3239,7 @@ padding-bottom: 0em;
 		left: 38em;
     		height: calc(100vh - 44.5em);
     		top: 44.5em;
+		min-width: calc(100vw - 38em);
 	}
 	.layout-desktop .detailButton-icon.explore {
 		top: 18.55em;
