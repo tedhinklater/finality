@@ -966,10 +966,11 @@ margin-bottom: -0.2em;
   align-items: center;
   display: flex;
   position: fixed;
-  top: 21em;
-  left: 16.5em;
-  font-size: 200%;
+  top: 4.15em;
+  left: 1.4em;
+  font-size: 500%;
   margin: 0;
+  z-index: 20;
 }
 
 .layout-desktop .detailButton-icon {
@@ -979,28 +980,22 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .detailButton-icon.play_arrow {
-  background: linear-gradient(180deg, rgb(83.529% 0% 0%) 0%, rgb(83.516% 0% 0.001%) 6.25%, rgb(83.425% 0% 0.005%) 12.5%, rgb(83.178% 0% 0.018%) 18.75%, rgb(82.696% 0% 0.043%) 25%, rgb(81.902% 0% 0.084%) 31.25%, rgb(80.717% 0% 0.145%) 37.5%, rgb(79.063% 0% 0.23%) 43.75%, rgb(76.863% 0% 0.343%) 50%, rgb(74.037% 0% 0.489%) 56.25%, rgb(70.509% 0% 0.67%) 62.5%, rgb(66.199% 0% 0.892%) 68.75%, rgb(61.029% 0% 1.158%) 75%, rgb(54.923% 0% 1.472%) 81.25%, rgb(47.8% 0% 1.839%) 87.5%, rgb(39.584% 0% 2.262%) 93.75%, rgb(30.196% 0% 2.745%) 100% );
-  border-radius: 10px;
+  background: linear-gradient(180deg, rgb(83.529% 0% 0%) 0%, rgb(83.516% 0% 0.001%) 6.25%, rgb(83.425% 0% 0.005%) 12.5%, rgb(83.178% 0% 0.018%) 18.75%, rgb(82.696% 0% 0.043%) 25%, rgb(81.902% 0% 0.084%) 31.25%, rgb(80.717% 0% 0.145%) 37.5%, rgb(79.063% 0% 0.23%) 43.75%, rgb(76.863% 0% 0.343%) 50%, rgb(74.037% 0% 0.489%) 56.25%, rgb(70.509% 0% 0.67%) 62.5%, rgb(66.199% 0% 0.892%) 68.75%, rgb(61.029% 0% 1.158%) 75%, rgb(54.923% 0% 1.472%) 81.25%, rgb(47.8% 0% 1.839%) 87.5%, rgb(39.584% 0% 2.262%) 93.75%, rgb(30.196% 0% 2.745%) 100%);
+  border-radius: 0.5em;
   z-index: -2;
-  padding-right: 2.9em;
-  padding-left: 0.15em;
+
+}
+
+.layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button {
+  opacity: 0.25;
+}
+
+.layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button:hover {
+  opacity: 1 !important;
 }
 
 .layout-desktop .detailButton .detailButton-icon.play_arrow::before {
     color: white;
-}
-
-.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
-  content: "PLAY NOW";
-  font-family: "Exo 2", sans-serif;
-  font-style: normal;
-  position: fixed;
-  top: 30.85em;
-  left: 26.8em;
-  font-weight: bold;
-  font-size: 16pt;
-  white-space: nowrap;
-  z-index: 2;
 }
 
 .layout-desktop .detailButton-icon.explore {
@@ -1012,46 +1007,63 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.theaters {
-    position: fixed;
-    top: 13.549em;
-	left: 33.9em;
-    font-weight: bold;
-    font-size: 12pt;
-    white-space: nowrap;
-	padding-right: 2.4em;
+position: fixed;
+  top: 18.162em;
+  left: 0.72em;
+  font-weight: bold;
+  font-size: 0.5em !important;
+  white-space: nowrap;
+  border-top-right-radius: 0.5em;
+  background: #0006;
+  padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
-  position: fixed;
-  top: 13.549em;
-  left: 18.5em;
+position: fixed;
+  top: 3.25em;
+  left: 10.12em;
   font-weight: bold;
   white-space: nowrap;
+  font-size: 0.5em !important;
+  background: #0006;
+  border-bottom-left-radius: 0.5em;
+  padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
-    position: fixed;
-    top: 13.549em;
-	left: 18.5em;
-    font-weight: bold;
-    white-space: nowrap;
+position: fixed;
+  top: 3.25em;
+  left: 10.12em;
+  font-weight: bold;
+  white-space: nowrap;
+  font-size: 0.5em !important;
+  background: #0006;
+  border-bottom-left-radius: 0.5em;
+  padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.favorite {
-    position: fixed;
-    top: 13.549em;
-	left: 23.8em;
-    font-weight: bold;
-    white-space: nowrap;
+position: fixed;
+  top: 3.25em;
+  left: 0.72em;
+  font-weight: bold;
+  white-space: nowrap;
+  font-size: 0.5em !important;
+  background: #0006;
+  border-bottom-right-radius: 0.5em;
+  padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.more_vert {
-    position: fixed;
-    top: 13.549em;
-	left: 29em;
-    font-weight: bold;
-    font-size: 12pt;
-    white-space: nowrap;
+position: fixed;
+  top: 18.162em;
+  left: 10.12em;
+  font-weight: bold;
+  font-size: 0.5em !important;
+  white-space: nowrap;
+  border-top-left-radius: 0.5em;
+  background: #0006;
+  padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.replay {
@@ -1059,7 +1071,13 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.shuffle {
-    display: none;
+    position: fixed;
+  left: 10.14em;
+  font-size: 0.5em !important;
+  background: #0006;
+  border-bottom-left-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+  padding: 0.2em;
 }
 
 .button-link:hover {
@@ -1147,7 +1165,7 @@ body {
 }
 .layout-desktop .detailPagePrimaryContent {
   position: fixed;
-  top: 50.1em;
+  top: 49.1em;
   left: 32.7em;
   max-width: 84em;
   font-size: 11pt;
@@ -1245,18 +1263,19 @@ body {
 }
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
-  position: fixed;
+position: fixed;
   top: 36.6em;
   left: 2.5em;
   max-height: 14.5em;
-  width: 20%;
+  width: 26.5em;
   z-index: 1;
   transition: top 0.5s;
     transition-delay: 0s;
   transition-delay: 0s;
+  transition-delay: 0s;
   padding-right: 0em;
   filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
-  max-width: 20%;
+  max-width: 26.5em;
 }
 
 		/* Series */
@@ -1418,7 +1437,7 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
   position: fixed;
-  top: 12.35em;
+  top: 16.35em;
   left: 1em;
   overflow: visible;
   white-space: normal;
@@ -1674,8 +1693,6 @@ body {
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata:hover {
     filter: grayscale(0%);
     opacity: 1;
-	margin-left: -0.6em !important;
-	transition: margin-left 0.3s;
 }
 
 .layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
@@ -2001,7 +2018,7 @@ width: 99.3em;
 
 .layout-desktop #itemDetailPage .detailButton {
     padding-left: .85em !important;
-    margin-right: 3.5em !important;
+    margin-right: -3.5em !important;
  }
 
 .paper-icon-button-light:hover {
@@ -2180,15 +2197,8 @@ width: 99.3em;
 
 /*Item details page hover animations*/
 .layout-desktop #itemDetailPage .cardScalable .cardImageContainer {
-    border: 3px solid transparent;
-    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
     display: inline-block;
-}
-
-.layout-desktop #itemDetailPage .cardScalable .cardImageContainer:hover {
-    border-color: red;
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
-    transform: scale(1.02);
 }
 
 
@@ -2977,32 +2987,36 @@ padding-bottom: 0em;
         height: 14em;
 	}
 	.layout-desktop .mainDetailButtons {
-		top: 12.5em;
-        left: 8.5em;
+		top: 2.3em;
+		left: 0.1em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
 		top: 19em;
         left: 15.75em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.theaters {
-		left: 22.5em;
-        top: 8.25em;
+		left: 0.75em;
+		top: 10.35em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.more_vert {
-		left: 19.13em;
-		top: 8.25em;
+		left: 4.95em;
+		top: 10.35em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.favorite {
-		left: 15.4em;
-		top: 8.25em;
+		left: 0.75em;
+		top: 3.25em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
-		left: 11.8em;
-		top: 8.25em;
+		left: 4.93em;
+		top: 3.25em;
 	}	
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
-		left: 11.8em;
-		top: 8.25em;
+		left: 4.93em;
+		top: 3.25em;
+	}
+	.layout-desktop .detailButton .detailButton-icon.shuffle {
+		left: 4.95em;
+		top: 8.85em;
 	}
     .layout-desktop #itemDetailPage .detailButton {
         padding-left: .85em !important;
@@ -3110,14 +3124,11 @@ padding-bottom: 0em;
         width: 75.05em;
     }
 }
-}
-
-
 
 
 /* 1440p */
 
-@media only screen and (min-width: 1950px) and (max-width: 2560px) {
+@media (min-width: 1930px) {
 	.layout-desktop #homeTab .sections.homeSectionsContainer {
 		max-width: 174em !important;
 	}
@@ -3143,32 +3154,39 @@ padding-bottom: 0em;
 		height: 31em;
 	}
 	.layout-desktop .mainDetailButtons {
-		top: 29em;
-		left: 20em;
+		top: 5.3em;
+		left: 2.3em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
 		top: 42em;
 		left: 31.7em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.theaters {
-		left: 43.9em;
-		top: 18.55em;
+		left: 0.72em;
+		top: 23.55em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.more_vert {
-		left: 36.3em;
-		top: 18.55em;
+		left: 13.7em;
+		top: 23.55em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.favorite {
-		left: 28.8em;
-		top: 18.55em;
+		left: 0.72em;
+		top: 3.3em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
-		left: 21.5em;
-		top: 18.55em;
+		left: 13.7em;
+		top: 3.3em;
 	}	
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
-		left: 21.5em;
-		top: 18.55em;
+		left: 13.7em;
+		top: 3.3em;
+	}
+	.layout-desktop .detailButton .detailButton-icon.shuffle {
+		left: 13.7em;
+		top: 12.9em;
+	}
+	.layout-desktop #itemDetailPage .detailButton {
+		margin-right: -4.5em !important;
 	}
 	.layout-desktop .detailsGroupItem.genresGroup {
 		top: 2.93em;
@@ -3188,7 +3206,7 @@ padding-bottom: 0em;
 		top: 66.5em;
 	}
 	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
-		left: 35.5em;
+		left: 38.5em;
 		width: 126em;
 		max-width: 126em;
 	}
@@ -3200,145 +3218,10 @@ padding-bottom: 0em;
 		padding-right: 63.5em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
-		top: 46.8em;
-		width: 20%;
+		top: 46em;
+		width: 35em;
 		max-height: 19em;
-	}
-	.layout-desktop #childrenCollapsible .overflowPortraitCard {
-		width: 12em;
-	}
-	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
-		top: 63.2em;
-	}
-	.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
-		left: 38em;
-	}
-	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
-		left: 38em;
-		height: 54.45em;
-	}
-	.layout-desktop .detailButton-icon.explore {
-		top: 18.55em;
-		left: 21em;
-	}
-	.layout-desktop .collectionItems {
-		height: 54.3em;
-		width: 36.1em;
-	}
-	.layout-desktop #itemDetailPage .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
-		width: 34.2em;
-	}
-	.layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-		left: 38em;
-		max-width: 94.2em;
-	}
-	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-		left: 158em;
-	}
-	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
-		top: 15.35em;
-	}
-        .layout-desktop #lyricsSection .vertical-list.itemsContainer {
-		position: absolute;
-		top: 44.8em;
-		left: 1.72em;
-		z-index: 1;
-		height: 40.5em;
-		display: block;
-		overflow-y: auto;
-		width: 36em;
-	}
-}
-
-/* 4k works at 150% zoom */
-
-@media only screen and (min-width: 2600px) and (max-width: 3840px) {
-	.layout-desktop #homeTab .sections.homeSectionsContainer {
-		max-width: 174em !important;
-	}
-	
-	.layout-desktop .padded-right-withalphapicker {
-		padding-left: 1.5em;
-		padding-right: 2em;
-		width: 157em;
-	}
-	.layout-desktop #genresTab .itemsContainer.vertical-wrap.lazy.padded-left.padded-right {
-		width: 180em;
-	}
-	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
-		left: 164.3em;
-		max-height: 57.3em;
-	}
-	.layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-		width: 7.4em;
-	}
-	.layout-desktop .detailLogo {
-		left: 43.2em;
-		width: 114.9em;
-		height: 31em;
-	}
-	.layout-desktop .mainDetailButtons {
-		top: 29em;
-		left: 20em;
-	}
-	.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
-		top: 42em;
-		left: 31.7em;
-	}
-	.layout-desktop .detailButton .detailButton-icon.theaters {
-		left: 43.9em;
-		top: 18.55em;
-	}
-	.layout-desktop .detailButton .detailButton-icon.more_vert {
-		left: 36.3em;
-		top: 18.55em;
-	}
-	.layout-desktop .detailButton .detailButton-icon.favorite {
-		left: 28.8em;
-		top: 18.55em;
-	}
-	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
-		left: 21.5em;
-		top: 18.55em;
-	}	
-	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
-		left: 21.5em;
-		top: 18.55em;
-	}
-	.layout-desktop .detailsGroupItem.genresGroup {
-		top: 2.93em;
-	}
-	.layout-desktop #itemDetailPage .detailImageContainer .card {
-		width: 36em;
-	}
-	.layout-desktop .trackSelections {
-		top: 75.3em;
-	}
-	.layout-desktop .trackSelections .selectContainer .detailTrackSelect {
-		width: 33em;
-		min-width: 33em;
-	}
-	.layout-desktop .detailPagePrimaryContent {
-		left: 40.7em;
-		top: 66.5em;
-		max-width: 107em;
-	}
-	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
-		left: 35.5em;
-		width: 126em;
-		max-width: 126em;
-	}
-	.layout-desktop #castCollapsible .overflowPortraitCard {
-		padding-right: 19em;
-	}
-	.layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-		padding-left: 63.5em;
-		padding-right: 63.5em;
-	}
-	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
-		top: 45.8em;
-		width: 20%;
-		max-height: 19em;
+		max-width: 35em;
 	}
 	.layout-desktop #childrenCollapsible .overflowPortraitCard {
 		width: 12em;
@@ -3348,11 +3231,12 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
 		left: 38em;
+		max-height: 21.5em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 		left: 38em;
-		height: 35.45em;
-		top: 41em;
+		height: 37.45em;
+		top: 44.5em;
 	}
 	.layout-desktop .detailButton-icon.explore {
 		top: 18.55em;
@@ -3373,7 +3257,7 @@ padding-bottom: 0em;
 		left: 158em;
 	}
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
-		top: 15.35em;
+		top: 19.35em;
 	}
         .layout-desktop #lyricsSection .vertical-list.itemsContainer {
 		position: absolute;
@@ -3384,5 +3268,11 @@ padding-bottom: 0em;
 		display: block;
 		overflow-y: auto;
 		width: 36em;
+	}
+	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
+		min-width: 134.2em;
+	}
+	.layout-desktop #childrenContent .listItem-content {
+		width: 133.3em;
 	}
 }
