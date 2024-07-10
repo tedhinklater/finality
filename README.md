@@ -3,7 +3,7 @@
 
 Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
-![g1](https://github.com/tedhinklater/finality/assets/66086488/fcd1d436-57ee-493f-b899-29876bfb311a)
+![g1](https://github.com/tedhinklater/finality/assets/66086488/43b480aa-eeb9-4ea6-8d8b-e648d95987b1)
 
 For the black & white version, paste this into your Custom CSS Box
 
@@ -20,11 +20,11 @@ or, import the colour version with
 
 ```
 
-![g2](https://github.com/tedhinklater/finality/assets/66086488/be1bde83-31a7-4441-a8ed-e786b5f2ec1b)
+![g2](https://github.com/tedhinklater/finality/assets/66086488/8b03cb19-7005-4030-ba10-6e15b51671e5)
 
-<img src="https://github.com/tedhinklater/finality/assets/66086488/b2319d86-a364-4344-af35-79dbcc3cf091" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/4a329d47-ec94-49d4-bad3-a2f6bebd081d" width="49.5%" height="49.5%" />
+<img src="https://github.com/tedhinklater/finality/assets/66086488/b2319d86-a364-4344-af35-79dbcc3cf091" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/367eca41-b0d4-440c-9b4a-8eac792fe619" width="49.5%" height="49.5%" />
 
-<img src="https://github.com/tedhinklater/finality/assets/66086488/6e47a49c-4c80-4a3c-b73e-ab28618dbf5d" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/c067b9d5-4838-4627-ba46-f9e6e4ce0263" width="49.5%" height="49.5%" />
+<img src="https://github.com/tedhinklater/finality/assets/66086488/6e47a49c-4c80-4a3c-b73e-ab28618dbf5d" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/334a2c07-f80a-40c4-966e-08179232a364" width="49.5%" height="49.5%" />
 
 # Player 
 
