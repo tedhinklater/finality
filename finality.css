@@ -3175,8 +3175,8 @@ padding-bottom: 0em;
 		left: 31.5em;
 	}
 	.layout-desktop .mainDetailButtons {
-		top: 5.3em;
-		left: 2.3em;
+		top: 5.5em;
+   		left: 1em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
 		top: 42em;
