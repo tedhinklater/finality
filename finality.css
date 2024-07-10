@@ -1539,12 +1539,12 @@ position: fixed;
 	position: relative;
 	top: 3.87em;
 	left: 2.3em;
-    z-index: 0;
+    	z-index: 0;
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-	padding-left: 46.5em;
-  padding-right: 46em;
+	padding-left: 43.5em;
+	padding-right: 46em;
 }
 
 .layout-desktop #guestCastCollapsible .emby-scrollbuttons.padded-right {
@@ -1554,22 +1554,22 @@ position: fixed;
 /* Specials */
 
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-  position: fixed;
-  top: -0.5em;
-  left: 29em;
-  display: flex;
-  width: auto;
-  max-width: 62.4em;
-  overflow-x: scroll !important;
-  height: 10.4em;
-  background: #131313c4;
-  border-radius: 0.25em;
-  border: 1px solid #030303;
+	position: fixed;
+	top: -0.5em;
+	left: 29em;
+	display: flex;
+	width: auto;
+	max-width: 62.4em;
+	overflow-x: scroll !important;
+	height: 10.4em;
+	background: #131313c4;
+	border-radius: 0.25em;
+	border: 1px solid #030303;
 }
 
 .layout-desktop #specialsCollapsible .card.overflowBackdropCard.card-hoverable.card-withuserdata {
-  width: 12.4em;
-  padding: 0.5em;
+	width: 12.4em;
+	padding: 0.5em;
 }
 
 .layout-desktop #specialsCollapsible .scrollSlider.focuscontainer-x.itemsContainer {
@@ -1578,9 +1578,9 @@ position: fixed;
 
 .layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
 	position: fixed;
-    top: 4em;
-    left: 57em;
-    z-index: 0;
+	top: 4em;
+	left: 57em;
+	z-index: 0;
 	display: none;
 }
 
@@ -1589,60 +1589,60 @@ position: fixed;
 }
 
 .layout-desktop .personCard .overflowPortraitCard {
-    width: 40vw;
+	width: 40vw;
 	border: 2px solid white;
 }
 
 .layout-desktop .personCard .coveredImage {
-    clip-path: circle(50% at 50% 50%);
+	clip-path: circle(50% at 50% 50%);
 }
 
 .layout-desktop .personCard .cardOverlayContainer {
-    clip-path: circle(50% at 50% 50%);
+	clip-path: circle(50% at 50% 50%);
 }
 
 .layout-desktop .personCard .cardOverlayButton-br {
-    right: 20%;
+	right: 20%;
 }
 
 .layout-desktop .personCard .cardPadder-overflowPortrait,
 .layout-desktop .personCard .cardPadder-portrait {
-    padding-bottom: 100%;
-    contain: strict;
-    border-radius: 50% !important;
+	padding-bottom: 100%;
+	contain: strict;
+	border-radius: 50% !important;
 }
 
 .layout-desktop #castCollapsible .overflowPortraitCard {
-    width: 5em;
-    padding-right: 12em;
-    padding-left: 1em;
-    height: 4.5em;
+	width: 5em;
+	padding-right: 12em;
+	padding-left: 1em;
+	height: 4.5em;
 }
 
 .layout-desktop #castCollapsible .cardTextCentered, 
 .layout-desktop #castCollapsible .cardTextCentered > .textActionButton {
-  text-align: left !important;
-  width: 13em;
-  margin-left: -5em;
-  position: relative;
-  top: -2.2em;
-  left: 9em;
-  font-size: 10pt;
-  height: 1.4em;
+	text-align: left !important;
+	width: 13em;
+	margin-left: -5em;
+	position: relative;
+	top: -2.2em;
+	left: 9em;
+	font-size: 10pt;
+	height: 1.4em;
 }
 
 .layout-desktop #castCollapsible .cardText-first {
-  margin-top: -1.5em;
+	margin-top: -1.5em;
 }
 
 .layout-desktop #castCollapsible .cardText-secondary {
-  font-size: 86% !important;
-  padding-left: 2em;
-  padding-bottom: 1em;
+	font-size: 86% !important;
+	padding-left: 2em;
+	padding-bottom: 1em;
 }
 
 .button-flat:hover {
-  color: white;
+	color: white;
 }
 
 .layout-desktop #guestCastContent .overflowPortraitCard {
@@ -1650,9 +1650,9 @@ position: fixed;
 }
 
 .layout-desktop #castContent .cardScalable {
-  clip-path: circle(50% at 50% 50%);
-  border: 2px solid white;
-  border-radius: 2em;
+	clip-path: circle(50% at 50% 50%);
+	border: 2px solid white;
+	border-radius: 2em;
 }
 
 .layout-desktop #guestCastCollapsible .sectionTitle.sectionTitle-cards.padded-right {
@@ -1775,7 +1775,7 @@ position: fixed;
 	height: calc(100vh - 35.2em);
 	display: block;
 	overflow-y: auto;
-	min-width: calc(100vw - 39em);
+	min-width: calc(100vw - 38em);
 	padding-right: 0em;
 	background: #010101;
 }
