@@ -156,6 +156,20 @@
 	background-color: #af0a0a !important;
 }
 
+.material-icons.favorite,
+.material-icons.detailButton-icon.check.playstatebutton-icon-played,
+.material-icons.detailButton-icon.check.playstatebutton-icon-unplayed,
+.material-icons.detailButton-icon.theaters,
+.material-icons.detailButton-icon.more_vert,
+.material-icons.detailButton-icon.shuffle {
+  font-family: 'Material Icons';
+text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
 progress::-moz-progress-bar {
   background-color: rgba(220, 0, 0, 0.9);
 }
