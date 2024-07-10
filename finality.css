@@ -445,8 +445,17 @@ progress::-webkit-progress-value {
 
 /* Backdrop */
 .backdropImage {
-    filter: blur(0px) saturate(0%) contrast(130%) brightness(70%);
-    transition: filter 0.3s;
+	filter: blur(0px) saturate(0%) contrast(130%) brightness(70%);
+	transition: filter 0.3s;
+	background-position-x: 0%;
+	background-repeat: no-repeat;
+	background-size: 112%;
+	bottom: 0;
+	contain: layout style;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 .backgroundContainer.withBackdrop {
