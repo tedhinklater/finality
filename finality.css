@@ -2993,9 +2993,10 @@ padding-bottom: 0em;
 		width: 4.7em;
 	}
 	.layout-desktop .detailLogo {
-		left: 21.2em;
+		left: 23.2em;
 		width: 58.9em;
-		height: 14em;
+		height: 19em;
+		top: 8em;
 	}
 	.layout-desktop .mainDetailButtons {
 		top: 2.3em;
