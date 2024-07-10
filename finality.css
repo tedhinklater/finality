@@ -904,6 +904,7 @@ margin-bottom: -0.2em;
 
 .layout-desktop .detailImageContainer .card {
   z-index: 3;
+  min-width: 14em;
 }
 
 .layout-desktop #homeTab .cardText.cardTextCentered.cardText-first {
@@ -1228,13 +1229,14 @@ body {
 /* Width */
 .layout-desktop .trackSelections .selectContainer .detailTrackSelect {
   font-size: inherit;
-  overflow: visible;
+  overflow: hidden;
   padding-left: 1em;
   padding-right: 1em;
   border-radius: 0.35em;
   width: 23em;
   min-width: 23em;
   background-color: #00000070 !important;
+  text-overflow: ellipsis;
 }
 
 .layout-desktop .trackSelections .selectContainer {
@@ -2077,7 +2079,7 @@ position: fixed;
 	flex-direction: column;
     overflow-y: auto;
     overflow-x: hidden;
-    max-height: 48em;
+    max-height: calc(100vh - 14em);
 	width: 11.5em;
 	scroll-snap-type: y mandatory;
 	background: #06081640;
@@ -2961,35 +2963,33 @@ padding-bottom: 0em;
 
 /* 768p */
 
-@media only screen and (min-width: 1300px) and (max-width: 1400px) {
+@media only screen and (min-width: 800px) and (max-width: 1400px) {
 	.layout-desktop #homeTab .sections.homeSectionsContainer {
 		max-width: 174em !important;
-	}
-	
+	}	
 	.layout-desktop .padded-right-withalphapicker {
 		padding-left: 1.5em;
 		padding-right: 2em;
 		width: 79em;
 	}
-
-    	.layout-desktop .pageWithAbsoluteTabs:not(.noSecondaryNavPage) {
-        	padding-top: 6.7em !important;
-    	}
+	.layout-desktop .pageWithAbsoluteTabs:not(.noSecondaryNavPage) {
+		padding-top: 6.7em !important;
+	}
 	.layout-desktop #genresTab .itemsContainer.vertical-wrap.lazy.padded-left.padded-right {
 		width: 180em;
 	}
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
-        	left: 87em;
-        	max-height: 29.3em;
-        	top: 4em;
+		left: 87em;
+		max-height: calc(100vh - 4em);
+		top: 4em;
 	}
 	.layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
 		width: 4.7em;
 	}
 	.layout-desktop .detailLogo {
 		left: 21.2em;
-        	width: 58.9em;
-        	height: 14em;
+		width: 58.9em;
+		height: 14em;
 	}
 	.layout-desktop .mainDetailButtons {
 		top: 2.3em;
@@ -3023,10 +3023,10 @@ padding-bottom: 0em;
 		left: 4.95em;
 		top: 8.85em;
 	}
-    	.layout-desktop #itemDetailPage .detailButton {
-        	padding-left: .85em !important;
-        	margin-right: 1.5em !important;
-    	}
+	.layout-desktop #itemDetailPage .detailButton {
+		padding-left: .85em !important;
+		margin-right: 1.5em !important;
+	}
 	.layout-desktop .detailsGroupItem.genresGroup {
 		top: 2.93em;
 	}
@@ -3043,12 +3043,12 @@ padding-bottom: 0em;
 	.layout-desktop .detailPagePrimaryContent {
 		left: 17em;
 		top: 27em;
-        	width: 63em;
+		width: 63em;
 	}
 	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
-	        left: 17.5em;
-	        width: 66em;
-	        max-width: 66em;
+		left: 17.5em;
+		width: 66em;
+		max-width: 66em;
 	}
 	.layout-desktop #castCollapsible .overflowPortraitCard {
 		padding-right: 11em;
@@ -3059,8 +3059,8 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 		top: 20.2em;
-	        width: 12.7em;
-	        max-height: 11.3em;
+		width: 12.7em;
+		max-height: 11.3em;
 	}
 	.layout-desktop #childrenCollapsible .overflowPortraitCard {
 		width: 7em;
@@ -3070,9 +3070,9 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
 		left: 16em;
-	        top: 8em;
-	        height: 15em;
-	        width: 61em;
+		top: 8em;
+		height: 15em;
+		width: 61em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 		left: 16em;
@@ -3081,10 +3081,10 @@ padding-bottom: 0em;
 		min-width: calc(100vw - 23em);
 	}
    	.layout-desktop #itemDetailPage .itemName.infoText.subtitle {
-	        position: fixed;
-	        top: 3.8em;
-	        left: 3.74em;
-    	}
+		position: fixed;
+		top: 3.8em;
+		left: 3.74em;
+	}
 	.layout-desktop .detailButton-icon.explore {
 		top: 18.55em;
 		left: 21em;
@@ -3102,32 +3102,32 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 		left: 79em;
-        	width: 14em;
+        width: 14em;
 	}
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 		top: 9.35em;
-        	width: 7em;
+        width: 7em;
 	}
-    	.layout-desktop #lyricsSection .vertical-list.itemsContainer {
+    .layout-desktop #lyricsSection .vertical-list.itemsContainer {
 		position: absolute;
-        	top: 28em;
-	        left: 0em;
-	        z-index: 2;
-	        height: calc(100vh - 28em);
-	        display: block;
-	        overflow-y: auto;
-	        width: 22em;
-	        font-size: 9pt;
+		top: 28em;
+		left: 0em;
+		z-index: 2;
+		height: calc(100vh - 28em);
+		display: block;
+		overflow-y: auto;
+		width: 22em;
+		font-size: 9pt;
 	}
-    	.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
-        	max-height: 29em;
+    .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
+        max-height: calc(100vh - 15em);
    	}
-    	.layout-desktop .itemExternalLinks.focuscontainer-x {
-        	top: 4.1em;
+    .layout-desktop .itemExternalLinks.focuscontainer-x {
+        top: 4.1em;
    	}
-    	.layout-desktop #childrenContent .listItem-content {
-       		width: 75.05em;
-    	}
+    .layout-desktop #childrenContent .listItem-content {
+       	width: 75.05em;
+    }
 }
 
 
@@ -3143,11 +3143,17 @@ padding-bottom: 0em;
 		padding-right: 2em;
 		width: 157em;
 	}
+	.layout-desktop .alphaPicker-fixed-right {
+
+	}
+	.alphaPickerButton {
+		margin: 0.25vh;
+	}
 	.layout-desktop #genresTab .itemsContainer.vertical-wrap.lazy.padded-left.padded-right {
 		width: 180em;
 	}
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
-		left: 164.3em;
+		left: calc(100vw - 7.8em);
 		max-height: calc(100vh - 6em);
 	}
 	.layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
@@ -3156,7 +3162,10 @@ padding-bottom: 0em;
 	.layout-desktop .detailLogo {
 		left: 43.2em;
 		width: 114.9em;
-		height: 31em;
+		height: 32em;
+	}
+	.layout-desktop .itemName.infoText.originalTitle {
+		left: 31.5em;
 	}
 	.layout-desktop .mainDetailButtons {
 		top: 5.3em;
@@ -3197,7 +3206,8 @@ padding-bottom: 0em;
 		top: 2.93em;
 	}
 	.layout-desktop #itemDetailPage .detailImageContainer .card {
-		width: 36em;
+		max-width: 36em;
+		min-width: 36em;
 	}
 	.layout-desktop .trackSelections {
 		top: 75.3em;
@@ -3237,7 +3247,7 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
 		left: 38em;
-		max-height: 21.5em;
+		max-height: 30.5em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 		left: 38em;
@@ -3277,9 +3287,12 @@ padding-bottom: 0em;
 		width: 36em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
-		min-width: 126.2em;
+		min-width: calc(100vw - 47em);
 	}
 	.layout-desktop #childrenContent .listItem-content {
-		width: 133.3em;
+		width: calc(100vw - 50em);
+	}
+	.layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
+		width: 7.3em;
 	}
 }
