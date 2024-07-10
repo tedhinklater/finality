@@ -24,7 +24,7 @@ or, import the colour version with
 
 <img src="https://github.com/tedhinklater/finality/assets/66086488/b2319d86-a364-4344-af35-79dbcc3cf091" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/367eca41-b0d4-440c-9b4a-8eac792fe619" width="49.5%" height="49.5%" />
 
-<img src="https://github.com/tedhinklater/finality/assets/66086488/d5897eba-1175-45d6-b792-46d92b4c63ab" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/6788def4-2f33-4a6e-89b8-ff8932b0c42c" width="49.5%" height="49.5%" />
+<img src="https://github.com/tedhinklater/finality/assets/66086488/d5897eba-1175-45d6-b792-46d92b4c63ab" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/ca59f7be-fdc2-424e-bbdd-0a2792490454" width="49.5%" height="49.5%" />
 
 # Player 
 
