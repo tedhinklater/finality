@@ -987,7 +987,7 @@ margin-bottom: -0.2em;
   display: flex;
   position: fixed;
   top: 4.15em;
-  left: 1.44em;
+  left: 0.057em;
   font-size: 500%;
   margin: 0;
   z-index: 20;
@@ -1000,10 +1000,10 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .detailButton-icon.play_arrow {
-  background: linear-gradient(180deg, rgb(83.529% 0% 0%) 0%, rgb(83.516% 0% 0.001%) 6.25%, rgb(83.425% 0% 0.005%) 12.5%, rgb(83.178% 0% 0.018%) 18.75%, rgb(82.696% 0% 0.043%) 25%, rgb(81.902% 0% 0.084%) 31.25%, rgb(80.717% 0% 0.145%) 37.5%, rgb(79.063% 0% 0.23%) 43.75%, rgb(76.863% 0% 0.343%) 50%, rgb(74.037% 0% 0.489%) 56.25%, rgb(70.509% 0% 0.67%) 62.5%, rgb(66.199% 0% 0.892%) 68.75%, rgb(61.029% 0% 1.158%) 75%, rgb(54.923% 0% 1.472%) 81.25%, rgb(47.8% 0% 1.839%) 87.5%, rgb(39.584% 0% 2.262%) 93.75%, rgb(30.196% 0% 2.745%) 100%);
-  border-radius: 0.5em;
-  z-index: -2;
-
+	background: linear-gradient(79deg, rgba(174, 0, 0, 0.95) 0%, rgba(174, 0, 0, 0.95) 6.25%, rgba(174, 0, 0, 0.95) 12.5%, rgba(174, 0, 0, 0.95) 18.75%, rgba(174, 0, 0, 0.95) 25%, rgba(173, 0, 0, 0.95) 31.25%, rgba(173, 0, 0, 0.95) 37.5%, rgba(172, 0, 0, 0.95) 43.75%, rgba(171, 1, 0, 0.95) 50%, rgba(168, 1, 0, 0.95) 56.25%, rgba(165, 2, 0, 0.95) 62.5%, rgba(161, 2, 0, 0.95) 68.75%, rgba(156, 3, 0, 0.95) 75%, rgba(150, 5, 0, 0.95) 81.25%, rgba(141, 6, 1, 0.96) 87.5%, rgba(131, 8, 1, 0.96) 93.75%, rgba(118, 11, 1, 0.96) 100% );
+	border-radius: 0.055em;
+	z-index: -2;
+	width: 2.67em;
 }
 
 .layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button {
