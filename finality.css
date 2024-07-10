@@ -163,11 +163,7 @@
 .material-icons.detailButton-icon.more_vert,
 .material-icons.detailButton-icon.shuffle {
   font-family: 'Material Icons';
-text-shadow: 
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+filter: drop-shadow(0px 0px 3px rgb(0, 0, 0));
 }
 
 progress::-moz-progress-bar {
@@ -1039,8 +1035,6 @@ position: fixed;
   font-weight: bold;
   font-size: 0.5em !important;
   white-space: nowrap;
-  border-top-right-radius: 0.5em;
-  background: #0000001a;
   padding: 0.2em;
 }
 
@@ -1051,8 +1045,6 @@ position: fixed;
   font-weight: bold;
   white-space: nowrap;
   font-size: 0.5em !important;
-  background: #0000001a;
-  border-bottom-left-radius: 0.5em;
   padding: 0.2em;
 }
 
@@ -1063,8 +1055,6 @@ position: fixed;
   font-weight: bold;
   white-space: nowrap;
   font-size: 0.5em !important;
-  background: #0000001a;
-  border-bottom-left-radius: 0.5em;
   padding: 0.2em;
 }
 
@@ -1075,8 +1065,6 @@ position: fixed;
   font-weight: bold;
   white-space: nowrap;
   font-size: 0.5em !important;
-  background: #0000001a;
-  border-bottom-right-radius: 0.5em;
   padding: 0.2em;
 }
 
@@ -1087,8 +1075,6 @@ position: fixed;
   font-weight: bold;
   font-size: 0.5em !important;
   white-space: nowrap;
-  border-top-left-radius: 0.5em;
-  background: #0000001a;
   padding: 0.2em;
 }
 
@@ -1100,9 +1086,6 @@ position: fixed;
     position: fixed;
   left: 10.14em;
   font-size: 0.5em !important;
-  background: #0000001a;
-  border-bottom-left-radius: 0.5em;
-  border-top-left-radius: 0.5em;
   padding: 0.2em;
 }
 
