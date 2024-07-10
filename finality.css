@@ -3000,11 +3000,14 @@ padding-bottom: 0em;
 	}
 	.layout-desktop .mainDetailButtons {
 		top: 2.3em;
-		left: 0.1em;
+		left: -0.46em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
 		top: 19em;
         	left: 15.75em;
+	}
+	.layout-desktop .detailButton-icon.play_arrow {
+		width: 1.72em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.theaters {
 		left: 0.75em;
