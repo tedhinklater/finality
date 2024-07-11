@@ -438,15 +438,15 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #videoOsdPage .osdRatingsText {
-  opacity: 0;
+	opacity: 0;
 }
 
 /* --- Homepage --- */
 
 .pageTitle {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.3em;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.3em;
 }
 
 .layout-desktop .pageTitle {
@@ -469,44 +469,44 @@ progress::-webkit-progress-value {
 }
 
 .backgroundContainer.withBackdrop {
-  background: linear-gradient(180deg, rgb(0% 0% 0% / 0.2) 0%, rgb(0% 0% 0% / 0.20009765625) 6.25%, rgb(0% 0% 0% / 0.2015625) 12.5%, rgb(0% 0% 0% / 0.20791015625) 18.75%, rgb(0% 0% 0% / 0.225) 25%, rgb(0% 0% 0% / 0.26103515625) 31.25%, rgb(0% 0% 0% / 0.3265625) 37.5%, rgb(0% 0% 0% / 0.43447265625000003) 43.75%, rgb(0% 0% 0% / 0.6000000000000001) 50%, rgb(0% 0% 0% / 0.7655273437500001) 56.25%, rgb(0% 0% 0% / 0.8734375000000001) 62.5%, rgb(0% 0% 0% / 0.93896484375) 68.75%, rgb(0% 0% 0% / 0.9750000000000001) 75%, rgb(0% 0% 0% / 0.9920898437500001) 81.25%, rgb(0% 0% 0% / 0.9984375000000001) 87.5%, rgb(0% 0% 0% / 0.9999023437500001) 93.75%, rgb(0% 0% 0%) 100% );
-  opacity: 1;
-  filter: grayscale(100%);
+	background: linear-gradient(180deg, rgb(0% 0% 0% / 0.2) 0%, rgb(0% 0% 0% / 0.20009765625) 6.25%, rgb(0% 0% 0% / 0.2015625) 12.5%, rgb(0% 0% 0% / 0.20791015625) 18.75%, rgb(0% 0% 0% / 0.225) 25%, rgb(0% 0% 0% / 0.26103515625) 31.25%, rgb(0% 0% 0% / 0.3265625) 37.5%, rgb(0% 0% 0% / 0.43447265625000003) 43.75%, rgb(0% 0% 0% / 0.6000000000000001) 50%, rgb(0% 0% 0% / 0.7655273437500001) 56.25%, rgb(0% 0% 0% / 0.8734375000000001) 62.5%, rgb(0% 0% 0% / 0.93896484375) 68.75%, rgb(0% 0% 0% / 0.9750000000000001) 75%, rgb(0% 0% 0% / 0.9920898437500001) 81.25%, rgb(0% 0% 0% / 0.9984375000000001) 87.5%, rgb(0% 0% 0% / 0.9999023437500001) 93.75%, rgb(0% 0% 0%) 100% );
+	opacity: 1;
+	filter: grayscale(100%);
 }
 
 /* Header*/
 .skinHeader-withBackground {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 6.25%, rgba(0, 0, 0, 0.83) 12.5%, rgba(0, 0, 0, 0.82) 18.75%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.77) 31.25%, rgba(0, 0, 0, 0.73) 37.5%, rgba(0, 0, 0, 0.69) 43.75%, rgba(0, 0, 0, 0.64) 50%, rgba(0, 0, 0, 0.58) 56.25%, rgba(0, 0, 0, 0.52) 62.5%, rgba(0, 0, 0, 0.45) 68.75%, rgba(0, 0, 0, 0.37) 75%, rgba(0, 0, 0, 0.29) 81.25%, rgba(0, 0, 0, 0.2) 87.5%, rgba(0, 0, 0, 0.1) 93.75%, rgba(0, 0, 0, 0) 100% );
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 6.25%, rgba(0, 0, 0, 0.83) 12.5%, rgba(0, 0, 0, 0.82) 18.75%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.77) 31.25%, rgba(0, 0, 0, 0.73) 37.5%, rgba(0, 0, 0, 0.69) 43.75%, rgba(0, 0, 0, 0.64) 50%, rgba(0, 0, 0, 0.58) 56.25%, rgba(0, 0, 0, 0.52) 62.5%, rgba(0, 0, 0, 0.45) 68.75%, rgba(0, 0, 0, 0.37) 75%, rgba(0, 0, 0, 0.29) 81.25%, rgba(0, 0, 0, 0.2) 87.5%, rgba(0, 0, 0, 0.1) 93.75%, rgba(0, 0, 0, 0) 100% );
 }
 
 .skinHeader.semiTransparent {
-  background: transparent;
+	background: transparent;
 }
 
 .emby-tab-button {
-  background: transparent;
-  border-radius: 0;
-  box-shadow: none;
-  box-sizing: border-box;
-  cursor: pointer;
-  display: inline-block;
-  -webkit-flex-shrink: 0;
-  flex-shrink: 0;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: 600;
-  height: auto;
-  line-height: 1.25;
-  margin: 0;
-  min-width: 0;
-  min-width: auto;
-  outline: none;
-  overflow: hidden;
-  padding: 1.5em 1.5em;
-  position: relative;
-  vertical-align: middle;
-  width: auto;
-  text-transform: uppercase;
+	background: transparent;
+	border-radius: 0;
+	box-shadow: none;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: inline-block;
+	-webkit-flex-shrink: 0;
+	flex-shrink: 0;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: 600;
+	height: auto;
+	line-height: 1.25;
+	margin: 0;
+	min-width: 0;
+	min-width: auto;
+	outline: none;
+	overflow: hidden;
+	padding: 1.5em 1.5em;
+	position: relative;
+	vertical-align: middle;
+	width: auto;
+	text-transform: uppercase;
 }
 
 /* move homeTab sections left */
@@ -524,7 +524,7 @@ progress::-webkit-progress-value {
 
 /* Hide My Media text on desktop */
 .layout-desktop #homeTab .section0 .sectionTitle.sectionTitle-cards.padded-left {
-  display: none;
+	display: none;
 }
 
 /* My Media Card size */
@@ -545,15 +545,15 @@ progress::-webkit-progress-value {
 	background: #fff;
 	border: 2px solid black;
 	border-radius: 0.5em;
-    color: black;
+	color: black;
 }
 
 .layout-desktop #indexPage .homeLibraryButton {
-  min-width: 13.65em;
-  margin-top: 0.5em !important;
-  margin-right: 1.46em !important;
-  margin-bottom: 0.5em !important;
-  margin-left: 0.5em !important;
+	min-width: 13.65em;
+	margin-top: 0.5em !important;
+	margin-right: 1.46em !important;
+	margin-bottom: 0.5em !important;
+	margin-left: 0.5em !important;
 }
 
 .layout-desktop .verticalSection.section0.emby-scroller-container .emby-scrollbuttons.padded-right {
@@ -573,33 +573,33 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #homeTab .raised.homeLibraryButton.emby-button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-left: 0.25em !important;
-  margin-right: 1.20666em !important;
-  min-width: 14.15em !important;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-left: 0.25em !important;
+	margin-right: 1.20666em !important;
+	min-width: 14.15em !important;
 }
 
 .layout-desktop #homeTab .homeLibraryIcon {
-  display: none;
+	display: none;
 }
 
 /* Hide My Media text under cards */
 .verticalSection.section0 .textActionButton {
-  display: none;
+	display: none;
 }
 
 /*Vertical card size on homeTab */
 .layout-desktop #homeTab .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-  width: 15.6em;
+	width: 15.6em;
 }
 
 /*Square card size on homeTab */
 .overflowSquareCard {
-    width: 12.05em;
+	width: 12.05em;
 }
 
 
@@ -617,21 +617,21 @@ progress::-webkit-progress-value {
 
 /* Reduce space between My Media cards and Next Up */
 .layout-desktop .sectionTitleContainer-cards {
-  margin-top: -1.5em;
-  margin-bottom: -0.3em;
+	margin-top: -1.5em;
+	margin-bottom: -0.3em;
 }
 
 /* Position chevron */
 .sectionTitleTextButton > .material-icons {
-  font-size: 1.5em;
-  margin-bottom: .2em;
-  margin-left: 0.2em;
+	font-size: 1.5em;
+	margin-bottom: .2em;
+	margin-left: 0.2em;
 }
 
 /* Adjust alignment for the cards within the Continue Watching section */
 .layout-desktop #homeTab .section1.verticalSection .itemsContainer .card.overflowBackdropCard {
-    width: 31.35em !important;
-    margin-top: 0em;
+	width: 31.35em !important;
+	margin-top: 0em;
 }
 
 .layout-desktop #homeTab .sectionTitle.sectionTitle-cards {
@@ -644,13 +644,13 @@ progress::-webkit-progress-value {
 
 /* Apply progress bar gradient */
 .itemProgressBarForeground {
-    background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+	background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
 }
 
 .layout-desktop .itemProgressBar {
-  background: #000;
-  height: 0.4em;
-  position: relative;
+	background: #000;
+	height: 0.4em;
+	position: relative;
   
 }
 
@@ -662,33 +662,33 @@ progress::-webkit-progress-value {
 
 /* hide Live TV text */
 .sectionTitleContainer.sectionTitleContainer-cards.padded-left > .sectionTitle.sectionTitle-cards {
-    display: none;
+	display: none;
 }
 
 /* hide Live TV shortcuts */
 .padded-top.padded-bottom.scrollSlider.focuscontainer-x {
-    display: none;
+	display: none;
 }
 
 /* --- Movies Page --- */
 
 .layout-desktop #moviesTab .portraitCard {
-  width: 15.6em;
-  padding-right: 0em;
-  padding-left: 0em;
+	width: 15.6em;
+	padding-right: 0em;
+	padding-left: 0em;
 }
 
 .layout-desktop #seriesTab .portraitCard {
-  width: 15.6em;
-  padding-right: 0em;
-  padding-left: 0em;
+	width: 15.6em;
+	padding-right: 0em;
+	padding-left: 0em;
 }
 
 .layout-desktop #episodesTab .cardText.cardTextCentered.cardText-first {
 	font-family: inherit;
 	text-transform: uppercase;
-    font-weight: 700 !important;
-    margin-bottom: -0.2em;
+	font-weight: 700 !important;
+	margin-bottom: -0.2em;
 }	
 
 /* Favorites */
@@ -696,14 +696,14 @@ progress::-webkit-progress-value {
 .layout-desktop #favoritesTab .cardText.cardTextCentered.cardText-first {
 	font-family: inherit;
 	text-transform: uppercase;
-    font-weight: 700 !important;
-    margin-bottom: -0.2em;
+	font-weight: 700 !important;
+	margin-bottom: -0.2em;
 }
 
 .layout-desktop #favoritesTab .overflowPortraitCard {
-  width: 15.6em;
-  padding-right: 0em;
-  padding-left: 0em;
+	width: 15.6em;
+	padding-right: 0em;
+	padding-left: 0em;
 }
 
 .layout-desktop #favoritesTab .sections {
@@ -712,15 +712,15 @@ progress::-webkit-progress-value {
 
 .layout-desktop #favoritesTab .verticalSection.emby-scroller-container {
 	margin-left: -2.5em;
-    max-width: 129em;
+	max-width: 129em;
 }
 
 .layout-desktop #favoritesTab .sectionTitle.sectionTitle-cards {
-  font-size: 1em;
-  font-family: inherit;
-  text-transform: uppercase;
-  font-weight: 500 !important;
-  margin-left: 0.3em;
+	font-size: 1em;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-weight: 500 !important;
+	margin-left: 0.3em;
 }
 
 /* Genres */
@@ -728,32 +728,32 @@ progress::-webkit-progress-value {
 .layout-desktop #genresTab .cardText.cardTextCentered.cardText-first {
 	font-family: inherit;
 	text-transform: uppercase;
-    font-weight: 700 !important;
-    margin-bottom: -0.2em;
+	font-weight: 700 !important;
+	margin-bottom: -0.2em;
 }
 
 .layout-desktop #genresTab .overflowPortraitCard {
-  width: 15.6em;
-  padding-right: 0em;
-  padding-left: 0em;
+	width: 15.6em;
+	padding-right: 0em;
+	padding-left: 0em;
 }
 
 .layout-desktop #items .verticalSection {
-  margin-top: 3em;
-  margin-bottom: -5em;
+	margin-top: 3em;
+	margin-bottom: -5em;
 }
 
 .layout-desktop #genresTab .verticalSection.emby-scroller-container {
 	margin-left: -2.5em;
-    max-width: 129em;
+	max-width: 129em;
 }
 
 .layout-desktop #genresTab .sectionTitle.sectionTitle-cards {
-  font-size: 1em;
-  font-family: inherit;
-  text-transform: uppercase;
-  font-weight: 500 !important;
-  margin-left: 0.3em;
+	font-size: 1em;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-weight: 500 !important;
+	margin-left: 0.3em;
 }
 
 /* Suggestions */
@@ -761,38 +761,38 @@ progress::-webkit-progress-value {
 .layout-desktop #suggestionsTab .cardText.cardTextCentered.cardText-first {
 	font-family: inherit;
 	text-transform: uppercase;
-    font-weight: 700 !important;
-    margin-bottom: -0.2em;
+	font-weight: 700 !important;
+	margin-bottom: -0.2em;
 }
 
 .layout-desktop #resumableItems .backdropCard {
-  width: 31.35em !important;
-  padding-right: 0em;
-  padding-left: 0em;
+	width: 31.35em !important;
+	padding-right: 0em;
+	padding-left: 0em;
 }
 
 .layout-desktop #suggestionsTab .portraitCard {
-  width: 15.6em;
-  padding-right: 0em;
-  padding-left: 0em;
+	width: 15.6em;
+	padding-right: 0em;
+	padding-left: 0em;
 }
 
 .layout-desktop #suggestionsTab .verticalSection {
-  margin-top: 3em;
-  margin-bottom: -5em;
+	margin-top: 3em;
+	margin-bottom: -5em;
 }
 
 .layout-desktop #suggestionsTab .verticalSection.emby-scroller-container {
 	margin-left: -2.5em;
-    max-width: 129em;
+	max-width: 129em;
 }
 
 .layout-desktop #suggestionsTab .sectionTitle.sectionTitle-cards {
-  font-size: 1em;
-  font-family: inherit;
-  text-transform: uppercase;
-  font-weight: 500 !important;
-  margin-left: 0.3em;
+	font-size: 1em;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-weight: 500 !important;
+	margin-left: 0.3em;
 }
 
 /* Search */
@@ -806,19 +806,19 @@ progress::-webkit-progress-value {
 .layout-desktop #searchPage .cardText.cardTextCentered.cardText-first {
 	font-family: inherit;
 	text-transform: uppercase;
-    font-weight: 700 !important;
-    margin-bottom: -0.2em;
+	font-weight: 700 !important;
+	margin-bottom: -0.2em;
 }
 
 .layout-desktop #searchPage .overflowPortraitCard {
-  width: 15.6em;
-  padding-right: 0em;
-  padding-left: 0em;
+	width: 15.6em;
+	padding-right: 0em;
+	padding-left: 0em;
 }
 
 .layout-desktop #searchPage .verticalSection {
-  margin-top: 3em;
-  margin-bottom: -5em;
+	margin-top: 3em;
+	margin-bottom: -5em;
 }
 
 .layout-desktop #searchPage .sectionTitle.sectionTitle-cards {
@@ -836,29 +836,29 @@ progress::-webkit-progress-value {
 .layout-desktop #moviesTab .cardText.cardTextCentered.cardText-first {
 	font-family: inherit;
 	text-transform: uppercase;
-    font-weight: 700 !important;
-    margin-bottom: -0.2em;
+	font-weight: 700 !important;
+	margin-bottom: -0.2em;
 }
 
 .layout-desktop #seriesTab .cardText.cardTextCentered.cardText-first {
 	font-family: inherit;
 	text-transform: uppercase;
-        font-weight: 700 !important;
-margin-bottom: -0.2em;
+	font-weight: 700 !important;
+	margin-bottom: -0.2em;
 }
 
 .cardFooter {
-  padding: .2em .2em .4em .2em;
-  position: relative;
-  margin-top: 0em;
+	padding: .2em .2em .4em .2em;
+	position: relative;
+	margin-top: 0em;
 }
 
 .cardScalable .cardImageContainer {
-  contain: strict;
-  height: 100%;
-  width: 100%;
-  scroll-snap-align: start;
-  filter: drop-shadow(8px 8px 2px rgba(2, 2, 2, 0.85));
+	contain: strict;
+	height: 100%;
+	width: 100%;
+	scroll-snap-align: start;
+	filter: drop-shadow(8px 8px 2px rgba(2, 2, 2, 0.85));
 }
 
 .layout-desktop #itemDetailPage .cardScalable .cardImageContainer {
@@ -866,18 +866,18 @@ margin-bottom: -0.2em;
 }
 
 .visualCardBox {
-  background-color: #0000005e;
+	background-color: #0000005e;
 }
 
 .backdropCard {
-    width: 16.3%;
+	width: 16.3%;
 }
 
 .layout-desktop #homeTab .material-icons.cardOverlayButtonIcon.cardOverlayButtonIcon-hover.play_arrow {
-  background-color: rgba(255, 0, 0, 0.75);
-  font-size: 100%;
-  height: 2.5em;
-  width: 2.5em;
+	background-color: rgba(255, 0, 0, 0.75);
+	font-size: 100%;
+	height: 2.5em;
+	width: 2.5em;
 
 }
 
@@ -886,47 +886,47 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .padded-right-withalphapicker {
-    padding-left: 1.5em;
+	padding-left: 1.5em;
 	padding-right: 2em;
   }
 
 .layout-desktop .alphaPicker-fixed-right {
-    right: 1em;
-    right: max(env(safe-area-inset-right),1em) !important;
+	right: 1em;
+	right: max(env(safe-area-inset-right),1em) !important;
   }
  
  /* Top padding */
  .pageWithAbsoluteTabs:not(.noSecondaryNavPage) {
-    padding-top: 3.7em !important;
+	padding-top: 3.7em !important;
   }
 
 .layout-desktop .cardTextCentered {
-  filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
+	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
 
 /* --- Detail Page --- */
 
 /* Poster */
 .layout-desktop #itemDetailPage .detailImageContainer .card {
-  position: fixed;
-  top: -6.789em;
-  left: 0.7em;
-  width: 27em;
-  border: 2px solid white;
-  border-radius: 5px;
-  filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
+	position: fixed;
+	top: -6.789em;
+	left: 0.7em;
+	width: 27em;
+	border: 2px solid white;
+	border-radius: 5px;
+	filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
 }
 
 .layout-desktop .detailImageContainer .card {
-  z-index: 3;
-  min-width: 14em;
+	z-index: 3;
+	min-width: 14em;
 }
 
 .layout-desktop #homeTab .cardText.cardTextCentered.cardText-first {
 	font-family: inherit;
 	text-transform: uppercase;
         font-weight: 700 !important;
-margin-bottom: -0.2em;
+	margin-bottom: -0.2em;
 }
 
 .layout-desktop #homeTab .cardText.cardTextCentered.cardText-secondary {
@@ -934,65 +934,65 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop #castCollapsible .card.portraitCard {
-    border: 2px solid white;
-    border-radius: 5px;
+	border: 2px solid white;
+	border-radius: 5px;
 }
 
 /* Hide Ribbon */
 .layout-desktop .detailPagePrimaryContainer {
-    z-index: 2;
-    background: transparent;
+	z-index: 2;
+	background: transparent;
 }
 
 .layout-desktop .detailPagePrimaryContainer {
-  position: fixed;
-  top: 1em;
-  left: 1em;
-  width: 60%;
+	position: fixed;
+	top: 1em;
+	left: 1em;
+	width: 60%;
 }
 
 .layout-desktop .detailRibbon {
-  height: 7.2em;
-  margin-top: 13.8em;
+	height: 7.2em;
+	margin-top: 13.8em;
 }
 .layout-desktop .detailPagePrimaryContainer {
-  position: fixed;
+	position: fixed;
 }
 
 .layout-desktop .itemMiscInfo {
-  -webkit-align-items: center;
-  align-items: center;
-  position: absolute;
-  top: -7.75em;
-  left: 0.5em;
-  opacity: 1;
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 1.5111em;
-  filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
+	-webkit-align-items: center;
+	align-items: center;
+	position: absolute;
+	top: -7.75em;
+	left: 0.5em;
+	opacity: 1;
+	font-family: inherit;
+	font-weight: 600;
+	font-size: 1.5111em;
+	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
 
 .layout-desktop .itemMiscInfo.itemMiscInfo-secondary {
-  position: absolute;
-  top: -6.95em;
-  left: 59em;
+	position: absolute;
+	top: -6.95em;
+	left: 59em;
 }
 
 .layout-desktop .mainDetailButtons {
-  align-items: center;
-  display: flex;
-  position: fixed;
-  top: 4.15em;
-  left: 0.072em;
-  font-size: 500%;
-  margin: 0;
-  z-index: 20;
+	align-items: center;
+	display: flex;
+	position: fixed;
+	top: 4.15em;
+	left: 0.072em;
+	font-size: 500%;
+	margin: 0;
+	z-index: 20;
 }
 
 .layout-desktop .detailButton-icon {
-  font-size: 1.6em !important;
-  height: 1em;
-  width: 1em;
+	font-size: 1.6em !important;
+	height: 1em;
+	width: 1em;
 }
 
 .layout-desktop .detailButton-icon.play_arrow {
@@ -1003,17 +1003,17 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button {
-  opacity: 0;
-  transition-delay: 2s;
+	opacity: 0;
+	transition-delay: 2s;
 }
 
 .layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button:hover {
-  opacity: 1 !important;
-  transition-delay: 0s;
+	opacity: 1 !important;
+	transition-delay: 0s;
 }
 
 .layout-desktop .detailButton .detailButton-icon.play_arrow::before {
-    color: white;
+	color: white;
 }
 
 .layout-desktop .detailButton-icon.explore {
@@ -1025,53 +1025,53 @@ margin-bottom: -0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.theaters {
-position: fixed;
-  top: 18.162em;
-  left: 0.72em;
-  font-weight: bold;
-  font-size: 0.5em !important;
-  white-space: nowrap;
-  padding: 0.2em;
+	position: fixed;
+	top: 18.162em;
+	left: 0.72em;
+	font-weight: bold;
+	font-size: 0.5em !important;
+	white-space: nowrap;
+	padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
-position: fixed;
-  top: 3.25em;
-  left: 10.12em;
-  font-weight: bold;
-  white-space: nowrap;
-  font-size: 0.5em !important;
-  padding: 0.2em;
+	position: fixed;
+	top: 3.25em;
+	left: 10.12em;
+	font-weight: bold;
+	white-space: nowrap;
+	font-size: 0.5em !important;
+	padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
-position: fixed;
-  top: 3.25em;
-  left: 10.12em;
-  font-weight: bold;
-  white-space: nowrap;
-  font-size: 0.5em !important;
-  padding: 0.2em;
+	position: fixed;
+	top: 3.25em;
+	left: 10.12em;
+	font-weight: bold;
+	white-space: nowrap;
+	font-size: 0.5em !important;
+	padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.favorite {
-position: fixed;
-  top: 3.25em;
-  left: 0.72em;
-  font-weight: bold;
-  white-space: nowrap;
-  font-size: 0.5em !important;
-  padding: 0.2em;
+	position: fixed;
+	top: 3.25em;
+	left: 0.72em;
+	font-weight: bold;
+	white-space: nowrap;
+	font-size: 0.5em !important;
+	padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.more_vert {
-position: fixed;
-  top: 18.162em;
-  left: 10.12em;
-  font-weight: bold;
-  font-size: 0.5em !important;
-  white-space: nowrap;
-  padding: 0.2em;
+	position: fixed;
+	top: 18.162em;
+	left: 10.12em;
+	font-weight: bold;
+	font-size: 0.5em !important;
+	white-space: nowrap;
+	padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.replay {
@@ -1079,39 +1079,39 @@ position: fixed;
 }
 
 .layout-desktop .detailButton .detailButton-icon.shuffle {
-    position: fixed;
-  left: 10.14em;
-  font-size: 0.5em !important;
-  padding: 0.2em;
+	position: fixed;
+	left: 10.14em;
+	font-size: 0.5em !important;
+	padding: 0.2em;
 }
 
 .button-link:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  color: white;
+	-webkit-text-decoration: none;
+	text-decoration: none;
+	color: white;
 }
 
 /* Title */
 
 .layout-desktop .itemName.parentNameLast {
-  top: -0.6843em !important;
-  position: absolute;
-  font-size: 10em;
-  text-transform: uppercase;
-  right: auto;
-  left: 3.05em;
-  width: 72.6%;
-  overflow: hidden;
-  white-space: normal;
-  line-height: 0.83em;
-  max-height: 4em;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-  text-overflow: ellipsis;
-  font-family: inherit;
-  font-weight: 700 !important;
-  font-style: normal;
+	top: -0.6843em !important;
+	position: absolute;
+	font-size: 10em;
+	text-transform: uppercase;
+	right: auto;
+	left: 3.05em;
+	width: 72.6%;
+	overflow: hidden;
+	white-space: normal;
+	line-height: 0.83em;
+	max-height: 4em;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	text-overflow: ellipsis;
+	font-family: inherit;
+	font-weight: 700 !important;
+	font-style: normal;
 }
 
 /* Series Air Time */
@@ -1119,7 +1119,7 @@ position: fixed;
 .layout-desktop #itemDetailPage .detailSectionContent #seriesAirTime {
 	position: fixed;
 	top: 7.3em;
-    left: 23em;
+	left: 23em;
 }
 
 .layout-desktop .itemName.infoText.originalTitle {
@@ -1150,38 +1150,38 @@ position: fixed;
 
 /* Hide Tags */
 .itemTags {
-    display: none;
+	display: none;
 }
 
 /* Tagline */
 #itemDetailPage .tagline {
-  font-weight: 600;
-  margin-bottom: 0.8em;
-  font-size: 1.82em;
-  margin-top: -0.1em;
+	font-weight: 600;
+	margin-bottom: 0.8em;
+	font-size: 1.82em;
+	margin-top: -0.1em;
 }
 
 /* Description */
 
 body {
-  font-family: "Exo 2", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Exo 2", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 .layout-desktop .detailPagePrimaryContent {
-  position: fixed;
-  top: 48.75em;
-  left: 32.7em;
-  max-width: 84em;
-  font-size: 11pt;
+	position: fixed;
+	top: 48.75em;
+	left: 32.7em;
+	max-width: 84em;
+	font-size: 11pt;
 }
 
 @media (min-width: 40em) {
-  .detail-clamp-text {
-    -webkit-line-clamp: 4;
-    font-size: 1.1em;
+	.detail-clamp-text {
+	-webkit-line-clamp: 4;
+	font-size: 1.1em;
 	margin-top: -0.35em;
-  }
+	}
 }
 
 .layout-desktop .dialog {
@@ -1200,52 +1200,52 @@ body {
 
 
 .layout-desktop .overview-controls {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
-  position: relative;
-  top: -10.5em;
-  text-transform: uppercase;
-  opacity: 0.6;
-  left: -1em;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	position: relative;
+	top: -10.5em;
+	text-transform: uppercase;
+	opacity: 0.6;
+	left: -1em;
 }
 
 /* Select Tracks */
 .layout-desktop .trackSelections {
-  width: auto;
-  max-width: 8.1em;
-  position: fixed;
-  top: 56em;
-  left: 2.4em;
-  font-family: inherit;
-  text-transform: uppercase;
-  font-size: 0.9em;
+	width: auto;
+	max-width: 8.1em;
+	position: fixed;
+	top: 56em;
+	left: 2.4em;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-size: 0.9em;
 }
 /* Transparency */
 .emby-select-withcolor {
-  color: inherit;
-  background: transparent;
-  border: 0.07em solid #292929;
+	color: inherit;
+	background: transparent;
+	border: 0.07em solid #292929;
 }
 /* Width */
 .layout-desktop .trackSelections .selectContainer .detailTrackSelect {
-  font-size: inherit;
-  overflow: hidden;
-  padding-left: 1em;
-  padding-right: 1em;
-  border-radius: 0.35em;
-  width: 23em;
-  min-width: 23em;
-  background-color: #00000070 !important;
-  text-overflow: ellipsis;
+	font-size: inherit;
+	overflow: hidden;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-radius: 0.35em;
+	width: 23em;
+	min-width: 23em;
+	background-color: #00000070 !important;
+	text-overflow: ellipsis;
 }
 
 .layout-desktop .trackSelections .selectContainer {
-  display: -webkit-flex;
-  display: flex;
-  margin: 0 0 .5em !important;
-  max-width: 0em;
+	display: -webkit-flex;
+	display: flex;
+	margin: 0 0 .5em !important;
+	max-width: 0em;
 }
 
 .layout-desktop .trackSelections .selectContainer .selectLabel {
@@ -1257,50 +1257,50 @@ body {
 
 /* Seasons carousel */
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    padding-bottom: 0em;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-    max-width: 18.7%;
-    box-sizing: border-box;
-    scroll-snap-type: x mandatory;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	padding-bottom: 0em;
+	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
+	max-width: 18.7%;
+	box-sizing: border-box;
+	scroll-snap-type: x mandatory;
 }
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
-position: fixed;
-  top: 36.6em;
-  left: 2.5em;
-  max-height: 14.5em;
-  width: 26.5em;
-  z-index: 1;
-  transition: top 0.5s;
-    transition-delay: 0s;
-  transition-delay: 0s;
-  transition-delay: 0s;
-  padding-right: 0em;
-  filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
-  max-width: 26.5em;
+	position: fixed;
+	top: 36.6em;
+	left: 2.5em;
+	max-height: 14.5em;
+	width: 26.5em;
+	z-index: 1;
+	transition: top 0.5s;
+	transition-delay: 0s;
+	transition-delay: 0s;
+	transition-delay: 0s;
+	padding-right: 0em;
+	filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
+	max-width: 26.5em;
 }
 
-		/* Series */
-	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
-		top: 48.5em;
-		transition: top 0.3s
+/* Series */
+.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
+	top: 48.5em;
+	transition: top 0.3s
 	}
 	
-	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:not(:hover) {
-    transition-delay: 2s;
+.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:not(:hover) {
+	transition-delay: 2s;
 }
 
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
 	width: 9em;
-  display: inline-block;
+	display: inline-block;
 }
 
 .layout-desktop #childrenContent .cardOverlayButton-hover {
-  display: none;
+	display: none;
 }
 
 .layout-desktop #childrenContent .cardText.cardTextCentered.cardText-first {
@@ -1309,19 +1309,19 @@ position: fixed;
 
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromArtistSection.emby-scroller-container .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-  display: none;
+	display: none;
 }
 
 /* Season View */
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
-  position: fixed;
-  top: 3.8em;
-  left: 8em;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 150%;
-  filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
+	position: fixed;
+	top: 3.8em;
+	left: 8em;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 150%;
+	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
 
 /* Hide directors writers studio */
@@ -1333,17 +1333,17 @@ position: fixed;
 }
 
 .layout-desktop .detailsGroupItem.genresGroup {
-  position: fixed;
-  top: 3em;
-  left: 1em;
-  font-family: inherit;
-  text-transform: uppercase;
-  text-align: left;
-  font-style: normal;
-  font-size: 1.8em;
-  width: 34em;
-  color: #fff5;
-  filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
+	position: fixed;
+	top: 3em;
+	left: 1em;
+	font-family: inherit;
+	text-transform: uppercase;
+	text-align: left;
+	font-style: normal;
+	font-size: 1.8em;
+	width: 34em;
+	color: #fff5;
+	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
 
 .layout-desktop .detailsGroupItem.genresGroup .button-link.emby-button {
@@ -1358,22 +1358,22 @@ position: fixed;
 
 /* Hide Upcoming On TV section */
 #seriesScheduleSection {
-    display: none;
+	display: none;
 }
 
 /* IMDb links etc */
 .layout-desktop .itemExternalLinks.focuscontainer-x {
-  display: block;
-  position: fixed;
-  top: 3.2em;
-  right: 1.4em;
-  opacity: 0.9;
-  font-size: 1em !important;
+	display: block;
+	position: fixed;
+	top: 3.2em;
+	right: 1.4em;
+	opacity: 0.9;
+	font-size: 1em !important;
 }
 
 /*  More Like This */
 .verticalSection.detailVerticalSection.verticalSection-extrabottompadding.emby-scroller-container {
-  display: block;
+	display: block;
 }
 
 /* Next Up */
@@ -1382,7 +1382,7 @@ position: fixed;
 }
 
 .layout-desktop #itemDetailPage  .overflowBackdropCard, .overflowSmallBackdropCard {
-    width: 12em;
+	width: 12em;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
@@ -1404,33 +1404,33 @@ position: fixed;
 
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-  position: absolute;
-  top: 7em;
-  left: 117.05em;
-  width: 10%;
-  z-index: 10;
+	position: absolute;
+	top: 7em;
+	left: 117.05em;
+	width: 10%;
+	z-index: 10;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
-  position: relative;
-  top: 0.5em;
-  left: 17.8em;
-  z-index: -2;
+	position: relative;
+	top: 0.5em;
+	left: 17.8em;
+	z-index: -2;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
-  text-transform: uppercase;
-  position: fixed;
-  top: 0.98em;
-  left: 4.586em;
-  font-size: 7.75em;
-  width: 59%;
-  font-family: inherit;
-  font-weight: 700 !important;
-  font-style: normal;
-  max-height: 4em;
-  margin-top: 0.2em;
-  opacity: 0;
+	text-transform: uppercase;
+	position: fixed;
+	top: 0.98em;
+	left: 4.586em;
+	font-size: 7.75em;
+	width: 59%;
+	font-family: inherit;
+	font-weight: 700 !important;
+	font-style: normal;
+	max-height: 4em;
+	margin-top: 0.2em;
+	opacity: 0;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x .emby-button {
@@ -1442,26 +1442,32 @@ position: fixed;
 }	
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
-  position: fixed;
-  top: 16.35em;
-  left: 1em;
-  overflow: visible;
-  white-space: normal;
-  font-size: 2em;
-  max-width: 12.4em;
-  font-family: inherit;
-  filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
+	position: fixed;
+	top: 12.35em;
+	left: 2.45em;
+	overflow: visible;
+	white-space: normal;
+	font-size: 2em;
+	max-width: 10.4em;
+	font-family: inherit;
+	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
+}
+
+.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x::before {
+	content: "PLAY ";
+	font-size: inherit;
+	font-family: inherit;
 }
 
 /* Cast & Crew */
 
 /* Hide "Cast & Crew" text */
 #castCollapsible .sectionTitle-cards {
-  margin: 0;
-  padding-bottom: .2em;
-  padding-top: .5em;
-  padding-left: 3em;
-  display: none;
+	margin: 0;
+	padding-bottom: .2em;
+	padding-top: .5em;
+	padding-left: 3em;
+	display: none;
 }
 
 /* Hide 3 dots on cast portrait */
@@ -1471,8 +1477,8 @@ position: fixed;
 
 @media (max-width: 62.5em) {
   .layout-desktop .detailPageWrapperContainer, .layout-tv .detailPageWrapperContainer {
-    bottom: 0em;
-    position: absolute;
+	bottom: 0em;
+	position: absolute;
   }
 }
 
@@ -1481,15 +1487,15 @@ position: fixed;
 }
 
 .layout-desktop .cardOverlayContainer {
-  background: rgba(255,255,255,.1);
+	background: rgba(255,255,255,.1);
 }
 
 /* More button in bio */
 .layout-desktop #childrenContent .raised.more.raised-mini.noIcon.emby-button {
-  position: fixed;
-  top: 34em;
-  left: 117em;
-  z-index: 2;
+	position: fixed;
+	top: 34em;
+	left: 117em;
+	z-index: 2;
 }
 
 #childrenCollapsible .starRatingContainer {
@@ -1507,36 +1513,36 @@ position: fixed;
 
 /* Hide More from Season text */
 .layout-desktop #itemDetailPage .sectionTitle.sectionTitle-cards.padded-right {
-  display: none;
+	display: none;
 }
 
 /* Special Features text */
 .layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
-  display: block;
-  position: fixed;
-  top: 0.5em;
-  left: 11.6em;
-  font-size: 141%;
-  opacity: 1;
-  text-transform: uppercase;
-  font-family: inherit;
-  color: rgb(255, 230, 0);
-  font-weight: 600;
-  filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
+	display: block;
+	position: fixed;
+	top: 0.5em;
+	left: 11.6em;
+	font-size: 141%;
+	opacity: 1;
+	text-transform: uppercase;
+	font-family: inherit;
+	color: rgb(255, 230, 0);
+	font-weight: 600;
+	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
 
 .layout-desktop #specialsContent .cardText {
-  font-family: inherit;
-  font-size: 8pt;
+	font-family: inherit;
+	font-size: 8pt;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
-  position: absolute;
-  bottom: 0.7em;
-  left: 30.5em;
-  width: 89em;
-  max-width: 89em;
-  z-index: 10;
+	position: absolute;
+	bottom: 0.7em;
+	left: 30.5em;
+	width: 89em;
+	max-width: 89em;
+	z-index: 10;
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
@@ -1670,50 +1676,50 @@ position: fixed;
 }
  
 .layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    white-space: normal;
-    transition: none !important;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	white-space: normal;
+	transition: none !important;
 	position: fixed;
 	top: 6em;
 	left: 123.65em;
-    max-height: calc(100vh - 6em);
+	max-height: calc(100vh - 6em);
 	overflow-y: hidden;
 	z-index: 1000;
 }
 
 .layout-desktop #similarCollapsible .cardBox {
-    width: 100%;
-    margin-bottom: 10px;
+	width: 100%;
+	margin-bottom: 10px;
 }
 
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-    width: 5.35em;
-    margin-bottom: -1.9em;
-    filter: grayscale(100%);
-    opacity: 0.1;
-    transition: filter 0.3s, opacity 0.3s;
+	width: 5.35em;
+	margin-bottom: -1.9em;
+	filter: grayscale(100%);
+	opacity: 0.1;
+	transition: filter 0.3s, opacity 0.3s;
 }
 
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata:hover {
-    filter: grayscale(0%);
-    opacity: 1;
+	filter: grayscale(0%);
+	opacity: 1;
 }
 
 .layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
-  width: 5em;
-  margin-bottom: -3.5em;
-  filter: grayscale(100%);
-  opacity: 0.2;
-  transition: filter 0.3s, opacity 0.3s;
-  margin-left: 0em;
-  margin-top: 1.6em;
+	width: 5em;
+	margin-bottom: -3.5em;
+	filter: grayscale(100%);
+	opacity: 0.2;
+	transition: filter 0.3s, opacity 0.3s;
+	margin-left: 0em;
+	margin-top: 1.6em;
 }
 
 .layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable:hover {
-    filter: grayscale(0%);
-    opacity: 1;
+	filter: grayscale(0%);
+	opacity: 1;
 }
 
 .layout-desktop #similarCollapsible .cardScalable {
@@ -1742,13 +1748,13 @@ position: fixed;
 
 /* Bio Movies */
  .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
-  position: fixed;
-  top: 10.7em;
-  left: 29em;
-  width: 77em;
-  max-height: 29em;
-  z-index: 10;
-  overflow-y: scroll;
+	position: fixed;
+	top: 10.7em;
+	left: 29em;
+	width: 77em;
+	max-height: 29em;
+	z-index: 10;
+	overflow-y: scroll;
 }
 
 .layout-desktop #childrenContent .verticalSection .itemsContainer.padded-right.vertical-wrap {
@@ -1873,15 +1879,15 @@ position: fixed;
 }
 
 #childrenContent .listItem::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  opacity: 1;
-  border: 1px solid #070707;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	opacity: 1;
+	border: 1px solid #070707;
 }
 
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
@@ -1981,33 +1987,31 @@ position: fixed;
   }
 }
 
-
-
 .cardOverlayContainer > .cardOverlayFab-primary {
-  display: none;
-  background-color: rgba(255, 0, 0, 1);
-  font-size: 100%;
-  height: 2.5em;
-  left: 51.5%;
-  margin-left: -1.5em;
-  margin-top: -1.5em;
-  padding: 0;
-  position: absolute;
-  top: 50%;
-  width: 2.5em;
+	display: none;
+	background-color: rgba(255, 0, 0, 1);
+	font-size: 100%;
+	height: 2.5em;
+	left: 51.5%;
+	margin-left: -1.5em;
+	margin-top: -1.5em;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	width: 2.5em;
 }
 
 .cardOverlayButton {
-  color: hsla(0,0%,100%,1);
-  font-size: 88%;
-  display: none;
+	color: hsla(0,0%,100%,1);
+	font-size: 88%;
+	display: none;
 }
 
 .cardOverlayFab-primary {
-  background-color: rgba(0,0,0,0);
-  font-size: 100%;
-  height: 3em;
-  left: 50%;
+	background-color: rgba(0,0,0,0);
+	font-size: 100%;
+	height: 3em;
+	left: 50%;
 }
 
 .layout-desktop .button-flat.btnReplay.hide.detailButton.emby-button,
@@ -2022,46 +2026,46 @@ position: fixed;
 }
 
 .layout-desktop #itemDetailPage .detailButton {
-    padding-left: .85em !important;
-    margin-right: -6.5em !important;
+	padding-left: .85em !important;
+	margin-right: -6.5em !important;
  }
 
 .paper-icon-button-light:hover {
-  background-color: rgba(0, 0, 0, 0) !important;
+	background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .layout-desktop .recordingFields {
-  position: absolute;
-  top: -3.4em;
-  left: 8.3em;
+	position: absolute;
+	top: -3.4em;
+	left: 8.3em;
 }
 
 .layout-desktop .raised.recordingButton.seriesRecordingButton.emby-button {
-  background: transparent;
-  border-radius: 2em;
-  font-family: inherit;
-  font-weight: 700 !important;
-  text-transform: uppercase;
-  border: 2px solid white;
-  max-height: 3em;
+	background: transparent;
+	border-radius: 2em;
+	font-family: inherit;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+	border: 2px solid white;
+	max-height: 3em;
 }
 
 .layout-desktop .raised.recordingButton.seriesRecordingButton.emby-button .buttonText {
-  padding-left: 0.7em;
-  padding-right: 1.3em;
+	padding-left: 0.7em;
+	padding-right: 1.3em;
 }
 
 .layout-desktop .raised.recordingButton.singleRecordingButton.emby-button {
-  position: absolute;
-  top: 0em;
-  left: 15em;
-  background: transparent;
-  border-radius: 2em;
-  font-family: inherit;
-  font-weight: 700 !important;
-  text-transform: uppercase;
-  border: 2px solid white;
-  max-height: 3em;
+	position: absolute;
+	top: 0em;
+	left: 15em;
+	background: transparent;
+	border-radius: 2em;
+	font-family: inherit;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+	border: 2px solid white;
+	max-height: 3em;
 }
 
 .layout-desktop .raised.recordingButton.singleRecordingButton.emby-button .buttonText {
@@ -2079,17 +2083,17 @@ position: fixed;
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
 	display: flex;
 	flex-direction: column;
-    overflow-y: auto;
-    overflow-x: hidden;
-    max-height: calc(100vh - 14em);
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-height: calc(100vh - 14em);
 	width: 11.5em;
 	scroll-snap-type: y mandatory;
 	background: #06081640;
-    border-radius: 0.4em;
+	border-radius: 0.4em;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-		position: absolute;
+	position: absolute;
 	top: -16.6em;
 	left: 113.15em;
 }
@@ -2099,50 +2103,50 @@ position: fixed;
 }
 
 .layout-desktop .collectionItems {
-  position: fixed;
-  display: inline-grid;
-  top: 8.15em;
-  z-index: 1000;
-  opacity: 0;
-  transition: opacity 0.3s;
-    transition-delay: 0s;
-  padding-right: 0em;
-  transition-delay: 2s;
-  border-radius: 0.15em;
-  height: 40.75em;
-  overflow-y: auto;
-  left: 1.8em;
-  width: 27.1em;
-  background: linear-gradient(208deg, rgb(10.196% 10.196% 10.196%) 0%, rgb(8.961% 8.961% 8.961%) 6.25%, rgb(7.806% 7.806% 7.806%) 12.5%, rgb(6.731% 6.731% 6.731%) 18.75%, rgb(5.735% 5.735% 5.735%) 25%, rgb(4.819% 4.819% 4.819%) 31.25%, rgb(3.983% 3.983% 3.983%) 37.5%, rgb(3.226% 3.226% 3.226%) 43.75%, rgb(2.549% 2.549% 2.549%) 50%, rgb(1.952% 1.952% 1.952%) 56.25%, rgb(1.434% 1.434% 1.434%) 62.5%, rgb(0.996% 0.996% 0.996%) 68.75%, rgb(0.637% 0.637% 0.637%) 75%, rgb(0.358% 0.358% 0.358%) 81.25%, rgb(0.159% 0.159% 0.159%) 87.5%, rgb(0.04% 0.04% 0.04%) 93.75%, rgb(0% 0% 0%) 100% );
+	position: fixed;
+	display: inline-grid;
+	top: 8.15em;
+	z-index: 1000;
+	opacity: 0;
+	transition: opacity 0.3s;
+	transition-delay: 0s;
+	padding-right: 0em;
+	transition-delay: 2s;
+	border-radius: 0.15em;
+	height: 40.75em;
+	overflow-y: auto;
+	left: 1.8em;
+	width: 27.1em;
+	background: linear-gradient(208deg, rgb(10.196% 10.196% 10.196%) 0%, rgb(8.961% 8.961% 8.961%) 6.25%, rgb(7.806% 7.806% 7.806%) 12.5%, rgb(6.731% 6.731% 6.731%) 18.75%, rgb(5.735% 5.735% 5.735%) 25%, rgb(4.819% 4.819% 4.819%) 31.25%, rgb(3.983% 3.983% 3.983%) 37.5%, rgb(3.226% 3.226% 3.226%) 43.75%, rgb(2.549% 2.549% 2.549%) 50%, rgb(1.952% 1.952% 1.952%) 56.25%, rgb(1.434% 1.434% 1.434%) 62.5%, rgb(0.996% 0.996% 0.996%) 68.75%, rgb(0.637% 0.637% 0.637%) 75%, rgb(0.358% 0.358% 0.358%) 81.25%, rgb(0.159% 0.159% 0.159%) 87.5%, rgb(0.04% 0.04% 0.04%) 93.75%, rgb(0% 0% 0%) 100% );
 }
 
 .layout-desktop #itemDetailPage .collectionItems:hover {
-  opacity: 1;
-  transition: opacity 0.3s;
+	opacity: 1;
+	transition: opacity 0.3s;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right {
-  display: contents;
-  overflow-x: scroll;
-  width: 20.3em;
-  z-index: 1000;
-  height: 41.1em;
-  background: linear-gradient(208deg, rgb(10.196% 10.196% 10.196%) 0%, rgb(8.961% 8.961% 8.961%) 6.25%, rgb(7.806% 7.806% 7.806%) 12.5%, rgb(6.731% 6.731% 6.731%) 18.75%, rgb(5.735% 5.735% 5.735%) 25%, rgb(4.819% 4.819% 4.819%) 31.25%, rgb(3.983% 3.983% 3.983%) 37.5%, rgb(3.226% 3.226% 3.226%) 43.75%, rgb(2.549% 2.549% 2.549%) 50%, rgb(1.952% 1.952% 1.952%) 56.25%, rgb(1.434% 1.434% 1.434%) 62.5%, rgb(0.996% 0.996% 0.996%) 68.75%, rgb(0.637% 0.637% 0.637%) 75%, rgb(0.358% 0.358% 0.358%) 81.25%, rgb(0.159% 0.159% 0.159%) 87.5%, rgb(0.04% 0.04% 0.04%) 93.75%, rgb(0% 0% 0%) 100% );
-  padding-left: 1em;
+	display: contents;
+	overflow-x: scroll;
+	width: 20.3em;
+	z-index: 1000;
+	height: 41.1em;
+	background: linear-gradient(208deg, rgb(10.196% 10.196% 10.196%) 0%, rgb(8.961% 8.961% 8.961%) 6.25%, rgb(7.806% 7.806% 7.806%) 12.5%, rgb(6.731% 6.731% 6.731%) 18.75%, rgb(5.735% 5.735% 5.735%) 25%, rgb(4.819% 4.819% 4.819%) 31.25%, rgb(3.983% 3.983% 3.983%) 37.5%, rgb(3.226% 3.226% 3.226%) 43.75%, rgb(2.549% 2.549% 2.549%) 50%, rgb(1.952% 1.952% 1.952%) 56.25%, rgb(1.434% 1.434% 1.434%) 62.5%, rgb(0.996% 0.996% 0.996%) 68.75%, rgb(0.637% 0.637% 0.637%) 75%, rgb(0.358% 0.358% 0.358%) 81.25%, rgb(0.159% 0.159% 0.159%) 87.5%, rgb(0.04% 0.04% 0.04%) 93.75%, rgb(0% 0% 0%) 100% );
+	padding-left: 1em;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
-  width: 25.2em;
-  margin-bottom: 0em;
-  padding-left: 1.4em;
-  padding-top: 1em;
+	width: 25.2em;
+	margin-bottom: 0em;
+	padding-left: 1.4em;
+	padding-top: 1em;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .cardText-first {
 	font-family: inherit;
 	text-transform: uppercase;
-    font-weight: 700 !important;
-    margin-bottom: -0.2em;
+	font-weight: 700 !important;
+	margin-bottom: -0.2em;
 }
 
 .layout-desktop #childrenContent .listItemImageButton.itemAction.paper-icon-button-light {
@@ -2150,12 +2154,12 @@ position: fixed;
 }
 
 .layout-desktop .programGuideSection.verticalSection.detailVerticalSection {
-  position: absolute;
-  top: 0em;
-  width: 69.38em;
-  left: 48em;
-  background: #101010;
-  z-index: 10;
+	position: absolute;
+	top: 0em;
+	width: 69.38em;
+	left: 48em;
+	background: #101010;
+	z-index: 10;
 }
 
 .layout-desktop .cardImageContainer.coveredImage.cardContent.itemAction.lazy.lazy-image-fadein-fast,
@@ -2172,74 +2176,74 @@ position: fixed;
 /* Change text box selected outline color */
 .emby-input:focus,
 .emby-textarea:focus {
-    border-color: red;
-    border-width: 2px;
-    transition: border-color 0.3s ease-in-out, border-width 0.3s ease-in-out;
-    box-shadow: 0 0 5px red, 0 0 10px red;
+	border-color: red;
+	border-width: 2px;
+	transition: border-color 0.3s ease-in-out, border-width 0.3s ease-in-out;
+	box-shadow: 0 0 5px red, 0 0 10px red;
 }
 
 /*Link color and behavior*/
 .button-link {
-  color: white;
+	color: white;
 }
 .button-link:hover {
-  -webkit-text-decoration: none;
-  text-decoration: underline;
-  color: red;
+	-webkit-text-decoration: none;
+	text-decoration: underline;
+	color: red;
 }
 
 /* lyrics */
 .layout-desktop #lyricsSection .vertical-list.itemsContainer {
-  position: absolute;
-  top: 35.55em;
-  left: 1.72em;
-  z-index: 2;
-  height: calc(100vh - 35.55em);
-  display: block;
-  overflow-y: auto;
-  padding-right: 0em;
-  background: #02000696;
-  text-align: center;
-  border-radius: 0.25em;
-  width: 27.2em;
+	position: absolute;
+	top: 35.55em;
+	left: 1.72em;
+	z-index: 2;
+	height: calc(100vh - 35.55em);
+	display: block;
+	overflow-y: auto;
+	padding-right: 0em;
+	background: #02000696;
+	text-align: center;
+	border-radius: 0.25em;
+	width: 27.2em;
 }
 
 /*Item details page hover animations*/
 .layout-desktop #itemDetailPage .cardScalable .cardImageContainer {
-    transition: transform 0.3s ease;
-    display: inline-block;
+	transition: transform 0.3s ease;
+	display: inline-block;
 }
 
 
 /* --- Mobile View --- */
 .layout-mobile .itemBackdrop {
-    display: block;
-    -webkit-animation: backdrop-fadein .8s ease-in normal both;
-    animation: backdrop-fadein .8s ease-in normal both;
-    background-attachment: fixed;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh !important;
-    position: fixed !important;
-    top: 0;
-    margin-top: 0rem;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-    filter: blur(0px) saturate(0%) contrast(130%) brightness(20%);
+	display: block;
+	-webkit-animation: backdrop-fadein .8s ease-in normal both;
+	animation: backdrop-fadein .8s ease-in normal both;
+	background-attachment: fixed;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh !important;
+	position: fixed !important;
+	top: 0;
+	margin-top: 0rem;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+	filter: blur(0px) saturate(0%) contrast(130%) brightness(20%);
 }
 
 .backgroundContainer {
-  background-color: transparent;
+	background-color: transparent;
 }
 
 .layout-mobile h1.itemName, .layout-mobile h1.parentName {
-  font-size: 1.6em;
-  justify-content: left !important;
-  position: relative;
-  display: flex;
-  margin-left: 0.8em;
+	font-size: 1.6em;
+	justify-content: left !important;
+	position: relative;
+	display: flex;
+	margin-left: 0.8em;
 }
 
 @media (orientation: landscape) {
