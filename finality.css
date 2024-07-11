@@ -572,11 +572,6 @@ progress::-webkit-progress-value {
 	text-transform: uppercase;
 }
 
-.layout-desktop #homeTab .homeLibraryText:hover {
-	color: #f00;
-	transition: color 30s;
-}
-
 .layout-desktop #homeTab .raised.homeLibraryButton.emby-button {
   display: flex;
   flex-direction: column;
