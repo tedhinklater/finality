@@ -1435,6 +1435,11 @@ position: fixed;
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x .emby-button {
 	line-height: 0.858 !important;
+	position: fixed;
+	top: 290px;
+	left: 900px;
+	width: 1200px;
+	height: 200px;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x .button-link.itemAction.emby-button {
