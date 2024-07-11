@@ -454,7 +454,7 @@ progress::-webkit-progress-value {
 }
 
 /* Backdrop */
-.backdropImage {
+.layout-desktop .backdropImage {
 	filter: blur(0px) saturate(0%) contrast(130%) brightness(70%);
 	transition: filter 0.3s;
 	background-position-x: 0%;
