@@ -1205,10 +1205,10 @@ body {
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
   position: relative;
-  top: -7.5em;
+  top: -10.5em;
   text-transform: uppercase;
   opacity: 0.6;
-  left: 8em;
+  left: -1em;
 }
 
 /* Select Tracks */
