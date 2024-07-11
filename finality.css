@@ -1370,9 +1370,9 @@ position: fixed;
 .layout-desktop .itemExternalLinks.focuscontainer-x {
   display: block;
   position: fixed;
-  top: 6.2em;
-  right: 8em;
-  opacity: 0.8;
+  top: 3.2em;
+  right: 1.4em;
+  opacity: 0.9;
   font-size: 1em !important;
 }
 
