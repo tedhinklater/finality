@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/finality.css");
 
 /* Backdrop */
-.backdropImage {
+.layout-desktop .backdropImage {
   filter: blur(0px) saturate(100%) contrast(120%) brightness(65%);
   transition: filter 0.3s;
 }
