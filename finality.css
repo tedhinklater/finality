@@ -542,9 +542,10 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #indexPage .raised:hover {
-	background: #000000c9;
-	border: 2px solid white;
+	background: #fff;
+	border: 2px solid black;
 	border-radius: 0.5em;
+    color: black;
 }
 
 .layout-desktop #indexPage .homeLibraryButton {
