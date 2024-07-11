@@ -3,7 +3,7 @@
 
 Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
-![g1](https://github.com/tedhinklater/finality/assets/66086488/99a207b1-1377-4d21-bf55-96927ba66961)
+![Screenshot from 2024-07-11 10-03-08](https://github.com/tedhinklater/finality/assets/66086488/148ce71c-c492-47b5-bfc1-44c15a44afcc)
 
 For the black & white version, paste this into your Custom CSS Box
 
@@ -20,7 +20,7 @@ or, import the colour version with
 
 ```
 
-![Screenshot from 2024-07-11 10-00-20](https://github.com/tedhinklater/finality/assets/66086488/41a7d115-c85a-4c92-a83a-c9cb31a144e8)
+![Screenshot from 2024-07-11 10-03-26](https://github.com/tedhinklater/finality/assets/66086488/2b664f83-49ad-4b7b-bd67-7bcf43e66c9b)
 
 <img src="https://github.com/tedhinklater/finality/assets/66086488/b2319d86-a364-4344-af35-79dbcc3cf091" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/1f4f90ea-0490-4a0e-be81-fa67c05e399f" width="49.5%" height="49.5%" />
 
