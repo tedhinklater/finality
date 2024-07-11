@@ -20,10 +20,9 @@ or, import the colour version with
 
 ```
 
-![g3](https://github.com/tedhinklater/finality/assets/66086488/e1888c84-38c5-4c5f-8a21-cc221959b4f7)
+![g2](https://github.com/tedhinklater/finality/assets/66086488/e85f5bcd-aea1-46cd-9d4a-12fac14a665a)
 
 <img src="https://github.com/tedhinklater/finality/assets/66086488/1cea8ffe-6edf-451e-87f1-097a9c1803e7" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/2ac32beb-325b-48bc-b0db-e51680d0b081" width="49.5%" height="49.5%" />
-
 <img src="https://github.com/tedhinklater/finality/assets/66086488/08926aad-4bfd-4375-a849-7f5f547969f9" width="49.5%" height="49.5%" /> <img src="https://github.com/tedhinklater/finality/assets/66086488/641981d0-436c-4017-a51f-58d780ea266b" width="49.5%" height="49.5%" />
 
 # Player 
