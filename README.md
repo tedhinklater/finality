@@ -3,7 +3,7 @@
 
 Jellyfin Theme CSS (Finishing up TV mode, just waiting for logo support)
 
-![Screenshot-2024-07-11-235354](https://github.com/user-attachments/assets/5c4f9157-94a1-4d01-84df-0c74ba5e056e)
+![unknown_2024 07 12-15 00_1](https://github.com/user-attachments/assets/6340f22a-f8d1-458e-924c-ccbb5b282e92)
 
 For the black & white version, paste this into your Custom CSS Box
 
