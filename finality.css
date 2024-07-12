@@ -1026,50 +1026,50 @@ progress::-webkit-progress-value {
 
 .layout-desktop .detailButton .detailButton-icon.theaters {
 	position: fixed;
-	top: 18.162em;
-	left: 0.72em;
+	top: 23.162em;
+	left: 0.78em;
 	font-weight: bold;
-	font-size: 0.5em !important;
+	font-size: 0.4em !important;
 	white-space: nowrap;
 	padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
 	position: fixed;
-	top: 3.25em;
-	left: 10.12em;
+	top: 3.95em;
+	left: 13.1em;
 	font-weight: bold;
 	white-space: nowrap;
-	font-size: 0.5em !important;
+	font-size: 0.4em !important;
 	padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
 	position: fixed;
-	top: 3.25em;
-	left: 10.12em;
+	top: 3.95em;
+	left: 13.1em;
 	font-weight: bold;
 	white-space: nowrap;
-	font-size: 0.5em !important;
+	font-size: 0.4em !important;
 	padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.favorite {
 	position: fixed;
-	top: 3.25em;
-	left: 0.72em;
+	top: 3.95em;
+	left: 0.8em;
 	font-weight: bold;
 	white-space: nowrap;
-	font-size: 0.5em !important;
+	font-size: 0.4em !important;
 	padding: 0.2em;
 }
 
 .layout-desktop .detailButton .detailButton-icon.more_vert {
 	position: fixed;
-	top: 18.162em;
-	left: 10.12em;
+	top: 23.162em;
+	left: 13.1em;
 	font-weight: bold;
-	font-size: 0.5em !important;
+	font-size: 0.4em !important;
 	white-space: nowrap;
 	padding: 0.2em;
 }
@@ -1080,9 +1080,10 @@ progress::-webkit-progress-value {
 
 .layout-desktop .detailButton .detailButton-icon.shuffle {
 	position: fixed;
-	left: 10.14em;
-	font-size: 0.5em !important;
+	left: 13.162em;
+	font-size: 0.4em !important;
 	padding: 0.2em;
+	top: 13.43em;
 }
 
 .button-link:hover {
@@ -1435,11 +1436,6 @@ body {
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x .emby-button {
 	line-height: 0.858 !important;
-	position: fixed;
-	top: 1em;
-	left: 4.5em;
-	width: calc(100vw / 1.65);
-	height: 3em;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x .button-link.itemAction.emby-button {
@@ -1558,7 +1554,7 @@ body {
 }
 
 .layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-	padding-left: 43.5em;
+	padding-left: 44.5em;
 	padding-right: 46em;
 }
 
