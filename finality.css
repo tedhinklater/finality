@@ -1786,9 +1786,9 @@ body {
 	height: calc(100vh - 35.2em);
 	display: block;
 	overflow-y: auto;
-	min-width: calc(100vw - 38em);
+	min-width: calc(100vw - 37em);
 	padding-right: 0em;
-	max-width: calc(100vw - 38em);
+	max-width: calc(100vw - 37em);
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
