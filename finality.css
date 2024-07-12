@@ -3169,22 +3169,28 @@ padding-bottom: 0em;
 		width: 180em;
 	}
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
-		left: calc(100vw - 7.8em);
+		left: calc(100vw - 7.4em);
 		max-height: calc(100vh - 6em);
+		top: 8em;
 	}
 	.layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-		width: 7.4em;
+		width: 7.25em;
+		margin-bottom: -2em;
 	}
 	.layout-desktop .detailLogo {
-		left: 43.2em;
-		width: 114.9em;
+		left: 43.3em;
+		width: 110.5em;
 		height: 32em;
+		top: 14em;
 	}
 	.layout-desktop .itemName.infoText.originalTitle {
 		left: 31.5em;
 	}
+	.layout-desktop .itemExternalLinks.focuscontainer-x {
+		right: 1.1em;
+	}
 	.layout-desktop .mainDetailButtons {
-		top: 5.5em;
+		top: 5.8em;
    		left: 1em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
@@ -3192,85 +3198,116 @@ padding-bottom: 0em;
 		left: 31.7em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.theaters {
-		left: 0.72em;
-		top: 23.55em;
+		left: 0.9em;
+		top: 24.7em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.more_vert {
-		left: 13.7em;
-		top: 23.55em;
+		left: 14em;
+		top: 24.7em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.favorite {
-		left: 0.72em;
-		top: 3.3em;
+		left: 0.9em;
+		top: 4.3em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
-		left: 13.7em;
-		top: 3.3em;
+		left: 14em;
+		top: 4.3em;
 	}	
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
-		left: 13.7em;
-		top: 3.3em;
+		left: 14em;
+		top: 4.3em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.shuffle {
-		left: 13.7em;
-		top: 12.9em;
+		left: 14em;
+		top: 13.2em;
 	}
 	.layout-desktop #itemDetailPage .detailButton {
 		margin-right: -4.5em !important;
 	}
+	.layout-desktop .itemMiscInfo {
+		top: -5.2em;
+		left: 0.6em;
+		font-size: 2em;
+	}
 	.layout-desktop .detailsGroupItem.genresGroup {
-		top: 2.93em;
+		top: 3.4em;
+		left: 1em;
+		font-size: 1.7em;
 	}
 	.layout-desktop #itemDetailPage .detailImageContainer .card {
 		max-width: 36em;
 		min-width: 36em;
+		top: -4em;
+		left: 1.3em;
+		width: 27em;
+		border: 2px solid white;
+		border-radius: 5px;
+		filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
 	}
 	.layout-desktop .trackSelections {
-		top: 75.3em;
+		top: 57.3em;
 	}
 	.layout-desktop .trackSelections .selectContainer .detailTrackSelect {
-		width: 33em;
-		min-width: 33em;
+		width: 24em;
+		min-width: 24em;
 	}
 	.layout-desktop .detailPagePrimaryContent {
-		left: 40.7em;
-		top: 66.5em;
-		max-width: 115em;
+		left: 33em;
+		top: 49.35em;
+		max-width: 83em;
+		font-size: 1.3em;
 	}
 	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
-		left: 38.5em;
-		width: 124em;
+		left: 40.5em;
+		width: 122em;
 		max-width: 124em;
 	}
 	.layout-desktop #castCollapsible .overflowPortraitCard {
-		padding-right: 19em;
+		padding-right: 17.55em;
+		width: 6em;
+		padding-left: 1em;
+		height: 6em;
+	}
+	.layout-desktop #castContent .cardScalable {
+		clip-path: circle(50% at 50% 50%);
+		border: 2px solid white;
+		border-radius: 3em;
 	}
 	.layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
 		padding-left: 61.5em;
-		padding-right: 63.5em;
+		padding-right: 61.5em;
+	}
+	.layout-desktop #castCollapsible .cardTextCentered, .layout-desktop #castCollapsible .cardTextCentered > .textActionButton {
+		top: -2.2em;
+		left: 10em;
+		font-size: 12pt;
+	}
+	.layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
+		top: 4.5em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
-		top: 46em;
+		top: 48.5em;
 		width: 35em;
 		max-height: 19em;
 		max-width: 35em;
+		left: 3.2em;
 	}
 	.layout-desktop #childrenCollapsible .overflowPortraitCard {
 		width: 12em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
-		top: 62.5em;
+		top: 64.85em;
 	}
 	.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
-		left: 38em;
+		left: 39em;
 		max-height: 30.5em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
-		left: 38em;
-    		height: calc(100vh - 44.5em);
-    		top: 44.5em;
-		min-width: calc(100vw - 47em);
-		max-width: calc(100vw - 47em);
+		left: 38.6em;
+		height: calc(100vh - 46.5em);
+		top: 46.5em;
+		min-width: calc(100vw - 46em);
+		max-width: calc(100vw - 46em);
 	}
 	.layout-desktop .detailButton-icon.explore {
 		top: 18.55em;
@@ -3284,29 +3321,45 @@ padding-bottom: 0em;
 		width: 34.2em;
 	}
 	.layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-		left: 38em;
-		max-width: 94.2em;
+		left: 38.4em;
+		max-width: 114.2em;
+		height: 11.2em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 		left: 158em;
 	}
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
-		top: 19.35em;
+		top: 20.35em;
+		left: 2em;
+		max-width: 16.4em;
 	}
-        .layout-desktop #lyricsSection .vertical-list.itemsContainer {
+    .layout-desktop #lyricsSection .vertical-list.itemsContainer {
 		position: absolute;
-		top: 44.8em;
-		left: 1.72em;
+		top: 36.38em;
+		left: 2em;
 		z-index: 2;
-		height: calc(100vh - 44.8em);
+		height: calc(100vh - 36.3em);
 		display: block;
 		overflow-y: auto;
-		width: 36em;
+		width: 27.6em;
+		font-size: 1.3em;
 	}
 	.layout-desktop #childrenContent .listItem-content {
 		width: calc(100vw - 50em);
 	}
 	.layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
 		width: 7.3em;
+	}
+	.layout-desktop #itemDetailPage .itemName.infoText.subtitle {
+		top: 3.9em;
+		left: 7.8em;
+		font-size: 200%;
+	}
+	.layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
+		top: -0.5em;
+		left: 10em;
+	}
+	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .cardText.cardTextCentered.cardText-first {
+		font-size: 95%;
 	}
 }
