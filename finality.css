@@ -1445,11 +1445,11 @@ body {
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 	position: fixed;
 	top: 16.35em;
-	left: 1em;
+	left: 3em;
 	overflow: visible;
 	white-space: normal;
 	font-size: 2em;
-	max-width: 13.4em;
+	max-width: 9.3em;
 	font-family: inherit;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
