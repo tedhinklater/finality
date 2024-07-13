@@ -11,13 +11,28 @@
     height: auto !important;
 }
 
+.preload, .css-fknfom, .css-4yt2of {
+  background-color: #020006;
+}
+
+.emby-input, .emby-textarea, .collapseContent, .formDialogFooter:not(.formDialogFooter-clear), .formDialogHeader:not(.formDialogHeader-clear), .paperList, .visualCardBox {
+  color: inherit;
+  background: #020006;
+}
+
 /* Round menu hover background */
 .navMenuOption,
 .navMenuOption:hover,
 .navMenuOption-selected {
     border-radius: 2em !important;
-    width: 80% !important;
+    width: fit-content;
     margin-left: 2em !important;
+}
+
+.navMenuOptionText {
+  line-height: 1.35em;
+  white-space: nowrap;
+  padding-right: 1.5em;
 }
 
 /* Video Playback Progress Bar */
@@ -40,7 +55,7 @@
 }
 
 .mainDrawer, .drawer-open {
-  background-color: #000;
+  background-color: #000000f2;
 }
 
 .navMenuOptionIcon {
@@ -1684,9 +1699,10 @@ body {
 	align-items: center;
 	white-space: normal;
 	transition: none !important;
+	transition-behavior: ;
 	position: fixed;
-	top: 6em;
-	left: 123.65em;
+	top: 5.28em;
+	left: calc(100vw - 5.5em);
 	max-height: calc(100vh - 6em);
 	overflow-y: hidden;
 	z-index: 1000;
