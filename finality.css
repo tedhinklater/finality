@@ -3197,12 +3197,12 @@ padding-bottom: 0em;
 		width: 180em;
 	}
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
-		left: calc(100vw - 7.4em);
+		left: calc(100vw - 8.9em);
 		max-height: calc(100vh - 6em);
 		top: 8em;
 	}
 	.layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-		width: 7.25em;
+		width: 8.5em;
 		margin-bottom: -2em;
 	}
 	.layout-desktop .detailLogo {
@@ -3218,7 +3218,7 @@ padding-bottom: 0em;
 		right: 1.1em;
 	}
 	.layout-desktop .mainDetailButtons {
-		top: 5.8em;
+		top: 3.9em;
    		left: 1em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
@@ -3293,8 +3293,8 @@ padding-bottom: 0em;
 	}
 	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
 		left: 40.5em;
-		width: 122em;
-		max-width: 124em;
+		width: 121em;
+		max-width: 121em;
 	}
 	.layout-desktop #castCollapsible .overflowPortraitCard {
 		padding-right: 17.55em;
@@ -3308,8 +3308,8 @@ padding-bottom: 0em;
 		border-radius: 3em;
 	}
 	.layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-		padding-left: 61.5em;
-		padding-right: 61.5em;
+		padding-left: 60.5em;
+		padding-right: 60.5em;
 	}
 	.layout-desktop #castCollapsible .cardTextCentered, .layout-desktop #castCollapsible .cardTextCentered > .textActionButton {
 		top: -2.2em;
@@ -3340,8 +3340,8 @@ padding-bottom: 0em;
 		left: 38.6em;
 		max-height: calc(100vh - 46.5em);
 		top: 46.5em;
-		min-width: calc(100vw - 46em);
-		max-width: calc(100vw - 46em);
+		min-width: calc(100vw - 47em);
+		max-width: calc(100vw - 47em);
 	}
 	.layout-desktop #childrenContent .listItemImage-large {
 		width: 32.888em;
@@ -3365,7 +3365,7 @@ padding-bottom: 0em;
 		height: 11.2em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-		left: 158em;
+		left: 160em;
 	}
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 		top: 20.35em;
@@ -3388,6 +3388,7 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
 		width: 7.3em;
+		margin-left: 1.3em;
 	}
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 		top: 3.9em;
