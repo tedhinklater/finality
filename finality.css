@@ -1445,14 +1445,15 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 	position: fixed;
-	top: 16.35em;
-	left: 3em;
+	top: 15.9em;
+	left: 1.53em;
 	overflow: visible;
 	white-space: normal;
 	font-size: 2em;
-	max-width: 9.3em;
+	max-width: 12.3em;
 	font-family: inherit;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
+	text-align: center;
 }
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x::before {
@@ -2090,8 +2091,6 @@ body {
 	max-height: calc(100vh - 14em);
 	width: 11.5em;
 	scroll-snap-type: y mandatory;
-	background: #06081640;
-	border-radius: 0.4em;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
