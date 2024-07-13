@@ -3335,6 +3335,11 @@ padding-bottom: 0em;
 		min-width: calc(100vw - 46em);
 		max-width: calc(100vw - 46em);
 	}
+	.layout-desktop #childrenContent .listItemImage-large {
+		width: 32.888em;
+		height: 18.5em;
+		border-radius: 0.25em;
+	}
 	.layout-desktop .detailButton-icon.explore {
 		top: 18.55em;
 		left: 21em;
@@ -3360,11 +3365,11 @@ padding-bottom: 0em;
 		max-width: 16.4em;
 	}
     .layout-desktop #lyricsSection .vertical-list.itemsContainer {
-		position: absolute;
+		position: fixed;
 		top: 36.38em;
 		left: 2em;
 		z-index: 2;
-		max-height: calc(100vh - 36.3em);
+		max-height: calc(100vh - 40.3em);
 		display: block;
 		overflow-y: auto;
 		width: 27.6em;
