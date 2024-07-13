@@ -3019,21 +3019,30 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
 		left: 87em;
-		max-height: calc(100vh - 4em);
-		top: 4em;
+		max-height: calc(100vh - 9em);
+		top: 8em;
 	}
 	.layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
 		width: 4.7em;
 	}
 	.layout-desktop .detailLogo {
 		left: 23.2em;
-		width: 58.9em;
+		width: 55em;
 		height: 19em;
 		top: 8em;
 	}
 	.layout-desktop .mainDetailButtons {
 		top: 2.3em;
-		left: -0.46em;
+		left: 0.5em;
+		width: 2.5em;
+		height: 3em;
+	}
+	.layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button {
+		opacity: 0;
+		transition-delay: 1.1s;
+		height: 2.2em;
+		width: 2.5em;
+		margin-right: 0em !important;
 	}
 	.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
 		top: 19em;
@@ -3041,30 +3050,33 @@ padding-bottom: 0em;
 	}
 	.layout-desktop .detailButton-icon.play_arrow {
 		width: 1.72em;
+		height: 1em;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.theaters {
 		left: 0.75em;
-		top: 10.35em;
+		top: 13.3em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.more_vert {
-		left: 4.95em;
-		top: 10.35em;
+		left: 6.7em;
+		top: 13.3em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.favorite {
 		left: 0.75em;
-		top: 3.25em;
+		top: 4em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
-		left: 4.93em;
-		top: 3.25em;
+		left: 6.7em;
+		top: 4em;
 	}	
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
-		left: 4.93em;
-		top: 3.25em;
+		left: 6.7em;
+		top: 4em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.shuffle {
-		left: 4.95em;
-		top: 8.85em;
+		left: 6.7em;
+		top: 8.75em;
 	}
 	.layout-desktop #itemDetailPage .detailButton {
 		padding-left: .85em !important;
@@ -3121,8 +3133,8 @@ padding-bottom: 0em;
 		left: 16em;
 		max-height: calc(100vh - 24.3em);
 		top: 24.3em;
-		min-width: calc(100vw - 23em);
-		max-width: calc(100vw - 23em);
+		min-width: calc(100vw - 26em);
+		max-width: calc(100vw - 16em);
 	}
    	.layout-desktop #itemDetailPage .itemName.infoText.subtitle {
 		position: fixed;
@@ -3145,14 +3157,14 @@ padding-bottom: 0em;
 		max-width: 94.2em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-		left: 79em;
-        width: 14em;
+		left: 80.6em;
+		width: 11em;
 	}
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 		top: 9.35em;
-        width: 7em;
+        	width: 7em;
 	}
-    .layout-desktop #lyricsSection .vertical-list.itemsContainer {
+    	.layout-desktop #lyricsSection .vertical-list.itemsContainer {
 		position: absolute;
 		top: 28em;
 		left: 0em;
