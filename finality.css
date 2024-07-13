@@ -3220,26 +3220,32 @@ padding-bottom: 0em;
 	.layout-desktop .detailButton .detailButton-icon.theaters {
 		left: 0.9em;
 		top: 24.7em;
+		font-size: 0.5em !important;
 	}
 	.layout-desktop .detailButton .detailButton-icon.more_vert {
 		left: 14em;
 		top: 24.7em;
+		font-size: 0.5em !important;
 	}
 	.layout-desktop .detailButton .detailButton-icon.favorite {
 		left: 0.9em;
 		top: 4.3em;
+		font-size: 0.5em !important;
 	}
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
 		left: 14em;
 		top: 4.3em;
+		font-size: 0.5em !important;
 	}	
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
 		left: 14em;
 		top: 4.3em;
+		font-size: 0.5em !important;
 	}
 	.layout-desktop .detailButton .detailButton-icon.shuffle {
 		left: 14em;
-		top: 13.2em;
+		top: 13.9em;
+		font-size: 0.5em !important;
 	}
 	.layout-desktop #itemDetailPage .detailButton {
 		margin-right: -4.5em !important;
