@@ -1704,10 +1704,11 @@ body {
 	white-space: normal;
 	transition: none !important;
 	transition-behavior: ;
+	transition-behavior: ;
 	position: fixed;
 	top: 5.28em;
-	left: calc(100vw - 5.5em);
-	max-height: calc(100vh - 6em);
+	left: calc(100vw - 6em);
+	max-height: calc(100vh - 5.28em);
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -1718,7 +1719,7 @@ body {
 }
 
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-	width: 5.35em;
+	width: 5.4em;
 	margin-bottom: -1.9em;
 	filter: grayscale(20%);
 	opacity: 0.95;
