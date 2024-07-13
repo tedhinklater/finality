@@ -35,6 +35,10 @@
   padding-right: 1.5em;
 }
 
+.appfooter, .playlistSectionButton {
+  background: #020006;
+}
+
 /* Video Playback Progress Bar */
 .mdl-slider-background-lower {
     background: #dc0000 !important;
@@ -2211,11 +2215,11 @@ body {
 
 /* lyrics */
 .layout-desktop #lyricsSection .vertical-list.itemsContainer {
-	position: absolute;
+	position: fixed;
 	top: 35.55em;
 	left: 1.72em;
 	z-index: 2;
-	max-height: calc(100vh - 35.55em);
+	max-height: calc(100vh - 40.65em);
 	display: block;
 	overflow-y: auto;
 	padding-right: 0em;
