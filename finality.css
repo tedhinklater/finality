@@ -1050,7 +1050,7 @@ progress::-webkit-progress-value {
 
 .layout-desktop .detailButton .detailButton-icon.theaters {
 	position: fixed;
-	top: 23.162em;
+	top: 23em;
 	left: 0.78em;
 	font-weight: bold;
 	font-size: 0.4em !important;
@@ -1090,7 +1090,7 @@ progress::-webkit-progress-value {
 
 .layout-desktop .detailButton .detailButton-icon.more_vert {
 	position: fixed;
-	top: 23.162em;
+	top: 23em;
 	left: 13.1em;
 	font-weight: bold;
 	font-size: 0.4em !important;
@@ -1391,7 +1391,7 @@ body {
 	display: block;
 	position: fixed;
 	top: 3.2em;
-	right: 1.4em;
+	right: 8em;
 	opacity: 0.9;
 	font-size: 1em !important;
 }
@@ -1454,7 +1454,7 @@ body {
 	font-family: inherit;
 	font-weight: 700 !important;
 	font-style: normal;
-	max-height: 4em;
+	height: 3em;
 	margin-top: 0.2em;
 	opacity: 0;
 }
@@ -1711,9 +1711,9 @@ body {
 	transition-behavior: ;
 	transition-behavior: ;
 	position: fixed;
-	top: 5.28em;
+	top: 3.5em;
 	left: calc(100vw - 6.76em);
-	max-height: calc(100vh - 5.28em);
+	max-height: calc(100vh - 3.5em);
 	overflow-y: hidden;
 	z-index: 1000;
 }
@@ -1728,7 +1728,7 @@ body {
 }
 
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-	width: 6.375em;
+	width: 6.55em;
 	margin-bottom: -1.9em;
 	filter: grayscale(20%);
 	opacity: 0.95;
@@ -1741,7 +1741,7 @@ body {
 }
 
 .layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
-	width: 5em;
+	width: 6em;
 	margin-bottom: -3.5em;
 	filter: grayscale(100%);
 	opacity: 0.2;
@@ -1756,7 +1756,6 @@ body {
 }
 
 .layout-desktop #similarCollapsible .cardScalable {
-	border: 1px solid white;
 	margin-right: 0.3em;
 	border-radius: 0.5em;
 }
