@@ -1732,7 +1732,7 @@ body {
 }
 
 .layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
-	width: 5em;
+	width: 5.5em;
 	margin-bottom: -3.5em;
 	filter: grayscale(100%);
 	opacity: 0.2;
