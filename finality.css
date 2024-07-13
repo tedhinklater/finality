@@ -117,8 +117,7 @@
 
 .cardBox:not(.visualCardBox) .cardPadder {
 	background-color: transparent !important;
-	border: 2px solid hsla(2, 59%, 11%, 1);
-	border-radius: 2em;
+	box-shadow: 0 .0725em .29em 0 rgba(0,0,0,0);
 }
 
 .pageTitleWithDefaultLogo {
@@ -1004,7 +1003,7 @@ progress::-webkit-progress-value {
 	align-items: center;
 	display: flex;
 	position: fixed;
-	top: 4.15em;
+	top: 2.25em;
 	left: 0.072em;
 	font-size: 500%;
 	margin: 0;
@@ -1018,15 +1017,18 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop .detailButton-icon.play_arrow {
-	background: linear-gradient(79deg, rgba(174, 0, 0, 0.95) 0%, rgba(174, 0, 0, 0.95) 6.25%, rgba(174, 0, 0, 0.95) 12.5%, rgba(174, 0, 0, 0.95) 18.75%, rgba(174, 0, 0, 0.95) 25%, rgba(173, 0, 0, 0.95) 31.25%, rgba(173, 0, 0, 0.95) 37.5%, rgba(172, 0, 0, 0.95) 43.75%, rgba(171, 1, 0, 0.95) 50%, rgba(168, 1, 0, 0.95) 56.25%, rgba(165, 2, 0, 0.95) 62.5%, rgba(161, 2, 0, 0.95) 68.75%, rgba(156, 3, 0, 0.95) 75%, rgba(150, 5, 0, 0.95) 81.25%, rgba(141, 6, 1, 0.96) 87.5%, rgba(131, 8, 1, 0.96) 93.75%, rgba(118, 11, 1, 0.96) 100% );
+	background: transparent;
 	border-radius: 0.055em;
 	z-index: -2;
 	width: 2.67em;
+	height: 1.1em;
+	padding-top: 1.2em;
+	padding-bottom: 1.1em;
 }
 
 .layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button {
 	opacity: 0;
-	transition-delay: 2s;
+	transition-delay: 1.1s;
 }
 
 .layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button:hover {
@@ -1406,6 +1408,7 @@ body {
 
 .layout-desktop #itemDetailPage  .overflowBackdropCard, .overflowSmallBackdropCard {
 	width: 12em;
+	margin-bottom: -2em;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
@@ -1429,8 +1432,8 @@ body {
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 	position: absolute;
 	top: 7em;
-	left: 117.05em;
-	width: 10%;
+	left: 118.05em;
+	width: 8.25%;
 	z-index: 10;
 }
 
@@ -1511,7 +1514,7 @@ body {
 }
 
 .layout-desktop .cardOverlayContainer {
-	background: rgba(255,255,255,.1);
+	background: rgba(255,255,255,0);
 }
 
 /* More button in bio */
@@ -1564,8 +1567,8 @@ body {
 	position: absolute;
 	bottom: 0.7em;
 	left: 30.5em;
-	width: 89em;
-	max-width: 89em;
+	width: 87em;
+	max-width: 87em;
 	z-index: 10;
 }
 
@@ -1578,7 +1581,7 @@ body {
 
 .layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
 	padding-left: 44.5em;
-	padding-right: 46em;
+	padding-right: 44.5em;
 }
 
 .layout-desktop #guestCastCollapsible .emby-scrollbuttons.padded-right {
@@ -1648,7 +1651,7 @@ body {
 
 .layout-desktop #castCollapsible .overflowPortraitCard {
 	width: 5em;
-	padding-right: 12em;
+	padding-right: 11.2em;
 	padding-left: 1em;
 	height: 4.5em;
 }
@@ -1709,10 +1712,14 @@ body {
 	transition-behavior: ;
 	position: fixed;
 	top: 5.28em;
-	left: calc(100vw - 6em);
+	left: calc(100vw - 6.76em);
 	max-height: calc(100vh - 5.28em);
 	overflow-y: hidden;
 	z-index: 1000;
+}
+
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .cardImageContainer.coveredImage.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast {
+	width: 100%;
 }
 
 .layout-desktop #similarCollapsible .cardBox {
@@ -1721,7 +1728,7 @@ body {
 }
 
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-	width: 5.4em;
+	width: 6.375em;
 	margin-bottom: -1.9em;
 	filter: grayscale(20%);
 	opacity: 0.95;
@@ -1811,9 +1818,9 @@ body {
 	max-height: calc(100vh - 35.2em);
 	display: block;
 	overflow-y: auto;
-	min-width: calc(100vw - 37em);
+	min-width: calc(100vw - 38em);
 	padding-right: 0em;
-	max-width: calc(100vw - 37em);
+	max-width: calc(100vw - 38em);
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
@@ -2112,7 +2119,7 @@ body {
 	flex-direction: column;
 	overflow-y: auto;
 	overflow-x: hidden;
-	max-height: calc(100vh - 14em);
+	max-height: calc(100vh - 14.51em);
 	width: 11.5em;
 	scroll-snap-type: y mandatory;
 }
@@ -2124,7 +2131,8 @@ body {
 }
 
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .cardText.cardTextCentered.cardText-first {
-	font-size: 76%;
+	font-size: 88%;
+	white-space: normal;
 }
 
 .layout-desktop .collectionItems {
