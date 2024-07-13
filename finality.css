@@ -1785,7 +1785,7 @@ body {
 	top: 35.2em;
 	left: 29em;
 	z-index: 20;
-	height: calc(100vh - 35.2em);
+	max-height: calc(100vh - 35.2em);
 	display: block;
 	overflow-y: auto;
 	min-width: calc(100vw - 37em);
@@ -2199,7 +2199,7 @@ body {
 	top: 35.55em;
 	left: 1.72em;
 	z-index: 2;
-	height: calc(100vh - 35.55em);
+	max-height: calc(100vh - 35.55em);
 	display: block;
 	overflow-y: auto;
 	padding-right: 0em;
@@ -3087,7 +3087,7 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 		left: 16em;
-		height: calc(100vh - 24.3em);
+		max-height: calc(100vh - 24.3em);
 		top: 24.3em;
 		min-width: calc(100vw - 23em);
 		max-width: calc(100vw - 23em);
@@ -3125,7 +3125,7 @@ padding-bottom: 0em;
 		top: 28em;
 		left: 0em;
 		z-index: 2;
-		height: calc(100vh - 28em);
+		max-height: calc(100vh - 28em);
 		display: block;
 		overflow-y: auto;
 		width: 22em;
@@ -3300,7 +3300,7 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 		left: 38.6em;
-		height: calc(100vh - 46.5em);
+		max-height: calc(100vh - 46.5em);
 		top: 46.5em;
 		min-width: calc(100vw - 46em);
 		max-width: calc(100vw - 46em);
@@ -3334,7 +3334,7 @@ padding-bottom: 0em;
 		top: 36.38em;
 		left: 2em;
 		z-index: 2;
-		height: calc(100vh - 36.3em);
+		max-height: calc(100vh - 36.3em);
 		display: block;
 		overflow-y: auto;
 		width: 27.6em;
