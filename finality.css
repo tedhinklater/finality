@@ -477,6 +477,7 @@ progress::-webkit-progress-value {
 /* Header*/
 .skinHeader-withBackground {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 6.25%, rgba(0, 0, 0, 0.83) 12.5%, rgba(0, 0, 0, 0.82) 18.75%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.77) 31.25%, rgba(0, 0, 0, 0.73) 37.5%, rgba(0, 0, 0, 0.69) 43.75%, rgba(0, 0, 0, 0.64) 50%, rgba(0, 0, 0, 0.58) 56.25%, rgba(0, 0, 0, 0.52) 62.5%, rgba(0, 0, 0, 0.45) 68.75%, rgba(0, 0, 0, 0.37) 75%, rgba(0, 0, 0, 0.29) 81.25%, rgba(0, 0, 0, 0.2) 87.5%, rgba(0, 0, 0, 0.1) 93.75%, rgba(0, 0, 0, 0) 100% );
+	position: absolute;
 }
 
 .skinHeader.semiTransparent {
