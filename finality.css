@@ -1817,8 +1817,9 @@ body {
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
-	width: 16em;
-	height: 9em;
+  width: 24.12em;
+  height: 13.57em;
+  border-radius: 0.25em;
 }
 
 .listItem:hover {
