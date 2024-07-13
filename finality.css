@@ -2219,7 +2219,7 @@ body {
 	top: 35.55em;
 	left: 1.72em;
 	z-index: 2;
-	max-height: calc(100vh - 40.65em);
+	max-height: calc(100vh - 41.5em);
 	display: block;
 	overflow-y: auto;
 	padding-right: 0em;
