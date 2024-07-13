@@ -21,7 +21,7 @@ or, import the colour version with
 ```
 
 <img src="https://github.com/tedhinklater/finality/assets/66086488/1cea8ffe-6edf-451e-87f1-097a9c1803e7" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/fd3dd4ca-78f9-46e9-923e-c97bd17cb03d" width="49.5%" height="49.5%" />
-<img src="https://github.com/user-attachments/assets/35539749-146a-4676-b906-02ce50febf5d" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/0881b587-a730-4252-aae7-a38408293db9" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/51040671-ae30-4dbe-9508-c7878e46a330" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/35539749-146a-4676-b906-02ce50febf5d" width="49.5%" height="49.5%" />
 
 # Player 
 
