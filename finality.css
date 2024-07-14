@@ -3235,6 +3235,7 @@ padding-bottom: 0em;
 	}
 	.layout-desktop .itemName.infoText.originalTitle {
 		left: 58vw;
+		top: 4em;
 	}
 	.layout-desktop .itemExternalLinks.focuscontainer-x {
 		right: 1.1em;
