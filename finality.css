@@ -3215,6 +3215,9 @@ padding-bottom: 0em;
 		height: 25em;
 		top: 21em;
 	}
+	.layout-desktop .detailRibbon {
+		z-index: 0;
+	}
 	.layout-desktop .itemName.infoText.originalTitle {
 		left: 58vw;
 		top: 4em;
