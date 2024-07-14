@@ -1415,9 +1415,9 @@ width: auto;
 }
 
 .layout-desktop #itemDetailPage  .overflowBackdropCard, .overflowSmallBackdropCard {
-width: 21.4em;
-  margin-bottom: -0.5em;
-  margin-right: 0em;
+	width: 25.5em;
+	margin-bottom: -0.5em;
+	margin-right: 0em;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
@@ -1441,8 +1441,8 @@ width: 21.4em;
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 position: absolute;
   bottom: 0em;
-  left: 1em;
-  width: 20.6em;
+  left: 1.5em;
+  width: 25.8em;
   z-index: 41;
   transition: width 1s ease-in-out, width 1s ease-in-out 2s;
   background: linear-gradient(0deg, rgb(1.176% 0% 3.529%) 0%, rgb(1.176% 0% 3.529% / 0.9998779296875) 6.25%, rgb(1.174% 0% 3.523% / 0.998046875) 12.5%, rgb(1.165% 0% 3.495% / 0.9901123046875) 18.75%, rgb(1.14% 0% 3.419% / 0.96875) 25%, rgb(1.087% 0% 3.26% / 0.9237060546875) 31.25%, rgb(0.99% 0% 2.971% / 0.841796875) 37.5%, rgb(0.832% 0% 2.495% / 0.7069091796875) 43.75%, rgb(0.588% 0% 1.765% / 0.5) 50%, rgb(0.345% 0% 1.034% / 0.2930908203125) 56.25%, rgb(0.186% 0% 0.558% / 0.158203125) 62.5%, rgb(0.09% 0% 0.269% / 0.0762939453125) 68.75%, rgb(0.037% 0% 0.11% / 0.03125) 75%, rgb(0.012% 0% 0.035% / 0.0098876953125) 81.25%, rgb(0.002% 0% 0.007% / 0.001953125) 87.5%, rgb(0% 0% 0% / 0.0001220703125) 93.75%, rgb(0% 0% 0% / 0) 100% );
