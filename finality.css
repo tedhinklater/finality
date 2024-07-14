@@ -1263,7 +1263,7 @@ width: auto;
 	border-radius: 0.35em;
 	width: 23em;
 	min-width: 23em;
-	background-color: #00000070 !important;
+	background-color: #000000a3 !important;
 	text-overflow: ellipsis;
 	opacity: 0;
 	transition: opacity 2s;
@@ -1285,7 +1285,7 @@ width: auto;
 	border-radius: 0.35em;
 	justify-content: center !important;
 	display: grid;
-	background-color: #00000070;
+	background-color: #000000a3;
 }
 
 /* Seasons carousel */
@@ -1415,13 +1415,13 @@ width: auto;
 }
 
 .layout-desktop #itemDetailPage  .overflowBackdropCard, .overflowSmallBackdropCard {
-width: 21.6em;
+width: 21.4em;
   margin-bottom: -0.5em;
   margin-right: 0em;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
-  padding-left: 30.5%;
+  padding-left: 29%;
 }
 
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
@@ -1441,7 +1441,7 @@ width: 21.6em;
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 position: absolute;
   bottom: 0em;
-  left: 0em;
+  left: 1em;
   width: 20.6em;
   z-index: 41;
   transition: width 1s ease-in-out, width 1s ease-in-out 2s;
