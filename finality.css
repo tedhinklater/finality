@@ -3307,7 +3307,6 @@ padding-bottom: 0em;
 	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
 		left: 40.5em;
 		width: 121em;
-		max-width: 121em;
 	}
 	.layout-desktop #castCollapsible .overflowPortraitCard {
 		padding-right: 17.55em;
@@ -3378,7 +3377,26 @@ padding-bottom: 0em;
 		height: 11.2em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-		left: 160em;
+		left: 2em;
+	}
+	.layout-desktop #itemDetailPage .overflowBackdropCard, .overflowSmallBackdropCard {
+		width: 17em;
+		margin-bottom: -2em;
+	}
+	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
+		position: absolute;
+		bottom: 0em;
+		left: 2em;
+		width: 33em;
+	}
+	.layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
+		padding-left: 23em;
+	}
+	.layout-desktop #itemDetailPage .emby-scrollbuttons {
+		position: relative;
+		top: -1em;
+		left: -8.4em;
+		z-index: -2;
 	}
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 		top: 20.35em;
