@@ -3390,12 +3390,12 @@ padding-bottom: 0em;
 		left: 2em;
 	}
 	.layout-desktop #itemDetailPage .overflowBackdropCard, .overflowSmallBackdropCard {
-		width: 17em;
+		width: 33em;
 		margin-bottom: -2em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 		position: absolute;
-		bottom: 0em;
+		bottom: 1em;
 		left: 2em;
 		width: 33em;
 	}
@@ -3405,7 +3405,7 @@ padding-bottom: 0em;
 	.layout-desktop #itemDetailPage .emby-scrollbuttons {
 		position: relative;
 		top: -1em;
-		left: -8.4em;
+		left: -45.4em;
 		z-index: -2;
 	}
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
