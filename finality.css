@@ -3228,10 +3228,10 @@ padding-bottom: 0em;
 		margin-bottom: -1.82em;
 	}
 	.layout-desktop .detailLogo {
-		left: 43.3em;
-		width: 110.5em;
-		height: 32em;
-		top: 14em;
+		left: 56.3em;
+		width: 96.5em;
+		height: 25em;
+		top: 21em;
 	}
 	.layout-desktop .itemName.infoText.originalTitle {
 		left: 31.5em;
@@ -3301,7 +3301,8 @@ padding-bottom: 0em;
 		filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
 	}
 	.layout-desktop .trackSelections {
-		top: 57.3em;
+		top: 9.3em;
+  		left: 33.4em;
 	}
 	.layout-desktop .trackSelections .selectContainer .detailTrackSelect {
 		width: 24em;
@@ -3359,14 +3360,14 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 		left: 38.6em;
-		max-height: calc(100vh - 46.5em);
-		top: 46.5em;
+		max-height: calc(100vh - 11em);
+		top: 11em;
 		min-width: calc(100vw - 47em);
 		max-width: calc(100vw - 47em);
 	}
 	.layout-desktop #childrenContent .listItemImage-large {
 		width: 32.888em;
-		height: 18.5em;
+		height: 17.5em;
 		border-radius: 0.25em;
 	}
 	.layout-desktop .detailButton-icon.explore {
@@ -3399,7 +3400,7 @@ padding-bottom: 0em;
 		width: 33em;
 	}
 	.layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
-		padding-left: 23em;
+		padding-left: 60.5em;
 	}
 	.layout-desktop #itemDetailPage .emby-scrollbuttons {
 		position: relative;
