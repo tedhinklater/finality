@@ -2146,40 +2146,22 @@ position: relative;
 }
 
 .layout-desktop .collectionItems {
-	position: fixed;
-	display: inline-grid;
-	top: 8.15em;
-	z-index: 1000;
-	opacity: 0;
-	transition: opacity 0.3s;
-	transition-delay: 0s;
-	padding-right: 0em;
-	transition-delay: 2s;
-	border-radius: 0.15em;
-	height: 40.75em;
-	overflow-y: auto;
-	left: 1.8em;
-	width: 27.1em;
-	background: linear-gradient(208deg, rgb(10.196% 10.196% 10.196%) 0%, rgb(8.961% 8.961% 8.961%) 6.25%, rgb(7.806% 7.806% 7.806%) 12.5%, rgb(6.731% 6.731% 6.731%) 18.75%, rgb(5.735% 5.735% 5.735%) 25%, rgb(4.819% 4.819% 4.819%) 31.25%, rgb(3.983% 3.983% 3.983%) 37.5%, rgb(3.226% 3.226% 3.226%) 43.75%, rgb(2.549% 2.549% 2.549%) 50%, rgb(1.952% 1.952% 1.952%) 56.25%, rgb(1.434% 1.434% 1.434%) 62.5%, rgb(0.996% 0.996% 0.996%) 68.75%, rgb(0.637% 0.637% 0.637%) 75%, rgb(0.358% 0.358% 0.358%) 81.25%, rgb(0.159% 0.159% 0.159%) 87.5%, rgb(0.04% 0.04% 0.04%) 93.75%, rgb(0% 0% 0%) 100% );
-}
-
-.layout-desktop #itemDetailPage .collectionItems:hover {
-	opacity: 1;
-	transition: opacity 0.3s;
+	position: absolute;
+	display: inline-flex;
+	top: 26em;
+	flex-direction: column;
+	width: 97.2em !important;
+	overflow: scroll;
+	left: 29em;
+	height: 24em;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right {
-	display: contents;
-	overflow-x: scroll;
-	width: 20.3em;
-	z-index: 1000;
-	height: 41.1em;
-	background: linear-gradient(208deg, rgb(10.196% 10.196% 10.196%) 0%, rgb(8.961% 8.961% 8.961%) 6.25%, rgb(7.806% 7.806% 7.806%) 12.5%, rgb(6.731% 6.731% 6.731%) 18.75%, rgb(5.735% 5.735% 5.735%) 25%, rgb(4.819% 4.819% 4.819%) 31.25%, rgb(3.983% 3.983% 3.983%) 37.5%, rgb(3.226% 3.226% 3.226%) 43.75%, rgb(2.549% 2.549% 2.549%) 50%, rgb(1.952% 1.952% 1.952%) 56.25%, rgb(1.434% 1.434% 1.434%) 62.5%, rgb(0.996% 0.996% 0.996%) 68.75%, rgb(0.637% 0.637% 0.637%) 75%, rgb(0.358% 0.358% 0.358%) 81.25%, rgb(0.159% 0.159% 0.159%) 87.5%, rgb(0.04% 0.04% 0.04%) 93.75%, rgb(0% 0% 0%) 100% );
 	padding-left: 1em;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
-	width: 25.2em;
+	width: 14em;
 	margin-bottom: 0em;
 	padding-left: 1.4em;
 	padding-top: 1em;
