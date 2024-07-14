@@ -1407,12 +1407,12 @@ body {
 }
 
 .layout-desktop #itemDetailPage  .overflowBackdropCard, .overflowSmallBackdropCard {
-	width: 12em;
+	width: 12.7em;
 	margin-bottom: -2em;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
-	padding-left: 3.5em;
+  padding-left: 18.5em;
 }
 
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
@@ -1431,17 +1431,30 @@ body {
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 	position: absolute;
-	top: 7em;
-	left: 118.05em;
-	width: 8.25%;
-	z-index: 10;
+	bottom: 0em;
+	left: 2em;
+	width: 25em;
+	z-index: 41;
+	transition: width 1s ease-in-out, width 1s ease-in-out 4s;
+	background: #020006;
+	padding-bottom: 3em;
+}
+
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container:hover {
+  width: calc(100vw - 2em);
+  transition: width 1s ease-in-out;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
 	position: relative;
-	top: 0.5em;
-	left: 17.8em;
+	top: -1em;
+	left: -7.4em;
 	z-index: -2;
+}
+
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
+	margin-top: -2em;
+	margin-bottom: -2em;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x {
@@ -1568,7 +1581,6 @@ body {
 	bottom: 0.7em;
 	left: 30.5em;
 	width: 87em;
-	max-width: 87em;
 	z-index: 10;
 }
 
@@ -1728,7 +1740,7 @@ body {
 }
 
 .layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-	width: 6.55em;
+	width: 6.5em;
 	margin-bottom: -1.9em;
 	filter: grayscale(20%);
 	opacity: 0.95;
@@ -2114,20 +2126,10 @@ body {
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
-	display: flex;
-	flex-direction: column;
-	overflow-y: auto;
-	overflow-x: hidden;
-	max-height: calc(100vh - 14.51em);
-	width: 11.5em;
-	scroll-snap-type: y mandatory;
+  display: flex;
+  flex-direction: row;
 }
 
-.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-	position: absolute;
-	top: -16.6em;
-	left: 113.15em;
-}
 
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .cardText.cardTextCentered.cardText-first {
 	font-size: 88%;
