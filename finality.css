@@ -1456,7 +1456,7 @@ position: absolute;
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
 position: relative;
-  top: -1em;
+  top: -2em;
   left: -12.8%;
   z-index: -2;
 }
