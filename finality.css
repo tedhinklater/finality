@@ -3358,11 +3358,13 @@ padding-bottom: 0em;
 		left: 21em;
 	}
 	.layout-desktop .collectionItems {
-		height: 54.3em;
-		width: 36.1em;
+		height: 26.8em;
+		width: 111em !important;
+		left: 42em;
+		top: 38em;
 	}
 	.layout-desktop #itemDetailPage .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
-		width: 34.2em;
+		width: 16.2em;
 	}
 	.layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
 		left: 38.4em;
