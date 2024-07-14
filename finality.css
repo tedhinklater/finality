@@ -1303,7 +1303,7 @@ width: auto;
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 	position: fixed;
-	top: 36.6em;
+	top: 48.5em;
 	left: 2.5em;
 	max-height: 14.5em;
 	width: 26.5em;
@@ -1315,16 +1315,6 @@ width: auto;
 	padding-right: 0em;
 	filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
 	max-width: 26.5em;
-}
-
-/* Series */
-.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
-	top: 48.5em;
-	transition: top 0.3s
-	}
-	
-.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:not(:hover) {
-	transition-delay: 2s;
 }
 
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
@@ -3328,7 +3318,7 @@ padding-bottom: 0em;
 		top: 4.5em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
-		top: 48.5em;
+		top: 64.85em;
 		width: 35em;
 		max-height: 19em;
 		max-width: 35em;
@@ -3336,9 +3326,6 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenCollapsible .overflowPortraitCard {
 		width: 12em;
-	}
-	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap:hover {
-		top: 64.85em;
 	}
 	.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap {
 		left: 39em;
