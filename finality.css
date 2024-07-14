@@ -3212,11 +3212,11 @@ padding-bottom: 0em;
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
 		left: calc(100vw - 8.9em);
 		max-height: calc(100vh - 6em);
-		top: 8em;
+		top: 7.2em;
 	}
 	.layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-		width: 8.5em;
-		margin-bottom: -2em;
+		width: 8.4em;
+		margin-bottom: -1.82em;
 	}
 	.layout-desktop .detailLogo {
 		left: 43.3em;
