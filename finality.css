@@ -1472,7 +1472,7 @@ position: relative;
 	top: 1.98em;
 	left: 4.586em;
 	font-size: 7.75em;
-	width: 59%;
+	width: 10em;
 	font-family: inherit;
 	font-weight: 700 !important;
 	font-style: normal;
@@ -1832,21 +1832,21 @@ position: relative;
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 	position: absolute;
-	top: 35.2em;
+	top: 8em;
 	left: 29em;
 	z-index: 20;
-	max-height: calc(100vh - 35.2em);
+	max-height: calc(100vh - 8em);
 	display: block;
 	overflow-y: auto;
-	min-width: calc(100vw - 38em);
+	min-width: calc(100vw - 36em);
 	padding-right: 0em;
 	max-width: calc(100vw - 38em);
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
-  width: 24.12em;
-  height: 13.3em;
-  border-radius: 0.25em;
+	width: 24.12em;
+	height: 13.1em;
+	border-radius: 0.25em;
 }
 
 .listItem:hover {
