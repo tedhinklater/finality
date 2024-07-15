@@ -1559,8 +1559,8 @@ position: relative;
 .layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
 	display: block;
 	position: fixed;
-	top: 0.5em;
-	left: 11.6em;
+	top: 47.5em;
+	left: 6.35em;
 	font-size: 141%;
 	opacity: 1;
 	text-transform: uppercase;
@@ -1572,7 +1572,7 @@ position: relative;
 
 .layout-desktop #specialsContent .cardText {
 	font-family: inherit;
-	font-size: 8pt;
+	font-size: 1em;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
@@ -1603,25 +1603,26 @@ position: relative;
 
 .layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
 	position: fixed;
-	top: -0.5em;
-	left: 29em;
-	display: flex;
-	width: auto;
-	max-width: 62.4em;
-	overflow-x: scroll !important;
-	height: 10.4em;
-	background: #131313c4;
+	top: 49em;
+	left: 2em;
+	display: inline-block;
+	width: 22.43em;
+	overflow-y: auto !important;
+	height: 18.4em;
+	background: #020006;
 	border-radius: 0.25em;
 	border: 1px solid #030303;
+	scroll-snap-type: y mandatory;
 }
 
 .layout-desktop #specialsCollapsible .card.overflowBackdropCard.card-hoverable.card-withuserdata {
-	width: 12.4em;
-	padding: 0.5em;
+	width: 27.4em;
+	padding-left: 0.1em;
+	scroll-snap-align: center;
 }
 
 .layout-desktop #specialsCollapsible .scrollSlider.focuscontainer-x.itemsContainer {
-	display: flex !important;
+	display: block !important;
 }
 
 .layout-desktop #specialsCollapsible .emby-scrollbuttons.padded-right {
