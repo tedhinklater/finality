@@ -1149,8 +1149,8 @@ progress::-webkit-progress-value {
 
 .layout-desktop .itemName.infoText.originalTitle {
 	position: fixed;
-	top: 6em;
- 	left: 24.5em;
+	top: 2.6em;
+	left: 54vw;
 	font-size: 1.252em;
 }
 
