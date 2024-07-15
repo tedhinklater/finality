@@ -1365,9 +1365,11 @@ width: auto;
 	text-align: left;
 	font-style: normal;
 	font-size: 1.8em;
-	width: 34em;
+	max-width: 68em;
 	color: #fff5;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
+	overflow: hidden;
+	height: 1.4em;
 }
 
 .layout-desktop .detailsGroupItem.genresGroup .button-link.emby-button {
@@ -3287,6 +3289,7 @@ padding-bottom: 0em;
 		top: 3.4em;
 		left: 1em;
 		font-size: 1.7em;
+		max-width: 71em;
 	}
 	.layout-desktop #itemDetailPage .detailImageContainer .card {
 		max-width: 36em;
