@@ -1150,7 +1150,7 @@ progress::-webkit-progress-value {
 .layout-desktop .itemName.infoText.originalTitle {
 	position: fixed;
 	top: 2.6em;
-	left: 54vw;
+	left: 55.7vw;
 	font-size: 1.252em;
 }
 
@@ -2163,11 +2163,9 @@ position: relative;
 
 .layout-desktop .programGuideSection.verticalSection.detailVerticalSection {
 	position: absolute;
-	top: 0em;
-	width: 69.38em;
-	left: 48em;
-	background: #101010;
-	z-index: 10;
+	top: 8em;
+	width: 94.38em;
+	left: 28em;
 }
 
 .layout-desktop .cardImageContainer.coveredImage.cardContent.itemAction.lazy.lazy-image-fadein-fast,
@@ -3412,5 +3410,16 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .cardText.cardTextCentered.cardText-first {
 		font-size: 95%;
+	}
+	.layout-desktop .programGuideSection.verticalSection.detailVerticalSection {
+		position: absolute;
+		top: 9em;
+		width: 94.38em;
+		left: 31em;
+		font-size: 1.2em;
+	}
+	.layout-desktop .listItemBodyText {
+		line-height: 1.2em;
+		font-size: 1.2em;
 	}
 }
