@@ -2129,14 +2129,29 @@ position: relative;
 }
 
 .layout-desktop .collectionItems {
+  position: absolute;
+  display: inline-flex;
+  top: 8.2em;
+  flex-direction: column;
+  width: 13.2em !important;
+  overflow: hidden;
+  left: 29em;
+  height: 20em;
+  transition: width 1s ease-in-out, height 1s ease-in-out;
+  z-index: 50;
+  transition-delay: 2s;
+}
+
+.layout-desktop .collectionItems:hover {
 	position: absolute;
 	display: inline-flex;
-	top: 7.2em;
+	top: 8.2em;
 	flex-direction: column;
 	width: 84.2em !important;
 	overflow: scroll;
 	left: 29em;
 	height: 42em;
+	transition: width 1s ease-in-out;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right {
@@ -2147,7 +2162,7 @@ position: relative;
 	width: 12em;
 	margin-bottom: 0em;
 	padding-left: 1.4em;
-	padding-top: 1em;
+	padding-top: 0em;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .cardText-first {
@@ -3339,10 +3354,16 @@ padding-bottom: 0em;
 		left: 21em;
 	}
 	.layout-desktop .collectionItems {
-		height: 54.8em;
+		top: 12.2em;
+		width: 19.2em !important;
+		left: 39em;
+		height: 25em;
+	}
+	.layout-desktop .collectionItems:hover {
+		top: 12.2em;
 		width: 111em !important;
-		left: 45em;
-		top: 11em;
+		left: 39em;
+		height: 52em;
 	}
 	.layout-desktop #itemDetailPage .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
 		width: 16.2em;
