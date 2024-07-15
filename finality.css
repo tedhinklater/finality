@@ -1755,16 +1755,8 @@ position: relative;
 .layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable {
 	width: 6em;
 	margin-bottom: -3.5em;
-	filter: grayscale(100%);
-	opacity: 0.2;
-	transition: filter 0.3s, opacity 0.3s;
 	margin-left: 0em;
 	margin-top: 1.6em;
-}
-
-.layout-desktop #similarCollapsible .card.overflowSquareCard.card-hoverable:hover {
-	filter: grayscale(0%);
-	opacity: 1;
 }
 
 .layout-desktop #similarCollapsible .cardScalable {
@@ -2139,12 +2131,12 @@ position: relative;
 .layout-desktop .collectionItems {
 	position: absolute;
 	display: inline-flex;
-	top: 26em;
+	top: 7.2em;
 	flex-direction: column;
-	width: 97.2em !important;
+	width: 84.2em !important;
 	overflow: scroll;
 	left: 29em;
-	height: 24em;
+	height: 42em;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right {
@@ -2152,7 +2144,7 @@ position: relative;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
-	width: 14em;
+	width: 12em;
 	margin-bottom: 0em;
 	padding-left: 1.4em;
 	padding-top: 1em;
