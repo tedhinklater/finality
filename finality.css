@@ -2279,10 +2279,18 @@ width: auto;
 
 .layout-mobile h1.itemName, .layout-mobile h1.parentName {
 	font-size: 1.6em;
-	justify-content: left !important;
 	position: relative;
 	display: flex;
 	margin-left: 0.8em;
+}
+
+@media (max-width: 32em) {
+  .layout-mobile .detailImageContainer .card {
+	bottom: 0;
+	left: 0;
+	min-width: 34vw;
+	max-width: 38vw;
+  }
 }
 
 @media (orientation: landscape) {
@@ -2305,7 +2313,7 @@ width: auto;
 		height: 11em;
 		margin-bottom: -7em;
 		width: 49%;
-		left: 41.5%;
+		left: 44.5%;
 	}
 }
 
@@ -2336,6 +2344,14 @@ width: auto;
     	position: relative;
 }
 
+@media (min-width: 30em) and (orientation: portrait) {
+	.layout-mobile [dir="ltr"] .mainDetailButtons {
+		padding-left: 25%;
+	}
+	.layout-mobile .detailLogo {
+		left: 35%;
+	}
+}
 .layout-mobile #similarCollapsible .cardText.cardTextCentered.cardText-first {
 	text-transform: uppercase;
 }
@@ -2346,20 +2362,17 @@ width: auto;
 }
 
 .layout-mobile #homeTab .sectionTitle.sectionTitle-cards {
-  text-transform: uppercase;
-  font-size: 119%;
-  margin-left: 0.3em;
+	text-transform: uppercase;
+	font-size: 119%;
+	margin-left: 0.3em;
 }
 
-
-
 .layout-mobile .subtitle {
-  margin: .2em 0 .2em;
-    margin-left: 0px;
-  padding-left: 0;
-  justify-content: left !important;
-  display: flex;
-  margin-left: 1.2em;
+	margin: .2em 0 .2em;
+	margin-left: 0px;
+	padding-left: 0;
+	display: flex;
+	margin-left: 1.2em;
 }
 
 
