@@ -1412,7 +1412,7 @@ width: auto;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
-  padding-left: 29%;
+  padding-left: 26%;
 }
 
 .layout-desktop #childrenContent .card.overflowBackdropCard.card-hoverable.card-withuserdata {
@@ -1430,26 +1430,26 @@ width: auto;
 
 /* More from season */
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-position: absolute;
-  bottom: 0em;
-  left: 3.5em;
-  width: 24.5em;
-  z-index: 41;
-  transition: width 1s ease-in-out, width 1s ease-in-out 2s;
-  background: linear-gradient(0deg, rgb(1.176% 0% 3.529%) 0%, rgb(1.176% 0% 3.529% / 0.9998779296875) 6.25%, rgb(1.174% 0% 3.523% / 0.998046875) 12.5%, rgb(1.165% 0% 3.495% / 0.9901123046875) 18.75%, rgb(1.14% 0% 3.419% / 0.96875) 25%, rgb(1.087% 0% 3.26% / 0.9237060546875) 31.25%, rgb(0.99% 0% 2.971% / 0.841796875) 37.5%, rgb(0.832% 0% 2.495% / 0.7069091796875) 43.75%, rgb(0.588% 0% 1.765% / 0.5) 50%, rgb(0.345% 0% 1.034% / 0.2930908203125) 56.25%, rgb(0.186% 0% 0.558% / 0.158203125) 62.5%, rgb(0.09% 0% 0.269% / 0.0762939453125) 68.75%, rgb(0.037% 0% 0.11% / 0.03125) 75%, rgb(0.012% 0% 0.035% / 0.0098876953125) 81.25%, rgb(0.002% 0% 0.007% / 0.001953125) 87.5%, rgb(0% 0% 0% / 0.0001220703125) 93.75%, rgb(0% 0% 0% / 0) 100% );
-  padding-bottom: 2em;
+	position: absolute;
+	bottom: 0em;
+	left: 3.5em;
+	width: 24.5em;
+	z-index: 41;
+	transition: width 1s ease-in-out, width 1s ease-in-out 2s;
+	background: linear-gradient(0deg, rgb(1.176% 0% 3.529%) 0%, rgb(1.176% 0% 3.529% / 0.9998779296875) 6.25%, rgb(1.174% 0% 3.523% / 0.998046875) 12.5%, rgb(1.165% 0% 3.495% / 0.9901123046875) 18.75%, rgb(1.14% 0% 3.419% / 0.96875) 25%, rgb(1.087% 0% 3.26% / 0.9237060546875) 31.25%, rgb(0.99% 0% 2.971% / 0.841796875) 37.5%, rgb(0.832% 0% 2.495% / 0.7069091796875) 43.75%, rgb(0.588% 0% 1.765% / 0.5) 50%, rgb(0.345% 0% 1.034% / 0.2930908203125) 56.25%, rgb(0.186% 0% 0.558% / 0.158203125) 62.5%, rgb(0.09% 0% 0.269% / 0.0762939453125) 68.75%, rgb(0.037% 0% 0.11% / 0.03125) 75%, rgb(0.012% 0% 0.035% / 0.0098876953125) 81.25%, rgb(0.002% 0% 0.007% / 0.001953125) 87.5%, rgb(0% 0% 0% / 0.0001220703125) 93.75%, rgb(0% 0% 0% / 0) 100% );
+	padding-bottom: 2em;
 }
 
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container:hover {
-  width: 100vw;
-  transition: width 1s ease-in-out;
+	width: 100vw;
+	transition: width 1s ease-in-out;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
-position: relative;
-  top: -2em;
-  left: -12.8%;
-  z-index: -2;
+	position: relative;
+	top: -2em;
+	left: -12.8%;
+	z-index: -2;
 }
 
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
