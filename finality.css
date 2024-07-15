@@ -3271,7 +3271,7 @@ padding-bottom: 0em;
 	}
 	.layout-desktop .trackSelections {
 		top: 9.3em;
-  		left: 33.4em;
+  		left: 35.1em;
 	}
 	.layout-desktop .trackSelections .selectContainer .detailTrackSelect {
 		width: 24em;
@@ -3360,7 +3360,7 @@ padding-bottom: 0em;
 		left: 2em;
 	}
 	.layout-desktop #itemDetailPage .overflowBackdropCard, .overflowSmallBackdropCard {
-		width: 36em !important;
+		width: 33.95em !important;
 		margin-bottom: -1em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
