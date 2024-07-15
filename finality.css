@@ -1482,19 +1482,19 @@ width: auto;
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 	position: fixed;
-	top: 15.9em;
-	left: 1.53em;
+	top: 22.82em;
+	left: 16.13em;
 	overflow: visible;
 	white-space: normal;
 	font-size: 2em;
-	max-width: 12.3em;
+	max-width: 37.3em;
 	font-family: inherit;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 	text-align: center;
 }
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x::before {
-	content: "PLAY ";
+	content: "";
 	font-size: inherit;
 	font-family: inherit;
 }
@@ -3380,13 +3380,13 @@ padding-bottom: 0em;
 		left: 2em;
 	}
 	.layout-desktop #itemDetailPage .overflowBackdropCard, .overflowSmallBackdropCard {
-		width: 33.95em !important;
+		width: 33.8em !important;
 		margin-bottom: -1em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 		position: absolute;
 		bottom: 1em;
-		left: 2em;
+		left: 4em;
 		width: 33em;
 	}
 	.layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
@@ -3399,9 +3399,9 @@ padding-bottom: 0em;
 		z-index: -2;
 	}
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
-		top: 20.35em;
-		left: 2em;
-		max-width: 16.4em;
+		top: 30.85em;
+		left: 21.4em;
+		max-width: 35.4em;
 	}
     .layout-desktop #lyricsSection .vertical-list.itemsContainer {
 		position: fixed;
@@ -3442,6 +3442,15 @@ padding-bottom: 0em;
 	}
 	.layout-desktop .listItemBodyText {
 		line-height: 1.2em;
+		font-size: 1.2em;
+	}
+	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons.padded-right {
+		left: -12.8%;
+		font-size: 1.2em;
+	}
+	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons-button.paper-icon-button-light {
+		padding-left: 28%;
+		padding-bottom: 1em;
 		font-size: 1.2em;
 	}
 }
