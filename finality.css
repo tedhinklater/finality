@@ -3341,25 +3341,27 @@ padding-bottom: 0em;
 		left: 21em;
 	}
 	.layout-desktop .collectionItems {
-		height: 26.8em;
+		height: 54.8em;
 		width: 111em !important;
 		left: 42em;
-		top: 38em;
+		top: 11em;
 	}
 	.layout-desktop #itemDetailPage .collectionItems .card.portraitCard.card-hoverable.card-withuserdata {
 		width: 16.2em;
+		height: 26em;
 	}
 	.layout-desktop #specialsCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-		left: 38.4em;
-		max-width: 114.2em;
-		height: 11.2em;
+		left: 2.4em;
+		width: 30.2em;
+		height: 23.12em;
+		top: 65.1em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 		left: 2em;
 	}
 	.layout-desktop #itemDetailPage .overflowBackdropCard, .overflowSmallBackdropCard {
-		width: 33em;
-		margin-bottom: -2em;
+		width: 36em !important;
+		margin-bottom: -1em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 		position: absolute;
@@ -3405,8 +3407,8 @@ padding-bottom: 0em;
 		font-size: 200%;
 	}
 	.layout-desktop #specialsCollapsible .sectionTitle.sectionTitle-cards.padded-right {
-		top: -0.5em;
-		left: 10em;
+		top: 62.5em;
+		left: 9.96em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .cardText.cardTextCentered.cardText-first {
 		font-size: 95%;
