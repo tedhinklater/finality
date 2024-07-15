@@ -1027,7 +1027,7 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button {
-	opacity: 0;
+	opacity: 0.12;
 	transition-delay: 1.1s;
 }
 
