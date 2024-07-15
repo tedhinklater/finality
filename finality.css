@@ -2236,6 +2236,21 @@ width: auto;
 	display: inline-block;
 }
 
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons.padded-right {
+	position: fixed;
+	font-size: 1.2em;
+	left: 1em;
+	top: calc(100vh - 15.5em);
+	margin-bottom: 5em;
+	height: 0.5em;
+	width: 7em;
+}
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons-button.paper-icon-button-light {
+	padding-left: 13.5em;
+	padding-bottom: 0.5em;
+	font-size: 1.2em;
+}
+
 
 /* --- Mobile View --- */
 .layout-mobile .itemBackdrop {
@@ -3445,12 +3460,22 @@ padding-bottom: 0em;
 		font-size: 1.2em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons.padded-right {
-		left: -12.8%;
+		position: fixed;
 		font-size: 1.2em;
+		left: 1em;
+		top: calc(100vh - 20.5em);
+		margin-bottom: 0em;
+		height: 0.5em;
+		width: 8em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons-button.paper-icon-button-light {
-		padding-left: 28%;
-		padding-bottom: 1em;
+		padding-left: 20em;
+		padding-bottom: 0.5em;
 		font-size: 1.2em;
+	}
+	.layout-desktop #itemDetailPage .parentName.focuscontainer-x {
+		top: 17.5em;
+		left: 13.32em;
+		font-size: 3.2em;
 	}
 }
