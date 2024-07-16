@@ -652,7 +652,7 @@ progress::-webkit-progress-value {
 
 /* Adjust alignment for the cards within the Continue Watching section */
 .layout-desktop #homeTab .section1.verticalSection .itemsContainer .card.overflowBackdropCard {
-	width: 31.35em !important;
+	width: 31.22em !important;
 	margin-top: 0em;
 }
 
