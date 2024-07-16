@@ -1429,7 +1429,7 @@ width: auto;
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 	position: absolute;
 	bottom: 0em;
-	left: 3.5em;
+	left: 3.2em;
 	width: 24.5em;
 	z-index: 41;
 	transition: width 1s ease-in-out, width 1s ease-in-out 2s;
@@ -2238,7 +2238,7 @@ width: auto;
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons.padded-right {
 	position: fixed;
 	font-size: 1.2em;
-	left: 1.35em;
+	left: 1em;
 	top: calc(100vh - 16.5em);
 	margin-bottom: 5em;
 	height: 0.5em;
