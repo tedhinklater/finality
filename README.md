@@ -25,17 +25,19 @@ or, import the colour version with
 <img src="https://github.com/user-attachments/assets/b9775093-7a7e-49a2-83db-3ec33e9ea586" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/4732942e-6321-417c-bb9d-715f57c4c052" width="49.5%" height="49.5%" /> 
 
 # Player 
-
 ![14](https://github.com/tedhinklater/finality/assets/66086488/84d70061-5216-4921-bff0-fbb25de59cca)
 
 # Mobile
-
 ![mobile](https://github.com/tedhinklater/finality/assets/66086488/a0fb2aec-2794-4d68-b96c-9a144844729a)
 
-Make sure you enable backdrops and under Display settings use the Dark theme
-![Backdrops](https://i.imgur.com/18D9IO3.png)
+Under "Display" make sure you enable backdrops and use the Dark theme
+![darkbackdrops](https://github.com/user-attachments/assets/78e9e4db-957a-447e-9ac5-2aaabcdc9417)
 
-# Featured Content Bar by [BobHasNoSoul](https://github.com/BobHasNoSoul) and [SethBacon](https://forum.jellyfin.org/u-sethbacon)
+# Optional Mods & Customization
+
+# [Featured Content Bar](https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md#featured-content-bar-109xx) by [BobHasNoSoul](https://github.com/BobHasNoSoul) and [SethBacon](https://forum.jellyfin.org/u-sethbacon)
+
+![featured](https://github.com/user-attachments/assets/8e0b6c23-785b-4553-920e-49cf198811d4)
 
 1. Download [slideshow.html](https://github.com/tedhinklater/finality/blob/main/slideshow.html)
 
@@ -66,39 +68,17 @@ Make sure you enable backdrops and under Display settings use the Dark theme
 
 That's it.
 
-# Customization
+## Changing your Jellyfin logo --> <img src="https://i.imgur.com/5d4W3M2.png" width="10%" height="10%"  /> 
 
-<img src="https://i.imgur.com/5d4W3M2.png" width="10%" height="10%"  />
-
-## Changing your finality logo
-
-Go into your Jellyfin servers custom ccs and insert this (changing the obvious part):
+Go into your Jellyfin server's Custom CSS and insert this (changing the obvious part):
 
 ```css
 /*Use your own header logo*/
 .pageTitleWithDefaultLogo {
-  background-image: url(YOURURLHERE);
+  background-image: url(LOGO-URL-HERE);
 }
 ```
-## Add custom logo to login page:
+## ![Custom logo on login page](https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md#adding-your-logo-at-the-top-of-the-login-page-109x)
 
-![image](https://github.com/user-attachments/assets/6dd42918-bfb0-4b1a-aa72-7016a398fff2)
+![login logo](https://github.com/user-attachments/assets/b28a9467-128b-45e5-b456-7de73825061a)
 
-
-*Thanks to* [*BobHasNoSoul*](https://github.com/BobHasNoSoul)
-
-### Steps
-
-1. Enter your jellyfin web directory, on Windows this is located at your Jellyfin install location in the folder `jellyfin-web`
-2. Locate the files that are named `session-login-index-html.*.bundle.js` (the * will be replaced with a random string so just find yours) there will be two
-3. Open both of these files with your favorite text editor
-4. Using the search function in your text editor find the string:
-   ```html
-   <div class="padded-left padded-right padded-bottom-page margin-auto-y">
-   ```
-5. In **BOTH** files replace the string with this string (replacing the obvious part):
-   ```html
-   <img src="YOURURLHERE" width=350px style="padding: 0px;display:block; margin-left: auto; margin-right: auto;">
-   ```
-6. Save your files
-7. Refresh your browser with Ctrl + F5
