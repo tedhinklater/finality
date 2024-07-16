@@ -1405,7 +1405,7 @@ width: auto;
 .layout-desktop #itemDetailPage  .overflowBackdropCard, .overflowSmallBackdropCard {
 	width: 25.1em;
 	margin-bottom: -0.5em;
-	margin-right: 0em;
+	margin-right: -0.03em;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
@@ -1429,7 +1429,7 @@ width: auto;
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 	position: absolute;
 	bottom: 0em;
-	left: 3.2em;
+	left: 3.35em;
 	width: 24.5em;
 	z-index: 41;
 	transition: width 1s ease-in-out, width 1s ease-in-out 2s;
