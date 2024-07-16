@@ -35,7 +35,7 @@ Under "Display" make sure you enable backdrops and use the Dark theme
 
 # Optional Mods & Customization
 
-# [Featured Content Bar](https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md#featured-content-bar-109xx) by [BobHasNoSoul](https://github.com/BobHasNoSoul) and [SethBacon](https://forum.jellyfin.org/u-sethbacon)
+## [Featured Content Bar](https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md#featured-content-bar-109xx) by [BobHasNoSoul](https://github.com/BobHasNoSoul) and [SethBacon](https://forum.jellyfin.org/u-sethbacon)
 
 ![featured](https://github.com/user-attachments/assets/8e0b6c23-785b-4553-920e-49cf198811d4)
 
