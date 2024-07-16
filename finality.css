@@ -2238,7 +2238,7 @@ width: auto;
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons.padded-right {
 	position: fixed;
 	font-size: 1.2em;
-	left: 1em;
+	left: 1.35em;
 	top: calc(100vh - 16.5em);
 	margin-bottom: 5em;
 	height: 0.5em;
@@ -2249,7 +2249,9 @@ width: auto;
 	padding-bottom: 0.5em;
 	font-size: 1.2em;
 }
-
+.layout-desktop #itemDetailPage .emby-scrollbuttons-button > .material-icons {
+	font-size: 1.5em;
+}
 
 /* --- Mobile View --- */
 .layout-mobile .itemBackdrop {
