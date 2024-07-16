@@ -25,53 +25,60 @@ or, import the colour version with
 <img src="https://github.com/user-attachments/assets/b9775093-7a7e-49a2-83db-3ec33e9ea586" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/4732942e-6321-417c-bb9d-715f57c4c052" width="49.5%" height="49.5%" /> 
 
 # Player 
-
 ![14](https://github.com/tedhinklater/finality/assets/66086488/84d70061-5216-4921-bff0-fbb25de59cca)
 
 # Mobile
-
 ![mobile](https://github.com/tedhinklater/finality/assets/66086488/a0fb2aec-2794-4d68-b96c-9a144844729a)
 
-Make sure you enable backdrops and under Display settings use the Dark theme
-![Backdrops](https://i.imgur.com/18D9IO3.png)
+Under "Display" make sure you enable backdrops and use the Dark theme
+![darkbackdrops](https://github.com/user-attachments/assets/78e9e4db-957a-447e-9ac5-2aaabcdc9417)
 
-# Featured Content Bar by [BobHasNoSoul](https://github.com/BobHasNoSoul) and [SethBacon](https://forum.jellyfin.org/u-sethbacon)
+# Optional Mods & Customization
 
-1) Download [slideshow.html](https://github.com/tedhinklater/finality/blob/main/slideshow.html)
+# [Featured Content Bar](https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md#featured-content-bar-109xx) by [BobHasNoSoul](https://github.com/BobHasNoSoul) and [SethBacon](https://forum.jellyfin.org/u-sethbacon)
 
-2) Enter your ```UserId``` into line 11 of slideshow.html (Get your UserID by going to the Jellyfin Dashboard, go to the Users tab, click your username. Your UserId is the last string in the address bar after the = sign)
+![featured](https://github.com/user-attachments/assets/8e0b6c23-785b-4553-920e-49cf198811d4)
 
-3) Enter your ```API key``` into line 12 of slideshow.html (Go to Dashboard, API Keys tab, click the + and create a key for FeaturedSlideshow)
+1. Download [slideshow.html](https://github.com/tedhinklater/finality/blob/main/slideshow.html)
 
-4) Go to your ```jellyfin-web``` folder (C:\Program Files\Jellyfin\Server\jellyfin-web) and create a folder named ```avatars``` and drop ```slideshow.html``` in that folder
+2. Enter your ```UserId``` into line 11 of slideshow.html (Get your UserID by going to the Jellyfin Dashboard, go to the Users tab, click your username. Your UserId is the last string in the address bar after the = sign)
 
-5) (Important: Open Notepad with Administrator rights, or use Notepad++ for this) In the jellyfin-web folder, open the file ```home-html.RANDOMSTRINGHERE.chunk.js```
+3. Enter your ```API key``` into line 12 of slideshow.html (Go to Dashboard, API Keys tab, click the + and create a key for FeaturedSlideshow)
 
-6) Ctrl+F and search for ```data-backdroptype="movie,series,book">``` 
+4. Go to your ```jellyfin-web``` folder (C:\Program Files\Jellyfin\Server\jellyfin-web) and create a folder named ```avatars``` and drop ```slideshow.html``` in that folder
 
-7) Paste this after the >
+5. (Important: Open Notepad with Administrator rights, or use Notepad++ for this) In the jellyfin-web folder, open the file ```home-html.RANDOMSTRINGHERE.chunk.js```
+
+6. Ctrl+F and search for ```data-backdroptype="movie,series,book">``` 
+
+7. Paste this after the >
 
 ```html
 <style>.featurediframe { width: 89vw; height: 300px; display: block; border: 1px solid #000; margin: 0 auto}</style> <iframe class="featurediframe" src="/web/avatars/slideshow.html"></iframe>
 ```
-8) Save the file.
+8. Save the file.
 
-9) Add this to your Custom CSS box in the Dashboard
+9. Add this to your Custom CSS box in the Dashboard
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/slideshow.css");
 ```
 
-10) Empty your browser's cached web content (Ctrl+F5 or empty it from your browser's Cookies and Site Data settings section)
+10. Empty your browser's cached web content (Ctrl+F5 or empty it from your browser's Cookies and Site Data settings section)
 
 That's it.
 
-# Customization
-<img src="https://i.imgur.com/5d4W3M2.png" width="10%" height="10%"  />
+## Changing your Jellyfin logo --> <img src="https://i.imgur.com/5d4W3M2.png" width="10%" height="10%"  /> 
+
+Go into your Jellyfin server's Custom CSS and insert this (changing the obvious part):
 
 ```css
 /*Use your own header logo*/
 .pageTitleWithDefaultLogo {
-  background-image: url(YOURURLHERE);
+  background-image: url(LOGO-URL-HERE);
 }
 ```
+## ![Custom logo on login page](https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md#adding-your-logo-at-the-top-of-the-login-page-109x)
+
+![login logo](https://github.com/user-attachments/assets/b28a9467-128b-45e5-b456-7de73825061a)
+
