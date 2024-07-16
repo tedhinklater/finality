@@ -20,8 +20,9 @@ or, import the colour version with
 
 ```
 
-<img src="https://github.com/tedhinklater/finality/assets/66086488/1cea8ffe-6edf-451e-87f1-097a9c1803e7" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/10470906-cd0c-4817-8280-5758da259d96" width="49.5%" height="49.5%" />
-<img src="https://github.com/user-attachments/assets/21309331-27e6-4696-8103-57b96ff7f681" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/5396b1ef-11e5-4859-8ccb-9b0d04c74f23" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/16d897b3-829a-45a8-8dd8-ff20bb8ebaa7" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/6acdc587-270f-410c-aca5-df8a81f9ce2a" width="49.5%" height="49.5%" /> 
+<img src="https://github.com/user-attachments/assets/fada2cad-a0f9-428d-a096-09f66d5244b3" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/1d9acc4d-ff11-409c-be65-5a536bf12aaa" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/21309331-27e6-4696-8103-57b96ff7f681" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/5396b1ef-11e5-4859-8ccb-9b0d04c74f23" width="49.5%" height="49.5%" /> 
 
 # Player 
 
