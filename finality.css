@@ -1027,13 +1027,7 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button {
-	opacity: 0.12;
-	transition-delay: 1.1s;
-}
-
-.layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button:hover {
-	opacity: 1 !important;
-	transition-delay: 0s;
+	opacity: 0;
 }
 
 .layout-desktop .detailButton .detailButton-icon.play_arrow::before {
@@ -2248,7 +2242,7 @@ width: auto;
 	width: 7em;
 }
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons-button.paper-icon-button-light {
-	padding-left: 13.5em;
+	padding-left: 14em;
 	padding-bottom: 0.5em;
 	font-size: 1.2em;
 }
