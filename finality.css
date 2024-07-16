@@ -2137,7 +2137,7 @@ width: auto;
   overflow: hidden;
   left: 29em;
   height: 20em;
-  transition: width 1s ease-in-out, height 1s ease-in-out;
+  transition: width 0.64s ease-in-out, height 0.64s ease-in-out;
   z-index: 50;
   transition-delay: 2s;
 }
@@ -2151,7 +2151,7 @@ width: auto;
 	overflow: scroll;
 	left: 29em;
 	height: 42em;
-	transition: width 1s ease-in-out;
+	transition: width 0.64s ease-in-out;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right {
