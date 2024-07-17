@@ -2262,7 +2262,7 @@ width: auto;
   100% { background-position: 0% 50%; }
 }
 
-.backdropImage {
+.layout-desktop .backdropImage {
   background-size: 114.5%;
   background-position: 0% 50%;
   animation: backgroundScroll 49s linear infinite;
@@ -2276,10 +2276,10 @@ width: auto;
   100% { background-position: 0% 50%; }
 }
 
-@media (max-width: 600px) {
-  .backdropImage {
+@media (max-width: 600px) and (orientation: portrait) {
+.layout-mobile .backdropImage {
     background-size: 114.5%;
-    background-position: 0% 50%;
+    background-position: 100% 100%;
     animation: backgroundScrollmob 49s linear infinite;
   }
 }
