@@ -1328,9 +1328,18 @@ width: auto;
 
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromArtistSection.emby-scroller-container .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-	display: none;
+	display: block;
+	position: fixed;
+	top: 35em;
+	left: 2em;
+	width: 22em;
+	height: 11em;
+	overflow-x: scroll !important;
 }
 
+.layout-desktop .verticalSection.detailVerticalSection.moreFromArtistSection.emby-scroller-container .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller .card.overflowSquareCard.card-hoverable {
+	width: 8em;
+}
 /* Season View */
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle {
