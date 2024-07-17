@@ -2255,62 +2255,33 @@ width: auto;
 
 /* --- Inherited from https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md adds a pan and tilt effect to the backdrop --- */
 @keyframes backgroundScroll {
-0% { background-position: 99% 1%; opacity:0;}
-33% { background-position: 50% 50%;opacity:1;}
-40% { background-position: 99% 99%; opacity:0;}
-66% { background-position: 50% 50%; }
-75% { background-position: 1% 1%; }
-100% { background-position: 50% 50%; }}
-.backdropImage {background-size: 150% 150%;  opacity:0 ;background-position: 99% 1%; animation: backgroundScroll 60s ease-in-out 1s;}
+  0% { background-position: 0% 50%; }
+  49% { background-position: 99% 50%; }
+  50% { background-position: 100% 50%; }
+  99% { background-position: 1% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.backdropImage {
+  background-size: 114.5%;
+  background-position: 0% 50%;
+  animation: backgroundScroll 49s linear infinite;
+}
 
 @keyframes backgroundScrollmob {
-0% { background-position: 99% 1%; opacity:0;}
-33% { background-position: 50% 50%;opacity:1;}
-40% { background-position: 1% 99%; opacity:0}
-66% { background-position: 99% 50%; }
-75% { background-position: 99%% 99%; }
-100% { background-position: 50% 50%; }}
-@media (max-width: 600px) {
-  .backdropImage {background-size: 150% 150% cover; opacity:0 ; background-position: 99% 1%; animation: backgroundScrollmob 60s ease-in-out 1s;}
-}
-
-/* --- Mobile Fix */
-@Keyframes backgroundScroll {
-0% { background-position: 99% 1%; opacity: 0; filter: blur(0px); }
-5% { opacity: 1; filter: blur(0px); }
-33% { background-position: 50% 50%; opacity: 1; filter: blur(0px); }
-40% { background-position: 99% 99%; opacity: 0; filter: blur(0px); }
-66% { background-position: 50% 50%; filter: blur(0px); }
-75% { background-position: 1% 1%; filter: blur(0px); }
-100% { background-position: 50% 50%; opacity: 0.5; filter: blur(5px); } 
-}
-
-.backdropImage {
-background-size: cover;
-opacity: 0;
-background-position: center center; 
-animation: backgroundScroll 60s ease-in-out 0s; 
-filter: blur(0px); 
-}
-
-@Keyframes backgroundScrollmob {
-0% { background-position: 99% 1%; opacity: 0; filter: blur(0px); }
-5% { opacity: 1; filter: blur(0px); }
-33% { background-position: 50% 50%; opacity: 1; filter: blur(0px); }
-40% { background-position: 1% 99%; opacity: 0; filter: blur(0px); }
-66% { background-position: 99% 50%; filter: blur(0px); }
-75% { background-position: 99% 99%; filter: blur(0px); }
-100% { background-position: 50% 50%; opacity: 0.5; filter: blur(5px); } 
+  0% { background-position: 0% 50%; }
+  49% { background-position: 99% 50%; }
+  50% { background-position: 100% 50%; }
+  99% { background-position: 1% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 @media (max-width: 600px) {
-.backdropImage {
-background-size: cover;
-opacity: 0;
-background-position: center center;
-animation: backgroundScrollmob 60s ease-in-out 0s;
-filter: blur(0px);
-}
+  .backdropImage {
+    background-size: 114.5%;
+    background-position: 0% 50%;
+    animation: backgroundScrollmob 49s linear infinite;
+  }
 }
 
 /* --- Mobile View --- */
