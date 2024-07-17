@@ -78,6 +78,15 @@ Go into your Jellyfin server's Custom CSS and insert this (changing the obvious 
   background-image: url(LOGO-URL-HERE);
 }
 ```
+
+## Scrolling Backdrop
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/scrolling%20backdrop.css");
+
+```
+
 ## ![Custom logo on login page](https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md#adding-your-logo-at-the-top-of-the-login-page-109x)
 
-![login logo](https://github.com/user-attachments/assets/b28a9467-128b-45e5-b456-7de73825061a)
+![login logo](https://github.com/user-attachments/assets/2f102c41-0632-402f-8c65-0b15eb9bb3c9)
+
