@@ -1,6 +1,8 @@
 # finality 
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k (150%) :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
+**WARNING DO NOT USE OPENGL IF YOU ARE USING THE JELLYFIN DESKTOP APP AS IT ISN'T COMPATIBLE WITH THIS THEME**
+
 Jellyfin Theme CSS (Finishing TV mode, just waiting for logo support)
 
 ![g2](https://github.com/user-attachments/assets/580d20dd-58ee-4379-81bc-cda9b35c245d)
