@@ -3,18 +3,18 @@
 
 **WARNING DO NOT USE OPENGL IF YOU ARE USING THE JELLYFIN DESKTOP APP AS IT ISN'T COMPATIBLE WITH THIS THEME**
 
-Jellyfin Theme CSS (Finishing TV mode, just waiting for logo support)
+A beautiful red and black Jellyfin theme (Finishing TV mode, just waiting for logo support)
 
 ![g2](https://github.com/user-attachments/assets/580d20dd-58ee-4379-81bc-cda9b35c245d)
 
-For the black & white version, paste this into your Custom CSS Box
+For the black and white version, paste this into your Custom CSS Box
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/finality.css");
 
 ```
 
-or, import the colour version with
+Or, import the colour version with
 
 ```css
 
