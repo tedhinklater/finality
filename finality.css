@@ -2262,6 +2262,19 @@ width: auto;
 	font-size: 1.25em;
 }
 
+/* --- Fix Music Videos and Casts, removed clipping with logo with aformentioned items --- */
+layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
+        left: 42.8em;
+        width: 121em;
+        top: 45em;
+    }
+
+.layout-desktop .detailLogo {
+        left: 56.3em;
+        width: 96.5em;
+        height: 25em;
+        top: 8em;
+    }
 
 /* --- Mobile View --- */
 .layout-mobile .itemBackdrop {
