@@ -2262,7 +2262,6 @@ width: auto;
 	font-size: 1.25em;
 }
 
-
 /* --- Mobile View --- */
 .layout-mobile .itemBackdrop {
 	display: block;
@@ -3229,7 +3228,10 @@ padding-bottom: 0em;
 
 @media (min-width: 1930px) {
 	.layout-desktop #homeTab .sections.homeSectionsContainer {
-		max-width: 174em !important;
+		max-width: 174.5em !important;
+	}
+	.layout-desktop #favoritesTab .sections .verticalSection {
+		max-width: 174.5em !important;
 	}
 	
 	.layout-desktop .padded-right-withalphapicker {
