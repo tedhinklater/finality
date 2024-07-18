@@ -2282,6 +2282,16 @@ width: auto;
 	filter: blur(0px) saturate(0%) contrast(130%) brightness(20%);
 }
 
+@media (orientation: portrait) and (max-width: 799px) {
+.layout-mobile .homeLibraryButton {
+  max-width: 42vw !important;
+}
+
+@media (orientation: portrait) and (min-width: 800px) {
+.layout-mobile .homeLibraryButton {
+  max-width: 21vw !important;
+}
+
 .backgroundContainer {
 	background-color: transparent;
 }
