@@ -13,19 +13,3 @@
   background-position: 0% 50%;
   animation: backgroundScroll 49s linear infinite;
 }
-
-@keyframes backgroundScrollmob {
-  0% { background-position: 0% 50%; }
-  49% { background-position: 99% 50%; }
-  50% { background-position: 100% 50%; }
-  99% { background-position: 1% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-@media (max-width: 600px) and (orientation: portrait) {
-.layout-mobile .backdropImage {
-    background-size: 114.5%;
-    background-position: 100% 100%;
-    animation: backgroundScrollmob 49s linear infinite;
-  }
-}
