@@ -31,7 +31,8 @@ or, import the colour version with
 ![mobile](https://github.com/tedhinklater/finality/assets/66086488/a0fb2aec-2794-4d68-b96c-9a144844729a)
 
 Under "Display" make sure you enable backdrops and use the Dark theme
-![darkbackdrops](https://github.com/user-attachments/assets/78e9e4db-957a-447e-9ac5-2aaabcdc9417)
+
+![darkbackdrops](https://github.com/user-attachments/assets/b69b1143-22c1-48df-b8e5-5aaa1869a97f)
 
 # Optional Mods & Customization
 
