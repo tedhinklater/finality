@@ -3228,10 +3228,10 @@ padding-bottom: 0em;
 
 @media (min-width: 1930px) {
 	.layout-desktop #homeTab .sections.homeSectionsContainer {
-		max-width: 174.5em !important;
+		max-width: 174em !important;
 	}
 	.layout-desktop #favoritesTab .sections .verticalSection {
-		max-width: 174.5em !important;
+		max-width: 174em !important;
 	}
 	
 	.layout-desktop .padded-right-withalphapicker {
@@ -3517,5 +3517,10 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap .card.overflowSquareCard.card-hoverable {
 		height: 15em;
+	}
+        .layout-desktop .verticalSection.detailVerticalSection.moreFromArtistSection.emby-scroller-container .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
+		top: 47em;
+		left: 2em;
+		width: 37em;
 	}
 }
