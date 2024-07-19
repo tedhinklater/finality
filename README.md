@@ -82,7 +82,7 @@ Go into your Jellyfin server's Custom CSS and insert this (changing the obvious 
 
 ## Scrolling Backdrop
 
-https://github.com/user-attachments/assets/a60f0193-383c-4593-bf80-20a1a00b4d46
+https://github.com/user-attachments/assets/55aa2501-f11b-47c0-8679-b10d682c50b5
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/scrolling%20backdrop.css");
