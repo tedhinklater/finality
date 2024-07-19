@@ -127,19 +127,34 @@
 
 /* Dashboard & button colours */
 .css-17c09up.Mui-selected {
-  background-color: rgba(220, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.css-17c09up.Mui-selected .css-37qkju {
+  color: rgba(0, 0, 0, 1);
+}
+
+.css-37qkju {
+  color: rgb(255, 255, 255);
 }
 
 .css-17c09up.Mui-selected:hover {
-  background-color: rgba(220, 0, 0, 0.28);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.css-17c09up:hover {
+  text-decoration: none;
+  background-color: rgb(48, 48, 48);
 }
 
 .css-1ip8vbj.Mui-selected {
-  background-color: rgba(220, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .css-1ip8vbj.Mui-selected:hover {
-  background-color: rgba(220, 0, 0, 0.28);
+  background-color: rgb(255, 255, 255);
 }
 
 .css-77wcaa .MuiAlert-icon {
@@ -2049,7 +2064,7 @@ width: auto;
 
 .cardImageContainer {
     background-size: cover;
-    transition: background-size 0.25s ease-in-out, transform 0.25s ease-in-out;
+    transition: background-size 0.15s ease-in-out, transform 0.15s ease-in-out;
 }
 
 .card:hover .cardImageContainer {
