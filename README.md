@@ -3,7 +3,7 @@
 
 Jellyfin Theme CSS (Finishing TV mode, just waiting for logo support)
 
-![g2](https://github.com/user-attachments/assets/580d20dd-58ee-4379-81bc-cda9b35c245d)
+![g2](https://github.com/user-attachments/assets/b28d9f2e-9da8-4a9a-b03c-f0686165fd1d)
 
 For the black & white version, paste this into your Custom CSS Box
 
@@ -21,8 +21,12 @@ or, import the colour version with
 ```
 
 <img src="https://github.com/user-attachments/assets/16d897b3-829a-45a8-8dd8-ff20bb8ebaa7" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/6acdc587-270f-410c-aca5-df8a81f9ce2a" width="49.5%" height="49.5%" /> 
-<img src="https://github.com/user-attachments/assets/fada2cad-a0f9-428d-a096-09f66d5244b3" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/505123ed-75bd-4c24-bc2b-60438fc0fba3" width="49.5%" height="49.5%" />
-<img src="https://github.com/user-attachments/assets/b9775093-7a7e-49a2-83db-3ec33e9ea586" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/4732942e-6321-417c-bb9d-715f57c4c052" width="49.5%" height="49.5%" /> 
+<img src="https://github.com/user-attachments/assets/fada2cad-a0f9-428d-a096-09f66d5244b3" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/4111a09c-771e-4978-a527-e57b19d30af3" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/397eef5d-0c1b-4f56-b6ed-17191815a04e" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/f3cdb88e-ab2f-41df-8dfc-0751d0ec1d04" width="49.5%" height="49.5%" /> 
+
+
+https://github.com/user-attachments/assets/cb72aa73-4c3a-4416-98db-efa6878dbbd1
+
 
 # Player 
 ![14](https://github.com/tedhinklater/finality/assets/66086488/84d70061-5216-4921-bff0-fbb25de59cca)
