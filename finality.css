@@ -3274,51 +3274,35 @@ padding-bottom: 0em;
 		top: 4em;
 	}
 	.layout-desktop .itemExternalLinks.focuscontainer-x {
-		right: 1.1em;
 	}
 	.layout-desktop .mainDetailButtons {
-		top: 3.9em;
-   		left: 1em;
+	}
+	.layout-desktop .mainDetailButtons.focuscontainer-x {
+		top: 8.55em;
+		left: 1.8em;
+		width: 26em;
+	}
+	.mainDetailButtons::before {
+		width: 26em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.play_arrow::after {
-		top: 42em;
-		left: 31.7em;
 	}
 	.layout-desktop .detailButton .detailButton-icon.theaters {
-		left: 0.9em;
-		top: 24.7em;
-		font-size: 0.5em !important;
 	}
 	.layout-desktop .detailButton .detailButton-icon.more_vert {
-		left: 14em;
-		top: 24.7em;
-		font-size: 0.5em !important;
 	}
 	.layout-desktop .detailButton .detailButton-icon.favorite {
-		left: 0.9em;
-		top: 4.3em;
-		font-size: 0.5em !important;
 	}
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
-		left: 14em;
-		top: 4.3em;
-		font-size: 0.5em !important;
 	}	
 	.layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
-		left: 14em;
-		top: 4.3em;
-		font-size: 0.5em !important;
 	}
 	.layout-desktop .detailButton .detailButton-icon.shuffle {
-		left: 14em;
-		top: 13.9em;
-		font-size: 0.5em !important;
 	}
 	.layout-desktop #itemDetailPage .detailButton {
-		margin-right: -8.5em !important;
 	}
 	.layout-desktop .itemMiscInfo {
-		top: -5.2em;
+		top: 5.2em;
 		left: 0.6em;
 		font-size: 2em;
 	}
@@ -3331,7 +3315,7 @@ padding-bottom: 0em;
 	.layout-desktop #itemDetailPage .detailImageContainer .card {
 		max-width: 36em;
 		min-width: 36em;
-		top: -4em;
+		top: 17em;
 		left: 1.3em;
 		width: 27em;
 		border: 2px solid white;
