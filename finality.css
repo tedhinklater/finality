@@ -1044,7 +1044,7 @@ progress::-webkit-progress-value {
 	left: 0;
 	right: 0;
 	height: 0;
-	background-color: #0000007a;
+	background-color: #0003;
 	z-index: -1;
 	transition: height 0.3s ease-in-out;
 	border-top-left-radius: 0.15em;
@@ -3278,7 +3278,7 @@ padding-bottom: 0em;
 	.layout-desktop .mainDetailButtons {
 	}
 	.layout-desktop .mainDetailButtons.focuscontainer-x {
-		top: 8.55em;
+		top: 8.45em;
 		left: 1.8em;
 		width: 26em;
 	}
