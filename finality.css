@@ -2265,6 +2265,54 @@ transform: none;
 	font-size: 1.25em;
 }
 
+.upNextContainer {
+	background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  color: #fff;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding: 1em;
+  position: fixed;
+  right: 0;
+  transition: opacity .3s ease-out;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 30em;
+  will-change: transform,opacity;
+  -webkit-touch-callout: none;
+  border-radius: 1em;
+  font-size: 80%;
+}
+
+.upNextDialog {
+	
+}
+
+.upNextDialog-button {
+	background: black !important;
+	color: #fff !important;
+	border: 2px solid white;
+	border-radius: 0.65em;
+	margin-right: 4.36em;
+	padding-right: 3em;
+	padding-left: 3em;
+	text-transform: uppercase;
+}
+
+.upNextDialog-button:hover {
+	background: white !important;
+	color: black !important;
+	border: 2px solid black;
+}
+
+.upNextContainer.upNextDialog .starRatingContainer.mediaInfoItem {
+	opacity: 0;
+}
+
+
 /* --- Mobile View --- */
 .layout-mobile .itemBackdrop {
 	display: block;
