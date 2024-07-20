@@ -198,9 +198,12 @@
 .material-icons.detailButton-icon.check.playstatebutton-icon-unplayed,
 .material-icons.detailButton-icon.theaters,
 .material-icons.detailButton-icon.more_vert,
-.material-icons.detailButton-icon.shuffle {
+.material-icons.detailButton-icon.shuffle,
+.material-icons.detailButton-icon.play_arrow,
+.material-icons.detailButton-icon.explore,
+.material-icons.detailButton-icon.replay {
   font-family: 'Material Icons';
-filter: drop-shadow(0px 0px 3px rgb(0, 0, 0));
+filter: drop-shadow(0px 0px 4px rgb(0, 0, 0));
 }
 
 progress::-moz-progress-bar {
@@ -945,7 +948,7 @@ progress::-webkit-progress-value {
 /* Poster */
 .layout-desktop #itemDetailPage .detailImageContainer .card {
 	position: fixed;
-	top: -6.789em;
+	top: 14.211em;
 	left: 0.7em;
 	width: 27em;
 	border: 2px solid white;
@@ -988,23 +991,22 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop .detailRibbon {
-	height: 7.2em;
-	margin-top: 13.8em;
+
 }
 .layout-desktop .detailPagePrimaryContainer {
-	position: fixed;
+
 }
 
 .layout-desktop .itemMiscInfo {
 	-webkit-align-items: center;
 	align-items: center;
 	position: absolute;
-	top: -7.75em;
-	left: 0.5em;
+	top: 8em;
+	left: 0.66em;
 	opacity: 1;
 	font-family: inherit;
 	font-weight: 600;
-	font-size: 1.5111em;
+	font-size: 1.2111em;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
 
@@ -1014,109 +1016,97 @@ progress::-webkit-progress-value {
 	left: 59em;
 }
 
-.layout-desktop .mainDetailButtons {
-	align-items: center;
-	display: flex;
+.layout-desktop .mainDetailButtons.focuscontainer-x {
 	position: fixed;
-	top: 2.25em;
-	left: 0.35em;
-	font-size: 500%;
+	top: 6.35em;
+	left: 1.3em;
+	z-index: 50;
+	width: 19.5em;
+	justify-content: space-between;
 	margin: 0;
-	z-index: 20;
+	height: 1.5em;
 }
 
+.mainDetailButtons {
+	font-size: 138%;
+	margin: 1.25em 0;
+	position: relative;
+}
+
+.mainDetailButtons {
+    position: relative;
+}
+
+.mainDetailButtons::before {
+	content: "";
+	position: absolute;
+	top: -0.45em;
+	left: 0;
+	right: 0;
+	height: 0;
+	background-color: #0000007a;
+	z-index: -1;
+	transition: height 0.3s ease-in-out;
+	border-top-left-radius: 0.15em;
+	border-top-right-radius: 0.15em;
+	width: 19.58em;
+}
+
+.mainDetailButtons:hover::before {
+    height: 160%;
+}
+
+
 .layout-desktop .detailButton-icon {
-	font-size: 1.6em !important;
-	height: 1em;
-	width: 1em;
+
 }
 
 .layout-desktop .detailButton-icon.play_arrow {
-	background: transparent;
-	border-radius: 0.055em;
-	z-index: -2;
-	width: 2.32em;
-	height: 1.1em;
-	padding-top: 1.2em;
-	padding-bottom: 1.1em;
+
 }
 
 .layout-desktop #itemDetailPage .button-flat.btnPlay.detailButton.emby-button {
-	opacity: 0;
+
 }
 
 .layout-desktop .detailButton .detailButton-icon.play_arrow::before {
-	color: white;
+
+}
+
+
+.layout-desktop .mainDetailButtons:hover .detailButton-icon.play_arrow::before {
+    
 }
 
 .layout-desktop .detailButton-icon.explore {
-	position: fixed;
-	top: 13.549em;
-	left: 18.4em;
-	font-weight: bold;
-	white-space: nowrap;
+
 }
 
 .layout-desktop .detailButton .detailButton-icon.theaters {
-	position: fixed;
-	top: 23em;
-	left: 0.78em;
-	font-weight: bold;
-	font-size: 0.4em !important;
-	white-space: nowrap;
-	padding: 0.2em;
+
 }
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-unplayed {
-	position: fixed;
-	top: 3.95em;
-	left: 13.1em;
-	font-weight: bold;
-	white-space: nowrap;
-	font-size: 0.4em !important;
-	padding: 0.2em;
+
 }
 
 .layout-desktop .detailButton .detailButton-icon.check.playstatebutton-icon-played {
-	position: fixed;
-	top: 3.95em;
-	left: 13.1em;
-	font-weight: bold;
-	white-space: nowrap;
-	font-size: 0.4em !important;
-	padding: 0.2em;
+
 }
 
 .layout-desktop .detailButton .detailButton-icon.favorite {
-	position: fixed;
-	top: 3.95em;
-	left: 0.8em;
-	font-weight: bold;
-	white-space: nowrap;
-	font-size: 0.4em !important;
-	padding: 0.2em;
+
 }
 
 .layout-desktop .detailButton .detailButton-icon.more_vert {
-	position: fixed;
-	top: 23em;
-	left: 13.1em;
-	font-weight: bold;
-	font-size: 0.4em !important;
-	white-space: nowrap;
-	padding: 0.2em;
+
 }
 
 .layout-desktop .detailButton .detailButton-icon.replay {
-    display: none;
 }
 
 .layout-desktop .detailButton .detailButton-icon.shuffle {
-	position: fixed;
-	left: 13.162em;
-	font-size: 0.4em !important;
-	padding: 0.2em;
-	top: 13.43em;
+
 }
 
 .button-link:hover {
@@ -1376,13 +1366,13 @@ width: auto;
 
 .layout-desktop .detailsGroupItem.genresGroup {
 	position: fixed;
-	top: 3em;
-	left: 1em;
+	top: 4.85em;
+	left: 1.5em;
 	font-family: inherit;
 	text-transform: uppercase;
 	text-align: left;
 	font-style: normal;
-	font-size: 1.8em;
+	font-size: 1.2em;
 	max-width: 68em;
 	color: #fff5;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
@@ -2083,12 +2073,10 @@ transform: none;
 .button-flat.btnCancelSeriesTimer.hide.detailButton.emby-button,
 .button-flat.btnMoreCommands.detailButton.emby-button,
 .button-flat.btnPlaystate.detailButton.emby-button.playstatebutton-played {
-	z-index: -2;
+	z-index: 2;
 }
 
 .layout-desktop #itemDetailPage .detailButton {
-	padding-left: .85em !important;
-	margin-right: -6.5em !important;
  }
 
 .paper-icon-button-light:hover {
