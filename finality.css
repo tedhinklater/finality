@@ -1019,7 +1019,7 @@ progress::-webkit-progress-value {
 	display: flex;
 	position: fixed;
 	top: 2.25em;
-	left: 0.072em;
+	left: 0.35em;
 	font-size: 500%;
 	margin: 0;
 	z-index: 20;
@@ -1035,7 +1035,7 @@ progress::-webkit-progress-value {
 	background: transparent;
 	border-radius: 0.055em;
 	z-index: -2;
-	width: 2.67em;
+	width: 2.32em;
 	height: 1.1em;
 	padding-top: 1.2em;
 	padding-bottom: 1.1em;
