@@ -550,6 +550,11 @@ progress::-webkit-progress-value {
 	text-transform: uppercase;
 }
 
+.emby-select-withcolor > option {
+  color: inherit;
+  background: #00000024;
+}
+
 /* move homeTab sections left */
 .layout-desktop #homeTab .sections.homeSectionsContainer {
 	margin-left: -2.5em;
@@ -1912,11 +1917,17 @@ width: auto;
 
 
 .layout-desktop #childrenContent .listItemBodyText {
-
+	line-height: 1.2em;
 }
 
 .layout-desktop #childrenContent .listItem-indexnumberleft {
 
+}
+
+.layout-desktop #childrenContent .cardText-secondary, .fieldDescription, .guide-programNameCaret, .listItem .secondary, .nowPlayingBarSecondaryText, .programSecondaryTitle, .secondaryText {
+  color: #999;
+  color: rgba(255, 255, 255, 0.75);
+  padding-right: 1vw;
 }
 
 .listItem:hover {
