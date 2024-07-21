@@ -60,6 +60,7 @@
 	background: red !important;
 	color: white;
 	padding-left: 15% !important;
+	font-weight: 700 !important;
 }
 
 .mainDrawer, .drawer-open {
