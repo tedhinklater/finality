@@ -1030,6 +1030,14 @@ progress::-webkit-progress-value {
 	justify-content: space-between;
 	margin: 0;
 	height: 1.5em;
+	opacity: 0.3;
+	transition: opacity 0.5s ease-in-out;
+	transition-delay: 1s;
+}
+
+.layout-desktop .mainDetailButtons.focuscontainer-x:hover {
+	opacity: 1;
+	transition-delay: 0s;
 }
 
 .mainDetailButtons {
@@ -1051,7 +1059,7 @@ progress::-webkit-progress-value {
 	height: 0;
 	background-color: #0000007a;
 	z-index: -1;
-	transition: height 0.3s ease-in-out;
+	transition: height 0.3s ease-in-out 1s;
 	border-top-left-radius: 0.15em;
 	border-top-right-radius: 0.15em;
 	width: 19.58em;
@@ -1059,6 +1067,7 @@ progress::-webkit-progress-value {
 
 .mainDetailButtons:hover::before {
     height: 160%;
+	transition-delay: 0s;
 }
 
 
