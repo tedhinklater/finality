@@ -2226,6 +2226,26 @@ transform: none;
 }
 
 /* --- nxllxvxxd edits --- */
+/* --- Sidebar hover red --- */
+.navMenuOption:hover {
+    background: red !important;
+    color: white;
+}
+
+/* --- Admin Dashboard Selected Dark Red --- */
+.css-17c09up.Mui-selected {
+    background-color: rgb(255 0 0);
+}
+
+/* --- Admin Dashboard Selected Hover Light Red --- */
+.css-17c09up.Mui-selected:hover {
+background-color: rgb(236 45 45);
+}
+
+/* --- Unselected hover Admin Dashboard Light Red --- */
+.css-17c09up:hover {
+background-color: rgb(236 45 45);;
+}
 
 /* Change text box selected outline color */
 .emby-input:focus,
