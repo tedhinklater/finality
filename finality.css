@@ -57,8 +57,8 @@
 .slider-browser-edge{margin-left:-.16em;margin-right:-.16em;width:150%}.mdl-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;background:#dc0000;}
 /*Red Selector*/
 .navMenuOption:hover {
-	background: #fff !important;
-	color: #000;
+	background: red !important;
+	color: white;
 	padding-left: 15% !important;
 }
 
