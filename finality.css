@@ -1040,17 +1040,17 @@ progress::-webkit-progress-value {
 	transition-delay: 0s;
 }
 
-.mainDetailButtons {
+.layout-desktop .mainDetailButtons {
 	font-size: 138%;
 	margin: 1.25em 0;
 	position: relative;
 }
 
-.mainDetailButtons {
+.layout-desktop .mainDetailButtons {
     position: relative;
 }
 
-.mainDetailButtons::before {
+.layout-desktop .mainDetailButtons::before {
 	content: "";
 	position: absolute;
 	top: -0.45em;
@@ -1066,7 +1066,7 @@ progress::-webkit-progress-value {
 	filter: blur(1px);
 }
 
-.mainDetailButtons:hover::before {
+.layout-desktop .mainDetailButtons:hover::before {
     height: 160%;
 	transition-delay: 0s;
 }
