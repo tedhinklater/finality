@@ -21,8 +21,8 @@ or, import the colour version with
 ```
 
 <img src="https://github.com/user-attachments/assets/8ba117df-0786-4dd1-aff2-3cabfef810a8" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/85eec5f9-981a-4f5f-8a66-8b8a83aca49f" width="49.5%" height="49.5%" /> 
-<img src="https://github.com/user-attachments/assets/fada2cad-a0f9-428d-a096-09f66d5244b3" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/397eef5d-0c1b-4f56-b6ed-17191815a04e" width="49.5%" height="49.5%" />
-<img src="https://github.com/user-attachments/assets/f3cdb88e-ab2f-41df-8dfc-0751d0ec1d04" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/f1c48420-a1ed-45f6-b8c2-52ba7a4abc15" width="49.5%" height="49.5%" /> 
+<img src="https://github.com/user-attachments/assets/fada2cad-a0f9-428d-a096-09f66d5244b3" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/dcd0f0e1-dcee-4149-bf24-4ca45fabca7e" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/4bc83dae-8e11-423a-9957-34ab74a8dce1" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/f1c48420-a1ed-45f6-b8c2-52ba7a4abc15" width="49.5%" height="49.5%" /> 
 
 # Player 
 ![14](https://github.com/tedhinklater/finality/assets/66086488/84d70061-5216-4921-bff0-fbb25de59cca)
