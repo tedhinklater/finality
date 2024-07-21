@@ -1063,6 +1063,7 @@ progress::-webkit-progress-value {
 	border-top-left-radius: 0.15em;
 	border-top-right-radius: 0.15em;
 	width: 19.58em;
+	filter: blur(1px);
 }
 
 .mainDetailButtons:hover::before {
