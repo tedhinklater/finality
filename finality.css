@@ -128,12 +128,12 @@
 
 /* Dashboard & button colours */
 .css-17c09up.Mui-selected {
-  background-color: rgba(255, 255, 255, 1);
-  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 0, 0, 1);
+  font-weight: 700 !important;
 }
 
 .css-17c09up.Mui-selected .css-37qkju {
-  color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .css-37qkju {
@@ -141,21 +141,25 @@
 }
 
 .css-17c09up.Mui-selected:hover {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 1);
 }
 
 .css-17c09up:hover {
   text-decoration: none;
-  background-color: rgb(48, 48, 48);
+  background-color: rgba(28, 21, 21, 0.37);
 }
 
 .css-1ip8vbj.Mui-selected {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background-color: rgb(255, 0, 0);
 }
 
 .css-1ip8vbj.Mui-selected:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+}
+
+.css-1ip8vbj:hover {
+  text-decoration: none;
+  background-color: rgba(28, 21, 21, 0.37);
 }
 
 .css-77wcaa .MuiAlert-icon {
