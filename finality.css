@@ -1062,7 +1062,7 @@ progress::-webkit-progress-value {
 	left: 0;
 	right: 0;
 	height: 0;
-	background-color: #0000007a;
+	background-color: #000000e0;
 	z-index: -1;
 	transition: height 0.3s ease-in-out 1s;
 	border-top-left-radius: 0.15em;
