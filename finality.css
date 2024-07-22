@@ -1011,12 +1011,12 @@ progress::-webkit-progress-value {
 	-webkit-align-items: center;
 	align-items: center;
 	position: absolute;
-	top: 8em;
-	left: 0.66em;
+	top: 6em;
+	left: 0.5em;
 	opacity: 1;
 	font-family: inherit;
 	font-weight: 600;
-	font-size: 1.2111em;
+	font-size: 1.5em;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
 
@@ -1386,13 +1386,13 @@ width: auto;
 
 .layout-desktop .detailsGroupItem.genresGroup {
 	position: fixed;
-	top: 4.85em;
-	left: 1.5em;
+	top: 3.2em;
+	left: 1.05em;
 	font-family: inherit;
 	text-transform: uppercase;
 	text-align: left;
 	font-style: normal;
-	font-size: 1.2em;
+	font-size: 1.7em;
 	max-width: 68em;
 	color: #fff5;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
