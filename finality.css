@@ -259,13 +259,13 @@ progress::-webkit-progress-value {
 }
 
 .button-submit {
-  background: #910101;
+  background: #f00;
   color: #fff;
 }
 
 .button-submit:focus {
-    background: #8a1313;
-    color: #fff;
+    background: #fff;
+    color: #000;
 }
 
 .inputLabelFocused,
@@ -1035,8 +1035,8 @@ progress::-webkit-progress-value {
 	justify-content: space-between;
 	margin: 0;
 	height: 1.5em;
-	opacity: 0.3;
-	transition: opacity 0.5s ease-in-out;
+	opacity: 0;
+	transition: opacity 0.9s ease-in, opacity 0.3s ease-out;
 	transition-delay: 1s;
 }
 
@@ -1058,8 +1058,8 @@ progress::-webkit-progress-value {
 .layout-desktop .mainDetailButtons::before {
 	content: "";
 	position: absolute;
-	top: -0.45em;
-	left: 0;
+	top: -0.6em;
+	left: -0.05em;
 	right: 0;
 	height: 0;
 	background-color: #000000e0;
@@ -1067,12 +1067,12 @@ progress::-webkit-progress-value {
 	transition: height 0.3s ease-in-out 1s;
 	border-top-left-radius: 0.15em;
 	border-top-right-radius: 0.15em;
-	width: 19.58em;
-	filter: blur(1px);
+	width: 19.55em;
+	border: 2px solid white;
 }
 
 .layout-desktop .mainDetailButtons:hover::before {
-    height: 160%;
+    height: 171%;
 	transition-delay: 0s;
 }
 
@@ -1282,7 +1282,7 @@ width: auto;
 	border-radius: 0.35em;
 	width: 23em;
 	min-width: 23em;
-	background-color: #000000a3 !important;
+	background-color: #000000e0 !important;
 	text-overflow: ellipsis;
 	opacity: 0;
 	transition: opacity 2s;
@@ -1305,7 +1305,7 @@ width: auto;
 	border-radius: 0.35em;
 	justify-content: center !important;
 	display: grid;
-	background-color: #000000a3;
+	background-color: #000000e0;
 }
 
 /* Seasons carousel */
@@ -1403,11 +1403,27 @@ width: auto;
 .layout-desktop .detailsGroupItem.genresGroup .button-link.emby-button {
 	color: #e6e6e6 !important;
 	transition: color 0.3s;
+
 }
 
 .layout-desktop .detailsGroupItem.genresGroup .button-link.emby-button:hover {
-	color: #fff !important;
-	transition: color 0.3s;
+
+}
+
+.layout-desktop #itemDetailPage .itemMiscInfo.itemMiscInfo-primary .mediaInfoItem {
+
+}
+
+.layout-desktop #itemDetailPage .itemMiscInfo.itemMiscInfo-primary .material-icons.starIcon.star {
+	color: #f2b01e;
+	font-size: 1.35em;
+	height: auto !important;
+	margin-right: .125em;
+	width: auto !important;
+	margin-top: 0.2em;
+}
+
+.layout-desktop #itemDetailPage .itemMiscInfo.itemMiscInfo-primary .mediaInfoItem.mediaInfoCriticRating.mediaInfoCriticRatingRotten {
 }
 
 /* Hide Upcoming On TV section */
@@ -2112,8 +2128,8 @@ width: auto;
 
 .layout-desktop .recordingFields {
 	position: absolute;
-	top: -3.4em;
-	left: 8.3em;
+	top: -5.4em;
+	left: -0.21em;
 }
 
 .layout-desktop .raised.recordingButton.seriesRecordingButton.emby-button {
