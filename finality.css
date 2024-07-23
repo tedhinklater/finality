@@ -35,6 +35,15 @@
   padding-right: 1.5em;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
+  text-transform: uppercase;
+}
+
+.layout-desktop .textActionButton {
+	white-space: wrap;
+}
+
+.layout-desktop #homeTab .textActionButton {
+	white-space: nowrap;
 }
 
 .appfooter, .playlistSectionButton {
@@ -128,7 +137,7 @@
 
 /* Dashboard & button colours */
 .css-17c09up.Mui-selected {
-  background-color: rgba(255, 0, 0, 1);
+  background-color: #790101eb;
   font-weight: 700 !important;
 }
 
@@ -141,7 +150,7 @@
 }
 
 .css-17c09up.Mui-selected:hover {
-  background-color: rgba(255, 0, 0, 1);
+  background-color: #790101eb;
 }
 
 .css-17c09up:hover {
@@ -150,11 +159,11 @@
 }
 
 .css-1ip8vbj.Mui-selected {
-  background-color: rgb(255, 0, 0);
+  background-color: #790101eb;
 }
 
 .css-1ip8vbj.Mui-selected:hover {
-  background-color: rgb(255, 0, 0);
+  background-color: #790101eb;
 }
 
 .css-1ip8vbj:hover {
@@ -259,7 +268,7 @@ progress::-webkit-progress-value {
 }
 
 .button-submit {
-  background: #f00;
+  background: #790101eb;
   color: #fff;
 }
 
@@ -557,7 +566,7 @@ progress::-webkit-progress-value {
 
 .emby-select-withcolor > option {
   color: inherit;
-  background: #00000024;
+  background: #000 !important;
 }
 
 /* move homeTab sections left */
@@ -593,10 +602,10 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #indexPage .raised:hover {
-	background: #fff;
-	border: 2px solid black;
+	background: #6f0202bf;
+	border: 2px solid white;
 	border-radius: 0.5em;
-	color: black;
+	color: white;
 }
 
 .layout-desktop #indexPage .homeLibraryButton {
@@ -1011,7 +1020,7 @@ progress::-webkit-progress-value {
 	-webkit-align-items: center;
 	align-items: center;
 	position: absolute;
-	top: 6em;
+	top: 6.1em;
 	left: 0.5em;
 	opacity: 1;
 	font-family: inherit;
@@ -1240,6 +1249,7 @@ body {
 .layout-desktop .listItem.listItem-button.actionSheetMenuItem.emby-button:hover {
 	opacity: 1;
 	transition: opacity 0.3s;
+	background-color: #790101eb;
 }
 
 
