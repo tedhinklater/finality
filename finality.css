@@ -1072,7 +1072,7 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop .mainDetailButtons:hover::before {
-    height: 171%;
+    height: 161%;
 	transition-delay: 0s;
 }
 
