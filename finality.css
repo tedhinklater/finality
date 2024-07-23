@@ -3440,7 +3440,7 @@ padding-bottom: 0em;
 	}
 	.layout-desktop .trackSelections {
 		top: 9.3em;
-  		left: 35.1em;
+  		left: 35.15em;
 	}
 	.layout-desktop .trackSelections .selectContainer .detailTrackSelect {
 		width: 24em;
@@ -3625,5 +3625,20 @@ padding-bottom: 0em;
 		top: 47em;
 		left: 2em;
 		width: 37em;
+	}
+	.layout-desktop .mainDetailButtons::before {
+		content: "";
+		position: absolute;
+		top: -0.65em;
+		left: -0.15em;
+		right: 0;
+		height: 0;
+		background-color: #790101eb;
+		z-index: -1;
+		transition: height 0.3s ease-in-out 1s;
+		border-top-left-radius: 0.15em;
+		border-top-right-radius: 0.15em;
+		width: 26.1em;
+		border: 2px solid white;
 	}
 }
