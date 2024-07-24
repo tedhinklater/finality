@@ -66,7 +66,7 @@
 .slider-browser-edge{margin-left:-.16em;margin-right:-.16em;width:150%}.mdl-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;background:#dc0000;}
 /*Red Selector*/
 .navMenuOption:hover {
-	background: red !important;
+	background: #790101eb !important;
 	color: white;
 	padding-left: 15% !important;
 	font-weight: 700 !important;
@@ -137,7 +137,7 @@
 
 /* Dashboard & button colours */
 .css-17c09up.Mui-selected {
-  background-color: #790101eb;
+  background-color: #c20000bf;
   font-weight: 700 !important;
 }
 
@@ -150,7 +150,7 @@
 }
 
 .css-17c09up.Mui-selected:hover {
-  background-color: #790101eb;
+  background-color: #c20000bf
 }
 
 .css-17c09up:hover {
@@ -159,11 +159,11 @@
 }
 
 .css-1ip8vbj.Mui-selected {
-  background-color: #790101eb;
+  background-color: #c20000bf;
 }
 
 .css-1ip8vbj.Mui-selected:hover {
-  background-color: #790101eb;
+  background-color: #c20000bf;
 }
 
 .css-1ip8vbj:hover {
@@ -268,7 +268,7 @@ progress::-webkit-progress-value {
 }
 
 .button-submit {
-  background: #790101eb;
+  background: #c20000bf;
   color: #fff;
 }
 
@@ -602,7 +602,7 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #indexPage .raised:hover {
-	background: #6f0202bf;
+	background: #790101eb;
 	border: 2px solid white;
 	border-radius: 0.5em;
 	color: white;
@@ -1071,7 +1071,7 @@ progress::-webkit-progress-value {
 	left: -0.05em;
 	right: 0;
 	height: 0;
-	background-color: #790101eb;
+	background-color: #c20000bf;
 	z-index: -1;
 	transition: height 0.3s ease-in-out 1s;
 	border-top-left-radius: 0.15em;
@@ -1249,7 +1249,7 @@ body {
 .layout-desktop .listItem.listItem-button.actionSheetMenuItem.emby-button:hover {
 	opacity: 1;
 	transition: opacity 0.3s;
-	background-color: #790101eb;
+	background-color: #c20000bf;
 }
 
 
@@ -1318,7 +1318,7 @@ width: auto;
 .layout-desktop .trackSelections .selectContainer .selectLabel {
 	justify-content: center !important;
 	display: grid;
-	background-color: #790101eb;
+	background-color: #000000e0;
 	margin-bottom: -0.3em;
 }
 
@@ -3633,7 +3633,7 @@ padding-bottom: 0em;
 		left: -0.15em;
 		right: 0;
 		height: 0;
-		background-color: #790101eb;
+		background-color: #c20000bf;
 		z-index: -1;
 		transition: height 0.3s ease-in-out 1s;
 		border-top-left-radius: 0.15em;
