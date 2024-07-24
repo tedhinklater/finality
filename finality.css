@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Limit Custom CSS code box size */
 #txtCustomCss, #txtLocalCustomCss {
@@ -1253,7 +1253,7 @@ position: fixed;
 /* Description */
 
 body {
-	font-family: "Exo 2", sans-serif;
+	font-family: "Saira", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
