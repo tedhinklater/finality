@@ -1887,7 +1887,7 @@ width: auto;
 	overflow-y: auto;
 	min-width: calc(100vw - 36em);
 	padding-right: 0em;
-	max-width: calc(100vw - 38em);
+	max-width: calc(100vw - 29em);
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
