@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 /* Limit Custom CSS code box size */
 #txtCustomCss, #txtLocalCustomCss {
@@ -136,6 +140,11 @@
 }
 
 /* Dashboard & button colours */
+
+.dashboardDocument .mainAnimatedPage {
+    font-family: "Noto Sans", sans-serif;
+}
+
 .css-17c09up.Mui-selected {
   background-color: #c20000bf;
   font-weight: 700 !important;
@@ -628,8 +637,9 @@ progress::-webkit-progress-value {
 .layout-desktop #homeTab .homeLibraryText {
 	font-family: inherit;
 	font-size: 1.1em;
-	font-weight: 600 !important;
+	font-weight: 700 !important;
 	text-transform: uppercase;
+	font-family: "Jura";
 }
 
 .layout-desktop #homeTab .raised.homeLibraryButton.emby-button {
@@ -988,7 +998,11 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #homeTab .cardText.cardTextCentered.cardText-secondary {
-	font-family: inherit;
+	font-family: "Saira Semi Condensed";
+}
+
+.layout-desktop .cardText-secondary {
+	font-family: "Saira Semi Condensed";
 }
 
 .layout-desktop #castCollapsible .card.portraitCard {
@@ -1023,7 +1037,7 @@ progress::-webkit-progress-value {
 	top: 6.1em;
 	left: 0.5em;
 	opacity: 1;
-	font-family: inherit;
+	font-family: "Barlow";
 	font-weight: 600;
 	font-size: 1.5em;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
@@ -1246,14 +1260,14 @@ position: fixed;
 #itemDetailPage .tagline {
 	font-weight: 600;
 	margin-bottom: 0.8em;
-	font-size: 1.82em;
+	font-size: 1.5em;
 	margin-top: -0.1em;
 }
 
 /* Description */
 
 body {
-	font-family: "Saira", sans-serif;
+	font-family: "Jura", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
@@ -1308,7 +1322,7 @@ width: auto;
   position: fixed;
   top: 9.1em;
   left: 33em;
-  font-family: inherit;
+  font-family: "Saira Semi Condensed";
   text-transform: uppercase;
   font-size: 0.9em;
 }
@@ -1438,7 +1452,7 @@ width: auto;
 	position: fixed;
 	top: 3.2em;
 	left: 1.05em;
-	font-family: inherit;
+	font-family: "Barlow";
 	text-transform: uppercase;
 	text-align: left;
 	font-style: normal;
