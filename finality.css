@@ -3663,18 +3663,8 @@ padding-bottom: 0em;
 		width: 37em;
 	}
 	.layout-desktop .mainDetailButtons::before {
-		content: "";
-		position: absolute;
 		top: -0.65em;
 		left: -0.15em;
-		right: 0;
-		height: 0;
-		background-color: #c20000bf;
-		z-index: -1;
-		transition: height 0.3s ease-in-out 1s;
-		border-top-left-radius: 0.15em;
-		border-top-right-radius: 0.15em;
 		width: 26.1em;
-		border: 2px solid white;
 	}
 }
