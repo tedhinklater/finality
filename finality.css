@@ -1068,7 +1068,7 @@ progress::-webkit-progress-value {
 	content: "";
 	position: absolute;
 	top: -0.6em;
-	left: -0.05em;
+	left: -0.1em;
 	right: 0;
 	height: 0;
 	background-color: #c20000bf;
@@ -1076,7 +1076,7 @@ progress::-webkit-progress-value {
 	transition: height 0.3s ease-in-out 1s;
 	border-top-left-radius: 0.15em;
 	border-top-right-radius: 0.15em;
-	width: 19.55em;
+	width: 19.6em;
 	border: 2px solid white;
 }
 
