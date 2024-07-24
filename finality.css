@@ -1178,8 +1178,9 @@ progress::-webkit-progress-value {
 .layout-desktop .itemName.infoText.originalTitle {
 	position: fixed;
 	top: 2.6em;
-	left: 55.7vw;
+	left: 59.7vw;
 	font-size: 1.252em;
+	transform: translateX(-50%) !important;
 }
 
 /* Logo */
