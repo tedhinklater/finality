@@ -628,7 +628,7 @@ progress::-webkit-progress-value {
 .layout-desktop #homeTab .homeLibraryText {
 	font-family: inherit;
 	font-size: 1.1em;
-	font-weight: 500 !important;
+	font-weight: 600 !important;
 	text-transform: uppercase;
 }
 
