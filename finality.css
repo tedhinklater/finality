@@ -1044,7 +1044,7 @@ progress::-webkit-progress-value {
 	justify-content: space-between;
 	margin: 0;
 	height: 1.5em;
-	opacity: 1;
+	opacity: 0.5;
 	transition: opacity 0.9s ease-in, opacity 0.3s ease-out;
 	transition-delay: 1s;
 }
@@ -1071,9 +1071,9 @@ progress::-webkit-progress-value {
 	left: -0.1em;
 	right: 0;
 	height: 0;
-	background-color: #c20000bf;
+	background-color: #000000bf;
 	z-index: -1;
-	transition: height 0.3s ease-in-out 1s;
+	transition: height 0.1s ease-in-out 1s;
 	border-top-left-radius: 0.15em;
 	border-top-right-radius: 0.15em;
 	width: 19.6em;
