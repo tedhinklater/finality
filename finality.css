@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 
 /* Limit Custom CSS code box size */
@@ -1037,7 +1036,7 @@ progress::-webkit-progress-value {
 	top: 6.1em;
 	left: 0.5em;
 	opacity: 1;
-	font-family: "Rubik";
+	font-family: "Saira Semi Condensed";
 	font-weight: 600;
 	font-size: 1.5em;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
@@ -1452,7 +1451,7 @@ width: auto;
 	position: fixed;
 	top: 3.2em;
 	left: 1.05em;
-	font-family: "Rubik";
+	font-family: "Saira Semi Condensed";
 	text-transform: uppercase;
 	text-align: left;
 	font-style: normal;
