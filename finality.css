@@ -1408,7 +1408,7 @@ width: auto;
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
 	width: 9em;
 	display: inline-block;
-	transition: width 0.3s ease-in-out;
+	transition: width 0.2666666s ease-in-out;
 }
 
 .layout-desktop #childrenCollapsible .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap .overflowPortraitCard:hover {
