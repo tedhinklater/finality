@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
-
 /* Limit Custom CSS code box size */
 #txtCustomCss, #txtLocalCustomCss {
     height: 400px !important;
@@ -1377,7 +1375,7 @@ width: auto;
 
 /* Seasons carousel */
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
-	display: flex;
+	display: inline;
 	flex-wrap: nowrap;
 	overflow-x: auto;
 	padding-bottom: 0em;
@@ -1385,14 +1383,14 @@ width: auto;
 	scroll-behavior: smooth;
 	max-width: 18.7%;
 	box-sizing: border-box;
-	scroll-snap-type: x mandatory;
+	scroll-snap-type: y mandatory;
 }
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 	position: fixed;
 	top: 7.3em;
 	left: 29.5em;
-	max-height: 14.5em;
+	max-height: 40.5em;
 	width: 90.5em;
 	z-index: 1;
 	transition: top 0.5s;
@@ -1403,16 +1401,17 @@ width: auto;
 	padding-right: 0em;
 	filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
 	max-width: 90.5em;
+	height: 40.5em;
 }
 
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
 	width: 9em;
 	display: inline-block;
-	transition: width 0.2666666s ease-in-out;
+	margin-bottom: -0.5em;
 }
 
-.layout-desktop #childrenCollapsible .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap .overflowPortraitCard:hover {
-	width: 10.75em;
+.layout-desktop #childrenContent .cardBox.cardBox-bottompadded {
+	margin-bottom: 0em !important;
 }
 
 .layout-desktop #childrenContent .cardOverlayButton-hover {
