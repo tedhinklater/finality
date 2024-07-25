@@ -1235,7 +1235,7 @@ progress::-webkit-progress-value {
 
 .detailLogo {
 	position: fixed;
-	left: 42.5em;
+	left: 40.5em;
 	display: block;
 	filter: drop-shadow(15px 14px 4px rgba(2, 2, 2, 0.65));
 	width: 67.9em;
