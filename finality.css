@@ -23,6 +23,10 @@
   background: #020006;
 }
 
+.headerButton {
+  filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
+}
+
 /* Round menu hover background */
 .navMenuOption,
 .navMenuOption:hover,
@@ -1037,7 +1041,7 @@ progress::-webkit-progress-value {
 	left: 0.5em;
 	opacity: 1;
 	font-family: "Saira Semi Condensed";
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 1.5em;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
@@ -1470,11 +1474,13 @@ width: auto;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 	overflow: hidden;
 	height: 1.4em;
+	font-weight: 100;
 }
 
 .layout-desktop .detailsGroupItem.genresGroup .button-link.emby-button {
 	color: #e6e6e6 !important;
 	transition: color 0.3s;
+	font-weight: 500;
 
 }
 
