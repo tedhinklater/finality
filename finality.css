@@ -1386,10 +1386,10 @@ width: auto;
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 	position: fixed;
-	top: 7.5em;
+	top: 7.3em;
 	left: 29.5em;
 	max-height: 14.5em;
-	width: 89.5em;
+	width: 90.5em;
 	z-index: 1;
 	transition: top 0.5s;
 	transition-delay: 0s;
@@ -1398,12 +1398,17 @@ width: auto;
 	transition-delay: 0s;
 	padding-right: 0em;
 	filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
-	max-width: 89.5em;
+	max-width: 90.5em;
 }
 
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
 	width: 9em;
 	display: inline-block;
+	transition: width 0.3s ease-in-out;
+}
+
+.layout-desktop #childrenCollapsible .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap .overflowPortraitCard:hover {
+	width: 10.75em;
 }
 
 .layout-desktop #childrenContent .cardOverlayButton-hover {
