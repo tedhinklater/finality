@@ -1234,16 +1234,16 @@ progress::-webkit-progress-value {
 /* Logo */
 
 .detailLogo {
-position: fixed;
-  left: 42.5em;
-  display: block;
-  filter: drop-shadow(15px 14px 4px rgba(2, 2, 2, 0.65));
-  width: 67.9em;
-  height: 22em;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  padding: 0;
-  top: 15em;
+	position: fixed;
+	left: 42.5em;
+	display: block;
+	filter: drop-shadow(15px 14px 4px rgba(2, 2, 2, 0.65));
+	width: 67.9em;
+	height: 22em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	padding: 0;
+	top: 20.6em;
 }
 
 .layout-desktop .itemName.parentNameLast {
@@ -1386,18 +1386,19 @@ width: auto;
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 	position: fixed;
-	top: 48.5em;
-	left: 2.5em;
+	top: 7.5em;
+	left: 29.5em;
 	max-height: 14.5em;
-	width: 26.5em;
+	width: 89.5em;
 	z-index: 1;
 	transition: top 0.5s;
 	transition-delay: 0s;
 	transition-delay: 0s;
 	transition-delay: 0s;
+	transition-delay: 0s;
 	padding-right: 0em;
 	filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
-	max-width: 26.5em;
+	max-width: 89.5em;
 }
 
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
@@ -3426,10 +3427,10 @@ padding-bottom: 0em;
 		margin-bottom: -1.82em;
 	}
 	.layout-desktop .detailLogo {
-		left: 56.3em;
+		left: 53.8em;
 		width: 96.5em;
 		height: 25em;
-		top: 21em;
+		top: 28.59em;
 	}
 	.layout-desktop .detailRibbon {
 		z-index: 0;
@@ -3529,11 +3530,11 @@ padding-bottom: 0em;
 		top: 4.5em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
-		top: 64.85em;
-		width: 35em;
+		top: 10.5em;
+		width: 120em;
 		max-height: 19em;
-		max-width: 35em;
-		left: 3.2em;
+		max-width: 120em;
+		left: 38.837em;
 	}
 	.layout-desktop #childrenCollapsible .overflowPortraitCard {
 		width: 12em;
