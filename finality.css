@@ -3544,10 +3544,11 @@ padding-bottom: 0em;
 	}
 	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-wrap {
 		top: 10.5em;
-		width: 120em;
-		max-height: 19em;
-		max-width: 120em;
-		left: 38.837em;
+		width: 109em;
+		max-height: 54em;
+		max-width: 109em;
+		left: 41.4em;
+		height: 53em;
 	}
 	.layout-desktop #childrenCollapsible .overflowPortraitCard {
 		width: 12em;
