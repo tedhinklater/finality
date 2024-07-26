@@ -2270,7 +2270,7 @@ width: auto;
   width: 13.2em !important;
   overflow: hidden;
   left: 29em;
-  height: 20em;
+  height: 16em;
   transition: width 0.64s ease-in-out, height 0.64s ease-in-out;
   z-index: 50;
   transition-delay: 2s;
