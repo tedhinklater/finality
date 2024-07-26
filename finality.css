@@ -1919,6 +1919,7 @@ width: auto;
 	max-height: 29em;
 	z-index: 10;
 	overflow-y: scroll;
+	min-height: 15em;
 }
 
 .layout-desktop #childrenContent .verticalSection .itemsContainer.padded-right.vertical-wrap {
