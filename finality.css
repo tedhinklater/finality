@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Limit Custom CSS code box size */
 #txtCustomCss, #txtLocalCustomCss {
@@ -640,7 +639,7 @@ progress::-webkit-progress-value {
 	font-size: 1.1em;
 	font-weight: 700 !important;
 	text-transform: uppercase;
-	font-family: "Jura";
+	font-family: "Cantarell";
 }
 
 .layout-desktop #homeTab .raised.homeLibraryButton.emby-button {
@@ -999,11 +998,11 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #homeTab .cardText.cardTextCentered.cardText-secondary {
-	font-family: "Saira Semi Condensed";
+	font-family: "Cantarell";
 }
 
 .layout-desktop .cardText-secondary {
-	font-family: "Saira Semi Condensed";
+	font-family: "Cantarell";
 }
 
 .layout-desktop #castCollapsible .card.portraitCard {
@@ -1038,7 +1037,7 @@ progress::-webkit-progress-value {
 	top: 6.1em;
 	left: 0.5em;
 	opacity: 1;
-	font-family: "Saira Semi Condensed";
+	font-family: "Cantarell";
 	font-weight: 400;
 	font-size: 1.5em;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
@@ -1268,7 +1267,7 @@ progress::-webkit-progress-value {
 /* Description */
 
 body {
-	font-family: "Jura", sans-serif;
+	font-family: "Cantarell", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
@@ -1324,7 +1323,7 @@ body {
 	position: fixed;
 	top: 55em;
 	left: 2.05em;
-	font-family: "Saira Semi Condensed";
+	font-family: "Cantarell";
 	text-transform: uppercase;
 	font-size: 0.9em;
 	opacity: 0.5;
@@ -1472,7 +1471,7 @@ body {
 	position: fixed;
 	top: 3.2em;
 	left: 1.05em;
-	font-family: "Saira Semi Condensed";
+	font-family: "Cantarell";
 	text-transform: uppercase;
 	text-align: left;
 	font-style: normal;
