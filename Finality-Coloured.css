@@ -2,7 +2,7 @@
 
 /* Backdrop */
 .layout-desktop .backdropImage {
-  filter: blur(0px) saturate(100%) contrast(120%) brightness(65%);
+  filter: blur(4px) saturate(124%) contrast(100%) brightness(22%);
   transition: filter 0.3s;
 }
 
