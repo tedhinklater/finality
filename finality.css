@@ -519,11 +519,11 @@ progress::-webkit-progress-value {
 
 /* Backdrop */
 .layout-desktop .backdropImage {
-	filter: blur(0px) saturate(0%) contrast(130%) brightness(70%);
+	filter: blur(4px) saturate(0%) contrast(130%) brightness(22%);
 	transition: filter 0.3s;
 	background-position-x: 0%;
 	background-repeat: no-repeat;
-	background-size: 114.5%;
+	background-size: 106.5%;
 	bottom: 0;
 	contain: layout style;
 	left: 0;
@@ -1039,7 +1039,7 @@ progress::-webkit-progress-value {
 	left: 0.5em;
 	opacity: 1;
 	font-family: "Saira Semi Condensed";
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 1.5em;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 }
@@ -1088,7 +1088,7 @@ progress::-webkit-progress-value {
 	height: 0;
 	background-color: #000000bf;
 	z-index: -1;
-	transition: height 0.1s ease-in-out 1s;
+	transition: height 0.05s ease-in-out 1s;
 	border-top-left-radius: 0.15em;
 	border-top-right-radius: 0.15em;
 	width: 19.6em;
@@ -1278,6 +1278,7 @@ body {
 	left: 32.7em;
 	max-width: 84em;
 	font-size: 11pt;
+	z-index: 20;
 }
 
 @media (min-width: 40em) {
@@ -1318,14 +1319,26 @@ body {
 
 /* Select Tracks */
 .layout-desktop .trackSelections {
-width: auto;
-  max-width: 8.1em;
-  position: fixed;
-  top: 9.1em;
-  left: 33em;
-  font-family: "Saira Semi Condensed";
-  text-transform: uppercase;
-  font-size: 0.9em;
+	width: auto;
+	max-width: 8.1em;
+	position: fixed;
+	top: 55em;
+	left: 2.05em;
+	font-family: "Saira Semi Condensed";
+	text-transform: uppercase;
+	font-size: 0.9em;
+	opacity: 0.5;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.layout-desktop .trackSelections:hover {
+	opacity: 1;
+}
+
+@media (max-height: 65em) {
+	.layout-desktop .trackSelections {
+		top: calc(100vh - 24em);
+	}
 }
 
 /* Transparency */
@@ -1335,28 +1348,20 @@ width: auto;
 	border: 0.07em solid #292929;
 }
 /* Width */
+
 .layout-desktop .trackSelections .selectContainer .detailTrackSelect {
 	font-size: inherit;
 	overflow: hidden;
 	padding-left: 1em;
 	padding-right: 1em;
 	border-radius: 0em;
-	width: 34em;
-	min-width: 34em;
-	background-color: #000000e0 !important;
+	width: 24.2em;
+	min-width: 24.2em;
 	text-overflow: ellipsis;
-	opacity: 0;
-	transition: opacity 2s;
-	transition-delay: 0s;
-	transition-delay: 2s;
 	padding-bottom: 0em;
-	margin-bottom: -0.295em !important;
+	margin-bottom: -0.5em !important;
 	margin-top: -0em !important;
-}
-
-.layout-desktop .trackSelections .selectContainer .detailTrackSelect:hover {
-	opacity: 1;
-	transition: opacity 0.15s;
+	background: linear-gradient(90deg, rgb(0% 0% 0% / 0.91) 0%, rgb(0% 0% 0% / 0.909988250732422) 6.25%, rgb(0% 0% 0% / 0.90981201171875) 12.5%, rgb(0% 0% 0% / 0.9090483093261719) 18.75%, rgb(0% 0% 0% / 0.9069921875) 25%, rgb(0% 0% 0% / 0.9026567077636719) 31.25%, rgb(0% 0% 0% / 0.8947729492187501) 37.5%, rgb(0% 0% 0% / 0.881790008544922) 43.75%, rgb(0% 0% 0% / 0.8618750000000001) 50%, rgb(0% 0% 0% / 0.8329130554199219) 56.25%, rgb(0% 0% 0% / 0.79250732421875) 62.5%, rgb(0% 0% 0% / 0.7379789733886719) 68.75%, rgb(0% 0% 0% / 0.6663671875) 75%, rgb(0% 0% 0% / 0.5744291687011719) 81.25%, rgb(0% 0% 0% / 0.45864013671875004) 87.5%, rgb(0% 0% 0% / 0.3151933288574219) 93.75%, rgb(0% 0% 0% / 0.14) 100% ) !important;
 }
 
 .layout-desktop .trackSelections .selectContainer {
@@ -1369,8 +1374,9 @@ width: auto;
 .layout-desktop .trackSelections .selectContainer .selectLabel {
 	justify-content: center !important;
 	display: grid;
-	background-color: #000000e0;
-	margin-bottom: -0.3em;
+	margin: 0 0 0 0;
+	margin-bottom: -0.5em;
+	background-color: #000000e3 !important;
 }
 
 /* Seasons carousel */
@@ -1482,7 +1488,7 @@ width: auto;
 .layout-desktop .detailsGroupItem.genresGroup .button-link.emby-button {
 	color: #e6e6e6 !important;
 	transition: color 0.3s;
-	font-weight: 500;
+	font-weight: 300;
 
 }
 
@@ -1532,9 +1538,9 @@ width: auto;
 }
 
 .layout-desktop #itemDetailPage  .overflowBackdropCard, .overflowSmallBackdropCard {
-	width: 25.1em;
-	margin-bottom: -0.5em;
-	margin-right: -0.03em;
+	width: 22.1em;
+	margin-bottom: -1.5em;
+	padding-right: 3.5em;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
@@ -1559,7 +1565,7 @@ width: auto;
 	position: absolute;
 	bottom: 0em;
 	left: 3.35em;
-	width: 24.5em;
+	width: 23.5em;
 	z-index: 41;
 	transition: width 1s ease-in-out, width 1s ease-in-out 2s;
 	background: linear-gradient(0deg, rgb(1.176% 0% 3.529%) 0%, rgb(1.176% 0% 3.529% / 0.9998779296875) 6.25%, rgb(1.174% 0% 3.523% / 0.998046875) 12.5%, rgb(1.165% 0% 3.495% / 0.9901123046875) 18.75%, rgb(1.14% 0% 3.419% / 0.96875) 25%, rgb(1.087% 0% 3.26% / 0.9237060546875) 31.25%, rgb(0.99% 0% 2.971% / 0.841796875) 37.5%, rgb(0.832% 0% 2.495% / 0.7069091796875) 43.75%, rgb(0.588% 0% 1.765% / 0.5) 50%, rgb(0.345% 0% 1.034% / 0.2930908203125) 56.25%, rgb(0.186% 0% 0.558% / 0.158203125) 62.5%, rgb(0.09% 0% 0.269% / 0.0762939453125) 68.75%, rgb(0.037% 0% 0.11% / 0.03125) 75%, rgb(0.012% 0% 0.035% / 0.0098876953125) 81.25%, rgb(0.002% 0% 0.007% / 0.001953125) 87.5%, rgb(0% 0% 0% / 0.0001220703125) 93.75%, rgb(0% 0% 0% / 0) 100% );
@@ -2373,14 +2379,14 @@ width: auto;
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons.padded-right {
 	position: fixed;
 	font-size: 1.2em;
-	left: 1em;
-	top: calc(100vh - 16.5em);
+	left: 1.5em;
+	top: calc(100vh - 14em);
 	margin-bottom: 5em;
 	height: 0.5em;
-	width: 7em;
+	width: 6em;
 }
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons-button.paper-icon-button-light {
-	padding-left: 14em;
+	padding-left: 12em;
 	padding-bottom: 0.5em;
 	font-size: 1.2em;
 }
@@ -3505,12 +3511,17 @@ padding-bottom: 0em;
 		filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
 	}
 	.layout-desktop .trackSelections {
-		top: 9.3em;
-  		left: 35.15em;
+		top: 55.83em;
+  		left: 2.15em;
 	}
 	.layout-desktop .trackSelections .selectContainer .detailTrackSelect {
 		width: 24em;
 		min-width: 24em;
+	}
+	@media (max-height: 89em) {
+		.layout-desktop .trackSelections {
+			top: calc(100vh - 27.8em);
+		}
 	}
 	.layout-desktop .detailPagePrimaryContent {
 		left: 33em;
@@ -3602,14 +3613,14 @@ padding-bottom: 0em;
 		left: 2em;
 	}
 	.layout-desktop #itemDetailPage .overflowBackdropCard, .overflowSmallBackdropCard {
-		width: 33.8em !important;
+		width: 29.7em !important;
 		margin-bottom: -1em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 		position: absolute;
 		bottom: 1em;
 		left: 4em;
-		width: 33em;
+		width: 29em;
 	}
 	.layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
 		padding-left: 60.5em;
@@ -3623,7 +3634,7 @@ padding-bottom: 0em;
 	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 		top: 30.85em;
 		left: 21.4em;
-		max-width: 35.4em;
+		max-width: calc(100vw - 25em);
 	}
     .layout-desktop #lyricsSection .vertical-list.itemsContainer {
 		position: fixed;
@@ -3676,7 +3687,7 @@ padding-bottom: 0em;
 		width: 8em;
 	}
 	.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons-button.paper-icon-button-light {
-		padding-left: 20em;
+		padding-left: 17.5em;
 		padding-bottom: 0.5em;
 		font-size: 1.2em;
 	}
