@@ -1318,26 +1318,26 @@ body {
 
 /* Select Tracks */
 .layout-desktop .trackSelections {
-	width: auto;
-	max-width: 8.1em;
-	position: fixed;
-	top: 55em;
-	left: 2.05em;
-	font-family: "Cantarell";
-	text-transform: uppercase;
-	font-size: 0.9em;
-	opacity: 0.5;
-	transition: opacity 0.3s ease-in-out;
+    width: auto;
+    max-width: 8.1em;
+    position: fixed;
+    top: 55em;
+    left: 2.05em;
+    font-family: "Cantarell";
+    text-transform: uppercase;
+    font-size: 0.9em;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .layout-desktop .trackSelections:hover {
-	opacity: 1;
+    opacity: 1;
 }
 
 @media (max-height: 65em) {
-	.layout-desktop .trackSelections {
-		top: calc(100vh - 24em);
-	}
+    .layout-desktop .trackSelections {
+        top: calc(max(48em, calc(100vh - 24em)));
+    }
 }
 
 /* Transparency */
@@ -1470,7 +1470,7 @@ body {
 .layout-desktop .detailsGroupItem.genresGroup {
 	position: fixed;
 	top: 4.65em;
-	left: 1.65em;
+	left: 1.55em;
 	font-family: "Cantarell";
 	text-transform: uppercase;
 	text-align: left;
