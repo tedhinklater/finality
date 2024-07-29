@@ -1,4 +1,4 @@
-+# finality 
+# finality 
 768p (50%) :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k (150%) :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
 Jellyfin Theme CSS (Finishing TV mode, just waiting for logo support)
