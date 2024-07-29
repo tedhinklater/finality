@@ -1326,7 +1326,7 @@ body {
     font-family: "Cantarell";
     text-transform: uppercase;
     font-size: 0.9em;
-    opacity: 0.5;
+    opacity: 1;
     transition: opacity 0.3s ease-in-out;
 }
 
@@ -1337,6 +1337,7 @@ body {
 @media (max-height: 65em) {
     .layout-desktop .trackSelections {
         top: calc(max(48em, calc(100vh - 24em)));
+	opacity: 0.3;
     }
 }
 
