@@ -20,11 +20,11 @@ or, import the colour version with
 
 ```
 
-<img src="https://github.com/user-attachments/assets/f8a71a76-49b4-4903-a47b-b3c7a6d041f2" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/ac387d68-3fb1-45ff-8c27-76580c14d72d" width="49.5%" height="49.5%" /> 
+<img src="https://github.com/user-attachments/assets/534d8fcb-0bc9-4b9a-b8a4-e00e139a837a" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/cbf6b18e-670e-4f2b-bf79-341a09122aa8" width="49.5%" height="49.5%" /> 
 <img src="https://github.com/user-attachments/assets/6bba7531-bef6-4698-9e0c-6843eaa6a292" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/aa1bf81e-801a-45ee-94fd-6152de07cf9d" width="49.5%" height="49.5%" />
 
 # Player 
-![14](https://github.com/tedhinklater/finality/assets/66086488/84d70061-5216-4921-bff0-fbb25de59cca)
+![Player](https://github.com/user-attachments/assets/957bbe26-eb38-4db2-a9f6-8b2311a4d943)
 
 # Mobile
 ![mobile](https://github.com/tedhinklater/finality/assets/66086488/a0fb2aec-2794-4d68-b96c-9a144844729a)
