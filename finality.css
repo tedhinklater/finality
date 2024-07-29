@@ -2076,7 +2076,7 @@ body {
 
 .layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
 	filter: blur(40px);
-	opacity: 0.25;
+	opacity: 0.1;
 	transition: filter 0.8s, opacity 0.8s;
 	padding-top: 2em;
 	text-transform: unset;
