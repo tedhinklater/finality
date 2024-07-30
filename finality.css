@@ -1052,7 +1052,7 @@ progress::-webkit-progress-value {
 .layout-desktop .mainDetailButtons.focuscontainer-x {
 	position: fixed;
 	top: 35.5em;
-	left: 36.5em;
+	left: 36em;
 	z-index: 50;
 	width: 36.5em;
 	justify-content: space-between;
@@ -1573,7 +1573,7 @@ body {
 	text-transform: uppercase;
 	position: fixed;
 	top: 14.98em;
-	left: 27.4em;
+	left: 27em;
 	font-size: 2.75em;
 	max-width: calc(100vw - 11.7em);
 	font-family: inherit;
@@ -1584,6 +1584,7 @@ body {
 	opacity: 1;
 	overflow: hidden;
 	transform: translatex(-50%);
+	display: none;
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x .emby-button {
@@ -1597,7 +1598,7 @@ body {
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 	position: fixed;
 	top: 22.6em;
-	left: 38.13em;
+	left: 37.6em;
 	white-space: nowrap;
 	font-size: 2em;
 	font-family: inherit;
