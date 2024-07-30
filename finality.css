@@ -3262,9 +3262,27 @@ padding-bottom: 0em;
 /* 768p */
 
 @media only screen and (min-width: 800px) and (max-width: 1400px) {
-
+	body {
+		font-size: 73%;
+	}
+	.layout-desktop .detailPagePrimaryContent {
+		font-size: 98.5%;
+	}
+	.layout-desktop #castCollapsible .cardTextCentered, .layout-desktop #castCollapsible .cardTextCentered > .textActionButton {
+		font-size: 98.5%;
+	}
+	.layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
+		padding-left: 43.5em;
+	}
+	.sectionTabs {
+		margin-top: -2em;
+	}
+	@media (min-height: 43.5em) {
+		.layout-desktop .detail-clamp-text {
+			opacity: 1;
+		}
+	}
 }
-
 
 /* 1440p */
 
