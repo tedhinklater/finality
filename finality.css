@@ -1268,6 +1268,8 @@ body {
 	font-size: 1.1em;
 	margin-top: -0.35em;
 	padding-left: 0.23em;
+	opacity: 1;
+	transition: opacity 0.8s;
 	}
 }
 
@@ -1316,10 +1318,13 @@ body {
 }
 
 @media (max-height: 65em) {
-    .layout-desktop .trackSelections {
+	.layout-desktop .trackSelections {
 		top: 8em;
 		left: 32em;
-    }
+	}
+	.layout-desktop .detail-clamp-text {
+		opacity: 0;
+	}
 }
 
 /* Transparency */
