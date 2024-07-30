@@ -1311,10 +1311,10 @@ body {
 	-webkit-justify-content: flex-end;
 	justify-content: flex-end;
 	position: relative;
-	top: -10.5em;
+	top: -9.5em;
 	text-transform: uppercase;
 	opacity: 0.6;
-	left: -1em;
+	left: 4em;
 }
 
 /* Select Tracks */
@@ -1951,7 +1951,7 @@ body {
 	top: 8em;
 	left: 29.3em;
 	z-index: 20;
-	max-height: calc(100vh - 8em);
+	max-height: 40.4em;
 	display: block;
 	overflow-y: auto;
 	min-width: calc(100vw - 37em);
@@ -1961,9 +1961,12 @@ body {
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
-	width: 22em;
-	height: 12.375em;
-	border-radius: 0.25em;
+	width: 18em;
+	height: 10.125em;
+	border-radius: 1em;
+	margin-top: 0.9em;
+	margin-bottom: 0.9em;
+	margin-right: 0em;
 }
 
 .listItem:hover {
@@ -1974,12 +1977,12 @@ body {
 .layout-desktop #childrenContent .listItem {
   padding: .25em .25em .25em .5em;
   text-align: left;
-  margin-bottom: -0.1em !important;
   scroll-snap-align: start;
 }
 
 .layout-desktop #childrenContent .listItem.listItem-border {
 	border-color: transparent !important;
+	min-height: 4.47em;
 }
 
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap [data-type="Episode"] {
@@ -2009,7 +2012,11 @@ body {
 }
 
 .layout-desktop #childrenContent .listItemBodyText {
-
+	background: #0200063d;
+	width: max-content;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	margin: 0.25em;
 }
 
 .layout-desktop #childrenContent .listItem-overview {
@@ -2038,13 +2045,13 @@ body {
 
 
 .layout-desktop #childrenContent .listItemBody {
-
+	padding-left: 0em;
 }
 
 .layout-desktop #childrenContent .listItem.listItem-largeImage.listItem-withContentWrapper {
 	padding: 1em;
-	margin-top: -0.26em;
 	padding-left: 2em;
+	padding-top: 0.8em;
 }
 
 
@@ -2056,9 +2063,10 @@ body {
 	right: 0;
 	bottom: 0;
 	z-index: -1;
-	opacity: 0.98;
-	background: #020006;
+	opacity: 0.8;
+	background: #020006fa;
 	transition: opacity 0.3s;
+	border-radius: 2em;
 }
 
 #childrenContent .listItem:hover::before {
@@ -2072,11 +2080,17 @@ body {
 }
 
 .layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
-	filter: blur(40px);
-	opacity: 0.1;
-	transition: filter 0.8s, opacity 0.8s;
-	padding-top: 2em;
-	text-transform: unset;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines */
+  -webkit-box-orient: vertical;
+  max-width: 60em;
+  padding-top: 0em;
+  text-transform: unset;
+  transition: filter 0.8s, opacity 0.8s;
+  filter: blur(40px);
+  opacity: 0.1;
+  max-height: 4.2em;
 }
 
 .layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover {
@@ -2085,7 +2099,6 @@ body {
 }
 
 .layout-desktop #childrenContent .secondary.listItemMediaInfo.listItemBodyText {
-  padding-top: 3em;
   text-transform: unset;
 }
 
