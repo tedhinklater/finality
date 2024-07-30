@@ -1051,16 +1051,14 @@ progress::-webkit-progress-value {
 
 .layout-desktop .mainDetailButtons.focuscontainer-x {
 	position: fixed;
-	top: 6.35em;
-	left: 1.55em;
+	top: 35.5em;
+	left: 36.5em;
 	z-index: 50;
-	width: 19.5em;
+	width: 36.5em;
 	justify-content: space-between;
 	margin: 0;
 	height: 1.5em;
-	opacity: 0.5;
-	transition: opacity 0.9s ease-in, opacity 0.3s ease-out;
-	transition-delay: 1s;
+	opacity: 1;
 }
 
 .layout-desktop .mainDetailButtons.focuscontainer-x:hover {
@@ -1076,22 +1074,6 @@ progress::-webkit-progress-value {
 
 .layout-desktop .mainDetailButtons {
     position: relative;
-}
-
-.layout-desktop .mainDetailButtons::before {
-	content: "";
-	position: absolute;
-	top: -0.6em;
-	left: -0.1em;
-	right: 0;
-	height: 0;
-	background-color: #000000f2;
-	z-index: -1;
-	transition: height 0.05s ease-in-out 1s;
-	border-top-left-radius: 0.15em;
-	border-top-right-radius: 0.15em;
-	width: 19.6em;
-	border: 2px solid white;
 }
 
 .layout-desktop .mainDetailButtons:hover::before {
@@ -1114,7 +1096,7 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop .detailButton-icon:hover {
-  transform: scale(1.5);
+  transform: scale(2.2);
 }
 
 .layout-desktop .detailButton-icon::after {
@@ -1273,7 +1255,7 @@ body {
 }
 .layout-desktop .detailPagePrimaryContent {
 	position: fixed;
-	top: 48.75em;
+	top: 51.75em;
 	left: 32.7em;
 	max-width: 84em;
 	font-size: 11pt;
@@ -1591,7 +1573,7 @@ body {
 	text-transform: uppercase;
 	position: fixed;
 	top: 14.98em;
-	left: 11.7em;
+	left: 27.4em;
 	font-size: 2.75em;
 	max-width: calc(100vw - 11.7em);
 	font-family: inherit;
@@ -1601,6 +1583,7 @@ body {
 	margin-top: 0.2em;
 	opacity: 1;
 	overflow: hidden;
+	transform: translatex(-50%);
 }
 
 .layout-desktop #itemDetailPage .parentName.focuscontainer-x .emby-button {
@@ -1613,8 +1596,8 @@ body {
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
 	position: fixed;
-	top: 22.82em;
-	left: 16.13em;
+	top: 22.6em;
+	left: 38.13em;
 	white-space: normal;
 	font-size: 2em;
 	max-width: calc(100vw - 16.13em);
@@ -1623,6 +1606,7 @@ body {
 	text-align: left;
 	overflow: hidden;
 	height: 1.5em;
+	transform: translatex(-50%);
 }
 
 .layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x::before {
