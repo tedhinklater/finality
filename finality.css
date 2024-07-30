@@ -3296,4 +3296,15 @@ padding-bottom: 0em;
 	.layout-desktop #castCollapsible .cardTextCentered, .layout-desktop #castCollapsible .cardTextCentered > .textActionButton {
 		font-size: 98.5%;
 	}
+	.layout-desktop .mainDrawer.transition.touch-menu-la.drawer-open {
+		width: 21em !important;
+	}
+}
+
+/* 4k */
+
+@media (min-width: 2570px) {
+	body {
+		font-size: 200%;
+	}
 }
