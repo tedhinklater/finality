@@ -1303,14 +1303,14 @@ body {
 
 /* Select Tracks */
 .layout-desktop .trackSelections {
-    width: auto;
-    max-width: 8.1em;
-    position: fixed;
-	top: 50em;
+	width: auto;
+	max-width: 8.1em;
+	position: fixed;
+	top: 50.5em;
 	left: 2.05em;
-    font-family: "Cantarell";
-    text-transform: uppercase;
-    font-size: 1em;
+	font-family: "Cantarell";
+	text-transform: uppercase;
+	font-size: 1em;
 }
 
 .layout-desktop .trackSelections:hover {
