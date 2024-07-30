@@ -1598,9 +1598,8 @@ body {
 	position: fixed;
 	top: 22.6em;
 	left: 38.13em;
-	white-space: normal;
+	white-space: nowrap;
 	font-size: 2em;
-	max-width: calc(100vw - 16.13em);
 	font-family: inherit;
 	filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
 	text-align: left;
