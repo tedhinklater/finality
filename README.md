@@ -3,7 +3,7 @@
 
 Jellyfin Theme CSS (Finishing TV mode, just waiting for logo support)
 
-![g2](https://github.com/user-attachments/assets/fa5deca5-3514-48a6-b21b-cd3f9ec1eb8c)
+![g2](https://github.com/user-attachments/assets/505daf00-5e43-429c-8c76-0910c13d057f)
 
 For the black & white version, paste this into your Custom CSS Box
 
@@ -21,7 +21,8 @@ or, import the colour version with
 ```
 
 <img src="https://github.com/user-attachments/assets/534d8fcb-0bc9-4b9a-b8a4-e00e139a837a" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/cbf6b18e-670e-4f2b-bf79-341a09122aa8" width="49.5%" height="49.5%" /> 
-<img src="https://github.com/user-attachments/assets/6bba7531-bef6-4698-9e0c-6843eaa6a292" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/ec00df3a-8266-40a2-a76f-1b05ab34f817" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/6bba7531-bef6-4698-9e0c-6843eaa6a292" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/75ef1382-750b-4e4b-8a88-f61275bb32ce" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/721dc870-4925-4816-9b7b-c86b1d16ce6a" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/8341c08b-d958-4a8e-8eb4-f03002b268f6" width="49.5%" height="49.5%" />
 
 # Player 
 ![Player](https://github.com/user-attachments/assets/957bbe26-eb38-4db2-a9f6-8b2311a4d943)
