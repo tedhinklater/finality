@@ -1304,11 +1304,11 @@ body {
     width: auto;
     max-width: 8.1em;
     position: fixed;
-	top: 45.2em;
+	top: 50em;
 	left: 2.05em;
     font-family: "Cantarell";
     text-transform: uppercase;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .layout-desktop .trackSelections:hover {
@@ -1317,8 +1317,8 @@ body {
 
 @media (max-height: 65em) {
     .layout-desktop .trackSelections {
-		top: 7em;
-		left: 29em;
+		top: 8em;
+		left: 32em;
     }
 }
 
@@ -1336,8 +1336,8 @@ body {
 	padding-left: 1em;
 	padding-right: 1em;
 	border-radius: 0em;
-	width: 20.2em;
-	min-width: 20.2em;
+	width: 22.2em;
+	min-width: 22.2em;
 	text-overflow: ellipsis;
 	padding-bottom: 0em;
 	margin-bottom: -0.5em !important;
@@ -1393,7 +1393,6 @@ body {
 .layout-desktop #childrenCollapsible .overflowPortraitCard {
 	width: 9em;
 	display: inline-block;
-	margin-bottom: -0.5em;
 }
 
 .layout-desktop #childrenContent .cardBox.cardBox-bottompadded {
@@ -1904,9 +1903,11 @@ body {
 	position: absolute;
 	top: 7.7em;
 	left: 30em;
-	width: 77em;
-	max-height: 29em;
+	max-width: 63em;
+	max-height: 34.2em;
 	z-index: 10;
+	overflow-y: scroll;
+	min-height: 18em;
 }
 
 .layout-desktop #childrenContent .verticalSection .itemsContainer.padded-right.vertical-wrap {
@@ -1927,7 +1928,8 @@ body {
 	width: 11.3em;
 	margin-left: 3.9em;
 	display: inline-block;
-	height: 14.5em;
+	height: 10.5em;
+	margin-bottom: 1em;
 }
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
@@ -2415,7 +2417,7 @@ body {
 	position: fixed;
 	font-size: 1.2em;
 	left: 4em;
-	top: calc(100vh - 12.5em);
+	top: calc(100vh - 11.5em);
 	margin-bottom: 5em;
 	height: 0.5em;
 	width: 6em;
