@@ -1955,7 +1955,7 @@ body {
 	display: block;
 	overflow-y: auto;
 	min-width: calc(100vw - 37em);
-	padding-right: 0em;
+	padding-right: 1em;
 	max-width: calc(100vw - 29.3em);
 	scroll-snap-type: y mandatory;
 }
