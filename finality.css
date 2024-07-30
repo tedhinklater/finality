@@ -1354,8 +1354,8 @@ body {
 	padding-left: 1em;
 	padding-right: 1em;
 	border-radius: 0em;
-	width: 20.2em;
-	min-width: 20.2em;
+	width: 24.2em;
+	min-width: 24.2em;
 	text-overflow: ellipsis;
 	padding-bottom: 0em;
 	margin-bottom: -0.5em !important;
@@ -3549,16 +3549,17 @@ padding-bottom: 0em;
 		filter: drop-shadow(0 0 6px rgba(2, 2, 2, 0.95));
 	}
 	.layout-desktop .trackSelections {
-		top: 55.83em;
+		top: 45.83em;
   		left: 2.15em;
 	}
 	.layout-desktop .trackSelections .selectContainer .detailTrackSelect {
-		width: 24em;
-		min-width: 24em;
+		width: 20em;
+		min-width: 20em;
 	}
 	@media (max-height: 89em) {
 		.layout-desktop .trackSelections {
-			top: calc(100vh - 27.8em);
+			top: 8em;
+			left: 29em;
 		}
 	}
 	.layout-desktop .detailPagePrimaryContent {
@@ -3719,7 +3720,7 @@ padding-bottom: 0em;
 		position: fixed;
 		font-size: 1.2em;
 		left: 1em;
-		top: calc(100vh - 20.5em);
+		top: calc(100vh - 18.5em);
 		margin-bottom: 0em;
 		height: 0.5em;
 		width: 8em;
