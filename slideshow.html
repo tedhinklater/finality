@@ -117,8 +117,23 @@
 		text-align: left;
 		padding: 0 1em 1em 1em;
 		word-wrap: break-word;
-	}
+		}
+		
+		/* 1440p */
 
+		@media (min-width: 1930px) {
+			.plot {
+				font-size: 125%;
+			}
+		}
+		/* 4k */
+
+		@media (min-width: 2570px) {
+			.plot {
+				font-size: 166.666%;
+			}
+		}
+		
 /* Mobile */
 
 @media (orientation: landscape) and (max-width: 1700px) {
