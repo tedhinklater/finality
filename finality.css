@@ -1295,10 +1295,10 @@ body {
 	-webkit-justify-content: flex-end;
 	justify-content: flex-end;
 	position: relative;
-	top: -9.5em;
+	top: -1em;
 	text-transform: uppercase;
 	opacity: 0.6;
-	left: 4em;
+	left: 0em;
 }
 
 /* Select Tracks */
@@ -1908,8 +1908,8 @@ body {
 	position: absolute;
 	top: 7.7em;
 	left: 30em;
-	max-width: 63em;
-	max-height: 34.2em;
+	max-width: 77em;
+	max-height: 34.5em;
 	z-index: 10;
 	overflow-y: scroll;
 	min-height: 18em;
@@ -2365,6 +2365,13 @@ body {
 	top: 8em;
 	width: 94.38em;
 	left: 28em;
+	height: 40.5em;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+}
+
+.layout-desktop .programGuideSection .listItem.listItem-border {
+	scroll-snap-align: start;
 }
 
 .layout-desktop .cardImageContainer.coveredImage.cardContent.itemAction.lazy.lazy-image-fadein-fast,
@@ -2374,6 +2381,13 @@ body {
 
 #childrenContent .starRatingContainer.mediaInfoItem {
 	display: none;
+}
+
+.layout-desktop #itemDetailPage .detailSectionContent {
+    max-height: 12em;
+    overflow-y: auto;
+    box-sizing: border-box;
+	padding-right: 1em;
 }
 
 /* --- nxllxvxxd edits --- */
