@@ -454,6 +454,19 @@ progress::-webkit-progress-value {
 .itemsContainer > .card > .cardBox {
   margin-left: 0.3em !important;
   margin-right: 1.2em;
+  transition: color 0.3s;
+}
+
+.itemsContainer > .card > .cardBox:hover {
+  color: red;
+}
+
+.cardText.cardTextCentered.cardText-secondary {
+	transition: color 0.3s;
+}
+
+.itemsContainer > .card > .cardBox:hover .cardText.cardTextCentered.cardText-secondary {
+  color: red;
 }
 
 .metadataSidebarIcon {
@@ -1878,7 +1891,7 @@ body {
 	width: 6em;
 	margin-bottom: -3.5em;
 	margin-left: 0em;
-	margin-top: 3.8em;
+	margin-top: 2.6em;
 }
 
 .layout-desktop #similarCollapsible .cardScalable {
