@@ -454,7 +454,7 @@ progress::-webkit-progress-value {
 .itemsContainer > .card > .cardBox {
   margin-left: 0.3em !important;
   margin-right: 1.2em;
-  transition: color 0.3s;
+  transition: color 1s;
 }
 
 .itemsContainer > .card > .cardBox:hover {
@@ -462,7 +462,12 @@ progress::-webkit-progress-value {
 }
 
 .cardText.cardTextCentered.cardText-secondary {
-	transition: color 0.3s;
+	transition: color 1.6s;
+	font-weight: 700;
+}
+
+#indexPage .cardText.cardTextCentered.cardText-secondary {
+	font-weight: 500;
 }
 
 .itemsContainer > .card > .cardBox:hover .cardText.cardTextCentered.cardText-secondary {
