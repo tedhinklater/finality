@@ -1262,6 +1262,11 @@ progress::-webkit-progress-value {
 	margin-bottom: 0.8em;
 	font-size: 1.5em;
 	margin-top: -0.1em;
+	position: absolute;
+	top: -5em;
+	left: -1.2em;
+	width: 68vw !important;
+	text-align: center;
 }
 
 /* Description */
@@ -1275,7 +1280,7 @@ body {
 	position: fixed;
 	top: 52.55em;
 	left: 32.7em;
-	max-width: 84em;
+	width: 84em;
 	font-size: 11pt;
 	z-index: 20;
 }
