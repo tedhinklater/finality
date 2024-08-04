@@ -2455,7 +2455,7 @@ body {
 	position: fixed;
 	font-size: 1.2em;
 	left: 4em;
-	top: calc(100vh - 11.5em);
+	top: calc(100vh - 12em);
 	margin-bottom: 5em;
 	height: 0.5em;
 	width: 6em;
