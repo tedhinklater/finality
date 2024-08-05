@@ -1287,7 +1287,7 @@ body {
 
 @media (min-width: 40em) {
 	.detail-clamp-text {
-	-webkit-line-clamp: 4;
+	-webkit-line-clamp: 5;
 	font-size: 1.1em;
 	margin-top: -0.35em;
 	padding-left: 0.23em;
@@ -2409,7 +2409,7 @@ body {
 }
 
 .layout-desktop #itemDetailPage .detailSectionContent {
-    max-height: 12em;
+    max-height: 16em;
     overflow-y: auto;
     box-sizing: border-box;
 	padding-right: 1em;
