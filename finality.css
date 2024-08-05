@@ -1286,7 +1286,7 @@ body {
 }
 
 @media (min-width: 40em) {
-	.detail-clamp-text {
+	.layout-desktop .detail-clamp-text {
 	-webkit-line-clamp: 5;
 	font-size: 1.1em;
 	margin-top: -0.35em;
