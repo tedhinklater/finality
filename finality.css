@@ -2017,9 +2017,12 @@ body {
 
 }
 
+.layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast {
+	transition: transform 0.15s ease-in-out;
+}
+
 .layout-desktop #childrenContent .listItemImage.listItemImage-large.itemAction.lazy.lazy-image-fadein-fast:hover {
-	filter: brightness(105%);
-	transition: filter 0.3s;
+	transform: scale(1.015);
 	cursor: pointer;
 }
 
