@@ -1342,7 +1342,7 @@ body {
     opacity: 1;
 }
 
-@media (max-height: 65em) {
+@media (max-height: 61em) {
 	.layout-desktop .trackSelections {
 		top: 8em;
 		left: 32em;
