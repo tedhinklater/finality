@@ -1257,7 +1257,7 @@ progress::-webkit-progress-value {
 }
 
 /* Tagline */
-#itemDetailPage .tagline {
+.layout-desktop #itemDetailPage .tagline {
 	font-weight: 600;
 	margin-bottom: 0.8em;
 	font-size: 1.5em;
