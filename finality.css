@@ -1220,8 +1220,11 @@ progress::-webkit-progress-value {
 
 .layout-desktop #itemDetailPage .detailSectionContent #seriesAirTime {
 	position: fixed;
-	top: 7.3em;
-	left: 23em;
+	top: 4.2em;
+	right: 6em;
+	font-size: 1.1em;
+	opacity: 0.9;
+	font-weight: 700;
 }
 
 .layout-desktop .itemName.infoText.originalTitle {
