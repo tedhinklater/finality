@@ -1,0 +1,102 @@
+/* Ultrawide Fix*/
+
+@media only screen and (min-aspect-ratio: 21/9) {
+	body {
+		font-size: 73%;
+	}
+	.layout-desktop .detailPagePrimaryContent {
+		font-size: 98.5%;
+	}
+	.layout-desktop #castCollapsible .cardTextCentered, .layout-desktop #castCollapsible .cardTextCentered > .textActionButton {
+		font-size: 98.5%;
+	}
+	.layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
+		padding-left: 92.5em;
+	}
+	.sectionTabs {
+		margin-top: -4em;
+	}
+	@media (min-height: 43.5em) {
+		.layout-desktop .detail-clamp-text {
+			opacity: 1;
+		}
+	}
+	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
+		position: absolute;
+		bottom: 0.7em;
+		left: 30.5em;
+		width: 137em;
+		z-index: 20;
+	}
+	.layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
+		position: relative;
+		top: 4.5em;
+		left: -21.7em;
+		z-index: 0;
+	}
+	
+	.layout-desktop .mainDetailButtons.focuscontainer-x {
+		position: fixed;
+		top: 16.5em;
+		left: 21em;
+		z-index: 50;
+		width: 39.5em;
+		justify-content: space-between;
+		margin: 0;
+		height: 1.5em;
+		opacity: 1;
+		font-size: 2.5em;
+	}
+	.layout-desktop #castCollapsible .overflowPortraitCard {
+		width: 5em;
+		padding-right: 17.2em;
+		padding-left: 1em;
+		height: 4.5em;
+	}
+	.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
+		position: absolute;
+		top: 8em;
+		left: 29.3em;
+		z-index: 20;
+		max-height: 30.4em;
+		display: block;
+		overflow-y: auto;
+		min-width: calc(100vw - 37em);
+		padding-right: 1em;
+		max-width: calc(100vw - 29.3em);
+		scroll-snap-type: y mandatory;
+	}
+	.detailLogo {
+		position: fixed;
+		left: 66.5em;
+		display: block;
+		filter: drop-shadow(15px 14px 4px rgba(2, 2, 2, 0.65));
+		width: 67.9em;
+		height: 19em;
+		margin-top: 0em;
+		margin-bottom: 0em;
+		padding: 0;
+		top: 20.6em;
+	}
+	.layout-desktop #itemDetailPage .tagline {
+		font-weight: 600;
+		margin-bottom: 0.8em;
+		font-size: 1.5em;
+		margin-top: -0.1em;
+		position: absolute;
+		top: -4em;
+		left: 5.8em;
+		width: 68vw !important;
+		text-align: center;
+	}
+	.layout-desktop #homeTab .verticalSection-extrabottompadding {
+		justify-content: center !important;
+		display: flex;
+		width: 101vw;
+	}	
+	.layout-desktop #homeTab .sections.homeSectionsContainer {
+		margin-left: -2em;
+		max-width: 101vw;
+		margin-top: 2em;
+	}
+}
