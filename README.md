@@ -24,6 +24,14 @@ or, import the colour version with
 <img src="https://github.com/user-attachments/assets/6bba7531-bef6-4698-9e0c-6843eaa6a292" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/13ccaeef-9ed7-4396-afde-f100ad4af2bf" width="49.5%" height="49.5%" />
 <img src="https://github.com/user-attachments/assets/984a75d5-1706-48da-9f75-b3cf6ccd45b7" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/401de20c-205f-4439-9938-b399d5462197" width="49.5%" height="49.5%" />
 
+Ultrawide users, import a version above, and also this fix: 
+
+```css
+
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/UltrawideFix.css");
+
+```
+
 # Player 
 ![Player](https://github.com/user-attachments/assets/957bbe26-eb38-4db2-a9f6-8b2311a4d943)
 
