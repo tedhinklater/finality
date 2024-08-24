@@ -99,3 +99,18 @@ Go into your Jellyfin server's Custom CSS and insert this (changing the obvious 
 
 ![login logo](https://github.com/user-attachments/assets/2f102c41-0632-402f-8c65-0b15eb9bb3c9)
 
+
+## [Login Page Revamp from BobHasNoSoul](https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md#custom-login-page-that-looks-kinda-like-netflix-with-a-twist-screenshot-for-the-background-and-style-but-ignore-the-logo-thats-a-mod-further-down)
+
+<img width="960" alt="Screenshot 2024-05-18 193326" src="https://github.com/BobHasNoSoul/jellyfin-mods/assets/23018412/7d69fb07-1b08-4c0b-9050-e0334dcdb55a">
+
+# Steps:
+1. Go to your admin settings of your Jellyfin server
+2. Go to General
+3. Find and check "Enable Splashscreen" and then scroll to the bottom and save
+4. Under your custom css add:
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/loginpagerevamp.css");
+```
+5. Save and then refresh your browser with Ctrl + F5
