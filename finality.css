@@ -2423,6 +2423,10 @@ body {
 
 /* --- nxllxvxxd edits --- */
 
+/*Removes "Sign In" text on login page and adds margin to compensate*/
+#loginPage h1 {display: none}
+#loginPage .padded-left.padded-right.padded-bottom-page {margin-top: 10px}
+
 /* Change text box selected outline color */
 .emby-input:focus,
 .emby-textarea:focus {
