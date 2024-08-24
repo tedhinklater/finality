@@ -2528,6 +2528,8 @@ body {
 	opacity: 0;
 }
 
+/*Partialy transparent side bar*/
+div.mainDrawer {background-color: rgba(0,0,0,0.6) !important;}
 
 /* --- Mobile View --- */
 .layout-mobile .itemBackdrop {
