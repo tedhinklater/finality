@@ -2,7 +2,7 @@
 
 @media only screen and (min-aspect-ratio: 21/9) {
 	body {
-		font-size: 73%;
+		font-size: 84%;
 	}
 	.layout-desktop .detailPagePrimaryContent {
 		font-size: 98.5%;
@@ -11,7 +11,7 @@
 		font-size: 98.5%;
 	}
 	.layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-		padding-left: 92.5em;
+		padding-left: 137.5em;
 	}
 	.sectionTabs {
 		margin-top: -4em;
@@ -21,24 +21,29 @@
 			opacity: 1;
 		}
 	}
+	.layout-desktop .detail-clamp-text {
+		left: 20vw;
+		position: absolute;
+		width: 89em;
+	}
 	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
 		position: absolute;
 		bottom: 0.7em;
 		left: 30.5em;
-		width: 137em;
+		width: 81vw;
 		z-index: 20;
 	}
 	.layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
 		position: relative;
 		top: 4.5em;
-		left: -21.7em;
+		left: -43.5em;
 		z-index: 0;
 	}
 	
 	.layout-desktop .mainDetailButtons.focuscontainer-x {
 		position: fixed;
-		top: 16.5em;
-		left: 21em;
+		top: 19.5em;
+		left: 35.55vw;
 		z-index: 50;
 		width: 39.5em;
 		justify-content: space-between;
@@ -58,7 +63,7 @@
 		top: 8em;
 		left: 29.3em;
 		z-index: 20;
-		max-height: 30.4em;
+		max-height: 41.4em;
 		display: block;
 		overflow-y: auto;
 		min-width: calc(100vw - 37em);
@@ -68,7 +73,7 @@
 	}
 	.detailLogo {
 		position: fixed;
-		left: 66.5em;
+		left: 42vw;
 		display: block;
 		filter: drop-shadow(15px 14px 4px rgba(2, 2, 2, 0.65));
 		width: 67.9em;
@@ -85,7 +90,7 @@
 		margin-top: -0.1em;
 		position: absolute;
 		top: -4em;
-		left: 5.8em;
+		left: 13.8em;
 		width: 68vw !important;
 		text-align: center;
 	}
@@ -98,5 +103,31 @@
 		margin-left: -2em;
 		max-width: 101vw;
 		margin-top: 2em;
+	}
+	.layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		max-width: 67vw;
+		padding-top: 0em;
+		text-transform: unset;
+		transition: filter 0.8s, opacity 0.8s;
+		filter: blur(40px);
+		opacity: 0.1;
+		max-height: 4.2em;
+	}
+	.layout-desktop #itemDetailPage .itemName.infoText.subtitle.focuscontainer-x {
+		position: fixed;
+		top: 21.25em;
+		left: 58vw;
+		white-space: nowrap;
+		font-size: 2em;
+		font-family: inherit;
+		filter: drop-shadow(1px 2px 0px rgba(2, 2, 2, 0.55));
+		text-align: left;
+		overflow: hidden;
+		height: 1.5em;
+		transform: translatex(-50%);
 	}
 }
