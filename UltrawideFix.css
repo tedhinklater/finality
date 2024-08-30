@@ -11,7 +11,7 @@
 		font-size: 98.5%;
 	}
 	.layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
-		padding-left: 137.5em;
+		padding-left: 123.5em;
 	}
 	.sectionTabs {
 		margin-top: -4em;
@@ -25,18 +25,19 @@
 		left: 20vw;
 		position: absolute;
 		width: 89em;
+		top: 3em;
 	}
 	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
 		position: absolute;
 		bottom: 0.7em;
 		left: 30.5em;
-		width: 81vw;
+		width: 79vw;
 		z-index: 20;
 	}
 	.layout-desktop #castCollapsible .emby-scrollbuttons.padded-right {
 		position: relative;
 		top: 4.5em;
-		left: -43.5em;
+		left: -36em;
 		z-index: 0;
 	}
 	
