@@ -46,7 +46,7 @@ Under "Display" make sure you enable backdrops and use the Dark theme
 
 ## [Featured Content Bar](https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md#featured-content-bar-109xx) by [BobHasNoSoul](https://github.com/BobHasNoSoul) and [SethBacon](https://forum.jellyfin.org/u-sethbacon)
 
-![Featured](https://github.com/user-attachments/assets/2607e73b-3ad8-4dc3-9844-a6b3c9d4be95)
+![Featured](https://github.com/user-attachments/assets/2e94fc97-85e4-488a-9842-9e81abe1cb0e)
 
 1. Download [spotlight.html](https://github.com/tedhinklater/finality/blob/main/spotlight.html)
 
