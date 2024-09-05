@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<title>Jellyfin Spotlight v2.1.5</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+		body { margin: 0; padding: 0; overflow: hidden; }
+		.slide { position: relative; width: 100vw; height: 100vh; box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); cursor: pointer; }
+		.slide:focus { outline: 2px solid #fff; }
+		.backdrop { position: absolute; top: 50px; left: 0; width: 100%; height: calc(100% - 50px); object-fit: cover; object-position: center 30%; z-index: 1; transition: width 0.5s ease, filter 0.8s ease, transform 2s ease; transform-origin: top; animation: objectPositionAnimation 30s ease-in-out infinite;}
+		.logo { position: relative; transform: translateX(-50%) translateY(-50%); top: 56%; left: 13.5%; max-height: 40%; max-width: 25%; width: auto; z-index: 3; text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); filter: drop-shadow(1px 1px 1px); pointer-events: none; transition: transform 0.3s ease;}
+		.heading::before { content: ''; position: absolute; top: 2.27em; left: 0; width: 100%; height: 30em; background: linear-gradient(90deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0%) 27%, rgb(0% 0% 0% / 0.9) 30%, rgb(0% 0% 0% / 0.6) 35%, rgb(0% 0% 0% / 0.3) 40%, rgb(0% 0% 0% / 0.1) 45%, rgb(0% 0% 0% / 0) 100%); z-index: 6;}
+		.heading { position: absolute; top: 0; left: 0; width: 100%; height: 50px; background-color: transparent; font-family: "Titillium Web", sans-serif; color: #D3D3D3; font-size: 22px; display: flex; align-items: center; justify-content: flex-start; z-index: 2; padding: 10px; padding-left: 0px; box-sizing: border-box; text-shadow: 1px 1px 4px rgba(0, 0, 0, 1); }
+		.skip-button { position: absolute; top: 0.75em; right: 0.45em; width: 1em; height: 1em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); background-color: transparent; font-family: "Titillium Web", sans-serif; color: #D3D3D3; font-size: 1.33em; display: flex; align-items: center; justify-content: center; z-index: 2; padding: 0.1em; cursor: pointer; box-sizing: border-box; text-align: center; }
+		.video-container { position: absolute; right: 0; top: 50px; width: 0; height: calc(100% - 50px); overflow: hidden; z-index: 2; transition: width 0.5s ease; z-index: 6; border-top-right-radius: 0.5em; border-bottom-right-radius: 0.5em; }
+		.video-player { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 7; }
+		.clickable-overlay { position: absolute; top: 50px; left: 0; width: 100%; height: calc(100% - 50px); z-index: 2; cursor: pointer; background: transparent; transition: background 0.8s ease, backdrop-filter 0.8s ease;}
+		.clickable-overlay::before { content: ''; position: absolute; top: 25%; left: 0; width: 100%; height: 75%; background: linear-gradient(0deg, rgb(0% 0% 0%) 0%, rgba(0, 0, 0, 0.99) 6.25%, rgba(0, 0, 0, 0.96) 12.5%, rgba(0, 0, 0, 0.92) 18.75%, rgba(0, 0, 0, 0.86) 25%, rgba(0, 0, 0, 0.78) 31.25%, rgba(0, 0, 0, 0.69) 37.5%, rgba(0, 0, 0, 0.6) 43.75%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.4) 56.25%, rgba(0, 0, 0, 0.31) 62.5%, rgba(0, 0, 0, 0.22) 68.75%, rgba(0, 0, 0, 0.14) 75%, rgba(0, 0, 0, 0.08) 81.25%, rgba(0, 0, 0, 0.04) 87.5%, rgba(0, 0, 0, 0.01) 93.75%, rgba(0, 0, 0, 0) 100% ); opacity: 0.15; transition: opacity 0.3s ease; z-index: 1;}
+		.clickable-overlay::after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg, rgb(0% 0% 0% / 0.9) 0%, rgb(0% 0% 0% / 0.6952285766601562) 6.25%, rgb(0% 0% 0% / 0.5275634765625) 12.5%, rgb(0% 0% 0% / 0.39222564697265627) 18.75%, rgb(0% 0% 0% / 0.284765625) 25%, rgb(0% 0% 0% / 0.20106353759765627) 31.25%, rgb(0% 0% 0% / 0.1373291015625) 37.5%, rgb(0% 0% 0% / 0.09010162353515627) 43.75%, rgb(0% 0% 0% / 0.05625000000000002) 50%, rgb(0% 0% 0% / 0.03297271728515627) 56.25%, rgb(0% 0% 0% / 0.017797851562500022) 62.5%, rgb(0% 0% 0% / 0.00858306884765625) 68.75%, rgb(0% 0% 0% / 0.003515625000000022) 75%, rgb(0% 0% 0% / 0.0011123657226562722) 81.25%, rgb(0% 0% 0% / 0.0002197265625000222) 87.5%, rgb(0% 0% 0% / 0.000013732910156272204) 93.75%, rgb(0% 0% 0% / 0) 100% ); opacity: 0.25; transition: opacity 0.3s ease, visibility 0.8s ease; z-index: 3; border-radius: 0.25em; }
+		.lorem-ipsum { position: absolute; top: 3.4em; left: 0em; text-align: left; font-family: "Titillium Web", sans-serif; font-size: 95%; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); opacity: 1; transition: opacity 0.3s ease, backdrop-filter 0.3s ease, max-width 0.3s ease; color: #fff; z-index: 4; box-sizing: border-box; background: transparent; border-radius: 0.25em; max-width: fit-content; padding-left: 0.3em; padding-right: 0.3em; backdrop-filter: blur(2px); display: flex; flex-direction: row; max-height: 1.9em; padding-top: 0.15em;}
+		.lorem-ipsum::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 1.8em; background: #0000007d; opacity: 0; z-index: -1; transform: translateX(-100%); transition: opacity 0.3s ease, transform 0.1s ease; border-bottom-right-radius: 0.25em; max-height: 2em;}
+		.lorem-ipsum .full-content { opacity: 0; max-width: 0; overflow: hidden; transition: opacity 0.3s ease, max-width 0.3s ease; padding-top: 0.15em;}
+		.lorem-ipsum span { margin-right: 0.2em;}
+		.plot { position: absolute; bottom: 0; left: 0; right: 0; color: #fff; font-family: "Titillium Web", sans-serif; font-size: 1em; font-weight: 500; background: transparent; padding: 10px; z-index: 7; box-sizing: border-box; padding-bottom: 3px; padding-top: 0.5em; line-height: 1.2em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; border-bottom-left-radius: 0.45em; transition: opacity 0.1s ease, max-height 0.8s ease; opacity: 0; max-height: 2.6em; max-width: 31%;}
+		@keyframes objectPositionAnimation { 0% { object-position: center 30%; } 20% { object-position: center 50%; } 40% { object-position: center 80%; } 60% { object-position: center 50%; } 80% { object-position: center 20%; } 100% { object-position: center 30%; }}
+		.slide:hover .backdrop {filter: brightness(95%) contrast(105%) saturate(105%); animation: none; transform:scale(1.0075); }
+		.slide:hover .clickable-overlay { }
+		.slide:hover .clickable-overlay::before { opacity: 0; backdrop-filter: blur(0px);}
+		.slide:hover .logo { transform: translateX(-50%) translateY(-50%); transition: transform 1s ease; }
+		.slide:hover .plot {opacity: 1; -webkit-line-clamp: 3; max-height: 7.8em; transition-delay: 0s;}
+		.slide:hover .lorem-ipsum .full-content { opacity: 1; max-width: 100%;}
+		.slide:hover .lorem-ipsum::before { opacity:1; backdrop-filter: blur(2px); transform: translateX(0); }
+		.star-icon { color: gold; font-size: 1em; margin-right: 0em; }
+		@media (max-width: 1000px) { .lorem-ipsum {font-size: 90%; top: 3.45em;} .logo { transform: translateX(-50%) translateY(-50%); top: 55%; left: 50% !important; max-width: 60%; max-height: 50%; transform-origin: 50% 50%;} .plot {opacity: 1 !important; font-size: 90%; bottom: -1px; -webkit-line-clamp: 3; max-height: 8em; overflow: hidden; max-width: 100%;} .lorem-ipsum::before { opacity:0; padding-bottom: 0.25em; } .clickable-overlay { background: linear-gradient(0deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0% / 0.823974609375) 6.25%, rgb(0% 0% 0% / 0.669921875) 12.5%, rgb(0% 0% 0% / 0.536376953125) 18.75%, rgb(0% 0% 0% / 0.421875) 25%, rgb(0% 0% 0% / 0.324951171875) 31.25%, rgb(0% 0% 0% / 0.244140625) 37.5%, rgb(0% 0% 0% / 0.177978515625) 43.75%, rgb(0% 0% 0% / 0.125) 50%, rgb(0% 0% 0% / 0.083740234375) 56.25%, rgb(0% 0% 0% / 0.052734375) 62.5%, rgb(0% 0% 0% / 0.030517578125) 68.75%, rgb(0% 0% 0% / 0.015625) 75%, rgb(0% 0% 0% / 0.006591796875) 81.25%, rgb(0% 0% 0% / 0.001953125) 87.5%, rgb(0% 0% 0% / 0.000244140625) 93.75%, rgb(0% 0% 0% / 0) 100% ); transform: scale(1.025); transition: transform 2s ease;} .backdrop {border-radius: 0.5em !important;} .lorem-ipsum .full-content { opacity: 1; max-width: 100%;} .lorem-ipsum::before { opacity:1; backdrop-filter: blur(2px); transform: translateX(0);} .clickable-overlay::before { opacity: 0.98; backdrop-filter: blur(0px);} .slide:hover .clickable-overlay::before { opacity: 0.98;} .heading::before {display: none;}}
+		@media (min-width: 1001px) { .slide:hover .logo { transform: translateX(-50%) translateY(-50%); transition: transform 2s ease;} .watch-trailer-button {display: none !important;} .backdrop {left: 15%;}}
+		.age-rating { font-weight: 600; font-size: 1.1em;}
+		.age-rating span.gb-u, .age-rating span.u { background-color: #078c6d; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
+		.age-rating span.gb-pg, .age-rating span.pg { background-color: #d7a203; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
+		.age-rating span.gb-12a, .age-rating span.\31 2A { background-color: #ee7600; color: white;	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
+		.age-rating span.gb-12, .age-rating span.\31 2, .age-rating span.gb-15, .age-rating span.\31 2 { background-color: #e19887; color: #e2002d; border: 0.09em solid white !important; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
+		.age-rating span.pg-13 { background-color: #157c0d; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
+		.age-rating span.tv-y7, .age-rating span.tv-13, .age-rating span.tv-14, .age-rating span.\31 6, .age-rating span.tv-ma, .age-rating span.tv-y, .age-rating span.tv-g, .age-rating span.tv-pg { background-color: #157c0d; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
+		.age-rating span.nc-17, .age-rating span.gb-18, .age-rating span.\31 8, .age-rating span.r { background-color: #c10f1f; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
+		.video-container {overflow: visible;}
+		.video-container::before { content: ""; position: absolute; top: 0; left: -4.4em; width: 4.4em; height: 100%; background: linear-gradient(90deg, rgb(0% 0% 0% / 0) 0%, rgb(0% 0% 0% / 0.000014495849609375) 6.25%, rgb(0% 0% 0% / 0.00023193359375) 12.5%, rgb(0% 0% 0% / 0.001174163818359375) 18.75%, rgb(0% 0% 0% / 0.0037109375) 25%, rgb(0% 0% 0% / 0.009059906005859375) 31.25%, rgb(0% 0% 0% / 0.01878662109375) 37.5%, rgb(0% 0% 0% / 0.03480453491210937) 43.75%, rgb(0% 0% 0% / 0.059375) 50%, rgb(0% 0% 0% / 0.09510726928710937) 56.25%, rgb(0% 0% 0% / 0.14495849609375) 62.5%, rgb(0% 0% 0% / 0.21223373413085936) 68.75%, rgb(0% 0% 0% / 0.3005859375) 75%, rgb(0% 0% 0% / 0.41401596069335933) 81.25%, rgb(0% 0% 0% / 0.55687255859375) 87.5%, rgb(0% 0% 0% / 0.7338523864746094) 93.75%, rgb(0% 0% 0% / 0.95) 100% ); z-index: 8; opacity: 0.98; }
+		.watch-trailer-button { position: absolute; background-color: transparent; color: white; border: none; border-radius: 5px; padding: 0.5em 0.5em; font-size: 0.9em; font-family: "Titillium Web", sans-serif; cursor: pointer; z-index: 10; transition: background-color 0.3s ease; display: flex; align-items: center; justify-content: center; transform: translateX(-50%); left: 50%; top: 0.65em;}
+		.watch-trailer-button .fa-play { margin-right: 0.5em;}
+		.watch-trailer-button:hover { background-color: #ff00007d;}
+	</style>
+</head>
+<body>
+	<div id="slides-container"></div>
+	<script>
+		let title = 'Spotlight', moviesSeriesBoth = 3, shuffleInterval = 10000, plotMaxLength = 700, userId = 'e3fe1ed7dbec4fbe925f2c9b6a8ac627', token = '040866ba82054bca91c77c90d3b5373e', useTrailers = true;  // Changeable variables
+		let isChangingSlide = false, player = null, slideChangeTimeout = null;
+		let currentLocation = window.top.location.href;
+
+		function createElem(tag, className, textContent, src, alt) {
+			const elem = document.createElement(tag);
+			if (className) elem.className = className;
+			if (textContent) elem.textContent = textContent;
+			if (src) elem.src = src;
+			if (alt) elem.alt = alt;
+			return elem;
+		}
+
+		function truncateText(text, maxLength) {
+			return text.length > maxLength ? text.substr(0, maxLength) + '...' : text;
+		}
+
+		function cleanup() {
+			if (player) {
+				player.destroy();
+				player = null;
+			}
+			clearSlideChangeTimeout();
+			const container = document.getElementById('slides-container');
+			if (container) container.innerHTML = '';
+		}
+
+		function createSlideElement(movie, hasVideo = false) {
+			cleanup(); // Ensure cleanup before creating a new slide
+			const container = document.getElementById('slides-container');
+			const slide = createElem('div', 'slide');
+
+			slide.appendChild(createElem('img', 'backdrop', null, `/Items/${movie.Id}/Images/Backdrop/0`, 'Backdrop'));
+			slide.appendChild(createElem('img', 'logo', null, `/Items/${movie.Id}/Images/Logo`, 'Logo'));
+			slide.appendChild(createElem('div', 'heading', title));
+
+			const textContainer = createElem('div', 'text-container');
+
+			// Format premiere year
+			const premiereYear = movie.PremiereDate ? new Date(movie.PremiereDate).getFullYear() : 'Unknown';
+			let additionalInfo;
+
+			if (movie.Type === 'Series') {
+				// Use SeasonCount for TV shows
+				additionalInfo = movie.ChildCount ? `${movie.ChildCount} Seasons` : 'Unknown Seasons';
+			} else {
+				// Convert runtime from ticks to minutes for movies
+				const runtimeMinutes = movie.RunTimeTicks ? Math.round(movie.RunTimeTicks / 600000000) : 'Unknown';
+				additionalInfo = runtimeMinutes !== 'Unknown' ? `${runtimeMinutes} min` : 'Unknown Runtime';
+			}
+
+			// Get age rating
+			const ageRating = movie.OfficialRating ? movie.OfficialRating : 'NR';
+
+			// Determine class based on age rating
+			const ratingClass = ageRating.toLowerCase().replace(/ /g, '-'); 
+
+			// Check if critic rating exists
+			const criticRating = movie.CriticRating ? `${movie.CriticRating}%` : null;
+
+			// Check if community rating exists and format it to one decimal place
+			const communityRating = movie.CommunityRating ? `${movie.CommunityRating.toFixed(1)}` : null;
+
+			// Create div for age rating and additional info
+			const loremDiv = createElem('div', 'lorem-ipsum');
+			loremDiv.innerHTML = `
+				<div class="age-rating">
+					<span class="${ratingClass}" style="border: 0.09em solid currentColor; border-radius: .1em; padding: 0.2em; padding-top: 0.1em; padding-bottom: 0.26em; display: inline-block; text-align: center; line-height: 0.8em;">${ageRating}</span>
+				</div>
+				<div class="full-content">
+					<span style="margin-left: 1.2em; margin-right: 0.75em;">${additionalInfo} </span><span style="margin-left: 0.75em; margin-right: 0.75em;"> ${premiereYear} </span> 
+					<span style="margin-left: 1em; margin-right: 1em;">${communityRating ? `<i class="star-icon fas fa-star"></i> ${communityRating} ` : ''}
+					${criticRating ? `</span><img src="https://i.imgur.com/iMfwDk7.png" alt="Rotten Tomatoes" style="width: 1.1em; height: 1.1em; padding-left: 1em; vertical-align: sub;"> ${criticRating}` : ''}
+				</div>
+			`;
+			textContainer.appendChild(loremDiv);
+			textContainer.appendChild(createElem('div', 'plot', truncateText(movie.Overview, plotMaxLength)));
+			slide.appendChild(textContainer);
+
+			const skipButton = createElem('div', 'skip-button');
+			const skipIcon = createElem('i', 'fas fa-chevron-right');
+			skipButton.appendChild(skipIcon);
+
+			skipButton.onclick = (e) => {
+				e.stopPropagation();
+				fetchRandomMovie();
+			};
+			slide.appendChild(skipButton);
+
+			const overlay = createElem('div', 'clickable-overlay');
+			overlay.onclick = () => {
+				window.top.location.href = `/#!/details?id=${movie.Id}`;
+			};
+			slide.appendChild(overlay);
+
+			// Add "Watch Trailer" button if trailers exist
+			if (hasVideo && movie.RemoteTrailers && movie.RemoteTrailers.length > 0) {
+				const trailerUrl = movie.RemoteTrailers[0].Url;
+				const watchTrailerButton = createElem('button', 'watch-trailer-button');
+				const playIcon = document.createElement('i');
+				playIcon.className = 'fas fa-play';
+				watchTrailerButton.appendChild(playIcon);
+				watchTrailerButton.appendChild(document.createTextNode(' Watch Trailer'));
+				watchTrailerButton.onclick = (e) => {
+					e.stopPropagation();
+					window.open(trailerUrl, '_blank'); // Ensure this opens in a new tab or window
+				};
+
+				slide.appendChild(watchTrailerButton);
+			}
+
+			if (useTrailers && hasVideo && movie.RemoteTrailers && movie.RemoteTrailers.length > 0 && window.innerWidth > 1000) {
+				const trailerUrl = movie.RemoteTrailers[0].Url;
+				const videoId = new URL(trailerUrl).searchParams.get('v');
+
+				const videoContainer = createElem('div', 'video-container');
+				const videoElement = createElem('div', 'video-player');
+				videoContainer.appendChild(videoElement);
+				slide.appendChild(videoContainer);
+
+				player = new YT.Player(videoElement, {
+					height: '100%',
+					width: '100%',
+					videoId: videoId,
+					events: {
+						'onReady': event => {
+							event.target.playVideo();
+							document.querySelector('.backdrop').style.width = 'calc(100% - 40em)';
+							document.querySelector('.plot').style.width = '31%';
+							document.querySelector('.lorem-ipsum').style.width = 'calc(34em)';
+							videoContainer.style.width = '34.3em';
+						},
+						'onStateChange': event => {
+							if (event.data === YT.PlayerState.ENDED) {
+								setTimeout(fetchRandomMovie, 100);
+							}
+						},
+						'onError': () => {
+							console.error(`YouTube playback prevented for '${movie.Name}'`);
+							if (player) {
+								player.destroy();
+								player = null;
+							}
+
+							const backdrop = document.querySelector('.backdrop');
+							const plot = document.querySelector('.plot');
+							const videoContainer = document.querySelector('.video-container');
+
+							if (backdrop) backdrop.style.width = '100%';
+							if (plot) plot.style.width = '100%';
+							if (videoContainer) videoContainer.style.width = '0';
+
+							startSlideChangeTimer();
+						}
+					}
+				});
+			} else {
+				startSlideChangeTimer();
+			}
+
+			container.innerHTML = '';
+			container.appendChild(slide);
+
+			// Add swipe event listeners
+			addSwipeListeners(slide);
+		}
+
+		function addSwipeListeners(slide) {
+			let startX, startY, distX, distY;
+			const threshold = 50; 
+			const restraint = 100;
+
+			slide.addEventListener('touchstart', e => {
+				const touch = e.touches[0];
+				startX = touch.clientX;
+				startY = touch.clientY;
+			});
+
+			slide.addEventListener('touchmove', e => {
+				const touch = e.touches[0];
+				distX = touch.clientX - startX;
+				distY = touch.clientY - startY;
+			});
+
+			slide.addEventListener('touchend', () => {
+				if (Math.abs(distX) > threshold && Math.abs(distY) < restraint) {
+					if (distX > 0) {
+						console.log('Swipe Right');
+					} else {
+						console.log('Swipe Left');
+						fetchRandomMovie();
+					}
+				}
+				distX = distY = 0;
+			});
+		}
+
+		function startSlideChangeTimer() {
+			clearSlideChangeTimeout();
+			slideChangeTimeout = setTimeout(fetchRandomMovie, shuffleInterval);
+		}
+
+		function clearSlideChangeTimeout() {
+			if (slideChangeTimeout) {
+				clearTimeout(slideChangeTimeout);
+				slideChangeTimeout = null;
+			}
+		}
+
+		function checkBackdropAndLogo(movie) {
+			const backdropUrl = `/Items/${movie.Id}/Images/Backdrop/0`;
+			const logoUrl = `/Items/${movie.Id}/Images/Logo`;
+
+			Promise.all([
+				fetch(backdropUrl, { method: 'HEAD' }).then(response => response.ok),
+				fetch(logoUrl, { method: 'HEAD' }).then(response => response.ok)
+			]).then(([backdropExists, logoExists]) => {
+				if (backdropExists && logoExists) {
+					createSlideElement(movie, true);
+				} else {
+					fetchRandomMovie();
+				}
+			}).catch(() => fetchRandomMovie());
+		}
+
+		function fetchRandomMovie() {
+			if (isChangingSlide) return;
+			isChangingSlide = true;
+
+			const itemTypes = moviesSeriesBoth === 1 ? 'Movie' : (moviesSeriesBoth === 2 ? 'Series' : 'Movie,Series');
+			const headers = { 'Authorization': `MediaBrowser Client="Jellyfin Web", Device="YourDeviceName", DeviceId="YourDeviceId", Version="YourClientVersion", Token="${token}"` };
+
+			fetch(`/Users/${userId}/Items?IncludeItemTypes=${itemTypes}&Recursive=true&Limit=1&SortBy=random&Fields=Id,Overview,RemoteTrailers,PremiereDate,RunTimeTicks,ChildCount`, { headers })
+				.then(response => response.json())
+				.then(data => {
+					const movie = data.Items[0];
+					if (movie) checkBackdropAndLogo(movie);
+					else throw new Error('No items found');
+				})
+				.catch(error => {
+					console.error('Failed to fetch movie:', error);
+					startSlideChangeTimer();
+				})
+				.finally(() => {
+					isChangingSlide = false;
+				});
+		}
+
+		function checkNavigation() {
+			if (window.top.location.href !== currentLocation) {
+				currentLocation = window.top.location.href;
+				cleanup();
+			}
+		}
+
+		setInterval(checkNavigation, 1000); // Check every second to destroy slideshow if user navigation
+
+		// Init
+		document.addEventListener('DOMContentLoaded', () => {
+			fetchRandomMovie();
+		});
+
+		window.addEventListener('unload', cleanup);
+	</script>
+	<script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>
