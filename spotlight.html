@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-	<title>Jellyfin Spotlight v2.1.5 by BobHasNoSoul & SethBacon</title>
+	<title>Jellyfin Spotlight v2.1.5</title>
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 		body { margin: 0; padding: 0; overflow: hidden; }
@@ -12,7 +12,7 @@
 		.logo { position: relative; transform: translateX(-50%) translateY(-50%); top: 56%; left: 13.5%; max-height: 40%; max-width: 25%; width: auto; z-index: 3; text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); filter: drop-shadow(1px 1px 1px); pointer-events: none; transition: transform 0.3s ease, max-height 0.3s ease;}
 		.heading::before { content: ''; position: absolute; top: 2.27em; left: 0; width: 100%; height: 30em; background: linear-gradient(90deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0%) 27%, rgb(0% 0% 0% / 0.9) 30%, rgb(0% 0% 0% / 0.6) 35%, rgb(0% 0% 0% / 0.3) 40%, rgb(0% 0% 0% / 0.1) 45%, rgb(0% 0% 0% / 0) 100%); z-index: 6;}
 		.heading { position: absolute; top: 0; left: 0; width: 100%; height: 50px; background-color: transparent; font-family: "Titillium Web", sans-serif; color: #D3D3D3; font-size: 22px; display: flex; align-items: center; justify-content: flex-start; z-index: 2; padding: 10px; padding-left: 0px; box-sizing: border-box; text-shadow: 1px 1px 4px rgba(0, 0, 0, 1); }
-		.next-button { position: absolute; top: 0.4em; right: 0.1em; font-size: 1.5em; color: #D3D3D3; cursor: pointer; z-index: 10; font-family: "Titillium Web", sans-serif; font-size: 1.35em; text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);}
+		.next-button { position: absolute; top: 0.4em; right: 0.25em; font-size: 1.5em; color: #D3D3D3; cursor: pointer; z-index: 10; font-family: "Titillium Web", sans-serif; font-size: 1.35em; text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);}
 		.video-container { position: absolute; right: 0; top: 50px; width: 0; height: calc(100% - 50px); overflow: hidden; z-index: 2; transition: width 0.5s ease; z-index: 6; border-top-right-radius: 0.5em; border-bottom-right-radius: 0.5em; }
 		.video-player { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 7; }
 		.clickable-overlay { position: absolute; top: 50px; left: 0; width: 100%; height: calc(100% - 50px); z-index: 2; cursor: pointer; background: transparent; transition: background 0.8s ease, backdrop-filter 0.8s ease;}
@@ -22,7 +22,8 @@
 		.lorem-ipsum::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 1.8em; background: #0000007d; opacity: 0; z-index: -1; transform: translateX(-100%); transition: opacity 0.3s ease, transform 0.1s ease; border-bottom-right-radius: 0.25em; max-height: 2em;}
 		.lorem-ipsum .full-content { opacity: 0; max-width: 0; overflow: hidden; transition: opacity 0.3s ease, max-width 0.3s ease; padding-top: 0.15em;}
 		.lorem-ipsum span { margin-right: 0.2em;}
-		.plot { position: absolute; bottom: 0; left: 0; right: 0; color: #fff; font-family: "Titillium Web", sans-serif; font-size: 1em; font-weight: 500; background: transparent; padding: 10px; z-index: 7; box-sizing: border-box; padding-bottom: 3px; padding-top: 0.5em; line-height: 1.2em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; border-bottom-left-radius: 0.45em; transition: opacity 0.1s ease, max-height 0.8s ease; opacity: 0; max-height: 2.6em; max-width: 29%;}
+		.plot { position: absolute; bottom: 0; left: 0; right: 0; color: #fff; font-family: "Titillium Web", sans-serif; font-size: 0.9em; font-weight: 500; background: transparent; padding: 10px; z-index: 7; box-sizing: border-box; padding-bottom: 3px; padding-top: 0.5em; line-height: 1.2em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; border-bottom-left-radius: 0.45em; transition: opacity 0.1s ease, max-height 0.8s ease; opacity: 0; max-height: 2.6em; max-width: 29%;}
+		.genres { position: absolute; top: 5.5em; color: #fff; z-index: 2; font-family: "Titillium Web", sans-serif; left: 0.3em; font-size: 0.9em; opacity: 0; transition: opacity 0.3s ease; max-width: 27%; overflow: hidden; height: 1.8em; text-overflow: ellipsis; padding-top: 0.5em;}		
 		@keyframes objectPositionAnimation { 0% { object-position: center 30%; } 20% { object-position: center 50%; } 40% { object-position: center 80%; } 60% { object-position: center 50%; } 80% { object-position: center 20%; } 100% { object-position: center 30%; }}
 		.slide:hover .backdrop {filter: brightness(95%) contrast(105%) saturate(105%); animation: none; transform:scale(1.0075); }
 		.slide:hover .clickable-overlay { }
@@ -31,9 +32,10 @@
 		.slide:hover .plot {opacity: 1; -webkit-line-clamp: 3; max-height: 7.8em; transition-delay: 0s;}
 		.slide:hover .lorem-ipsum .full-content { opacity: 1; max-width: 100%;}
 		.slide:hover .lorem-ipsum::before { opacity:1; backdrop-filter: blur(2px); transform: translateX(0); }
+		.slide:hover .genres {opacity: 1;}
 		.star-icon { color: gold; font-size: 1em; margin-right: 0em; }
 		@media (max-width: 1000px) { .lorem-ipsum {font-size: 90%; top: 3.45em;} .logo { transform: translateX(-50%) translateY(-50%); top: 55%; left: 50% !important; max-width: 60%; max-height: 50%; transform-origin: 50% 50%;} .plot {opacity: 1 !important; font-size: 90%; bottom: -1px; -webkit-line-clamp: 3; max-height: 8em; overflow: hidden; max-width: 100%;} .lorem-ipsum::before { opacity:0; padding-bottom: 0.25em; } .clickable-overlay { background: linear-gradient(0deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0% / 0.823974609375) 6.25%, rgb(0% 0% 0% / 0.669921875) 12.5%, rgb(0% 0% 0% / 0.536376953125) 18.75%, rgb(0% 0% 0% / 0.421875) 25%, rgb(0% 0% 0% / 0.324951171875) 31.25%, rgb(0% 0% 0% / 0.244140625) 37.5%, rgb(0% 0% 0% / 0.177978515625) 43.75%, rgb(0% 0% 0% / 0.125) 50%, rgb(0% 0% 0% / 0.083740234375) 56.25%, rgb(0% 0% 0% / 0.052734375) 62.5%, rgb(0% 0% 0% / 0.030517578125) 68.75%, rgb(0% 0% 0% / 0.015625) 75%, rgb(0% 0% 0% / 0.006591796875) 81.25%, rgb(0% 0% 0% / 0.001953125) 87.5%, rgb(0% 0% 0% / 0.000244140625) 93.75%, rgb(0% 0% 0% / 0) 100% ); transform: scale(1.025); transition: transform 1s ease;} .backdrop {border-radius: 0.5em !important;} .lorem-ipsum .full-content { opacity: 1; max-width: 100%;} .lorem-ipsum::before { opacity:1; backdrop-filter: blur(2px); transform: translateX(0);} .clickable-overlay::before { opacity: 0.98; backdrop-filter: blur(0px);} .slide:hover .clickable-overlay::before { opacity: 0.98;} .heading::before {display: none;} .next-button {font-size: 0.9em; top: 1.1em; color: #fff; right: 1em;}}
-		@media (min-width: 1001px) { .logo {max-height: 50%;} .slide:hover .logo { max-height: 45%; transform: translateX(-50%) translateY(-55%); transition: transform 0.1s ease, max-height 0.3s ease;} .watch-trailer-button {display: none !important;} .backdrop {left: 25%; transition: width 0.5s ease;} }
+		@media (min-width: 1001px) { .logo {max-height: 50%;} .slide:hover .logo { max-height: 45%; transform: translateX(-50%) translateY(-50%); transition: transform 0.1s ease, max-height 0.3s ease;} .watch-trailer-button {display: none !important;} .backdrop {left: 25%; transition: width 0.5s ease;} }
 		.age-rating { font-weight: 600; font-size: 1.1em;}
 		.age-rating span.gb-u, .age-rating span.u { background-color: #078c6d; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
 		.age-rating span.gb-pg, .age-rating span.pg { background-color: #d7a203; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
@@ -43,7 +45,7 @@
 		.age-rating span.tv-y7, .age-rating span.tv-13, .age-rating span.tv-14, .age-rating span.\31 6, .age-rating span.tv-ma, .age-rating span.tv-y, .age-rating span.tv-g, .age-rating span.tv-pg { background-color: #157c0d; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
 		.age-rating span.nc-17, .age-rating span.gb-18, .age-rating span.\31 8, .age-rating span.r { background-color: #c10f1f; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
 		.video-container {overflow: visible;}
-		.video-container::before { content: ""; position: absolute; top: 0; left: -4.4em; width: 4.4em; height: 100%; background: linear-gradient(90deg, rgb(0% 0% 0% / 0) 0%, rgb(0% 0% 0% / 0.000014495849609375) 6.25%, rgb(0% 0% 0% / 0.00023193359375) 12.5%, rgb(0% 0% 0% / 0.001174163818359375) 18.75%, rgb(0% 0% 0% / 0.0037109375) 25%, rgb(0% 0% 0% / 0.009059906005859375) 31.25%, rgb(0% 0% 0% / 0.01878662109375) 37.5%, rgb(0% 0% 0% / 0.03480453491210937) 43.75%, rgb(0% 0% 0% / 0.059375) 50%, rgb(0% 0% 0% / 0.09510726928710937) 56.25%, rgb(0% 0% 0% / 0.14495849609375) 62.5%, rgb(0% 0% 0% / 0.21223373413085936) 68.75%, rgb(0% 0% 0% / 0.3005859375) 75%, rgb(0% 0% 0% / 0.41401596069335933) 81.25%, rgb(0% 0% 0% / 0.55687255859375) 87.5%, rgb(0% 0% 0% / 0.7338523864746094) 93.75%, rgb(0% 0% 0% / 0.95) 100% ); z-index: 8; opacity: 0.98; }
+		.video-container::before { content: ""; position: absolute; top: 0; left: -1.4em; width: 1.4em; height: 100%; background: linear-gradient(90deg, rgb(0% 0% 0% / 0) 0%, rgb(0% 0% 0% / 0.000014495849609375) 6.25%, rgb(0% 0% 0% / 0.00023193359375) 12.5%, rgb(0% 0% 0% / 0.001174163818359375) 18.75%, rgb(0% 0% 0% / 0.0037109375) 25%, rgb(0% 0% 0% / 0.009059906005859375) 31.25%, rgb(0% 0% 0% / 0.01878662109375) 37.5%, rgb(0% 0% 0% / 0.03480453491210937) 43.75%, rgb(0% 0% 0% / 0.059375) 50%, rgb(0% 0% 0% / 0.09510726928710937) 56.25%, rgb(0% 0% 0% / 0.14495849609375) 62.5%, rgb(0% 0% 0% / 0.21223373413085936) 68.75%, rgb(0% 0% 0% / 0.3005859375) 75%, rgb(0% 0% 0% / 0.41401596069335933) 81.25%, rgb(0% 0% 0% / 0.55687255859375) 87.5%, rgb(0% 0% 0% / 0.7338523864746094) 93.75%, rgb(0% 0% 0% / 0.95) 100% ); z-index: 8; opacity: 0.58; }
 		.watch-trailer-button { position: absolute; background-color: transparent; color: white; border: none; border-radius: 5px; padding: 0.5em 0.5em; font-size: 0.9em; font-family: "Titillium Web", sans-serif; cursor: pointer; z-index: 10; transition: background-color 0.3s ease; display: flex; align-items: center; justify-content: center; transform: translateX(0%); left: 1%; top: 0.65em;}
 		.watch-trailer-button .fa-play { margin-right: 0.5em;}
 		.watch-trailer-button:hover { background-color: #ff00007d;}
@@ -57,7 +59,7 @@
 <body>
 	<div id="slides-container"></div>
 	<script>
-		let title = '', moviesSeriesBoth = 3, shuffleInterval = 10000, plotMaxLength = 700, userId = 'YOURUSERID', token = 'SPOTLIGHTAPIKEY', useTrailers = true;  // Changeable variables
+		let title = '', moviesSeriesBoth = 3, shuffleInterval = 10000, plotMaxLength = 700, userId = 'e3fe1ed7dbec4fbe925f2c9b6a8ac627', token = '040866ba82054bca91c77c90d3b5373e', useTrailers = true;  // Changeable variables
 		let isChangingSlide = false, player = null, slideChangeTimeout = null;
 		let currentLocation = window.top.location.href;
 
@@ -121,6 +123,32 @@
 					${criticRating ? `</span><img src="https://i.imgur.com/iMfwDk7.png" alt="Rotten Tomatoes" style="width: 1.1em; height: 1.1em; padding-left: 1em; vertical-align: sub;"> ${criticRating}` : ''}
 				</div>
 			`;
+			
+			// Add Genres Section
+			const genresDiv = createElem('div', 'genres');
+			if (movie.Genres && movie.Genres.length > 0) {
+				movie.Genres.forEach(genre => {
+					const genreElem = createElem('span', 'genre-item');
+					genreElem.textContent = genre;
+
+					// Apply the CSS styles
+					genreElem.style.backgroundColor = 'transparent';
+					genreElem.style.paddingLeft = '0.5em';
+					genreElem.style.paddingRight = '0.5em';
+					genreElem.style.paddingTop = '0.1em';
+					genreElem.style.paddingBottom = '0.1em';
+					genreElem.style.color = 'white';
+					genreElem.style.borderRadius = '0em';
+					genreElem.style.marginRight = '0.75em';
+					genreElem.style.border = '1px solid white';
+
+					genresDiv.appendChild(genreElem);
+				});
+			} else {
+				genresDiv.textContent = 'Genres: N/A';
+			}
+			newSlide.appendChild(genresDiv);
+	
 			textContainer.appendChild(loremDiv);
 			textContainer.appendChild(createElem('div', 'plot', truncateText(movie.Overview, plotMaxLength)));
 			newSlide.appendChild(textContainer);
@@ -296,7 +324,7 @@
 			const itemTypes = moviesSeriesBoth === 1 ? 'Movie' : (moviesSeriesBoth === 2 ? 'Series' : 'Movie,Series');
 			const headers = { 'Authorization': `MediaBrowser Client="Jellyfin Web", Device="YourDeviceName", DeviceId="YourDeviceId", Version="YourClientVersion", Token="${token}"` };
 
-			fetch(`/Users/${userId}/Items?IncludeItemTypes=${itemTypes}&Recursive=true&Limit=1&SortBy=random&Fields=Id,Overview,RemoteTrailers,PremiereDate,RunTimeTicks,ChildCount`, { headers })
+			fetch(`/Users/${userId}/Items?IncludeItemTypes=${itemTypes}&Recursive=true&Limit=1&SortBy=random&Fields=Id,Overview,RemoteTrailers,PremiereDate,RunTimeTicks,ChildCount,Genres`, { headers })
 				.then(response => response.json())
 				.then(data => {
 					const movie = data.Items[0];
