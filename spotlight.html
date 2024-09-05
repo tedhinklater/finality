@@ -12,7 +12,7 @@
 		.logo { position: relative; transform: translateX(-50%) translateY(-50%); top: 56%; left: 13.5%; max-height: 40%; max-width: 25%; width: auto; z-index: 3; text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); filter: drop-shadow(1px 1px 1px); pointer-events: none; transition: transform 0.3s ease;}
 		.heading::before { content: ''; position: absolute; top: 2.27em; left: 0; width: 100%; height: 30em; background: linear-gradient(90deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0%) 27%, rgb(0% 0% 0% / 0.9) 30%, rgb(0% 0% 0% / 0.6) 35%, rgb(0% 0% 0% / 0.3) 40%, rgb(0% 0% 0% / 0.1) 45%, rgb(0% 0% 0% / 0) 100%); z-index: 6;}
 		.heading { position: absolute; top: 0; left: 0; width: 100%; height: 50px; background-color: transparent; font-family: "Titillium Web", sans-serif; color: #D3D3D3; font-size: 22px; display: flex; align-items: center; justify-content: flex-start; z-index: 2; padding: 10px; padding-left: 0px; box-sizing: border-box; text-shadow: 1px 1px 4px rgba(0, 0, 0, 1); }
-		.skip-button { position: absolute; top: 0.75em; right: 0.45em; width: 1em; height: 1em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); background-color: transparent; font-family: "Titillium Web", sans-serif; color: #D3D3D3; font-size: 1.33em; display: flex; align-items: center; justify-content: center; z-index: 2; padding: 0.1em; cursor: pointer; box-sizing: border-box; text-align: center; }
+		.next-button { position: absolute; top: 0.4em; right: 0.1em; font-size: 1.5em; color: #D3D3D3; cursor: pointer; z-index: 10; font-family: "Titillium Web", sans-serif; font-size: 1.35em; text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);}
 		.video-container { position: absolute; right: 0; top: 50px; width: 0; height: calc(100% - 50px); overflow: hidden; z-index: 2; transition: width 0.5s ease; z-index: 6; border-top-right-radius: 0.5em; border-bottom-right-radius: 0.5em; }
 		.video-player { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 7; }
 		.clickable-overlay { position: absolute; top: 50px; left: 0; width: 100%; height: calc(100% - 50px); z-index: 2; cursor: pointer; background: transparent; transition: background 0.8s ease, backdrop-filter 0.8s ease;}
@@ -22,7 +22,7 @@
 		.lorem-ipsum::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 1.8em; background: #0000007d; opacity: 0; z-index: -1; transform: translateX(-100%); transition: opacity 0.3s ease, transform 0.1s ease; border-bottom-right-radius: 0.25em; max-height: 2em;}
 		.lorem-ipsum .full-content { opacity: 0; max-width: 0; overflow: hidden; transition: opacity 0.3s ease, max-width 0.3s ease; padding-top: 0.15em;}
 		.lorem-ipsum span { margin-right: 0.2em;}
-		.plot { position: absolute; bottom: 0; left: 0; right: 0; color: #fff; font-family: "Titillium Web", sans-serif; font-size: 1em; font-weight: 500; background: transparent; padding: 10px; z-index: 7; box-sizing: border-box; padding-bottom: 3px; padding-top: 0.5em; line-height: 1.2em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; border-bottom-left-radius: 0.45em; transition: opacity 0.1s ease, max-height 0.8s ease; opacity: 0; max-height: 2.6em; max-width: 31%;}
+		.plot { position: absolute; bottom: 0; left: 0; right: 0; color: #fff; font-family: "Titillium Web", sans-serif; font-size: 1em; font-weight: 500; background: transparent; padding: 10px; z-index: 7; box-sizing: border-box; padding-bottom: 3px; padding-top: 0.5em; line-height: 1.2em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; border-bottom-left-radius: 0.45em; transition: opacity 0.1s ease, max-height 0.8s ease; opacity: 0; max-height: 2.6em; max-width: 29%;}
 		@keyframes objectPositionAnimation { 0% { object-position: center 30%; } 20% { object-position: center 50%; } 40% { object-position: center 80%; } 60% { object-position: center 50%; } 80% { object-position: center 20%; } 100% { object-position: center 30%; }}
 		.slide:hover .backdrop {filter: brightness(95%) contrast(105%) saturate(105%); animation: none; transform:scale(1.0075); }
 		.slide:hover .clickable-overlay { }
@@ -131,15 +131,20 @@
 			textContainer.appendChild(createElem('div', 'plot', truncateText(movie.Overview, plotMaxLength)));
 			slide.appendChild(textContainer);
 
-			const skipButton = createElem('div', 'skip-button');
-			const skipIcon = createElem('i', 'fas fa-chevron-right');
-			skipButton.appendChild(skipIcon);
+			const nextButton = createElem('div', 'next-button');
+			const nextIcon = createElem('i', 'fas fa-arrow-right');
+			const nextText = document.createTextNode(' Next');
 
-			skipButton.onclick = (e) => {
+			nextIcon.style.marginLeft = '0.5em';
+			nextButton.appendChild(nextText);
+			nextButton.appendChild(nextIcon);
+
+			nextButton.onclick = (e) => {
 				e.stopPropagation();
 				fetchRandomMovie();
 			};
-			slide.appendChild(skipButton);
+
+			slide.appendChild(nextButton);
 
 			const overlay = createElem('div', 'clickable-overlay');
 			overlay.onclick = () => {
