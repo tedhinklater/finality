@@ -20,7 +20,7 @@ or, import the colour version with
 
 ```
 
-<img src="https://github.com/user-attachments/assets/534d8fcb-0bc9-4b9a-b8a4-e00e139a837a" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/cbf6b18e-670e-4f2b-bf79-341a09122aa8" width="49.5%" height="49.5%" /> 
+<img src="https://github.com/user-attachments/assets/db4d8842-d7b0-420c-881e-841ac21a0db2" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/eb94f62f-119b-4c1e-8071-61476c8296d8" width="49.5%" height="49.5%" /> 
 <img src="https://github.com/user-attachments/assets/6bba7531-bef6-4698-9e0c-6843eaa6a292" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/13ccaeef-9ed7-4396-afde-f100ad4af2bf" width="49.5%" height="49.5%" />
 <img src="https://github.com/user-attachments/assets/984a75d5-1706-48da-9f75-b3cf6ccd45b7" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/401de20c-205f-4439-9938-b399d5462197" width="49.5%" height="49.5%" />
 
@@ -46,15 +46,15 @@ Under "Display" make sure you enable backdrops and use the Dark theme
 
 ## [Featured Content Bar](https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md#featured-content-bar-109xx) by [BobHasNoSoul](https://github.com/BobHasNoSoul) and [SethBacon](https://forum.jellyfin.org/u-sethbacon)
 
-![featured](https://github.com/user-attachments/assets/c214cc03-9240-40c9-b7e1-9c3dc0634606)
+![Featured](https://github.com/user-attachments/assets/2607e73b-3ad8-4dc3-9844-a6b3c9d4be95)
 
-1. Download [slideshow.html](https://github.com/tedhinklater/finality/blob/main/slideshow.html)
+1. Download [spotlight.html](https://github.com/tedhinklater/finality/blob/main/spotlight.html)
 
-2. Enter your ```UserId``` into line 11 of slideshow.html (Get your UserID by going to the Jellyfin Dashboard, go to the Users tab, click your username. Your UserId is the last string in the address bar after the = sign)
+2. Enter your ```UserId``` into line 55 of spotlight.html (Get your UserID by going to the Jellyfin Dashboard, go to the Users tab, click your username. Your UserId is the last string in the address bar after the = sign)
 
-3. Enter your ```API key``` into line 12 of slideshow.html (Go to Dashboard, API Keys tab, click the + and create a key for FeaturedSlideshow)
+3. Enter your ```API key``` into line 55 of spotlight.html (Go to Dashboard, API Keys tab, click the + and create a key for Spotlight)
 
-4. Go to your ```jellyfin-web``` folder (C:\Program Files\Jellyfin\Server\jellyfin-web) and create a folder named ```avatars``` and drop ```slideshow.html``` in that folder
+4. Go to your ```jellyfin-web``` folder (C:\Program Files\Jellyfin\Server\jellyfin-web) and create a folder named ```avatars``` and drop ```spotlight.html``` in that folder
 
 5. (Important: Open Notepad with Administrator rights, or use Notepad++ for this) In the jellyfin-web folder, open the file ```home-html.RANDOMSTRINGHERE.chunk.js```
 
@@ -63,19 +63,13 @@ Under "Display" make sure you enable backdrops and use the Dark theme
 7. Paste this after the >
 
 ```html
-<style>.featurediframe { width: 89vw; height: 300px; display: block; border: 1px solid #000; margin: 0 auto}</style> <iframe class="featurediframe" src="/web/avatars/slideshow.html"></iframe>
+<style>.featurediframe { width: 93vw; height: 350px; display: block; border: 0px solid #000; margin: 0 auto; margin-bottom: 40px}</style><iframe class="featurediframe" src="/web/avatars/spotlight.html"></iframe>
 ```
 8. Save the file.
 
-9. Add this to your Custom CSS box in the Dashboard
+9. Empty your browser's cached web content (Ctrl+F5 or empty it from your browser's Cookies and Site Data settings section)
 
-```css
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/slideshow.css");
-```
-
-10. Empty your browser's cached web content (Ctrl+F5 or empty it from your browser's Cookies and Site Data settings section)
-
-That's it.
+10. That's it.
 
 ## Changing your Jellyfin logo --> <img src="https://i.imgur.com/5d4W3M2.png" width="10%" height="10%"  /> 
 
