@@ -69,7 +69,7 @@ Under "Display" make sure you enable backdrops and use the Dark theme
 
 9. Empty your browser's cached web content (Ctrl+F5 or empty it from your browser's Cookies and Site Data settings section)
 
-10. That's it.
+10. That's it. If you update your Jellyfin Server, just repeat steps 5 - 9. 
 
 ## Changing your Jellyfin logo --> <img src="https://i.imgur.com/5d4W3M2.png" width="10%" height="10%"  /> 
 
