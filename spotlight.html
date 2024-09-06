@@ -9,8 +9,8 @@
 		.slide { position: relative; width: 100vw; height: 100vh; box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); cursor: pointer; }
 		.slide:focus { outline: 2px solid #fff; }
 		.backdrop { position: absolute; top: 50px; left: 0; width: 100%; height: calc(100% - 50px); object-fit: cover; object-position: center 30%; z-index: 1; transition: width 0.5s ease, filter 0.8s ease, transform 2s ease; transform-origin: top; animation: objectPositionAnimation 30s ease-in-out infinite;}
-		.logo { position: relative; transform: translateX(-50%) translateY(-50%); top: 56%; left: 13.5%; max-height: 40%; max-width: 25%; width: auto; z-index: 3; text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); filter: drop-shadow(1px 1px 1px); pointer-events: none; transition: transform 0.3s ease, max-height 0.3s ease;}
-		.heading::before { content: ''; position: absolute; top: 2.27em; left: 0; width: 100%; height: 30em; background: linear-gradient(90deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0%) 27%, rgb(0% 0% 0% / 0.9) 30%, rgb(0% 0% 0% / 0.6) 35%, rgb(0% 0% 0% / 0.3) 40%, rgb(0% 0% 0% / 0.1) 45%, rgb(0% 0% 0% / 0) 100%); z-index: 6;}
+		.logo { position: relative; transform: translateX(-50%) translateY(-50%); top: 56%; left: 14.5%; max-height: 40%; max-width: 25%; width: auto; z-index: 3; text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); filter: drop-shadow(1px 1px 1px); pointer-events: none; transition: transform 0.3s ease, max-height 0.3s ease, max-width 0.3s ease;}
+		.heading::before { content: ''; position: absolute; top: 2.27em; left: 0; width: 105%; height: 30em; background: linear-gradient(90deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0%) 27%, rgb(0% 0% 0% / 0.9) 30%, rgb(0% 0% 0% / 0.6) 35%, rgb(0% 0% 0% / 0.3) 40%, rgb(0% 0% 0% / 0.1) 45%, rgb(0% 0% 0% / 0) 100%); z-index: 6;}
 		.heading { position: absolute; top: 0; left: 0; width: 100%; height: 50px; background-color: transparent; font-family: "Titillium Web", sans-serif; color: #D3D3D3; font-size: 22px; display: flex; align-items: center; justify-content: flex-start; z-index: 2; padding: 10px; padding-left: 0px; box-sizing: border-box; text-shadow: 1px 1px 4px rgba(0, 0, 0, 1); }
 		.next-button { position: absolute; top: 0.4em; right: 0.25em; font-size: 1.5em; color: #D3D3D3; cursor: pointer; z-index: 10; font-family: "Titillium Web", sans-serif; font-size: 1.35em; text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);}
 		.video-container { position: absolute; right: 0; top: 50px; width: 0; height: calc(100% - 50px); overflow: hidden; z-index: 2; transition: width 0.5s ease; z-index: 6; border-top-right-radius: 0.5em; border-bottom-right-radius: 0.5em; }
@@ -22,16 +22,20 @@
 		.lorem-ipsum::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 1.8em; background: #0000007d; opacity: 0; z-index: -1; transform: translateX(-100%); transition: opacity 0.3s ease, transform 0.1s ease; border-bottom-right-radius: 0.25em; max-height: 2em;}
 		.lorem-ipsum .full-content { opacity: 0; max-width: 0; overflow: hidden; transition: opacity 0.3s ease, max-width 0.3s ease; padding-top: 0.15em;}
 		.lorem-ipsum span { margin-right: 0.2em;}
-		.plot { position: absolute; bottom: 0; left: 0; right: 0; color: #fff; font-family: "Titillium Web", sans-serif; font-size: 0.9em; font-weight: 500; background: transparent; padding: 10px; z-index: 7; box-sizing: border-box; padding-bottom: 3px; padding-top: 0.5em; line-height: 1.2em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; border-bottom-left-radius: 0.45em; transition: opacity 0.1s ease, max-height 0.8s ease; opacity: 0; max-height: 2.6em; max-width: 29%;}
-		.genres { position: absolute; top: 5.5em; color: #fff; z-index: 2; font-family: "Titillium Web", sans-serif; left: 0.3em; font-size: 0.9em; opacity: 0; transition: opacity 0.3s ease; max-width: 27%; overflow: hidden; height: 1.8em; text-overflow: ellipsis; padding-top: 0.5em;}		
+		.plot { position: absolute; bottom: 0; left: 0; right: 0; color: #fff; font-family: "Titillium Web", sans-serif; font-size: 0.9em; font-weight: 500; background: transparent; padding: 10px; z-index: 7; box-sizing: border-box; padding-bottom: 3px; padding-top: 0.5em; line-height: 1.2em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; border-bottom-left-radius: 0.45em; transition: opacity 0.1s ease, max-height 0.8s ease; opacity: 0; max-height: 2.6em; max-width: 31%;}
+		.genres { position: absolute; top: 4.1em; color: #fff; z-index: 2; font-family: "Titillium Web", sans-serif; left: 5.5em; font-size: 0.79em; opacity: 0; transition: opacity 0.3s ease; max-width: 27%; overflow: hidden; height: 1.8em; text-overflow: ellipsis; padding-top: 0.5em;}		
 		@keyframes objectPositionAnimation { 0% { object-position: center 30%; } 20% { object-position: center 50%; } 40% { object-position: center 80%; } 60% { object-position: center 50%; } 80% { object-position: center 20%; } 100% { object-position: center 30%; }}
 		.slide:hover .backdrop {filter: brightness(95%) contrast(105%) saturate(105%); animation: none; transform:scale(1.0075); }
 		.slide:hover .clickable-overlay { }
 		.slide:hover .clickable-overlay::before { opacity: 0; backdrop-filter: blur(0px);}
-		.slide:hover .logo { transform: translateX(-50%) translateY(-50%); transition: transform 0.3s ease; max-height:45%; }
+		.slide:hover .logo { transform: translateX(-50%) translateY(-50%); transition: transform 0.3s ease; max-height:45%; max-width: 25%; }
 		.slide:hover .plot {opacity: 1; -webkit-line-clamp: 3; max-height: 7.8em; transition-delay: 0s;}
 		.slide:hover .lorem-ipsum .full-content { opacity: 1; max-width: 100%;}
 		.slide:hover .lorem-ipsum::before { opacity:1; backdrop-filter: blur(2px); transform: translateX(0); }
+		.slide:hover .premiere-year { opacity: 1;} 
+		.slide:hover .additional-info { opacity: 1;}
+		.slide:hover .community-rating {opacity: 1;}
+		.slide:hover .critic-rating {opacity: 1;}
 		.slide:hover .genres {opacity: 1;}
 		.star-icon { color: gold; font-size: 1em; margin-right: 0em; }
 		@media (max-width: 1000px) { .lorem-ipsum {font-size: 90%; top: 3.45em;} .logo { transform: translateX(-50%) translateY(-50%); top: 55%; left: 50% !important; max-width: 60%; max-height: 50%; transform-origin: 50% 50%;} .plot {opacity: 1 !important; font-size: 90%; bottom: -1px; -webkit-line-clamp: 3; max-height: 8em; overflow: hidden; max-width: 100%;} .lorem-ipsum::before { opacity:0; padding-bottom: 0.25em; } .clickable-overlay { background: linear-gradient(0deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0% / 0.823974609375) 6.25%, rgb(0% 0% 0% / 0.669921875) 12.5%, rgb(0% 0% 0% / 0.536376953125) 18.75%, rgb(0% 0% 0% / 0.421875) 25%, rgb(0% 0% 0% / 0.324951171875) 31.25%, rgb(0% 0% 0% / 0.244140625) 37.5%, rgb(0% 0% 0% / 0.177978515625) 43.75%, rgb(0% 0% 0% / 0.125) 50%, rgb(0% 0% 0% / 0.083740234375) 56.25%, rgb(0% 0% 0% / 0.052734375) 62.5%, rgb(0% 0% 0% / 0.030517578125) 68.75%, rgb(0% 0% 0% / 0.015625) 75%, rgb(0% 0% 0% / 0.006591796875) 81.25%, rgb(0% 0% 0% / 0.001953125) 87.5%, rgb(0% 0% 0% / 0.000244140625) 93.75%, rgb(0% 0% 0% / 0) 100% ); transform: scale(1.025); transition: transform 1s ease;} .backdrop {border-radius: 0.5em !important;} .lorem-ipsum .full-content { opacity: 1; max-width: 100%;} .lorem-ipsum::before { opacity:1; backdrop-filter: blur(2px); transform: translateX(0);} .clickable-overlay::before { opacity: 0.98; backdrop-filter: blur(0px);} .slide:hover .clickable-overlay::before { opacity: 0.98;} .heading::before {display: none;} .next-button {font-size: 0.9em; top: 1.1em; color: #fff; right: 1em;}}
@@ -54,12 +58,16 @@
 		.fade-in-active { opacity: 1; visibility: visible;}
 		.fade-out {	opacity: 0;}
 		.backdrop {	transition: opacity 0.3s ease-in-out, width 0.5s ease;}
+		.premiere-year {position: absolute; top: 6em; left: 0.5em; font-size: 0.9em; font-family: "Titillium Web", sans-serif; color: #fff; z-index: 3; opacity: 0; transition: opacity 0.3s; text-align: center; width: 3.5em;}
+		.additional-info {position: absolute; top: 6em; left: 9.5em; font-size: 0.9em; font-family: "Titillium Web", sans-serif; color: #fff; z-index: 3; opacity: 0; transition: opacity 0.3s; text-align: center; width: 5em;}
+		.community-rating {position: absolute; top: 6em; left: 20em; font-size: 0.9em; font-family: "Titillium Web", sans-serif; color: #fff; z-index: 3; opacity: 0; transition: opacity 0.3s; text-align: center; width: 3.6em;}
+		.critic-rating {position: absolute; top: 6em; left: 29.5em; font-size: 0.9em; font-family: "Titillium Web", sans-serif; color: #fff; z-index: 3; opacity: 0; transition: opacity 0.3s; text-align: center; width: 3.9em;}
 	</style>
 </head>
 <body>
 	<div id="slides-container"></div>
 	<script>
-		let title = '', moviesSeriesBoth = 3, shuffleInterval = 10000, plotMaxLength = 700, userId = 'e3fe1ed7dbec4fbe925f2c9b6a8ac627', token = '040866ba82054bca91c77c90d3b5373e', useTrailers = true;  // Changeable variables
+		let title = '', moviesSeriesBoth = 3, shuffleInterval = 10000, plotMaxLength = 700, userId = 'YOURUSERID', token = 'SPOTLIGHTAPIKEY', useTrailers = true;  // Changeable variables
 		let isChangingSlide = false, player = null, slideChangeTimeout = null;
 		let currentLocation = window.top.location.href;
 
@@ -117,12 +125,32 @@
 				<div class="age-rating">
 					<span class="${ratingClass}" style="border: 0.09em solid currentColor; border-radius: .1em; padding: 0.2em; padding-top: 0.1em; padding-bottom: 0.26em; display: inline-block; text-align: center; line-height: 0.8em;">${ageRating}</span>
 				</div>
-				<div class="full-content">
-					<span style="margin-left: 1.2em; margin-right: 0.75em;">${additionalInfo} </span><span style="margin-left: 0.75em; margin-right: 0.75em;"> ${premiereYear} </span> 
-					<span style="margin-left: 1em; margin-right: 1em;">${communityRating ? `<i class="star-icon fas fa-star"></i> ${communityRating} ` : ''}
-					${criticRating ? `</span><img src="https://i.imgur.com/iMfwDk7.png" alt="Rotten Tomatoes" style="width: 1.1em; height: 1.1em; padding-left: 1em; vertical-align: sub;"> ${criticRating}` : ''}
-				</div>
 			`;
+			
+				const additionalInfoDiv = createElem('div', 'additional-info', additionalInfo);
+				const premiereYearDiv = createElem('div', 'premiere-year', premiereYear);
+				const communityRatingDiv = createElem('div', 'community-rating');
+				const criticRatingDiv = createElem('div', 'critic-rating');
+
+				if (communityRating) {
+					const communityRatingIcon = createElem('i', 'star-icon fas fa-star');
+					communityRatingDiv.appendChild(communityRatingIcon);
+					communityRatingDiv.appendChild(document.createTextNode(` ${communityRating}`));
+				}
+
+				if (criticRating) {
+					const criticRatingIcon = createElem('img', null, null, 'https://i.imgur.com/iMfwDk7.png', 'Rotten Tomatoes');
+					criticRatingIcon.style.width = '1.1em';
+					criticRatingIcon.style.height = '1.1em';
+					criticRatingIcon.style.paddingLeft = '0em';
+					criticRatingIcon.style.verticalAlign = 'sub';
+					criticRatingDiv.appendChild(criticRatingIcon);
+					criticRatingDiv.appendChild(document.createTextNode(` ${criticRating}`));
+				}
+				newSlide.appendChild(additionalInfoDiv);
+				newSlide.appendChild(premiereYearDiv);
+				newSlide.appendChild(communityRatingDiv);
+				newSlide.appendChild(criticRatingDiv);
 			
 			// Add Genres Section
 			const genresDiv = createElem('div', 'genres');
@@ -246,14 +274,14 @@
 					container.innerHTML = '';
 					newSlide.classList.add('fade-in');
 					container.appendChild(newSlide);
-					setTimeout(() => newSlide.classList.add('fade-in-active'), 0); // Trigger fade-in
+					setTimeout(() => newSlide.classList.add('fade-in-active'), 0);
 				};
-				setTimeout(fadeInSlide, 1000); // Match the CSS transition duration
+				setTimeout(fadeInSlide, 1000);
 			} else {
 				container.innerHTML = '';
 				newSlide.classList.add('fade-in');
 				container.appendChild(newSlide);
-				setTimeout(() => newSlide.classList.add('fade-in-active'), 0); // Trigger fade-in
+				setTimeout(() => newSlide.classList.add('fade-in-active'), 0);
 			}
 			
 			addSwipeListeners(newSlide);
