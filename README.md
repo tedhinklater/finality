@@ -20,7 +20,7 @@ or, import the colour version with
 
 ```
 
-<img src="https://github.com/user-attachments/assets/db4d8842-d7b0-420c-881e-841ac21a0db2" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/eb94f62f-119b-4c1e-8071-61476c8296d8" width="49.5%" height="49.5%" /> 
+<img src="https://github.com/user-attachments/assets/11876596-ab9b-4f8a-bb2e-1a9c509202e8" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/83bdb885-9f0f-45ef-86e9-287477f2d105" width="49.5%" height="49.5%" /> 
 <img src="https://github.com/user-attachments/assets/6bba7531-bef6-4698-9e0c-6843eaa6a292" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/13ccaeef-9ed7-4396-afde-f100ad4af2bf" width="49.5%" height="49.5%" />
 <img src="https://github.com/user-attachments/assets/984a75d5-1706-48da-9f75-b3cf6ccd45b7" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/401de20c-205f-4439-9938-b399d5462197" width="49.5%" height="49.5%" />
 
@@ -46,7 +46,7 @@ Under "Display" make sure you enable backdrops and use the Dark theme
 
 ## [Featured Content Bar](https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md#featured-content-bar-109xx) by [BobHasNoSoul](https://github.com/BobHasNoSoul) and [SethBacon](https://forum.jellyfin.org/u-sethbacon)
 
-![Featured](https://github.com/user-attachments/assets/2e94fc97-85e4-488a-9842-9e81abe1cb0e)
+![feat](https://github.com/user-attachments/assets/7e8b3ec2-a8c5-4842-9851-12b1a872e2ae)
 
 1. Download [spotlight.html](https://github.com/tedhinklater/finality/blob/main/spotlight.html)
 
