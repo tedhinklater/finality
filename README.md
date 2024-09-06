@@ -50,9 +50,9 @@ Under "Display" make sure you enable backdrops and use the Dark theme
 
 1. Download [spotlight.html](https://github.com/tedhinklater/finality/blob/main/spotlight.html)
 
-2. Enter your ```UserId``` into line 55 of spotlight.html (Get your UserID by going to the Jellyfin Dashboard, go to the Users tab, click your username. Your UserId is the last string in the address bar after the = sign)
+2. Enter your ```UserId``` into line 70 of spotlight.html (Get your UserID by going to the Jellyfin Dashboard, go to the Users tab, click your username. Your UserId is the last string in the address bar after the = sign)
 
-3. Enter your ```API key``` into line 55 of spotlight.html (Go to Dashboard, API Keys tab, click the + and create a key for Spotlight)
+3. Enter your ```API key``` into line 70 of spotlight.html (Go to Dashboard, API Keys tab, click the + and create a key for Spotlight)
 
 4. Go to your ```jellyfin-web``` folder (C:\Program Files\Jellyfin\Server\jellyfin-web) and create a folder named ```avatars``` and drop ```spotlight.html``` in that folder
 
