@@ -45,6 +45,11 @@
 		.age-rating span.pg-13 { background-color: #157c0d; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
 		.age-rating span.tv-y7, .age-rating span.tv-13, .age-rating span.tv-14, .age-rating span.\31 6, .age-rating span.tv-ma, .age-rating span.tv-y, .age-rating span.tv-g, .age-rating span.tv-pg { background-color: #157c0d; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
 		.age-rating span.nc-17, .age-rating span.gb-18, .age-rating span.\31 8, .age-rating span.r { background-color: #c10f1f; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
+		.age-rating span.au-g, .age-rating span.nz-g, .age-rating span.eu-pg, .age-rating span.ca-g, .age-rating span.jp-g, .age-rating span.de-0 { background-color: #078c6d; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); }
+		.age-rating span.au-pg, .age-rating span.nz-pg, .age-rating span.eu-12, .age-rating span.ca-pg, .age-rating span.jp-pg12, .age-rating span.de-6 { background-color: #d7a203; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); }
+		.age-rating span.au-m, .age-rating span.nz-m, .age-rating span.eu-16, .age-rating span.ca-14a, .age-rating span.jp-r15, .age-rating span.de-12 { background-color: #07b1e0; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); }
+		.age-rating span.au-ma15, .age-rating span.nz-r15, .age-rating span.eu-18, .age-rating span.ca-18a, .age-rating span.jp-r18, .age-rating span.de-16 { background-color: #fc9712; color: white; border: 0.09em solid white !important; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); }
+		.age-rating span.au-r18, .age-rating span.nz-r18, .age-rating span.ca-r, .age-rating span.jp-r18+, .age-rating span.de-18 { background-color: #c10f1f; color: white; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); }
 		.video-container {overflow: visible;}
 		.video-container::before { content: ""; position: absolute; top: 0; left: -1.4em; width: 1.4em; height: 100%; background: linear-gradient(90deg, rgb(0% 0% 0% / 0) 0%, rgb(0% 0% 0% / 0.000014495849609375) 6.25%, rgb(0% 0% 0% / 0.00023193359375) 12.5%, rgb(0% 0% 0% / 0.001174163818359375) 18.75%, rgb(0% 0% 0% / 0.0037109375) 25%, rgb(0% 0% 0% / 0.009059906005859375) 31.25%, rgb(0% 0% 0% / 0.01878662109375) 37.5%, rgb(0% 0% 0% / 0.03480453491210937) 43.75%, rgb(0% 0% 0% / 0.059375) 50%, rgb(0% 0% 0% / 0.09510726928710937) 56.25%, rgb(0% 0% 0% / 0.14495849609375) 62.5%, rgb(0% 0% 0% / 0.21223373413085936) 68.75%, rgb(0% 0% 0% / 0.3005859375) 75%, rgb(0% 0% 0% / 0.41401596069335933) 81.25%, rgb(0% 0% 0% / 0.55687255859375) 87.5%, rgb(0% 0% 0% / 0.7338523864746094) 93.75%, rgb(0% 0% 0% / 0.95) 100% ); z-index: 8; opacity: 0.58; }
 		.watch-trailer-button { position: absolute; background-color: transparent; color: white; border: none; border-radius: 5px; padding: 0.5em 0.5em; font-size: 0.9em; font-family: "Titillium Web", sans-serif; cursor: pointer; z-index: 10; transition: background-color 0.3s ease; display: flex; align-items: center; justify-content: center; transform: translateX(0%); left: 1%; top: 0.65em;}
@@ -60,7 +65,7 @@
 <body>
 	<div id="slides-container"></div>
 	<script>
-		let title = '', moviesSeriesBoth = 3, shuffleInterval = 10000, plotMaxLength = 700, userId = 'YOURUSERIDHERE', token = 'YOURAPIKEYHERE', useTrailers = true;  // Changeable variables
+		let title = '', moviesSeriesBoth = 3, shuffleInterval = 10000, plotMaxLength = 700, userId = 'e3fe1ed7dbec4fbe925f2c9b6a8ac627', token = '040866ba82054bca91c77c90d3b5373e', useTrailers = true;  // Changeable variables
 		let isChangingSlide = false, player = null, slideChangeTimeout = null;
 		let currentLocation = window.top.location.href;
 
