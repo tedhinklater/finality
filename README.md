@@ -130,6 +130,7 @@ function saveApiKey(apiKey) {
 </script>
 </body></html>
 ```
+And Save. 
 
 8. Empty your browser's cached web content (Ctrl+F5 or empty it from your browser's Cookies and Site Data settings section)
 
