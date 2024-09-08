@@ -50,26 +50,90 @@ Under "Display" make sure you enable backdrops and use the Dark theme
 
 1. Download [spotlight.html](https://github.com/tedhinklater/finality/blob/main/spotlight.html)
 
-2. Enter your ```UserId``` into line 63 of spotlight.html (Get your UserID by going to the Jellyfin Dashboard, go to the Users tab, click your username. Your UserId is the last string in the address bar after the = sign)
+2. Go to your ```jellyfin-web``` folder (C:\Program Files\Jellyfin\Server\jellyfin-web) and create a folder named ```avatars``` and drop ```spotlight.html``` in that folder
 
-3. Enter your ```API key``` into line 63 of spotlight.html (Go to Dashboard, API Keys tab, click the + and create a key for Spotlight)
+3. (Important: Open Notepad with Administrator rights, or use Notepad++ for this) In the jellyfin-web folder, open the file ```home-html.RANDOMSTRINGHERE.chunk.js```
 
-4. Go to your ```jellyfin-web``` folder (C:\Program Files\Jellyfin\Server\jellyfin-web) and create a folder named ```avatars``` and drop ```spotlight.html``` in that folder
+4. Ctrl+F and search for ```data-backdroptype="movie,series,book">``` 
 
-5. (Important: Open Notepad with Administrator rights, or use Notepad++ for this) In the jellyfin-web folder, open the file ```home-html.RANDOMSTRINGHERE.chunk.js```
-
-6. Ctrl+F and search for ```data-backdroptype="movie,series,book">``` 
-
-7. Paste this after the >
+5. Paste this after the >
 
 ```html
 <style>.featurediframe { width: 93vw; height: 350px; display: block; border: 0px solid #000; margin: 0 auto; margin-bottom: 40px}</style><iframe class="featurediframe" src="/web/avatars/spotlight.html"></iframe>
 ```
-8. Save the file.
+6. Save the file.
 
-9. Empty your browser's cached web content (Ctrl+F5 or empty it from your browser's Cookies and Site Data settings section)
+7. In the same folder (jellyfin-web) open ```index.html``` with a text editor and find ```<\body><\html>``` and replace it with
 
-10. That's it. If you update your Jellyfin Server, just repeat steps 5 - 9. 
+```js
+<script>
+// Function to save credentials to sessionStorage
+function saveCredentialsToSessionStorage(credentials) {
+  try {
+    // Store the credentials in sessionStorage
+    sessionStorage.setItem('json-credentials', JSON.stringify(credentials));
+    console.log('Credentials saved to sessionStorage.');
+  } catch (error) {
+    console.error('Error saving credentials:', error);
+  }
+}
+
+// Function to save the API key to sessionStorage
+function saveApiKey(apiKey) {
+  try {
+    sessionStorage.setItem('api-key', apiKey);
+    console.log('API key saved to sessionStorage.');
+  } catch (error) {
+    console.error('Error saving API key:', error);
+  }
+}
+
+// Override the default console.log function
+(function() {
+  var originalConsoleLog = console.log;
+
+  console.log = function(message) {
+    // Call the original console.log method
+    originalConsoleLog.apply(console, arguments);
+
+    // Check if the message contains the JSON credentials
+    if (typeof message === 'string' && message.startsWith('Stored JSON credentials:')) {
+      try {
+        // Extract the JSON credentials from the message
+        var jsonString = message.substring('Stored JSON credentials: '.length);
+        var credentials = JSON.parse(jsonString);
+
+        // Save the credentials to sessionStorage
+        saveCredentialsToSessionStorage(credentials);
+      } catch (error) {
+        console.error('Error parsing credentials:', error);
+      }
+    }
+
+    // Check if the message contains the WebSocket URL with api_key
+    if (typeof message === 'string' && message.startsWith('opening web socket with url:')) {
+      try {
+        // Extract the API key from the message
+        var url = message.split('url:')[1].trim();
+        var urlParams = new URL(url).searchParams;
+        var apiKey = urlParams.get('api_key');
+
+        if (apiKey) {
+          saveApiKey(apiKey);
+        }
+      } catch (error) {
+        console.error('Error extracting API key:', error);
+      }
+    }
+  };
+})();
+</script>
+</body></html>
+```
+
+8. Empty your browser's cached web content (Ctrl+F5 or empty it from your browser's Cookies and Site Data settings section)
+
+9. That's it.
 
 ## Changing your Jellyfin logo --> <img src="https://i.imgur.com/5d4W3M2.png" width="10%" height="10%"  /> 
 
