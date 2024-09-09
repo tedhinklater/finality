@@ -365,6 +365,9 @@
             // Show the overlay
             videoOverlay.style.display = 'block';
 
+			// Pause the slide timer when the video overlay is open
+			clearSlideChangeTimeout();
+
             // Close the overlay when the close button is clicked
             closeOverlay.onclick = () => {
                 videoOverlay.style.display = 'none';
@@ -378,7 +381,22 @@
                     videoFrame.src = '';  // Stop the video
                 }
             };
-        }		
+        }	
+
+		// Function to close the video overlay and restart the slide timer
+		function closeVideoOverlay() {
+			const videoOverlay = document.getElementById('video-overlay');
+			const videoFrame = document.getElementById('trailer-video');
+
+			// Hide the overlay
+			videoOverlay.style.display = 'none';
+
+			// Stop the video by resetting the iframe source
+			videoFrame.src = '';
+
+			// Restart the slide change timer when the video overlay is closed
+			startSlideChangeTimer();
+		}		
 
 		function startSlideChangeTimer() {
 			clearSlideChangeTimeout();
