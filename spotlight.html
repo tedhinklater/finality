@@ -20,7 +20,7 @@
 		.clickable-overlay::after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg, rgb(0% 0% 0% / 0.9) 0%, rgb(0% 0% 0% / 0.6952285766601562) 6.25%, rgb(0% 0% 0% / 0.5275634765625) 12.5%, rgb(0% 0% 0% / 0.39222564697265627) 18.75%, rgb(0% 0% 0% / 0.284765625) 25%, rgb(0% 0% 0% / 0.20106353759765627) 31.25%, rgb(0% 0% 0% / 0.1373291015625) 37.5%, rgb(0% 0% 0% / 0.09010162353515627) 43.75%, rgb(0% 0% 0% / 0.05625000000000002) 50%, rgb(0% 0% 0% / 0.03297271728515627) 56.25%, rgb(0% 0% 0% / 0.017797851562500022) 62.5%, rgb(0% 0% 0% / 0.00858306884765625) 68.75%, rgb(0% 0% 0% / 0.003515625000000022) 75%, rgb(0% 0% 0% / 0.0011123657226562722) 81.25%, rgb(0% 0% 0% / 0.0002197265625000222) 87.5%, rgb(0% 0% 0% / 0.000013732910156272204) 93.75%, rgb(0% 0% 0% / 0) 100% ); opacity: 0.25; transition: opacity 0.3s ease, visibility 0.8s ease; z-index: 3; border-radius: 0.25em; }
 		.lorem-ipsum { position: absolute; top: 3.4em; left: 0em; text-align: left; font-family: "Titillium Web", sans-serif; font-size: 95%; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); opacity: 1; transition: opacity 0.3s ease, backdrop-filter 0.3s ease, max-width 0.3s ease; color: #fff; z-index: 4; box-sizing: border-box; background: transparent; border-radius: 0.25em; max-width: fit-content; padding-left: 0.3em; padding-right: 0.3em; backdrop-filter: blur(2px); display: flex; flex-direction: row; max-height: 1.9em; padding-top: 0.15em;}
 		.lorem-ipsum span { margin-right: 0.2em;}
-		.plot { position: absolute; bottom: 0; left: 0; right: 0; color: #fff; font-family: "Titillium Web", sans-serif; font-size: 0.9em; font-weight: 500; background: transparent; padding: 10px; z-index: 7; box-sizing: border-box; padding-bottom: 3px; padding-top: 0.5em; line-height: 1.2em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; border-bottom-left-radius: 0.45em; transition: opacity 0.1s ease, max-height 0.8s ease; opacity: 0; max-width: 31%; opacity: 1; -webkit-line-clamp: 3; max-height: 7.8em;}
+		.plot { position: absolute; bottom: 0; left: -0.25em; right: 0; color: #fff; font-family: "Titillium Web", sans-serif; font-size: 0.9em; font-weight: 500; background: transparent; padding: 10px; z-index: 7; box-sizing: border-box; padding-bottom: 3px; padding-top: 0.5em; line-height: 1.2em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; border-bottom-left-radius: 0.45em; transition: opacity 0.1s ease, max-height 0.8s ease; opacity: 0; max-width: 31%; opacity: 1; -webkit-line-clamp: 3; max-height: 7.8em;}
 		.genres { position: absolute; top: 4.1em; color: #fff; z-index: 2; font-family: "Titillium Web", sans-serif; right: 69%; font-size: 0.79em; opacity: 1; transition: opacity 0.3s ease; max-width: 39em; overflow: hidden; height: 1.9em; padding-top: 0.25em; line-height: 2em; white-space: nowrap;}		
 		.premiere-year {position: absolute; top: 5.75em; left: 0.5em; font-size: 0.9em; font-family: "Titillium Web", sans-serif; color: #fff; z-index: 3; opacity: 0; transition: opacity 0.3s; text-align: center; width: 3.5em;}
 		.additional-info {position: absolute; top: 7.3em; left: 31em; font-size: 0.9em; font-family: "Titillium Web", sans-serif; color: #fff; z-index: 3; opacity: 1; transition: opacity 0.3s; text-align: right; width: 5em;}
@@ -34,7 +34,7 @@
 		.slide:hover .plot { }
 		.slide:hover .lorem-ipsum::before { opacity:1; backdrop-filter: blur(2px); transform: translateX(0); }
 		.star-icon { color: gold; font-size: 1em; margin-right: 0em; }
-		@media (max-width: 1000px) { .lorem-ipsum {font-size: 90%; top: 3.45em;} .logo { transform: translateX(-50%) translateY(-50%); top: 50%; left: 50% !important; max-width: 50%; max-height: 40%; transform-origin: 50% 50%;} .plot {opacity: 1 !important; font-size: 90%; bottom: -1px; -webkit-line-clamp: 2; max-height: 8em; overflow: hidden; width: 100% !important; max-width: 100%;} .lorem-ipsum::before { opacity:0; padding-bottom: 0.25em; } .clickable-overlay { background: linear-gradient(0deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0% / 0.823974609375) 6.25%, rgb(0% 0% 0% / 0.669921875) 12.5%, rgb(0% 0% 0% / 0.536376953125) 18.75%, rgb(0% 0% 0% / 0.421875) 25%, rgb(0% 0% 0% / 0.324951171875) 31.25%, rgb(0% 0% 0% / 0.244140625) 37.5%, rgb(0% 0% 0% / 0.177978515625) 43.75%, rgb(0% 0% 0% / 0.125) 50%, rgb(0% 0% 0% / 0.083740234375) 56.25%, rgb(0% 0% 0% / 0.052734375) 62.5%, rgb(0% 0% 0% / 0.030517578125) 68.75%, rgb(0% 0% 0% / 0.015625) 75%, rgb(0% 0% 0% / 0.006591796875) 81.25%, rgb(0% 0% 0% / 0.001953125) 87.5%, rgb(0% 0% 0% / 0.000244140625) 93.75%, rgb(0% 0% 0% / 0) 100% ); transform: scale(1.025); transition: transform 1s ease;} .backdrop {left: 0% !important; width: 100% !important; top: 2.95em;} .lorem-ipsum .full-content { opacity: 1; max-width: 100%;} .lorem-ipsum::before { opacity:1; backdrop-filter: blur(2px); transform: translateX(0);} .clickable-overlay::before { opacity: 0.98; backdrop-filter: blur(0px);} .slide:hover .clickable-overlay::before { opacity: 0.98;} .next-button {font-size: 0.9em; top: 1.1em; color: #fff; right: 1em;} .genres {overflow: visible; max-width: 100%; white-space: nowrap; top: 78vh; left: -0.55em; z-index: 8; padding-left: 1em; color: #fff;} .additional-info {left: 18.5%; top: 5em; text-align: right;} .community-rating {right: 0.5em; top: 3.75em; text-align: right; z-index: 8;} .critic-rating {right: 3.5em; top: 3.75em; z-index: 8;} .additional-info {left: 18.5%; top: 5em; text-align: right;} .heading {z-index: 0;} .heading::before {display: none;} .video-container {max-width: 0 !important;} .watch-trailer-button {display: flex !important;}}
+		@media (max-width: 1000px) { .lorem-ipsum {font-size: 90%; top: 3.45em;} .logo { transform: translateX(0%) translateY(-50%); top: 50%; left: 1% !important; max-width: 70%; max-height: 40%; transform-origin: 50% 50%;} .plot {opacity: 1 !important; font-size: 90%; bottom: 0.5em; -webkit-line-clamp: 2; max-height: 3.3em; overflow: hidden; width: 100% !important; max-width: 100%; line-height: 1.45em;} .lorem-ipsum::before { opacity:0; padding-bottom: 0.25em; } .clickable-overlay { background: linear-gradient(0deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0% / 0.823974609375) 6.25%, rgb(0% 0% 0% / 0.669921875) 12.5%, rgb(0% 0% 0% / 0.536376953125) 18.75%, rgb(0% 0% 0% / 0.421875) 25%, rgb(0% 0% 0% / 0.324951171875) 31.25%, rgb(0% 0% 0% / 0.244140625) 37.5%, rgb(0% 0% 0% / 0.177978515625) 43.75%, rgb(0% 0% 0% / 0.125) 50%, rgb(0% 0% 0% / 0.083740234375) 56.25%, rgb(0% 0% 0% / 0.052734375) 62.5%, rgb(0% 0% 0% / 0.030517578125) 68.75%, rgb(0% 0% 0% / 0.015625) 75%, rgb(0% 0% 0% / 0.006591796875) 81.25%, rgb(0% 0% 0% / 0.001953125) 87.5%, rgb(0% 0% 0% / 0.000244140625) 93.75%, rgb(0% 0% 0% / 0) 100% ); transform: scale(1.025); transition: transform 1s ease;} .backdrop {left: 0% !important; width: 100% !important; top: 2.95em;} .lorem-ipsum .full-content { opacity: 1; max-width: 100%;} .lorem-ipsum::before { opacity:1; backdrop-filter: blur(2px); transform: translateX(0);} .clickable-overlay::before { opacity: 0.98; backdrop-filter: blur(0px);} .slide:hover .clickable-overlay::before { opacity: 0.98;} .next-button {font-size: 0.9em; top: 1.1em; color: #fff; right: 1em;} .genres {overflow: visible; max-width: 100%; white-space: nowrap; top: 77vh; left: -0.55em; z-index: 8; padding-left: 1em; color: #fff;} .additional-info {left: 18.5%; top: 5em; text-align: right;} .community-rating {right: 0.5em; top: 3.75em; text-align: right; z-index: 8;} .critic-rating {right: 3.5em; top: 3.75em; z-index: 8;} .additional-info {left: 18.5%; top: 5em; text-align: right;} .heading {z-index: 0;} .heading::before {display: none;} .video-container {max-width: 0 !important;} .watch-trailer-button {display: flex !important;}}
 		@media (min-width: 1001px) { .logo {max-height: 40%;} transition: transform 0.1s ease, max-height 0.3s ease;} .watch-trailer-button {display: none;} .backdrop {left: 30.5%; width: 69.5%; transition: width 0.5s ease, filter 0.8s ease, transform 2s ease;}}
 		@media (max-width: 500px) { .community-rating {left: 0em; top: 5.6em;} .critic-rating {left: 0em; top: 7.6em;} .additional-info {left: 18.5%; top: 5em; text-align: right;} .heading::before {display: none;} .logo {max-width: 60%; max-height: 35%; left: 50% !important;}}
 		.age-rating { font-weight: 600; font-size: 1.1em;} .additional-info {display: none;}
@@ -64,6 +64,22 @@
         #video-overlay { position: fixed; top: 13vh; left: 0vw; width: 100%; height: 140vh; background-color: rgb(0, 0, 0); z-index: 1000; display: flex; background-size: cover; padding: 6vh; padding-top: 10vh; margin-top: -10vh;}
         #video-overlay-content { position: relative; width: 90%; max-width: 100%; height: 60%; background-color: #000;}
         #close-overlay { position: absolute; top: -1em; right: 1em; font-size: 30px; color: white; cursor: pointer;}
+#countdown-bar-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px !important;
+    background-color: rgba(0,0,0,0); /* Background color of the bar */
+    z-index: 1000; /* Ensure it is above other content */
+}
+
+/* Styles for the horizontal countdown bar itself */
+#countdown-bar {
+    height: 100%;
+    width: 0%; /* Initial width of the bar, will be updated by JavaScript */
+    background-color: #ffffff; /* Color of the progress */
+    transition: width 0.1s linear; /* Smooth transition for width change */
+}
 	</style>
 </head>
 <body>
@@ -74,10 +90,40 @@
             <iframe id="trailer-video" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
+	
+<!-- Horizontal Countdown Bar -->
+<div id="countdown-bar-container">
+    <div id="countdown-bar"></div>
+</div>
 	<script>
 		let title = '', moviesSeriesBoth = 3, shuffleInterval = 10000, plotMaxLength = 700, userId = 'null', token = 'null', useTrailers = true;  // Changeable variables
 		let isChangingSlide = false, player = null, slideChangeTimeout = null;
 		let currentLocation = window.top.location.href;
+		
+		// Countdown timer
+		const countdownBar = document.querySelector('#countdown-bar');
+		let countdownInterval;
+
+		function startCountdownBar() {
+			clearInterval(countdownInterval);
+			countdownBar.style.width = '0%'; // Reset the width
+			let countdownProgress = 0;
+			const totalProgress = 100;
+			const intervalTime = shuffleInterval / totalProgress;
+
+			countdownInterval = setInterval(() => {
+				countdownProgress++;
+				countdownBar.style.width = `${countdownProgress}%`;
+
+				if (countdownProgress >= totalProgress) {
+					clearInterval(countdownInterval);
+				}
+			}, intervalTime);
+		}
+
+		function stopCountdownBar() {
+			clearInterval(countdownInterval);
+		}
 		
 		// Fetch credentials from sessionStorage
 		const jsonCredentials = sessionStorage.getItem('json-credentials');
@@ -308,7 +354,7 @@
 					container.appendChild(newSlide);
 					setTimeout(() => newSlide.classList.add('fade-in-active'), 0); // Trigger fade-in
 				};
-				setTimeout(fadeInSlide, 1000); // Match the CSS transition duration
+				setTimeout(fadeInSlide, 1000);
 			} else {
 				container.innerHTML = '';
 				newSlide.classList.add('fade-in');
@@ -383,7 +429,7 @@
             };
         }	
 
-		// Function to close the video overlay and restart the slide timer
+		// Close the video overlay and restart the slide timer
 		function closeVideoOverlay() {
 			const videoOverlay = document.getElementById('video-overlay');
 			const videoFrame = document.getElementById('trailer-video');
@@ -401,11 +447,13 @@
 		function startSlideChangeTimer() {
 			clearSlideChangeTimeout();
 			slideChangeTimeout = setTimeout(fetchRandomMovie, shuffleInterval);
+			startCountdownBar(); // Start countdown with slide change
 		}
 
 		function clearSlideChangeTimeout() {
 			if (slideChangeTimeout) {
 				clearTimeout(slideChangeTimeout);
+				stopCountdownBar(); // Stop countdown when clearing timer
 				slideChangeTimeout = null;
 			}
 		}
