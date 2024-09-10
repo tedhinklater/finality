@@ -8,7 +8,7 @@
 		body { margin: 0; padding: 0; overflow: hidden; }
 		.slide { position: relative; width: 100vw; height: 100vh; box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); cursor: pointer; }
 		.slide:focus { outline: 2px solid #fff; }
-		.backdrop { position: absolute; top: 3.15em; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; z-index: 1; transition: width 0.5s ease, filter 0.8s ease, scale 2s ease; transform-origin: top; animation: objectPositionAnimation 30s ease-in-out infinite;}
+		.backdrop { position: absolute; top: 3.15em; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; z-index: 1; transition: width 0.5s ease, filter 0.8s ease, scale 2s ease; transform-origin: top; animation: objectPositionAnimation 25s ease-in-out infinite;}
 		.logo { position: relative; transform: translateX(-50%) translateY(-50%); top: 56%; left: 14.5%; max-height: 40%; max-width: 25%; width: auto; z-index: 3; text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); filter: drop-shadow(1px 1px 1px); pointer-events: none; transition: transform 0.3s ease, max-height 0.3s ease, max-width 0.3s ease;}
 		.heading::before { content: ''; position: absolute; top: 2.27em; left: 0; width: 100%; height: 30em; background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 30.75%, rgba(0, 0, 0, 0) 31.25%, rgba(0, 0, 0, 0) 100%); z-index: 6;}
 		.heading { position: absolute; top: 0; left: 0; width: 100%; height: 2.3em; background-color: transparent; font-family: "Titillium Web", sans-serif; color: #D3D3D3; font-size: 22px; display: flex; align-items: center; justify-content: flex-start; z-index: 2; padding: 10px; padding-left: 0px; box-sizing: border-box; text-shadow: 1px 1px 4px rgba(0, 0, 0, 1); }
@@ -21,12 +21,12 @@
 		.lorem-ipsum { position: absolute; top: 3.4em; left: 0em; text-align: left; font-family: "Titillium Web", sans-serif; font-size: 95%; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); opacity: 1; transition: opacity 0.3s ease, backdrop-filter 0.3s ease, max-width 0.3s ease; color: #fff; z-index: 4; box-sizing: border-box; background: transparent; border-radius: 0.25em; max-width: fit-content; padding-left: 0.3em; padding-right: 0.3em; backdrop-filter: blur(2px); display: flex; flex-direction: row; max-height: 1.9em; padding-top: 0.15em;}
 		.lorem-ipsum span { margin-right: 0.2em;}
 		.plot { position: absolute; bottom: 0; left: -0.25em; right: 0; color: #fff; font-family: "Titillium Web", sans-serif; font-size: 0.9em; font-weight: 500; background: transparent; padding: 10px; z-index: 7; box-sizing: border-box; padding-bottom: 3px; padding-top: 0.5em; line-height: 1.2em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; border-bottom-left-radius: 0.45em; transition: opacity 0.1s ease, max-height 0.8s ease; opacity: 0; max-width: 31%; opacity: 1; -webkit-line-clamp: 3; max-height: 7.8em;}
-		.genres { position: absolute; top: 4.1em; color: #fff; z-index: 2; font-family: "Titillium Web", sans-serif; right: 69%; font-size: 0.79em; opacity: 1; transition: opacity 0.3s ease; max-width: 39em; overflow: hidden; height: 1.95em; padding-top: 0.25em; line-height: 2em; white-space: nowrap;}		
+		.genres { position: absolute; top: 4.1em; color: #fff; z-index: 2; font-family: "Titillium Web", sans-serif; right: 69%; font-size: 0.79em; opacity: 1; transition: opacity 0.3s ease; max-width: 39em; overflow: hidden; height: 1.9em; padding-top: 0.25em; line-height: 2em; white-space: nowrap;}		
 		.premiere-year {position: absolute; top: 5.75em; left: 0.5em; font-size: 0.9em; font-family: "Titillium Web", sans-serif; color: #fff; z-index: 3; opacity: 0; transition: opacity 0.3s; text-align: center; width: 3.5em;}
 		.additional-info {position: absolute; top: 7.3em; left: 31em; font-size: 0.9em; font-family: "Titillium Web", sans-serif; color: #fff; z-index: 3; opacity: 1; transition: opacity 0.3s; text-align: right; width: 5em;}
 		.community-rating {position: absolute; top: 5.75em; right: 69.5%; font-size: 0.9em; font-family: "Titillium Web", sans-serif; color: #fff; z-index: 3; opacity: 1; transition: opacity 0.3s; text-align: center; width: 3.6em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
 		.critic-rating {position: absolute; top: 5.75em; right: 73%; font-size: 0.9em; font-family: "Titillium Web", sans-serif; color: #fff; z-index: 3; opacity: 1; transition: opacity 0.3s; text-align: center; width: 3.9em; text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
-		@keyframes objectPositionAnimation { 0% { object-position: center 30%; } 20% { object-position: center 50%; } 40% { object-position: center 80%; } 60% { object-position: center 50%; } 80% { object-position: center 20%; } 100% { object-position: center 30%; }}
+		@keyframes objectPositionAnimation { 0% { object-position: center 30%; } 40% { object-position: center 80%; } 60% { object-position: center 50%; } 80% { object-position: center 20%; } 100% { object-position: center 30%; }}
 		.slide:hover .backdrop {filter: brightness(95%) contrast(105%) saturate(105%); transform:scale(1);}
 		.slide:hover .clickable-overlay { }
 		.slide:hover .clickable-overlay::before { opacity: 0; backdrop-filter: blur(0px);}
@@ -63,30 +63,16 @@
 		@media (min-width: 3000px) { .slide {font-size: 200%;} .lorem-ipsum { top: 1.5em;} .genres { top: 2em;} .community-rating { top: 4em;} .critic-rating { top: 4em;} .next-button {top: -0.25em;} .backdrop {top: 1.6em; height: 100%;}}
         #video-overlay { position: fixed; top: 13vh; left: 0vw; width: 100%; height: 140vh; background-color: rgb(0, 0, 0); z-index: 1000; display: flex; background-size: cover; padding: 6vh; padding-top: 10vh; margin-top: -10vh;}
         #video-overlay-content { position: relative; width: 90%; max-width: 100%; height: 60%; background-color: #000;}
-        #close-overlay { position: absolute; top: -1em; right: 1em; font-size: 30px; color: white; cursor: pointer;}
-#countdown-bar-container {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 1px !important;
-    background-color: rgba(0,0,0,0); /* Background color of the bar */
-    z-index: 1000; /* Ensure it is above other content */
-}
-
-/* Styles for the horizontal countdown bar itself */
-#countdown-bar {
-    height: 100%;
-    width: 0%; /* Initial width of the bar, will be updated by JavaScript */
-    background-color: #ffffff; /* Color of the progress */
-    transition: width 0.1s linear; /* Smooth transition for width change */
-}
+        #close-overlay { position: absolute; top: -1em; right: 0em; font-size: 1.5em; color: #7b7b7b; cursor: pointer;} 
+		#countdown-bar-container { position: absolute; bottom: 0; width: 100%; height: 1px !important; background-color: rgba(0,0,0,0); z-index: 10;}
+		#countdown-bar { height: 100%; width: 0%; background-color: #ffffff; transition: width 0.1s linear;}
 	</style>
 </head>
 <body>
 	<div id="slides-container"></div>
 	    <div id="video-overlay" style="display: none;">
         <div id="video-overlay-content">
-            <span id="close-overlay">&times;</span>
+            <span id="close-overlay" class="fas fa-times"></span>
             <iframe id="trailer-video" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
@@ -106,7 +92,7 @@
 
 		function startCountdownBar() {
 			clearInterval(countdownInterval);
-			countdownBar.style.width = '0%'; // Reset the width
+			countdownBar.style.width = '0%';
 			let countdownProgress = 0;
 			const totalProgress = 100;
 			const intervalTime = shuffleInterval / totalProgress;
@@ -216,21 +202,20 @@
 					criticRatingDiv.appendChild(criticRatingIcon);
 					criticRatingDiv.appendChild(document.createTextNode(` ${criticRating}`));
 				}
-
-				// Append these divs to the newSlide so they can be positioned individually
+				
 				newSlide.appendChild(additionalInfoDiv);
 				newSlide.appendChild(premiereYearDiv);
 				newSlide.appendChild(communityRatingDiv);
 				newSlide.appendChild(criticRatingDiv);
 			
-			// Add Genres Section
+			// Genres Section
 			const genresDiv = createElem('div', 'genres');
 			if (movie.Genres && movie.Genres.length > 0) {
 				movie.Genres.forEach(genre => {
 					const genreElem = createElem('span', 'genre-item');
 					genreElem.textContent = genre;
 
-					// Apply the CSS styles
+					// CSS
 					genreElem.style.backgroundColor = 'transparent';
 					genreElem.style.paddingLeft = '0.5em';
 					genreElem.style.paddingRight = '0.5em';
@@ -352,14 +337,14 @@
 					container.innerHTML = '';
 					newSlide.classList.add('fade-in');
 					container.appendChild(newSlide);
-					setTimeout(() => newSlide.classList.add('fade-in-active'), 0); // Trigger fade-in
+					setTimeout(() => newSlide.classList.add('fade-in-active'), 0);
 				};
 				setTimeout(fadeInSlide, 1000);
 			} else {
 				container.innerHTML = '';
 				newSlide.classList.add('fade-in');
 				container.appendChild(newSlide);
-				setTimeout(() => newSlide.classList.add('fade-in-active'), 0); // Trigger fade-in
+				setTimeout(() => newSlide.classList.add('fade-in-active'), 0);
 			}
 			
 			addSwipeListeners(newSlide);
@@ -395,17 +380,17 @@
 			});
 		}
 		
-        // Function to show the video overlay
+        // Show the video overlay
         function showVideoOverlay(trailerUrl) {
             const videoOverlay = document.getElementById('video-overlay');
             const videoFrame = document.getElementById('trailer-video');
             const closeOverlay = document.getElementById('close-overlay');
 
-            // Extract the video ID from the trailer URL
+            // Extract video ID from trailer URL
             const videoId = new URL(trailerUrl).searchParams.get('v');
             const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
 
-            // Set the iframe's source to the trailer URL
+            // Set iframe's source to trailer URL
             videoFrame.src = embedUrl;
 
             // Show the overlay
@@ -414,33 +399,33 @@
 			// Pause the slide timer when the video overlay is open
 			clearSlideChangeTimeout();
 
-            // Close the overlay when the close button is clicked
+            // Close the overlay when the X is clicked
             closeOverlay.onclick = () => {
                 videoOverlay.style.display = 'none';
                 videoFrame.src = '';  // Stop the video
             };
 
-            // Close the overlay when clicking outside the content
+            // Close the overlay when clicking outside content
             window.onclick = (event) => {
                 if (event.target === videoOverlay) {
                     videoOverlay.style.display = 'none';
-                    videoFrame.src = '';  // Stop the video
+                    videoFrame.src = '';
                 }
             };
         }	
 
-		// Close the video overlay and restart the slide timer
+		// Close video overlay and restart slide timer
 		function closeVideoOverlay() {
 			const videoOverlay = document.getElementById('video-overlay');
 			const videoFrame = document.getElementById('trailer-video');
 
-			// Hide the overlay
+			// Hide overlay
 			videoOverlay.style.display = 'none';
 
-			// Stop the video by resetting the iframe source
+			// Reset the iframe source
 			videoFrame.src = '';
 
-			// Restart the slide change timer when the video overlay is closed
+			// Restart slide change timer when video overlay is closed
 			startSlideChangeTimer();
 		}		
 
