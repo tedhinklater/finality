@@ -3348,7 +3348,7 @@ padding-bottom: 0em;
 
 /* 4k */
 
-@media (min-width: 2570px) {
+@media (min-width: 3200px) {
 	body {
 		font-size: 200%;
 	}
