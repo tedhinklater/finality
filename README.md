@@ -136,7 +136,8 @@ And Save.
 
 9. That's it.
 
-## Changing your Jellyfin logo --> <img src="https://i.imgur.com/5d4W3M2.png" width="10%" height="10%"  /> 
+## Changing your Jellyfin logo
+<img src="https://i.imgur.com/5d4W3M2.png" width="10%" height="10%"  /> 
 
 Go into your Jellyfin server's Custom CSS and insert this (changing the obvious part):
 
