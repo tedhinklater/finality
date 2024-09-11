@@ -1,7 +1,8 @@
 # finality 
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
-Jellyfin Theme CSS (Finishing TV mode, just waiting for logo support)
+Jellyfin Theme CSS + [Featured Content Bar](https://github.com/tedhinklater/Jellyfin-Featured-Content-Bar/tree/main)
+
 
 ![g2](https://github.com/user-attachments/assets/4b636138-2e50-465f-ad7c-1c71403b4d1f)
 
