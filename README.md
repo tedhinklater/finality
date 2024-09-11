@@ -42,8 +42,6 @@ Under "Display" make sure you enable backdrops and use the Dark theme
 
 ![darkbackdrops](https://github.com/user-attachments/assets/b69b1143-22c1-48df-b8e5-5aaa1869a97f)
 
-# Optional Mods & Customization
-
 ## [Featured Content Bar](https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md#featured-content-bar-109xx) by [BobHasNoSoul](https://github.com/BobHasNoSoul) and [SethBacon](https://forum.jellyfin.org/u-sethbacon)
 
 ![feat2](https://github.com/user-attachments/assets/2a957183-5f04-4ecf-86ee-a285f6449d70)
@@ -135,27 +133,3 @@ And Save.
 8. Empty your browser's cached web content (Ctrl+F5 or empty it from your browser's Cookies and Site Data settings section)
 
 9. That's it.
-
-## Changing your Jellyfin logo
-<img src="https://i.imgur.com/5d4W3M2.png" width="10%" height="10%"  /> 
-
-Go into your Jellyfin server's Custom CSS and insert this (changing the obvious part):
-
-```css
-/*Use your own header logo*/
-.pageTitleWithDefaultLogo {
-  background-image: url(LOGO-URL-HERE);
-}
-```
-
-## Scrolling Backdrop
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/scrolling%20backdrop.css");
-
-```
-
-## ![Custom logo on login page](https://github.com/BobHasNoSoul/jellyfin-mods/blob/main/10.9.x.md#adding-your-logo-at-the-top-of-the-login-page-109x)
-
-![login logo](https://github.com/user-attachments/assets/2f102c41-0632-402f-8c65-0b15eb9bb3c9)
-
