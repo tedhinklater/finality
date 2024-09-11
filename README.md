@@ -20,9 +20,9 @@ or, import the colour version with
 
 ```
 
-<img src="https://github.com/user-attachments/assets/a44d2330-b6a0-4508-97dc-b46100e5d494" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/6fa104ce-b244-4943-bd2f-0522118e5389" width="49.5%" height="49.5%" /> 
-<img src="https://github.com/user-attachments/assets/6bba7531-bef6-4698-9e0c-6843eaa6a292" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/13ccaeef-9ed7-4396-afde-f100ad4af2bf" width="49.5%" height="49.5%" />
-<img src="https://github.com/user-attachments/assets/984a75d5-1706-48da-9f75-b3cf6ccd45b7" width="49.5%" height="49.5%" /> <img src="https://github.com/user-attachments/assets/401de20c-205f-4439-9938-b399d5462197" width="49.5%" height="49.5%" />
+<img src="https://github.com/user-attachments/assets/a44d2330-b6a0-4508-97dc-b46100e5d494" width="80%" height="80%" /> <img src="https://github.com/user-attachments/assets/6fa104ce-b244-4943-bd2f-0522118e5389" width="80%" height="80%" /> 
+<img src="https://github.com/user-attachments/assets/6bba7531-bef6-4698-9e0c-6843eaa6a292" width="80%" height="80%" /> <img src="https://github.com/user-attachments/assets/13ccaeef-9ed7-4396-afde-f100ad4af2bf" width="80%" height="80%" />
+<img src="https://github.com/user-attachments/assets/984a75d5-1706-48da-9f75-b3cf6ccd45b7" width="80%" height="80%" /> <img src="https://github.com/user-attachments/assets/401de20c-205f-4439-9938-b399d5462197" width="80%" height="80%" />
 
 Ultrawide users, import a version above, and also this fix: 
 
