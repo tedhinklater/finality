@@ -2528,6 +2528,9 @@ body {
 	opacity: 0;
 }
 
+.layout-desktop .verticalSection.verticalSection-extrabottompadding {
+display: flex;
+}
 
 /* --- Mobile View --- */
 .layout-mobile .itemBackdrop {
