@@ -2528,6 +2528,11 @@ body {
 	opacity: 0;
 }
 
+.layout-desktop #homeTab .itemsContainer.padded-left.padded-right.vertical-wrap.focuscontainer-x {
+	justify-content: center;
+	width: 100vw;
+}
+
 /* --- Mobile View --- */
 .layout-mobile .itemBackdrop {
 	display: block;
