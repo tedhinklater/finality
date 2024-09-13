@@ -3305,7 +3305,7 @@ padding-bottom: 0em;
 
 /* 768p */
 
-@media only screen and (min-width: 800px) and (max-width: 1400px) {
+@media only screen and (max-width: 1000px) {
 	body {
 		font-size: 73%;
 	}
