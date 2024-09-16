@@ -22,7 +22,7 @@ or, import the colour version with
 ```
 
 <img src="https://github.com/user-attachments/assets/0ad1c931-17c1-44f4-a60d-cfcc0968d6d3" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/063581af-2577-4063-a1cf-75d1b022f951" width="100%" height="100%" /> 
-<img src="https://github.com/user-attachments/assets/6bba7531-bef6-4698-9e0c-6843eaa6a292" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/13ccaeef-9ed7-4396-afde-f100ad4af2bf" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/73bcbe78-bab8-4781-af0e-d3c23190e020" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/13ccaeef-9ed7-4396-afde-f100ad4af2bf" width="100%" height="100%" />
 <img src="https://github.com/user-attachments/assets/984a75d5-1706-48da-9f75-b3cf6ccd45b7" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/401de20c-205f-4439-9938-b399d5462197" width="100%" height="100%" />
 
 Ultrawide users, import a version above, and also this fix: 
