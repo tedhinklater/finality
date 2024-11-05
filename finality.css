@@ -2533,6 +2533,57 @@ body {
 	width: 100vw;
 }
 
+/* --- Skip Button --- */
+
+.skip-button {
+  display: none;
+}
+
+.upNextContainer {
+  bottom: 5em;
+}
+
+#skipIntro.upNextContainer {
+  width: 8em;
+  margin: unset;
+  height: 5.5em;
+}
+
+#skipIntro {
+  position: absolute;
+  bottom: 6.2em;
+  right: 24em;
+  background-color: transparent;
+}
+
+#skipIntro.show .emby-button {
+  opacity: 1;
+  transform: translateY(0);
+  bottom: 0.8em;
+  width: 10.4em;
+  justify-content: center;
+  height: 8em;
+  border: 2px solid white;
+  border-radius: 0.5em;
+}
+
+#btnSkipSegmentText {
+  letter-spacing: 0.5px;
+  padding: 0em 5px 0px 5px;
+  text-transform: uppercase;
+}
+
+#skipIntro .emby-button:hover, #skipIntro .emby-button:focus {
+  background-color: white;
+  color: black;
+}
+
+#skipIntro .emby-button {
+  color: #ffffff;
+  font-size: 110%;
+  background: rgb(0, 0, 0);
+}
+
 /* --- Mobile View --- */
 .layout-mobile .itemBackdrop {
 	display: block;
