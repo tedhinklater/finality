@@ -1335,7 +1335,7 @@ body {
 	max-width: 8.1em;
 	position: fixed;
 	top: 50.5em;
-	left: 2.05em;
+	left: 0.75em;
 	font-family: "Cantarell";
 	text-transform: uppercase;
 	font-size: 1em;
@@ -1348,7 +1348,7 @@ body {
 @media (max-height: 61em) {
 	.layout-desktop .trackSelections {
 		top: 8em;
-		left: 32em;
+		left: 30em;
 	}
 	.layout-desktop .detail-clamp-text {
 		opacity: 0;
@@ -1370,12 +1370,20 @@ body {
 	padding-right: 1em;
 	border-radius: 0em;
 	width: 22.2em;
-	min-width: 22.2em;
+	min-width: 30em;
 	text-overflow: ellipsis;
 	padding-bottom: 0em;
 	margin-bottom: -0.5em !important;
 	margin-top: -0em !important;
-	border: transparent;
+	border: 1px solid transparent;
+	text-align: left;
+	transition: border 0.1s ease-in-out, min-width 1s ease-in-out, background 0.1s ease-in-out;
+}
+
+.layout-desktop .trackSelections .selectContainer .detailTrackSelect:hover {
+	border: 1px solid white;
+	min-width: fit-content;
+	background: #000;
 }
 
 .layout-desktop .trackSelections .selectContainer {
@@ -1387,9 +1395,13 @@ body {
 
 .layout-desktop .trackSelections .selectContainer .selectLabel {
 	justify-content: center !important;
-	display: grid;
+	display: none;
 	margin: 0 0 0 0;
 	margin-bottom: -0.5em;
+}
+
+.layout-desktop .trackSelections .selectContainer .selectArrowContainer {
+	display: none;
 }
 
 /* Seasons carousel */
@@ -1552,7 +1564,7 @@ body {
 .layout-desktop #itemDetailPage  .overflowBackdropCard, .overflowSmallBackdropCard {
 	width: 17.7em;
 	margin-bottom: -1.5em;
-	padding-right: 2.8em;
+	padding-right: 3em;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
@@ -1576,7 +1588,7 @@ body {
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
 	position: absolute;
 	bottom: 0em;
-	left: 6.35em;
+	left: 1.35em;
 	width: 20.5em;
 	z-index: 41;
 	transition: width 1s ease-in-out, width 1s ease-in-out 2s;
@@ -2085,7 +2097,6 @@ body {
 	right: 0;
 	bottom: 0;
 	z-index: -1;
-	opacity: 0.8;
 	background: #020006fa;
 	transition: opacity 0.3s;
 	border-radius: 2em;
@@ -2110,14 +2121,10 @@ body {
   padding-top: 0em;
   text-transform: unset;
   transition: filter 0.8s, opacity 0.8s;
-  filter: blur(40px);
-  opacity: 0.1;
   max-height: 4.2em;
 }
 
 .layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover {
-	filter: blur(0px);
-	opacity: 1;
 }
 
 .layout-desktop #childrenContent .secondary.listItemMediaInfo.listItemBodyText {
@@ -2466,7 +2473,7 @@ body {
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons.padded-right {
 	position: fixed;
 	font-size: 1.2em;
-	left: 4em;
+	left: 0em;
 	top: calc(100vh - 12em);
 	margin-bottom: 5em;
 	height: 0.5em;
