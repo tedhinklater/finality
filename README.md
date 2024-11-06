@@ -6,7 +6,7 @@ Also: Turn it up to 11 with the new ![Featured Content Bar](https://github.com/t
 
 Jellyfin Theme CSS
 
-![g2](https://github.com/user-attachments/assets/4b636138-2e50-465f-ad7c-1c71403b4d1f)
+![Screenshot 2024-11-06 050609](https://github.com/user-attachments/assets/765c7611-dfcf-4154-9e53-402558537b12)
 
 For the black & white version, paste this into your Custom CSS Box
 
