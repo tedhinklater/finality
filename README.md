@@ -36,7 +36,7 @@ Ultrawide users, import a version above, and also this fix:
 ```
 
 # Player 
-![Player](https://github.com/user-attachments/assets/957bbe26-eb38-4db2-a9f6-8b2311a4d943)
+![Screenshot 2024-11-07 205211](https://github.com/user-attachments/assets/d487b129-bec1-490e-9045-b976baff3868)
 
 # Mobile
 ![mobile](https://github.com/tedhinklater/finality/assets/66086488/a0fb2aec-2794-4d68-b96c-9a144844729a)
