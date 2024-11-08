@@ -25,7 +25,7 @@ or, import the colour version with
 
 <img src="https://github.com/user-attachments/assets/74c7eca4-59f8-44c0-b258-5943eff4c2cf" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/0c20b749-af43-4dad-8423-8470b987500f" width="100%" height="100%" /> 
 <img src="https://github.com/user-attachments/assets/73bcbe78-bab8-4781-af0e-d3c23190e020" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/13ccaeef-9ed7-4396-afde-f100ad4af2bf" width="100%" height="100%" />
-<img src="https://github.com/user-attachments/assets/f53a3ee7-693c-449f-8438-62c644fd52ad" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/e61899a3-ab0d-45a8-b737-23fa5e14eb1c" width="100%" height="100%" />
+<img src="https://github.com/user-attachments/assets/062fca2f-f983-4451-bf25-0f50caaa82c4" width="100%" height="100%" /> <img src="https://github.com/user-attachments/assets/813ccafb-44d2-4fc4-a36f-4eb82ee672be" width="100%" height="100%" />
 
 Ultrawide users, import a version above, and also this fix: 
 
