@@ -3451,11 +3451,11 @@ padding-bottom: 0em;
 }
 
 .osdControls .btnPreviousTrack {
-	left: 24% !important;
+	left: 19% !important;
 	filter: drop-shadow(-3px 0px 2px rgba(2, 2, 2, 0.8));
 }
 .osdControls .btnPreviousChapter {
-	left: 31.5% !important;
+	left: 29% !important;
 	filter: drop-shadow(-3px 0px 2px rgba(2, 2, 2, 0.8));
 }
 .osdControls .btnRewind {
@@ -3463,19 +3463,19 @@ padding-bottom: 0em;
 	filter: drop-shadow(-3px 0px 2px rgba(2, 2, 2, 0.8));
 }
 .osdControls .btnPause {
-	left: 47% !important;
+	left: 49% !important;
 	filter: drop-shadow(0px 0px 3px rgba(2, 2, 2, 0.8));
 }
 .osdControls .btnFastForward  {
-	left: 56% !important;
+	left: 59% !important;
 	filter: drop-shadow(3px 0px 2px rgba(2, 2, 2, 0.8));
 }
 .osdControls .btnNextChapter {
-	left: 63.5% !important;
+	left: 69% !important;
 	filter: drop-shadow(3px 0px 2px rgba(2, 2, 2, 0.8));
 }
 .osdControls .btnNextTrack {
-	left: 71% !important;
+	left: 79% !important;
 	filter: drop-shadow(3px 0px 2px rgba(2, 2, 2, 0.8));
 }
 .osdTimeText {
