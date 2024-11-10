@@ -11,8 +11,9 @@
     height: auto !important;
 }
 
-.preload, .css-fknfom, .css-4yt2of {
+.preload, .css-fknfom, .css-4yt2of, .css-139vfv2 {
   background-color: #020006;
+  background-image: none;
 }
 
 .emby-input, .emby-textarea, .collapseContent, .formDialogFooter:not(.formDialogFooter-clear), .formDialogHeader:not(.formDialogHeader-clear), .paperList, .visualCardBox {
