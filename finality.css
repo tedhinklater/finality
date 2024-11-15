@@ -353,13 +353,6 @@ progress::-webkit-progress-value {
   color: #fff;
 }
 
-/*Change Intro Skip Color*/
-#skipIntro .emby-button:hover,
-#skipIntro .emby-button:focus {
-    background-color: rgba(255, 0, 0, 0.7); /* Red color with 70% opacity */
-    transform: scale(1.05);
-}
-
 .emby-input:focus,
 .emby-textarea:focus {
     border-color: white;
@@ -2569,6 +2562,25 @@ body {
 
 #skipIntro .emby-button {
 
+}
+
+/*Change Intro Skip Color*/
+.skip-button {
+	bottom: 7.52em;
+	right: 7.5em;
+	color: #fff;
+	background: #000;
+	border: 1px solid white;
+	border-radius: 0;
+	padding: 0.5em 1em;
+	transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skip-button:hover,
+.skip-button:focus {
+	background: #fff;
+	color: #000;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* --- Mobile View --- */
