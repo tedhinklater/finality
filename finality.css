@@ -3485,3 +3485,8 @@ padding-bottom: 0em;
     background-color: #0009 !important;
   }
 }
+
+.upNextContainer {
+  background: #000;
+  z-index: 50;
+}
