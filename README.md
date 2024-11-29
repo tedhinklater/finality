@@ -2,7 +2,7 @@
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
 Also: Turn it up to 11 with the new ![Featured Content Bar](https://github.com/tedhinklater/Jellyfin-Featured-Content-Bar) 
-![feat17](https://github.com/user-attachments/assets/af916d90-ec7c-4af0-b6e8-0f6f94ef1f07)
+![fcb](https://github.com/user-attachments/assets/5d02da96-7172-45e9-aab9-33d6e4a86b43)
 
 Jellyfin Theme CSS
 
