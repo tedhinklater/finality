@@ -23,11 +23,11 @@ or, import the colour version with
 
 ```
 
-![Screenshot 2024-12-01 202859](https://github.com/user-attachments/assets/c898d3d1-f934-4a1b-88b1-a8d4c5b2b6b5)
+![Screenshot 2024-12-03 223318](https://github.com/user-attachments/assets/ed1af876-4335-4f97-8df7-041ed620d651)
 ![Screenshot 2024-11-19 110303](https://github.com/user-attachments/assets/64cfce62-44fb-40e4-b0c9-070c9f3c5f70)
 ![Screenshot 2024-11-19 110342](https://github.com/user-attachments/assets/1a1380a9-b38a-4661-b0d4-b4d9ac1ee74a)
 ![Screenshot 2024-11-19 110356](https://github.com/user-attachments/assets/b0b21dc4-8654-41af-9382-6e7885812f5e)
-![finality](https://github.com/user-attachments/assets/bb974b6b-96f3-493a-972a-7a50a17a62bb)
+![unknown_2024 12 03-22 34_1-ezgif com-optimize](https://github.com/user-attachments/assets/a855e512-de32-44f0-b81f-edb05af0c4a3)
 
 Ultrawide users, import a version above, and also this fix: 
 
