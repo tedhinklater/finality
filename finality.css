@@ -544,7 +544,13 @@ progress::-webkit-progress-value {
 }
 
 .backgroundContainer.withBackdrop {
-	background: linear-gradient(180deg, rgb(0% 0% 0% / 0.2) 0%, rgb(0% 0% 0% / 0.20009765625) 6.25%, rgb(0% 0% 0% / 0.2015625) 12.5%, rgb(0% 0% 0% / 0.20791015625) 18.75%, rgb(0% 0% 0% / 0.225) 25%, rgb(0% 0% 0% / 0.26103515625) 31.25%, rgb(0% 0% 0% / 0.3265625) 37.5%, rgb(0% 0% 0% / 0.43447265625000003) 43.75%, rgb(0% 0% 0% / 0.6000000000000001) 50%, rgb(0% 0% 0% / 0.7655273437500001) 56.25%, rgb(0% 0% 0% / 0.8734375000000001) 62.5%, rgb(0% 0% 0% / 0.93896484375) 68.75%, rgb(0% 0% 0% / 0.9750000000000001) 75%, rgb(0% 0% 0% / 0.9920898437500001) 81.25%, rgb(0% 0% 0% / 0.9984375000000001) 87.5%, rgb(0% 0% 0% / 0.9999023437500001) 93.75%, rgb(0% 0% 0%) 100% );
+	background: linear-gradient(0deg, rgb(0% 0% 0%) 0%, rgba(0, 0, 0, 0.97) 6.25%, rgba(0, 0, 0, 0.94) 12.5%, rgba(0, 0, 0, 0.91) 18.75%, rgba(0, 0, 0, 0.89) 25%, rgba(0, 0, 0, 0.87) 31.25%, rgba(0, 0, 0, 0.85) 37.5%, rgba(0, 0, 0, 0.83) 43.75%, rgba(0, 0, 0, 0.81) 50%, rgba(0, 0, 0, 0.8) 56.25%, rgba(0, 0, 0, 0.78) 62.5%, rgba(0, 0, 0, 0.77) 68.75%, rgba(0, 0, 0, 0.76) 75%, rgba(0, 0, 0, 0.76) 81.25%, rgba(0, 0, 0, 0.75) 87.5%, rgba(0, 0, 0, 0.75) 93.75%, rgba(0, 0, 0, 0.75) 100% );
+	opacity: 0.5;
+	filter: grayscale(100%);
+}
+
+.layout-mobile .backgroundContainer.withBackdrop {
+	background: linear-gradient(0deg, rgb(0% 0% 0%) 0%, rgba(0, 0, 0, 0.97) 6.25%, rgba(0, 0, 0, 0.94) 12.5%, rgba(0, 0, 0, 0.91) 18.75%, rgba(0, 0, 0, 0.89) 25%, rgba(0, 0, 0, 0.87) 31.25%, rgba(0, 0, 0, 0.85) 37.5%, rgba(0, 0, 0, 0.83) 43.75%, rgba(0, 0, 0, 0.81) 50%, rgba(0, 0, 0, 0.8) 56.25%, rgba(0, 0, 0, 0.78) 62.5%, rgba(0, 0, 0, 0.77) 68.75%, rgba(0, 0, 0, 0.76) 75%, rgba(0, 0, 0, 0.76) 81.25%, rgba(0, 0, 0, 0.75) 87.5%, rgba(0, 0, 0, 0.75) 93.75%, rgba(0, 0, 0, 0.75) 100% );
 	opacity: 1;
 	filter: grayscale(100%);
 }
@@ -719,8 +725,12 @@ progress::-webkit-progress-value {
 	font-size: 1em;
 	font-family: inherit;
 	text-transform: uppercase;
-	font-weight: 500 !important;
-	margin-left: 0.3em;
+	font-weight: 600 !important;
+}
+
+.layout-desktop [dir="ltr"] .padded-left {
+	padding-left: max(env(safe-area-inset-left),3.3%);
+	padding-right: max(env(safe-area-inset-left),3.3%);
 }
 
 /* Apply progress bar gradient */
@@ -3489,4 +3499,41 @@ padding-bottom: 0em;
 .upNextContainer {
   background: #000;
   z-index: 50;
+}
+
+.layout-desktop #homeTab .emby-scroller {
+    margin-top: 2em;
+}
+
+.layout-desktop #homeTab .emby-scroller-container {
+    justify-content: center;
+    display: flex;
+	transform: translateX(-50%);
+	left: 50vw;
+}
+
+.layout-desktop #homeTab .emby-scroller {
+	padding-left: max(env(safe-area-inset-left),3%);
+	padding-right: max(env(safe-area-inset-right),3%);
+}
+
+.layout-desktop .sectionTitleContainer-cards, .sectionTitle.sectionTitle-cards.padded-left {
+    position: absolute;
+	transform: translateX(-50%);
+	left: 50vw;
+	font-size: 1.25em;
+	font-weight: 600 !important;
+}
+
+.layout-desktop .verticalSection.section1.emby-scroller-container .sectionTitle.sectionTitle-cards.padded-left {
+	font-size: 1.25em !important;
+	top: -0.7em;
+}
+
+.sectionTitleTextButton > .material-icons {
+    display: none;
+}
+
+.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scroller {
+	padding-right: max(env(safe-area-inset-right),2.3%);
 }
