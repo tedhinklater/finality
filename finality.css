@@ -3505,22 +3505,12 @@ padding-bottom: 0em;
     margin-top: 2em;
 }
 
-.layout-desktop #homeTab .emby-scroller-container {
-    justify-content: center;
-    display: flex;
-	transform: translateX(-50%);
-	left: 50vw;
-}
-
 .layout-desktop #homeTab .emby-scroller {
 	padding-left: max(env(safe-area-inset-left),3%);
 	padding-right: max(env(safe-area-inset-right),3%);
 }
 
 .layout-desktop .sectionTitleContainer-cards, .sectionTitle.sectionTitle-cards.padded-left {
-    position: absolute;
-	transform: translateX(-50%);
-	left: 50vw;
 	font-size: 1.25em;
 	font-weight: 600 !important;
 }
