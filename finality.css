@@ -3531,6 +3531,7 @@ padding-bottom: 0em;
 	.layout-desktop .mainDetailButtons.focuscontainer-x {
 		top: 2.5em;
 		left: 26em;
+		width: 28.5em;
 	}
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
 		max-height: calc(100vh - 11.5em);
