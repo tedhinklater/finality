@@ -1300,7 +1300,6 @@ body {
 	padding-left: 3.23em;
 	opacity: 1;
 	transition: opacity 0.8s;
-	background: linear-gradient(0deg, rgb(0.784% 0% 2.353%) 0%, rgba(2, 0, 6, 0.96) 6.25%, rgba(2, 0, 6, 0.91) 12.5%, rgba(2, 0, 6, 0.87) 18.75%, rgba(2, 0, 6, 0.83) 25%, rgba(2, 0, 6, 0.78) 31.25%, rgba(2, 0, 6, 0.74) 37.5%, rgba(2, 0, 6, 0.7) 43.75%, rgba(2, 0, 6, 0.65) 50%, rgba(2, 0, 6, 0.61) 56.25%, rgba(2, 0, 6, 0.57) 62.5%, rgba(2, 0, 6, 0.52) 68.75%, rgba(2, 0, 6, 0.48) 75%, rgba(2, 0, 6, 0.44) 81.25%, rgba(2, 0, 6, 0.4) 87.5%, rgba(2, 0, 6, 0.35) 93.75%, rgba(2, 0, 6, 0.31) 100% );
 	text-align: center;
 	}
 }
@@ -3531,6 +3530,20 @@ padding-bottom: 0em;
 @media (max-height: 61em) {
 	.layout-desktop .mainDetailButtons.focuscontainer-x {
 		top: 2.5em;
+		left: 26em;
+	}
+	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
+		max-height: calc(100vh - 11.5em);
+	}
+}
+
+@media (max-width: 112em) {
+	.layout-desktop .verticalSection.detailVerticalSection.emby-scroller-container {
+		width: 67em;
+	}
+	.layout-desktop #castCollapsible .emby-scrollbuttons-button.paper-icon-button-light {
+		padding-left: 34.5em;
+		padding-right: 34.5em;
 	}
 }
 
