@@ -3527,3 +3527,17 @@ padding-bottom: 0em;
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scroller {
 	padding-right: max(env(safe-area-inset-right),2.3%);
 }
+
+@media (max-height: 61em) {
+	.layout-desktop .mainDetailButtons.focuscontainer-x {
+		top: 2.5em;
+	}
+}
+
+.skinHeader {
+	pointer-events: none;
+}
+.headerButton,
+.headerTabs.sectionTabs {
+	pointer-events: all;
+}
