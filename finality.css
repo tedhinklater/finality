@@ -1569,7 +1569,7 @@ body {
 	margin-bottom: -1.5em;
 	padding-right: 1.5em;
 	margin-top: 3.5em;
-	padding-left: 1.2em;
+	padding-left: 1.1em;
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons-button.paper-icon-button-light {
@@ -1597,11 +1597,9 @@ position: absolute;
   width: 19em;
   z-index: 41;
   transition: width 1s ease-in-out, width 1s ease-in-out 2s;
-  background: #000;
+  background: linear-gradient(0deg, rgb(0% 0% 0% / 0.98) 0%, rgb(0% 0% 0% / 0.977421875) 6.25%, rgb(0% 0% 0% / 0.9696875) 12.5%, rgb(0% 0% 0% / 0.956796875) 18.75%, rgb(0% 0% 0% / 0.93875) 25%, rgb(0% 0% 0% / 0.915546875) 31.25%, rgb(0% 0% 0% / 0.8871875) 37.5%, rgb(0% 0% 0% / 0.853671875) 43.75%, rgb(0% 0% 0% / 0.815) 50%, rgb(0% 0% 0% / 0.7711718750000001) 56.25%, rgb(0% 0% 0% / 0.7221875) 62.5%, rgb(0% 0% 0% / 0.668046875) 68.75%, rgb(0% 0% 0% / 0.60875) 75%, rgb(0% 0% 0% / 0.544296875) 81.25%, rgb(0% 0% 0% / 0.47468750000000004) 87.5%, rgb(0% 0% 0% / 0.3999218750000001) 93.75%, rgb(0% 0% 0% / 0.32000000000000006) 100% );
   padding-bottom: 0em;
   height: 15em;
-  border: 2px solid white;
-  border-radius: 5px
 }
 
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container:hover {
@@ -2003,8 +2001,8 @@ position: absolute;
 	width: 18em;
 	height: 10.125em;
 	border-radius: 1em;
-	margin-top: 0.9em;
-	margin-bottom: 0.9em;
+	margin-top: 0.76em;
+	margin-bottom: 0.76em;
 	margin-right: 0em;
 }
 
@@ -2091,7 +2089,7 @@ position: absolute;
 }
 
 .layout-desktop #childrenContent .listItem.listItem-largeImage.listItem-withContentWrapper {
-	padding: 1em;
+	padding: 0.85em;
 	padding-left: 2em;
 	padding-top: 0.8em;
 }
@@ -2481,7 +2479,7 @@ position: absolute;
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .emby-scrollbuttons.padded-right {
 	position: fixed;
 	font-size: 1.2em;
-	left: 1.5em;
+	left: 1.4em;
 	top: calc(100vh - 12.9em);
 	margin-bottom: 5em;
 	height: 0.5em;
