@@ -3535,6 +3535,9 @@ padding-bottom: 0em;
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
 		max-height: calc(100vh - 11.5em);
 	}
+	.alphaPicker-fixed {
+		bottom: max(env(safe-area-inset-bottom),0em);
+	}
 }
 
 @media (max-width: 112em) {
@@ -3545,12 +3548,19 @@ padding-bottom: 0em;
 		padding-left: 34.5em;
 		padding-right: 34.5em;
 	}
+	.layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
+		max-width: 39em;
+	}
+	.sectionTabs {
+		top: 2em !important;
+		position: absolute;
+	}
 }
 
-.skinHeader {
+.skinHeader, .tabs-viewmenubar.emby-tabs.focusable.scrollX {
 	pointer-events: none;
 }
 .headerButton,
-.headerTabs.sectionTabs {
+.emby-tab-button {
 	pointer-events: all;
 }
