@@ -1243,7 +1243,7 @@ progress::-webkit-progress-value {
 
 .detailLogo {
 	position: fixed;
-	left: 40.5em;
+	left: 33vw;
 	display: block;
 	filter: drop-shadow(15px 14px 4px rgba(2, 2, 2, 0.65));
 	width: 67.9em;
@@ -3531,7 +3531,7 @@ padding-bottom: 0em;
 	.layout-desktop .mainDetailButtons.focuscontainer-x {
 		top: 2.5em;
 		left: 26em;
-		width: 28.5em;
+		
 	}
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
 		max-height: calc(100vh - 11.5em);
@@ -3564,4 +3564,47 @@ padding-bottom: 0em;
 .headerButton,
 .emby-tab-button {
 	pointer-events: all;
+}
+
+@media (min-width: 72em) and (max-width: 90em) {
+	.layout-desktop body, .layout-desktop .detailsGroupItem.genresGroup, .layout-desktop .itemExternalLinks.focuscontainer-x, .layout-desktop .itemMiscInfo {
+		font-size: 80% !important;
+	}
+	.layout-desktop #castCollapsible .cardText-first {
+		font-size: 95%;
+	}
+	.layout-desktop .detailsGroupItem.genresGroup {
+		font-size: 100% !important;
+	}
+	.layout-desktop .itemMiscInfo {
+		font-size: 120% !important;
+	}
+	.layout-desktop .detailLogo {
+		left: 25vw;
+	}
+}
+
+@media (max-width: 72em) {
+	.layout-desktop body, .layout-desktop .itemExternalLinks.focuscontainer-x {
+		font-size: 60% !important;
+	}
+	.layout-desktop .detailsGroupItem.genresGroup {
+		font-size: 80% !important;
+		top: 4.5em !important;
+	}
+	.layout-desktop #castCollapsible .cardText-first {
+		font-size: 95% !important;
+	}
+	.layout-desktop .itemMiscInfo {
+		font-size: 120% !important;
+	}
+	.layout-desktop .detailLogo {
+		left: 25vw;
+	}
+}
+
+@media (max-width: 1000px) {
+	.layout-desktop .detailsGroupItem.genresGroup, .layout-desktop .itemExternalLinks.focuscontainer-x {
+		font-size: 120% !important;
+	}
 }
