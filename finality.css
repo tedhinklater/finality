@@ -3528,7 +3528,8 @@ padding-bottom: 0em;
 @media (max-height: 61em) {
 	.layout-desktop .mainDetailButtons.focuscontainer-x {
 		top: 2.5em;
-		left: 26em;
+		left: 38em;
+		width: 30em;
 		
 	}
 	.layout-desktop #similarCollapsible .scrollSlider.focuscontainer-x.itemsContainer.similarContent.animatedScrollX {
