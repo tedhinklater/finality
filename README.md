@@ -6,7 +6,7 @@ Also: Turn it up to 11 with the new ![Featured Content Bar](https://github.com/t
 
 Jellyfin Theme CSS
 
-![Screenshot 2024-11-19 111010](https://github.com/user-attachments/assets/b15bcd89-a2db-4fca-ab93-f294699c4f8f)
+![Screenshot 2024-12-11 065023](https://github.com/user-attachments/assets/2028e8be-0190-47c8-804e-4ea2fd4c1a2c)
 
 For the black & white version, paste this into your Custom CSS Box
 
@@ -23,11 +23,11 @@ or, import the colour version with
 
 ```
 
-![Screenshot 2024-12-08 114257](https://github.com/user-attachments/assets/8994422c-7bc3-4b72-b725-da73bfa2712a)
+![Screenshot 2024-12-11 064413](https://github.com/user-attachments/assets/657fb2df-40dd-42ee-b4d1-5b1691010b4d)
 ![Screenshot 2024-11-19 110303](https://github.com/user-attachments/assets/64cfce62-44fb-40e4-b0c9-070c9f3c5f70)
-![Screenshot 2024-11-19 110342](https://github.com/user-attachments/assets/1a1380a9-b38a-4661-b0d4-b4d9ac1ee74a)
-![Screenshot 2024-11-19 110356](https://github.com/user-attachments/assets/b0b21dc4-8654-41af-9382-6e7885812f5e)
-![unknown_2024 12 03-22 34_1-ezgif com-optimize](https://github.com/user-attachments/assets/a855e512-de32-44f0-b81f-edb05af0c4a3)
+![Screenshot 2024-12-11 065050](https://github.com/user-attachments/assets/957fed52-2749-46f5-bd7c-8d75565d52f2)
+![Screenshot 2024-12-11 065111](https://github.com/user-attachments/assets/ea9bb7a6-b5ba-4149-af46-3e34aeafdd2c)
+![unknown_2024 12 11-06 55_1-ezgif com-optimize](https://github.com/user-attachments/assets/f44c3480-e50f-49ad-98f9-25a566ad12f3)
 
 Ultrawide users, import a version above, and also this fix: 
 
