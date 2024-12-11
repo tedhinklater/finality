@@ -1074,7 +1074,7 @@ progress::-webkit-progress-value {
 .layout-desktop .mainDetailButtons.focuscontainer-x {
 	position: fixed;
 	top: 35.5em;
-	left: 35.8em;
+	left: 35.5em;
 	z-index: 50;
 	width: 36.5em;
 	justify-content: space-between;
@@ -1271,7 +1271,7 @@ progress::-webkit-progress-value {
 	margin-top: -0.1em;
 	position: absolute;
 	top: -5em;
-	left: 0em;
+	left: -1.5em;
 	width: 68vw !important;
 	text-align: center;
 }
