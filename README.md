@@ -4,7 +4,9 @@
 Also: Turn it up to 11 with the new ![Featured Content Bar](https://github.com/tedhinklater/Jellyfin-Featured-Content-Bar) 
 ![fcb](https://github.com/user-attachments/assets/cc67f2b1-7067-44c9-b789-6b1b420d50f2)
 
-Jellyfin Theme CSS
+# This theme is optimized for Fullscreen! 
+The main goal was to have everything on one screen without having to scroll up/down.
+Care has been taken to make it work in windowed mode, but it's mainly for fullscreen view.
 
 ![Screenshot 2024-12-11 065023](https://github.com/user-attachments/assets/2028e8be-0190-47c8-804e-4ea2fd4c1a2c)
 
