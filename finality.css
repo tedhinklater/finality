@@ -1243,7 +1243,7 @@ progress::-webkit-progress-value {
 
 .detailLogo {
 	position: fixed;
-	left: 33vw;
+	left: 31.25vw;
 	display: block;
 	filter: drop-shadow(15px 14px 4px rgba(2, 2, 2, 0.65));
 	width: 67.9em;
@@ -1271,7 +1271,7 @@ progress::-webkit-progress-value {
 	margin-top: -0.1em;
 	position: absolute;
 	top: -5em;
-	left: -1.2em;
+	left: 0em;
 	width: 68vw !important;
 	text-align: center;
 }
@@ -1596,15 +1596,15 @@ position: absolute;
   left: 2em;
   width: 19em;
   z-index: 41;
-  transition: width 1s ease-in-out, width 1s ease-in-out 2s;
-  background: linear-gradient(0deg, rgb(0% 0% 0% / 0.98) 0%, rgb(0% 0% 0% / 0.977421875) 6.25%, rgb(0% 0% 0% / 0.9696875) 12.5%, rgb(0% 0% 0% / 0.956796875) 18.75%, rgb(0% 0% 0% / 0.93875) 25%, rgb(0% 0% 0% / 0.915546875) 31.25%, rgb(0% 0% 0% / 0.8871875) 37.5%, rgb(0% 0% 0% / 0.853671875) 43.75%, rgb(0% 0% 0% / 0.815) 50%, rgb(0% 0% 0% / 0.7711718750000001) 56.25%, rgb(0% 0% 0% / 0.7221875) 62.5%, rgb(0% 0% 0% / 0.668046875) 68.75%, rgb(0% 0% 0% / 0.60875) 75%, rgb(0% 0% 0% / 0.544296875) 81.25%, rgb(0% 0% 0% / 0.47468750000000004) 87.5%, rgb(0% 0% 0% / 0.3999218750000001) 93.75%, rgb(0% 0% 0% / 0.32000000000000006) 100% );
+  transition: width 1s ease-in-out 0.3s, background 1s ease-in-out 2s;
   padding-bottom: 0em;
   height: 15em;
 }
 
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container:hover {
 	width: 97vw;
-	transition: width 1s ease-in-out;
+	transition: width 1s ease-in-out 0.3s, background 1s ease-in-out 2s;
+	background: linear-gradient(0deg, rgb(0% 0% 0% / 0.98) 0%, rgb(0% 0% 0% / 0.977421875) 6.25%, rgb(0% 0% 0% / 0.9696875) 12.5%, rgb(0% 0% 0% / 0.956796875) 18.75%, rgb(0% 0% 0% / 0.93875) 25%, rgb(0% 0% 0% / 0.915546875) 31.25%, rgb(0% 0% 0% / 0.8871875) 37.5%, rgb(0% 0% 0% / 0.853671875) 43.75%, rgb(0% 0% 0% / 0.815) 50%, rgb(0% 0% 0% / 0.7711718750000001) 56.25%, rgb(0% 0% 0% / 0.7221875) 62.5%, rgb(0% 0% 0% / 0.668046875) 68.75%, rgb(0% 0% 0% / 0.60875) 75%, rgb(0% 0% 0% / 0.544296875) 81.25%, rgb(0% 0% 0% / 0.47468750000000004) 87.5%, rgb(0% 0% 0% / 0.3999218750000001) 93.75%, rgb(0% 0% 0% / 0.32000000000000006) 100% );
 }
 
 .layout-desktop #itemDetailPage .emby-scrollbuttons {
@@ -3528,7 +3528,7 @@ padding-bottom: 0em;
 @media (max-height: 61em) {
 	.layout-desktop .mainDetailButtons.focuscontainer-x {
 		top: 2.5em;
-		left: 38em;
+		left: 41vw;
 		width: 30em;
 		
 	}
@@ -3606,4 +3606,12 @@ padding-bottom: 0em;
 	.layout-desktop .detailsGroupItem.genresGroup, .layout-desktop .itemExternalLinks.focuscontainer-x {
 		font-size: 120% !important;
 	}
+}
+
+.mainDetailButtons.focuscontainer-x .button-flat {
+background: linear-gradient(0deg, rgb(99.608% 36.471% 36.471% / 0.38) 0%, rgb(99.655% 32.054% 32.054% / 0.382421875) 6.25%, rgb(99.7% 27.923% 27.923% / 0.3846875) 12.5%, rgb(99.741% 24.076% 24.076% / 0.386796875) 18.75%, rgb(99.779% 20.515% 20.515% / 0.38875000000000004) 25%, rgb(99.815% 17.238% 17.238% / 0.390546875) 31.25%, rgb(99.847% 14.246% 14.246% / 0.3921875) 37.5%, rgb(99.876% 11.54% 11.54% / 0.393671875) 43.75%, rgb(99.902% 9.118% 9.118% / 0.395) 50%, rgb(99.925% 6.981% 6.981% / 0.396171875) 56.25%, rgb(99.945% 5.129% 5.129% / 0.3971875) 62.5%, rgb(99.962% 3.562% 3.562% / 0.398046875) 68.75%, rgb(99.975% 2.279% 2.279% / 0.39875000000000005) 75%, rgb(99.986% 1.282% 1.282% / 0.399296875) 81.25%, rgb(99.994% 0.57% 0.57% / 0.39968750000000003) 87.5%, rgb(99.998% 0.142% 0.142% / 0.39992187500000004) 93.75%, rgb(100% 0% 0% / 0.4) 100% );
+  height: 2em;
+  color: #fff;
+  width: 2.5em;
+  font-size: 1.15em;
 }
