@@ -549,6 +549,10 @@ progress::-webkit-progress-value {
 	filter: grayscale(100%);
 }
 
+.layout-tv .backgroundContainer.withBackdrop {
+	opacity: 1;
+}
+
 .layout-mobile .backgroundContainer.withBackdrop {
 	background: linear-gradient(0deg, rgb(0% 0% 0%) 0%, rgba(0, 0, 0, 0.97) 6.25%, rgba(0, 0, 0, 0.94) 12.5%, rgba(0, 0, 0, 0.91) 18.75%, rgba(0, 0, 0, 0.89) 25%, rgba(0, 0, 0, 0.87) 31.25%, rgba(0, 0, 0, 0.85) 37.5%, rgba(0, 0, 0, 0.83) 43.75%, rgba(0, 0, 0, 0.81) 50%, rgba(0, 0, 0, 0.8) 56.25%, rgba(0, 0, 0, 0.78) 62.5%, rgba(0, 0, 0, 0.77) 68.75%, rgba(0, 0, 0, 0.76) 75%, rgba(0, 0, 0, 0.76) 81.25%, rgba(0, 0, 0, 0.75) 87.5%, rgba(0, 0, 0, 0.75) 93.75%, rgba(0, 0, 0, 0.75) 100% );
 	opacity: 1;
