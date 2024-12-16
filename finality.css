@@ -3018,9 +3018,21 @@ position: absolute;
 		max-width: 39em;
 	}
 	.sectionTabs {
-		top: 2em !important;
+		top: 5em !important;
 		position: absolute;
 	}
+}
+
+@media (max-width: 100em) {
+  .sectionTabs {
+    top: 1em !important;
+  }
+}
+
+@media (max-width: 63em) {
+  .sectionTabs {
+    top: 2em !important;
+  }
 }
 
 .skinHeader, .tabs-viewmenubar.emby-tabs.focusable.scrollX {
