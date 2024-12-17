@@ -1256,7 +1256,7 @@ progress::-webkit-progress-value {
 
 .detailLogo {
 	position: fixed;
-	left: 31.25vw;
+	left: 32.25vw;
 	display: block;
 	filter: drop-shadow(15px 14px 4px rgba(2, 2, 2, 0.65));
 	width: 67.9em;
@@ -1996,6 +1996,25 @@ position: absolute;
 	margin-bottom: 1em;
 }
 
+.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list::before {
+	content: "";
+	position: fixed;
+	top: 8em;
+	left: 30em;
+	width: calc(100vw - 37.5em);
+	bottom: 0;
+	z-index: -1;
+	background: linear-gradient(0deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0% / 0.9915455233774214) 6.25%, rgb(0% 0% 0% / 0.9665069943049661) 12.5%, rgb(0% 0% 0% / 0.9258466294131199) 18.75%, rgb(0% 0% 0% / 0.871126983722081) 25%, rgb(0% 0% 0% / 0.8044509025286251) 31.25%, rgb(0% 0% 0% / 0.7283807102406396) 37.5%, rgb(0% 0% 0% / 0.6458397416870965) 43.75%, rgb(0% 0% 0% / 0.56) 50%, rgb(0% 0% 0% / 0.47416025831290354) 56.25%, rgb(0% 0% 0% / 0.39161928975936056) 62.5%, rgb(0% 0% 0% / 0.31554909747137516) 68.75%, rgb(0% 0% 0% / 0.24887301627791913) 75%, rgb(0% 0% 0% / 0.1941533705868801) 81.25%, rgb(0% 0% 0% / 0.15349300569503388) 87.5%, rgb(0% 0% 0% / 0.12845447662257858) 93.75%, rgb(0% 0% 0% / 0.12) 100%);
+	transition: opacity 0.3s;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list:hover::before {
+	opacity: 1;
+}
+
+
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 	position: absolute;
 	top: 8em;
@@ -2008,15 +2027,28 @@ position: absolute;
 	padding-right: 1em;
 	max-width: calc(100vw - 29.3em);
 	scroll-snap-type: y mandatory;
+	transition: max-height 0.3s 0.3s;
+}
+
+.layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list:hover {
+	max-height: calc(100vh - 8em);
+	z-index: 50;
 }
 
 .layout-desktop #childrenContent .listItemImage-large {
-	width: 18em;
-	height: 10.125em;
-	border-radius: 1em;
-	margin-top: 0.76em;
+	width: 10.1em;
+	height: 5.5em;
+	border-radius: 0.2em;
+	margin-top: -1em;
 	margin-bottom: 0.76em;
 	margin-right: 0em;
+}
+
+.layout-desktop #childrenContent .listItemBody.itemAction .listItemBodyText {
+	margin-top:1em;
+	margin-bottom: -1em;
+	font-weight: 600;
+	color: #fff;
 }
 
 .listItem:hover {
@@ -2065,11 +2097,11 @@ position: absolute;
 }
 
 .layout-desktop #childrenContent .listItemBodyText {
-	background: #0200061a;
 	width: max-content;
 	border-radius: 0.5em;
 	padding: 0.5em;
 	margin: 0.25em;
+	filter: drop-shadow(1px 2px 0.5px rgb(2, 2, 2)) !important;
 }
 
 .layout-desktop #childrenContent .listItem-overview {
@@ -2098,31 +2130,34 @@ position: absolute;
 
 
 .layout-desktop #childrenContent .listItemBody {
-	padding-left: 0em;
+	padding: 0em;
+	margin-top: -1.2em
 }
 
 .layout-desktop #childrenContent .listItem.listItem-largeImage.listItem-withContentWrapper {
-	padding: 0.85em;
+	padding: 0em;
 	padding-left: 2em;
-	padding-top: 0.8em;
+  padding-top: 0.8em;
+  height: 7.2em;
 }
-
 
 #childrenContent .listItem::before {
 	content: "";
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: -1;
-	background: #020006fa;
-	transition: opacity 0.3s;
-	border-radius: 2em;
+	background: linear-gradient(90deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0% / 0.999986572265625) 6.25%, rgb(0% 0% 0% / 0.99978515625) 12.5%, rgb(0% 0% 0% / 0.998912353515625) 18.75%, rgb(0% 0% 0% / 0.9965625) 25%, rgb(0% 0% 0% / 0.991607666015625) 31.25%, rgb(0% 0% 0% / 0.98259765625) 37.5%, rgb(0% 0% 0% / 0.967760009765625) 43.75%, rgb(0% 0% 0% / 0.945) 50%, rgb(0% 0% 0% / 0.911900634765625) 56.25%, rgb(0% 0% 0% / 0.86572265625) 62.5%, rgb(0% 0% 0% / 0.803404541015625) 68.75%, rgb(0% 0% 0% / 0.7215625) 75%, rgb(0% 0% 0% / 0.616490478515625) 81.25%, rgb(0% 0% 0% / 0.48416015625) 87.5%, rgb(0% 0% 0% / 0.320220947265625) 93.75%, rgb(0% 0% 0% / 0.12) 100% );
+	transition: opacity 0.7s;
+	background-size: cover;
+	opacity: 0.75;
 }
 
 #childrenContent .listItem:hover::before {
 	opacity: 1;
+	filter: drop-shadow(1px 2px 5px rgba(141, 141, 141, 0.5)) !important;
 }
 
 
@@ -2134,13 +2169,15 @@ position: absolute;
 .layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3; /* Number of lines */
+  -webkit-line-clamp: 1; /* Number of lines */
   -webkit-box-orient: vertical;
   max-width: 60em;
   padding-top: 0em;
   text-transform: unset;
   transition: filter 0.8s, opacity 0.8s;
-  max-height: 4.2em;
+  height: 5em;
+  margin-top: 0.55em;
+  font-weight: 500;
 }
 
 .layout-desktop #childrenContent .listItemBodyText.secondary.listItem-overview.listItemBodyText:hover {
@@ -2148,6 +2185,7 @@ position: absolute;
 
 .layout-desktop #childrenContent .secondary.listItemMediaInfo.listItemBodyText {
   text-transform: unset;
+  font-weight: 500;
 }
 
 .layout-desktop #childrenContent .listItem-indexnumberleft {
