@@ -8,7 +8,7 @@ Also: Turn it up to 11 with the new ![Featured Content Bar](https://github.com/t
 The main goal was to have everything on one screen without having to scroll up/down.
 Care has been taken to make it work in windowed mode, but it's mainly for fullscreen view.
 
-![Screenshot 2024-12-11 065023](https://github.com/user-attachments/assets/2028e8be-0190-47c8-804e-4ea2fd4c1a2c)
+![Screenshot 2024-12-17 014021](https://github.com/user-attachments/assets/79dba0ac-f7eb-4078-8bd6-4ead7a47ab26)
 
 For the black & white version, paste this into your Custom CSS Box
 
