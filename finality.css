@@ -326,10 +326,21 @@ progress::-webkit-progress-value {
     color: #dc0000;
 }
 
+.layout-desktop .alphaPickerRow-vertical {
+  height: calc(100vh - 33em);
+}
+
 .alphaPickerButton {
   color: rgba(255, 255, 255, 0.5);
   background-color: transparent;
   margin-bottom: 0.21em;
+  height: 3vh;
+  width: 3vw;
+  transition: color 0.1s ease;
+}
+
+.alphaPickerButton:hover {
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .alphaPickerButton-selected {
@@ -995,7 +1006,8 @@ progress::-webkit-progress-value {
 
 .layout-desktop .alphaPicker-fixed-right {
 	right: 1em;
-	right: max(env(safe-area-inset-right),1em) !important;
+	right: max(env(safe-area-inset-right),3vw) !important;
+	top: 20em;
   }
  
  /* Top padding */
@@ -1350,8 +1362,8 @@ body {
 	width: auto;
 	max-width: 8.1em;
 	position: fixed;
-	top: 50.5em;
-	left: 0.75em;
+	top: 8em;
+	left: 30em;
 	font-family: "Cantarell";
 	text-transform: uppercase;
 	font-size: 1em;
@@ -1363,8 +1375,6 @@ body {
 
 @media (max-height: 61em) {
 	.layout-desktop .trackSelections {
-		top: 8em;
-		left: 30em;
 	}
 	.layout-desktop .detail-clamp-text {
 		opacity: 0;
@@ -1615,7 +1625,7 @@ position: absolute;
 }
 
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container:hover {
-	width: 97vw;
+	width: 99vw;
 	transition: width 1s ease-in-out 0.3s, background 1s ease-in-out 2s;
 	background: linear-gradient(0deg, rgb(0% 0% 0% / 0.98) 0%, rgb(0% 0% 0% / 0.977421875) 6.25%, rgb(0% 0% 0% / 0.9696875) 12.5%, rgb(0% 0% 0% / 0.956796875) 18.75%, rgb(0% 0% 0% / 0.93875) 25%, rgb(0% 0% 0% / 0.915546875) 31.25%, rgb(0% 0% 0% / 0.8871875) 37.5%, rgb(0% 0% 0% / 0.853671875) 43.75%, rgb(0% 0% 0% / 0.815) 50%, rgb(0% 0% 0% / 0.7711718750000001) 56.25%, rgb(0% 0% 0% / 0.7221875) 62.5%, rgb(0% 0% 0% / 0.668046875) 68.75%, rgb(0% 0% 0% / 0.60875) 75%, rgb(0% 0% 0% / 0.544296875) 81.25%, rgb(0% 0% 0% / 0.47468750000000004) 87.5%, rgb(0% 0% 0% / 0.3999218750000001) 93.75%, rgb(0% 0% 0% / 0.32000000000000006) 100% );
 }
