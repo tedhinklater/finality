@@ -26,7 +26,7 @@ or, import the colour version with
 ```
 
 ![Screenshot 2024-12-11 064413](https://github.com/user-attachments/assets/657fb2df-40dd-42ee-b4d1-5b1691010b4d)
-![Screenshot 2024-11-19 110303](https://github.com/user-attachments/assets/64cfce62-44fb-40e4-b0c9-070c9f3c5f70)
+![Screenshot 2024-11-19 110303](https://i.imgur.com/S5Pgjip.png)
 ![Screenshot 2024-12-11 065050](https://github.com/user-attachments/assets/957fed52-2749-46f5-bd7c-8d75565d52f2)
 ![finality episodes](https://github.com/user-attachments/assets/139e219c-a431-467f-b393-184cf7e045d8)
 ![unknown_2024 12 11-06 55_1-ezgif com-optimize](https://github.com/user-attachments/assets/f44c3480-e50f-49ad-98f9-25a566ad12f3)
