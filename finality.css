@@ -326,10 +326,6 @@ progress::-webkit-progress-value {
     color: #dc0000;
 }
 
-.layout-desktop .alphaPickerRow-vertical {
-  height: calc(100vh - 33em);
-}
-
 .alphaPickerButton {
   color: rgba(255, 255, 255, 0.5);
   background-color: transparent;
@@ -1005,9 +1001,8 @@ progress::-webkit-progress-value {
   }
 
 .layout-desktop .alphaPicker-fixed-right {
-	right: 1em;
-	right: max(env(safe-area-inset-right),3vw) !important;
-	top: 20em;
+	right: max(env(safe-area-inset-right),1.5vw) !important;
+	top: 8em;
   }
  
  /* Top padding */
@@ -2003,7 +1998,7 @@ position: absolute;
 	content: "";
 	position: fixed;
 	top: 8em;
-	left: 30em;
+	left: 29.35em;
 	width: calc(100vw - 37.5em);
 	bottom: 0;
 	z-index: -1;
