@@ -1225,20 +1225,14 @@ progress::-webkit-progress-value {
 /* Title */
 
 .layout-desktop .itemName.parentNameLast {
-	top: -0.6843em !important;
+	top: 6.256em !important;
 	position: absolute;
-	font-size: 10em;
+	font-size: 1.2em;
 	text-transform: uppercase;
-	right: auto;
-	left: 3.05em;
-	width: 72.6%;
+	right: unset;
+	left: 8.95em;
+	width: 19.5em;
 	overflow: hidden;
-	white-space: normal;
-	line-height: 0.83em;
-	max-height: 4em;
-	display: -webkit-box;
-	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 4;
 	text-overflow: ellipsis;
 	font-family: inherit;
 	font-weight: 700 !important;
@@ -1280,7 +1274,6 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop .itemName.parentNameLast {
-	display: none;
 }
 
 /* Hide Tags */
