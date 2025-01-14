@@ -2,7 +2,7 @@
 768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
 
 Also: Turn it up to 11 with the new ![Featured Content Bar](https://github.com/tedhinklater/Jellyfin-Featured-Content-Bar) 
-![fcb](https://github.com/user-attachments/assets/cc67f2b1-7067-44c9-b789-6b1b420d50f2)
+![bar](https://github.com/user-attachments/assets/f2c45f47-3530-4525-9f89-fe4e96c7676f)
 
 # This theme is optimized for Fullscreen! 
 The main goal was to have everything on one screen without having to scroll up/down.
