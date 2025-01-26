@@ -2674,6 +2674,16 @@ position: absolute;
   max-width: 21vw !important;
   }
 }
+@media (orientation: portrait) and (max-width: 799px) {
+.layout-mobile .card.overflowBackdropCard.card-withuserdata {
+  max-width: 42vw !important;
+  }
+}
+@media (orientation: portrait) and (min-width: 800px) {
+.layout-mobile .card.overflowBackdropCard.card-withuserdata {
+  max-width: 21vw !important;
+  }
+}
 .backgroundContainer {
 	background-color: transparent;
 }
