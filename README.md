@@ -6,7 +6,7 @@ Also: Turn it up to 11 with the new ![Featured Content Bar](https://github.com/t
 
 # This theme is optimized for Fullscreen! 
 The main goal was to have everything on one screen without having to scroll up/down.
-Care has been taken to make it work in windowed mode, but it's mainly for fullscreen view.
+Care has been taken to make it work in windowed mode, but it's mainly for fullscreen view (press ```F11```)
 
 ![Screenshot 2024-12-17 014557](https://github.com/user-attachments/assets/827ef13c-fa97-494c-9a02-11530907659d)
 
