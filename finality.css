@@ -2403,6 +2403,11 @@ position: absolute;
   height: 39em; /* Set expanded height */
   transition: none; /* Disable transitions */
   z-index: 50;
+  border: none; /* Remove any borders */
+  background: none; /* Remove any background */
+  margin: 0; /* Remove any margins */
+  padding: 0; /* Remove any padding */
+  box-shadow: none; /* Remove any shadows */
 }
 
 /* Hide scrollbars for all browsers */
@@ -3118,4 +3123,16 @@ background: linear-gradient(0deg, rgb(99.608% 36.471% 36.471% / 0.38) 0%, rgb(99
   color: #fff;
   width: 2.5em;
   font-size: 1.15em;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent any scrollable overflow */
+}
+
+.layout-desktop {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent any scrollable overflow */
 }
