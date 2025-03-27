@@ -13,7 +13,7 @@ Care has been taken to make it work in windowed mode, but it's mainly for fullsc
 For the black & white version, paste this into your Custom CSS Box
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/finality.css");
+@import url("https://cdn.jsdelivr.net/gh/Jeffrey214/finality-modified@main/finality.css");
 
 ```
 
@@ -21,7 +21,7 @@ or, import the colour version with
 
 ```css
 
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/Finality-Coloured.css");
+@import url("https://cdn.jsdelivr.net/gh/Jeffrey214/finality-modified@main/Finality-Coloured.css");
 
 ```
 
@@ -35,7 +35,7 @@ Ultrawide users, import a version above, and also this fix:
 
 ```css
 
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/UltrawideFix.css");
+@import url("https://cdn.jsdelivr.net/gh/Jeffrey214/finality-modified@main/UltrawideFix.css");
 
 ```
 

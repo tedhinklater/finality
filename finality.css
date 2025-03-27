@@ -2411,7 +2411,7 @@ position: absolute;
   top: 8.2em;
   flex-direction: column;
   width: 84.2em !important; /* Set expanded width */
-  overflow: scroll; /* Allow scrolling */
+  overflow: hidden; /* Hide scrollbars */
   left: 29em;
   height: 39em; /* Set expanded height */
   transition: none; /* Disable transitions */
