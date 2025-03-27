@@ -2410,25 +2410,12 @@ position: absolute;
   display: inline-flex;
   top: 8.2em;
   flex-direction: column;
-  width: 13.2em !important;
-  overflow: hidden;
+  width: 84.2em !important; /* Set expanded width */
+  overflow: scroll; /* Allow scrolling */
   left: 29em;
-  height: 16em;
-  transition: width 0.64s ease-in-out, height 0.64s ease-in-out;
+  height: 39em; /* Set expanded height */
+  transition: none; /* Disable transitions */
   z-index: 50;
-  transition-delay: 2s;
-}
-
-.layout-desktop .collectionItems:hover {
-	position: absolute;
-	display: inline-flex;
-	top: 8.2em;
-	flex-direction: column;
-	width: 84.2em !important;
-	overflow: scroll;
-	left: 29em;
-	height: 39em;
-	transition: width 0.64s ease-in-out;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right {
