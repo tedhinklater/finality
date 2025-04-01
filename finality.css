@@ -1159,6 +1159,10 @@ progress::-webkit-progress-value {
   }
 }
 
+
+
+
+
 .layout-desktop .detailButton-icon.play_arrow {
 
 }
@@ -1170,6 +1174,7 @@ progress::-webkit-progress-value {
 .layout-desktop .detailButton .detailButton-icon.play_arrow::before {
 
 }
+
 
 .layout-desktop .mainDetailButtons:hover .detailButton-icon.play_arrow::before {
     
@@ -1326,6 +1331,7 @@ body {
 	transition: opacity 0.3s;
 	background-color: #c20000bf;
 }
+
 
 .layout-desktop .overview-controls {
 	display: -webkit-flex;
@@ -2006,6 +2012,7 @@ position: absolute;
 	opacity: 1;
 }
 
+
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 	position: absolute;
 	top: 8em;
@@ -2113,9 +2120,12 @@ position: absolute;
 
 }
 
+
+
 .layout-desktop #childrenContent .listItemImage {
 
 }
+
 
 .layout-desktop #childrenContent .listItemBody {
 	padding: 0em;
@@ -2147,6 +2157,7 @@ position: absolute;
 	opacity: 1;
 	filter: drop-shadow(1px 2px 5px rgba(141, 141, 141, 0.5)) !important;
 }
+
 
 .layout-desktop #childrenContent .listItemBodyText {
 	line-height: 1.2em;
@@ -2188,6 +2199,7 @@ position: absolute;
 .listItem:hover {
 
 }
+
 
 #childrenContent .listItem {
 
@@ -2387,6 +2399,7 @@ position: absolute;
   flex-direction: row;
 }
 
+
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .cardText.cardTextCentered.cardText-first {
 	font-size: 88%;
 	white-space: normal;
@@ -2397,27 +2410,13 @@ position: absolute;
   display: inline-flex;
   top: 8.2em;
   flex-direction: column;
-  width: 84.2em !important; /* Set expanded width */
-  overflow: hidden; /* Hide scrollbars */
+  width: 13.2em !important;
+  overflow: hidden;
   left: 29em;
-  height: 39em; /* Set expanded height */
-  transition: none; /* Disable transitions */
+  height: 16em;
+  transition: width 0.64s ease-in-out, height 0.64s ease-in-out;
   z-index: 50;
-  border: none; /* Remove any borders */
-  background: none; /* Remove any background */
-  margin: 0; /* Remove any margins */
-  padding: 0; /* Remove any padding */
-  box-shadow: none; /* Remove any shadows */
-}
-
-/* Hide scrollbars for all browsers */
-.layout-desktop .collectionItems::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari, and Edge */
-}
-
-.layout-desktop .collectionItems {
-  -ms-overflow-style: none; /* For Internet Explorer and Edge */
-  scrollbar-width: none; /* For Firefox */
+  transition-delay: 2s;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right {
@@ -2717,6 +2716,7 @@ position: absolute;
 	}
 }
 
+
 .layout-mobile #itemDetailPage .itemName.infoText.parentNameLast {
   display: none;
   font-family: inherit;
@@ -2773,6 +2773,8 @@ position: absolute;
 	display: flex;
 	margin-left: 1.2em;
 }
+
+
 
 @media (orientation: landscape) {
 	.layout-mobile .detailRibbon {
@@ -2867,6 +2869,7 @@ position: absolute;
 		justify-content: center;
     }
 }
+
 
 /* 768p */
 
@@ -3123,16 +3126,4 @@ background: linear-gradient(0deg, rgb(99.608% 36.471% 36.471% / 0.38) 0%, rgb(99
   color: #fff;
   width: 2.5em;
   font-size: 1.15em;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden; /* Prevent any scrollable overflow */
-}
-
-.layout-desktop {
-  margin: 0;
-  padding: 0;
-  overflow: hidden; /* Prevent any scrollable overflow */
 }
