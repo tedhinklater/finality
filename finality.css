@@ -2002,7 +2002,7 @@ position: absolute;
 	width: calc(100vw - 37.5em);
 	bottom: 0;
 	z-index: -1;
-	background: linear-gradient(90deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0% / 0.999986572265625) 6.25%, rgb(0% 0% 0% / 0.99978515625) 12.5%, rgb(0% 0% 0% / 0.998912353515625) 18.75%, rgb(0% 0% 0% / 0.9965625) 25%, rgb(0% 0% 0% / 0.991607666015625) 31.25%, rgb(0% 0% 0% / 0.98259765625) 37.5%, rgb(0% 0% 0% / 0.967760009765625) 43.75%, rgb(0% 0% 0% / 0.945) 50%, rgb(0% 0% 0% / 0.911900634765625) 56.25%, rgb(0% 0% 0% / 0.86572265625) 62.5%, rgb(0% 0% 0% / 0.803404541015625) 68.75%, rgb(0% 0% 0% / 0.7215625) 75%, rgb(0% 0% 0% / 0.616490478515625) 81.25%, rgb(0% 0% 0% / 0.48416015625) 87.5%, rgb(0% 0% 0% / 0.320220947265625) 93.75%, rgb(0% 0% 0% / 0.12) 100%);
+	background: linear-gradient(0deg, rgb(0% 0% 0%) 0%, rgb(0% 0% 0% / 0.9915455233774214) 6.25%, rgb(0% 0% 0% / 0.9665069943049661) 12.5%, rgb(0% 0% 0% / 0.9258466294131199) 18.75%, rgb(0% 0% 0% / 0.871126983722081) 25%, rgb(0% 0% 0% / 0.8044509025286251) 31.25%, rgb(0% 0% 0% / 0.7283807102406396) 37.5%, rgb(0% 0% 0% / 0.6458397416870965) 43.75%, rgb(0% 0% 0% / 0.56) 50%, rgb(0% 0% 0% / 0.47416025831290354) 56.25%, rgb(0% 0% 0% / 0.39161928975936056) 62.5%, rgb(0% 0% 0% / 0.31554909747137516) 68.75%, rgb(0% 0% 0% / 0.24887301627791913) 75%, rgb(0% 0% 0% / 0.1941533705868801) 81.25%, rgb(0% 0% 0% / 0.15349300569503388) 87.5%, rgb(0% 0% 0% / 0.12845447662257858) 93.75%, rgb(0% 0% 0% / 0.12) 100%);
 	transition: opacity 0.3s;
 	opacity: 0;
 	pointer-events: none;
@@ -2018,7 +2018,7 @@ position: absolute;
 	top: 8em;
 	left: 29.3em;
 	z-index: 20;
-	max-height: 40.4em;
+	max-height: calc(100vh - 8em) !important;
 	display: block;
 	overflow-y: auto;
 	min-width: calc(100vw - 37em);
@@ -2029,7 +2029,7 @@ position: absolute;
 }
 
 .layout-desktop #childrenContent .childrenItemsContainer.itemsContainer.padded-right.vertical-list:hover {
-	max-height: calc(100vh - 8em);
+	max-height: calc(100vh - 8em) !important;
 	z-index: 50;
 }
 
@@ -2410,11 +2410,25 @@ position: absolute;
   display: inline-flex;
   top: 8.2em;
   flex-direction: column;
-  width: 84.2em !important; /* Expanded width */
-  overflow: scroll; /* Allow scrolling */
+  width: 13.2em !important;
+  overflow: hidden;
   left: 29em;
-  height: 39em; /* Expanded height */
-  transition: none; /* Disable hover transition */
+  height: 16em;
+  transition: width 0.64s ease-in-out, height 0.64s ease-in-out;
+  z-index: 50;
+  transition-delay: 2s;
+}
+
+.layout-desktop .collectionItems:hover {
+	position: absolute;
+	display: inline-flex;
+	top: 8.2em;
+	flex-direction: column;
+	width: 84.2em !important;
+	overflow: scroll;
+	left: 29em;
+	height: 39em;
+	transition: width 0.64s ease-in-out;
 }
 
 .layout-desktop #itemDetailPage .collectionItems .itemsContainer.collectionItemsContainer.vertical-wrap.padded-left.padded-right {
@@ -2914,9 +2928,9 @@ position: absolute;
 /* 4k */
 
 @media (min-width: 3200px) {
-    body {
-        font-size: 220%; /* Adjusted scaling for two ticks out */
-    }
+	body {
+		font-size: 200%;
+	}
 }
 
 .videoOsdBottom .osdControls [dir="ltr"] .paper-icon-button-light {
@@ -3125,46 +3139,3 @@ background: linear-gradient(0deg, rgb(99.608% 36.471% 36.471% / 0.38) 0%, rgb(99
   width: 2.5em;
   font-size: 1.15em;
 }
-
-/* Debugging and Fixes */
-
-/* --- 4K Display Fix: Default UI Scrolled Out Two Ticks --- */
-/* Original Code for 4K scaling */
-/* @media (min-width: 3200px) {
-    body {
-        font-size: 200%; /* Original scaling */
-    }
-}
-/* Updated Code for 4K scaling */
-@media (min-width: 3200px) {
-    body {
-        font-size: 220%; /* Adjusted scaling for two ticks out */
-    }
-}
-
-/* --- Collections: Automatically Slide Out Movies --- */
-/* Original Code for Collection Items Hover Effect */
-/* .layout-desktop .collectionItems:hover {
-    position: absolute;
-    display: inline-flex;
-    top: 8.2em;
-    flex-direction: column;
-    width: 84.2em !important;
-    overflow: scroll;
-    left: 29em;
-    height: 39em;
-    transition: width 0.64s ease-in-out;
-}
-/* Updated Code for Always Expanded Collection Items */
-.layout-desktop .collectionItems {
-    position: absolute;
-    display: inline-flex;
-    top: 8.2em;
-    flex-direction: column;
-    width: 84.2em !important; /* Expanded width */
-    overflow: scroll; /* Allow scrolling */
-    left: 29em;
-    height: 39em; /* Expanded height */
-    transition: none; /* Disable hover transition */
-}
-/* Commented out hover effect to ensure collections are always expanded */
