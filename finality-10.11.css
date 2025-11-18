@@ -898,7 +898,7 @@ progress {
   right: 6.5em;
   width: 21em;
   overflow-y: scroll;
-  height: 14.5em;
+  height: 12.7em;
   z-index: 1000;
   transition: height 0.5s ease-in-out, background 0.5s ease-in-out;
 }
@@ -1109,8 +1109,7 @@ progress {
   top: 47em;
   width: 22em;
   font-weight: 500;
-  opacity: 0;
-  animation: fadeTracks 0.5s ease-out 1.25s forwards;
+  opacity: 1;
   font-size: 1.18em;
 }
 
@@ -1123,11 +1122,6 @@ progress {
   opacity: 1;
   animation: none;
   font-size: 1.18em;
-}
-
-@keyframes fadeTracks {
-    from { opacity: 0; }
-    to   { opacity: 1; }
 }
 
 .layout-desktop .trackSelections .selectContainer .detailTrackSelect,
@@ -2877,9 +2871,24 @@ content: '';
   display: none;
 }
 
-.layout-desktop #scenesCollapsible .itemAction.chapterCard.overflowBackdropCard,
-.layout-tv #scenesCollapsiblecard .itemAction.chapterCard.overflowBackdropCard {
-  width: 16.9vw;
+.layout-desktop #scenesCollapsible .itemAction.chapterCard.overflowBackdropCard {
+  width: 20em;
+  filter: grayscale(100%);
+  transition: filter 0.2s ease-in-out;
+}
+
+.layout-desktop #scenesCollapsible .itemAction.chapterCard.overflowBackdropCard:hover {
+  filter: grayscale(0%);
+}
+
+.layout-desktop #scenesCollapsible .itemAction.chapterCard.overflowBackdropCard .cardBox {
+  margin: 0;
+}
+
+.layout-desktop #scenesCollapsible .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
 }
 
 .layout-desktop #castCollapsible .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata,
@@ -3049,7 +3058,7 @@ content: '';
   grid-template-columns: repeat(3, 1fr);
   gap: 0.5rem;
   padding: 0rem;
-  width: 89em;
+  width: 81em;
   opacity: 0;
   animation: fadeTitle 0.5s ease-out 0s forwards;
   background: #0000007d;
@@ -3088,8 +3097,8 @@ content: '';
 
 .layout-desktop #childrenContent,
 .layout-tv #childrenContent {
-  width: 89em;
-  height: 28.5em;
+  width: 81em;
+  height: 29em;
   overflow-y: scroll;
 }
 
@@ -3117,11 +3126,11 @@ content: '';
 }
 
 
-
 .layout-desktop #itemDetailPage .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller,
 .layout-tv #itemDetailPage .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
   width: 100%;
   overflow: hidden;
+  padding: 0;
 }
 
 [dir="ltr"] .pageTitle {
@@ -3973,6 +3982,7 @@ content: '';
   height: 29em;
   overflow-y: scroll;
   transition: height 0.5s ease-in-out, background 0.5s ease-in-out;
+  transition-delay: 0.5s;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
@@ -3984,7 +3994,7 @@ content: '';
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container:hover {
   height: calc(100vh - 7em);
-  background: #000f;
+  background: #000;
   border-radius: var(--rounding);
   z-index: 1000;
 }
