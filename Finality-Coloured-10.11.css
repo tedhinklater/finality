@@ -1,0 +1,14 @@
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/finality-10.11.css");
+
+.backgroundContainer.withBackdrop {
+  backdrop-filter: grayscale(0%) !important;
+}
+
+.layout-desktop #scenesCollapsible .itemAction.chapterCard.overflowBackdropCard {
+  filter: grayscale(0%) !important;
+}
+
+
+.layout-desktop #similarCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
+  filter: grayscale(0%) !important;
+}
