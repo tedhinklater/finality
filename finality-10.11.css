@@ -144,7 +144,7 @@ p.overview.detail-clamp-text {
   -webkit-line-clamp: 3;
   text-overflow: ellipsis;
   width: 55em;
-  padding-top: 0em;
+  padding-top: 0.75em;;
 }
 
 .layout-desktop .itemDetailPage:has(.card.overflowPortraitCard.card-hoverable.card-withuserdata[data-type="Season"]) .overview.detail-clamp-text {
@@ -900,13 +900,30 @@ progress {
   overflow-y: scroll;
   height: 12.7em;
   z-index: 1000;
-  transition: height 0.5s ease-in-out, background 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out, background 0.5s ease-in-out, border-color 0.3s ease-in-out;
+  border: 1px solid;
+  border-color: transparent !important;
+  transition-delay: 0.5s, 0s, 0s;
 }
 
 .layout-desktop #scenesCollapsible.verticalSection.detailVerticalSection.verticalSection-extrabottompadding.emby-scroller-container:hover {
-  height: 51em;
-  background: #000d;
+  height: 45em;
   border-radius: var(--rounding);
+  height: calc(100vh - 11.5em);
+  background: #000a;
+  border-radius: var(--rounding);
+  z-index: 1000;
+  border: 1px solid;
+  border-color: #fff !important;
+}
+
+.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container:hover {
+  height: calc(100vh - 7em);
+  background: #000;
+  border-radius: var(--rounding);
+  z-index: 1000;
+  border: 1px solid;
+  border-color: #fff !important;
 }
 
 .layout-desktop #scenesCollapsible .sectionTitle {
@@ -1485,6 +1502,7 @@ button.is-emby-button emby-button {
 .trackSelections .selectContainer {
   font-size: 0.85em;
   /*overflow: hidden;*/
+  margin: 0 !important;
   }
 }
 
@@ -2065,9 +2083,9 @@ button[is="paper-icon-button-light"].cardOverlayButton.cardOverlayButton-hover.i
 }
 
 #itemDetailPage button[data-direction="left"] {
-  right: 39.5em;
+  right: 40em;
   position: absolute;
-  top: 0.5em;
+  top: 0em;
   z-index: 50;
   font-size: 2em;
   color: #fff;
@@ -2084,7 +2102,7 @@ button[is="paper-icon-button-light"].cardOverlayButton.cardOverlayButton-hover.i
 #itemDetailPage button[data-direction="right"] {
   right: -1.7em;
   position: absolute;
-  top: 0.5em;
+  top: 0em;
   z-index: 50;
   font-size: 2em;
   color: #fff;
@@ -2504,10 +2522,10 @@ a[href*="shokoanime.com"] {
 
 .layout-desktop .mainDetailButtons.focuscontainer-x::before,
 .layout-tv .mainDetailButtons.focuscontainer-x::before {
-content: '';
+  content: '';
   position: absolute;
   left: 0;
-  width: 19.15em;
+  width: 19.1em;
   height: 2.557777em;
   background-size: cover;
   background: #000d;
@@ -2517,8 +2535,8 @@ content: '';
   border-top-left-radius: 1em;
   top: -1.25em;
   box-shadow: 0px 2px 8px #000d;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: var(--rounding);
+  border-bottom-right-radius: var(--rounding);
 }
 
 .layout-desktop #itemDetailPage .card.portraitCard .cardImageContainer.coveredImage.cardContent.lazy.blurhashed.lazy-image-fadein-fast,
@@ -2639,6 +2657,7 @@ content: '';
 .layout-tv .itemDetailsGroup .detailsGroupItem {
   font-weight: 600;
   font-size: 0.965em;
+  margin: 0 !important;
 }
 
 
@@ -2846,6 +2865,7 @@ content: '';
   gap: 0.5rem;
   padding: 0rem;
   margin: 0;
+  height: 6em;
 }
 
 .layout-tv #castContent.scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX.itemsContainer-tv {
@@ -2893,7 +2913,7 @@ content: '';
 
 .layout-desktop #castCollapsible .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata,
 .layout-tv #castCollapsible .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {
-  width: 9.6em;
+  width: 16.5em;
 }
 
 .layout-desktop #guestCastCollapsible .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX,
@@ -3051,6 +3071,29 @@ content: '';
   width: 100vw;
 }
 
+.layout-desktop #itemDetailPage .itemDetailsGroup {
+  display: block;
+  position: fixed;
+  bottom: 0em;
+  left: 0.7em;
+  left: 0.7em;
+  width: 27em;
+}
+
+.layout-desktop #itemDetailPage .itemDetailsGroup .detailsGroupItem .label {
+  text-align: center;
+  max-width: 3em;
+}
+
+.layout-desktop #itemDetailPage .itemDetailsGroup .detailsGroupItem .focuscontainer-x {
+  width: 23em;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
 .layout-desktop #listChildrenCollapsible.verticalSection-extrabottompadding #childrenContent .itemsContainer:has(.listItem[data-type="Episode"]),
 .layout-desktop #listChildrenCollapsible.verticalSection-extrabottompadding #childrenContent .itemsContainer:has(.listItem-largeImage)
 {
@@ -3097,7 +3140,7 @@ content: '';
 
 .layout-desktop #childrenContent,
 .layout-tv #childrenContent {
-  width: 81em;
+  width: fit-content;
   height: 29em;
   overflow-y: scroll;
 }
@@ -3405,7 +3448,6 @@ content: '';
   animation: none !important;
   opacity: 1 !important;
 }
-
 .layout-desktop .itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) .detailPageWrapperContainer {
   background: #000;
 }
@@ -3521,6 +3563,11 @@ content: '';
 .layout-desktop .itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) #castCollapsible,
 .layout-tv .itemDetailPage:has(.button-link.itemAction.emby-button.show-focus[data-type="Season"]) #castCollapsible {
   left: 39.5em;
+  max-width: 69em;
+}
+
+.layout-desktop .itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) button[data-direction="left"] {
+  right: 34em !important;
 }
 
 .layout-desktop .itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) .detailRibbon.padded-left.padded-right,
@@ -3545,8 +3592,18 @@ content: '';
 
 .layout-desktop .itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) .itemDetailsGroup,
 .layout-tv .itemDetailPage:has(.button-link.itemAction.emby-button.show-focus[data-type="Season"]) .itemDetailsGroup {
+  top: 54.9em;
+  width: 37em !important;
+}
+
+.layout-desktop .itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) .itemDetailsGroup .detailsGroupItem .focuscontainer-x {
+  width: 34em !important;
+}
+
+.layout-desktop .itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) .itemDetailsGroup,
+.layout-tv .itemDetailPage:has(.button-link.itemAction.emby-button.show-focus[data-type="Season"]) .itemDetailsGroup {
   position: fixed;
-  top: 50.9em;
+  top: 54.9em;
   left: 0em;
   width: 38em;
 }
@@ -3603,7 +3660,7 @@ content: '';
 
 .layout-desktop .itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) .mainDetailButtons.focuscontainer-x::before,
 .layout-tv .itemDetailPage:has(.button-link.itemAction.emby-button.show-focus[data-type="Season"]) .mainDetailButtons.focuscontainer-x::before {
-  width: 28.45em;
+  width: 28.35em;
   padding-top: 19.1em;
 }
 
@@ -3782,8 +3839,8 @@ content: '';
   clip-path: circle(50% at 50% 50%);
   border: 2px solid white !important;
   border-radius: 999em !important;
-  height: 6em;
-  width: 6em;
+  height: 3.5em;
+  width: 3.5em;
 }
 
 #castContent .cardOverlayContainer.itemAction {
@@ -3794,14 +3851,32 @@ content: '';
   clip-path: circle(50% at 50% 50%);
   border: 2px solid white !important;
   border-radius: 999em !important;
-  height: 6em;
-  width: 6em;
+  height: 3.5em;
+  width: 3.5em;
+}
+
+.layout-desktop #castContent .cardOverlayButton-br {
+  position: absolute;
+  bottom: 2.5em;
+  left: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: auto;
+  padding: 0em;
+  gap: 1em;
+  border-radius: 10px;
 }
 
 .layout-desktop #castContent .card.overflowPortraitCard.personCard .cardScalable {
-  height: 6em;
-  width: 6em;
+  height: 4em;
+  width: 4em;
   transform: translateX(25%);
+}
+
+.layout-desktop #castContent .cardPadder.cardPadder-overflowPortrait.lazy-hidden-children {
+  padding: 0;
 }
 
 .layout-desktop #similarCollapsible.verticalSection.detailVerticalSection.verticalSection-extrabottompadding.emby-scroller-container {
@@ -3891,7 +3966,7 @@ content: '';
   position: fixed;
   bottom: 0em;
   left: 30.2em;
-  max-width: 80em;
+  max-width: 80.5em;
 }
 
 .layout-desktop #castCollapsible #peopleHeader {
@@ -3960,10 +4035,19 @@ content: '';
 
 .layout-desktop #castContent .card.overflowPortraitCard .cardText {
   line-height: 1.1em;
+  display: flex;
+  justify-content: right;
 }
 
 .layout-desktop [dir="ltr"] .detailPagePrimaryContent .detailSectionContent {
-  margin-top: 43.5em;
+  margin-top: 46.25em;
+  background: #0000001c;
+  width: 70vw;
+  left: 0em;
+  position: fixed;
+  padding-left: 30em;
+  height: calc(100vh - 49em);
+  border-radius: var(--rounding);
 }
 
 .layout-desktop .itemDetailPage:has(.nameContainer .parentName.musicParentName.focuscontainer-x) .mainDetailButtons.focuscontainer-x {
@@ -3975,21 +4059,16 @@ content: '';
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-  position: fixed;
+position: fixed;
   top: 7em;
   left: 40em;
   width: 66vw;
   height: 29em;
   overflow-y: scroll;
-  transition: height 0.5s ease-in-out, background 0.5s ease-in-out;
-  transition-delay: 0.5s;
-}
-
-.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
-  padding-right: 0;
-}
-
-.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
+  transition: height 0.5s ease-in-out, background 0.5s ease-in-out, border-color 0.3s ease-in-out;
+  border: 1px solid;
+  border-color: #000 !important;
+  transition-delay: 0.5s, 0s, 0s;
 }
 
 .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container:hover {
@@ -3997,14 +4076,42 @@ content: '';
   background: #000;
   border-radius: var(--rounding);
   z-index: 1000;
+  border: 1px solid;
+  border-color: #fff !important;
+}
+
+.layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .padded-top-focusscale.padded-bottom-focusscale.no-padding.emby-scroller {
+  padding-right: 0;
 }
 
 #guestCastCollapsible {
   display: none;
 }
 
+.layout-desktop #castCollapsible .cardText-first {
+  margin-top: -1.85em;
+  text-align: left !important;
+  margin-left: 5.2em;
+  padding-bottom: 0em;
+  margin-bottom: -2em;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.layout-desktop #castCollapsible .cardBox.cardBox-bottompadded {
+  width: fit-content;
+}
+
+.layout-desktop #castCollapsible .cardText-secondary {
+  margin-top: 2.1em;
+}
+
 .layout-desktop #itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) .detailSectionContent {
   margin-top: 2em;
+  left: 11em;
 }
 
 .layout-desktop #itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) #scenesCollapsible.verticalSection.detailVerticalSection.verticalSection-extrabottompadding.emby-scroller-container {
