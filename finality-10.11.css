@@ -3165,7 +3165,7 @@ a[href*="shokoanime.com"] {
 }
 
 .layout-desktop .itemDetailPage:has(.listItem[data-type="Episode"]) .detailRibbon {
-  display: none;
+
 }
 
 
@@ -4063,7 +4063,7 @@ position: fixed;
   top: 7em;
   left: 40em;
   width: 66vw;
-  height: 29em;
+  height: 30em;
   overflow-y: scroll;
   transition: height 0.5s ease-in-out, background 0.5s ease-in-out, border-color 0.3s ease-in-out;
   border: 1px solid;
@@ -4135,6 +4135,8 @@ position: fixed;
   .layout-desktop body, .layout-tv body {
     font-size: 133.333% !important;
   }
+  .layout-desktop #childrenContent {
+  height: 30em !important;
 }
 
 /* 4k resolution */
