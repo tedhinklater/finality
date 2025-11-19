@@ -3172,7 +3172,6 @@ a[href*="shokoanime.com"] {
 }
 
 .layout-desktop .itemDetailPage:has(.listItem[data-type="Episode"]) .detailRibbon {
-  display: none;
 }
 
 
