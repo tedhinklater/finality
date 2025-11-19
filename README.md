@@ -1,5 +1,5 @@
 # finality 
-768p x 1080p :heavy_check_mark: 1440p x 4k x Mobile :soon: TV Mode :soon:
+768p x 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :soon: TV Mode :soon:
 
 Also: Turn it up to 11 with the new [Featured Content Bar](https://github.com/tedhinklater/Jellyfin-Featured-Content-Bar) 
 ![bar](https://github.com/user-attachments/assets/f2c45f47-3530-4525-9f89-fe4e96c7676f)
