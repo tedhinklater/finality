@@ -1624,7 +1624,7 @@ button.is-emby-button emby-button {
 }
 
 .upNextContainer {
-  background: #140f22a3;
+  background: #000000b5;
   z-index: 50;
   font-size: 0.85em;
 }
@@ -1698,7 +1698,7 @@ button.is-emby-button emby-button {
   bottom: 7.52em;
   right: 7.5em;
   color: #fff;
-  background: #1b0d3c8f;
+  background: #000000b5;
   border: 1px solid white;
   border-radius: 0.8em;
   padding: 0.5em 1em;
