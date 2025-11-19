@@ -2861,6 +2861,13 @@ a[href*="shokoanime.com"] {
   margin: 0;
 }
 
+.layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .cardText {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
 .layout-desktop #castCollapsible .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX {
   gap: 0.5rem;
   padding: 0rem;
@@ -3165,7 +3172,7 @@ a[href*="shokoanime.com"] {
 }
 
 .layout-desktop .itemDetailPage:has(.listItem[data-type="Episode"]) .detailRibbon {
-
+  display: none;
 }
 
 
@@ -4041,7 +4048,6 @@ a[href*="shokoanime.com"] {
 
 .layout-desktop [dir="ltr"] .detailPagePrimaryContent .detailSectionContent {
   margin-top: 46.25em;
-  background: #0000001c;
   width: 70vw;
   left: 0em;
   position: fixed;
@@ -4134,10 +4140,6 @@ position: fixed;
 @media (min-width: 1950px) {
   .layout-desktop body, .layout-tv body {
     font-size: 133.333% !important;
-  }
-  .layout-desktop #childrenContent,
-  .layout-desktop .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container {
-    height: 30em !important;
   }
 }
 
