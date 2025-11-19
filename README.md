@@ -1,5 +1,5 @@
 # finality 
-768p :heavy_check_mark: 1080p :heavy_check_mark: 1440p :heavy_check_mark: 4k :heavy_check_mark: Mobile :heavy_check_mark: TV Mode :soon:
+768p x 1080p :heavy_check_mark: 1440p x 4k x Mobile :soon: TV Mode :soon:
 
 Also: Turn it up to 11 with the new [Featured Content Bar](https://github.com/tedhinklater/Jellyfin-Featured-Content-Bar) 
 ![bar](https://github.com/user-attachments/assets/f2c45f47-3530-4525-9f89-fe4e96c7676f)
@@ -8,12 +8,12 @@ Also: Turn it up to 11 with the new [Featured Content Bar](https://github.com/te
 The main goal was to have everything on one screen without having to scroll up/down.
 Care has been taken to make it work in windowed mode, but it's mainly for fullscreen view (press ```F11```)
 
-![Screenshot 2024-12-17 014557](https://github.com/user-attachments/assets/827ef13c-fa97-494c-9a02-11530907659d)
+![movie](https://github.com/user-attachments/assets/eb122702-0bad-4a5e-a8f5-3f6189e1103f)
 
-For the black & white version, paste this into your Custom CSS Box
+# If you've updated to Jellyfin 10.11.x you need the latest version of Finality
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/finality.css");
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/finality-10.11.css");
 
 ```
 
@@ -21,29 +21,15 @@ or, import the colour version with
 
 ```css
 
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/Finality-Coloured.css");
+@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/Finality-Coloured-10.11.css");
 
 ```
 
-![Screenshot 2024-12-11 064413](https://github.com/user-attachments/assets/657fb2df-40dd-42ee-b4d1-5b1691010b4d)
-![Screenshot 2024-11-19 110303](https://i.imgur.com/S5Pgjip.png)
-![Screenshot 2024-12-11 065050](https://github.com/user-attachments/assets/957fed52-2749-46f5-bd7c-8d75565d52f2)
-![finality episodes](https://github.com/user-attachments/assets/139e219c-a431-467f-b393-184cf7e045d8)
-![unknown_2024 12 17-01 33_1](https://github.com/user-attachments/assets/e8e6f142-f4c1-48fe-9784-b725fe19cea3)
+<img width="1920" height="1080" alt="Screenshot from 2025-11-19 05-04-00" src="https://github.com/user-attachments/assets/c0b3ebd7-fa69-4222-8ce1-1e7d0752a089" />
 
-Ultrawide users, import a version above, and also this fix: 
+![season](https://github.com/user-attachments/assets/66b1a7c7-db65-4fb2-84e6-bb92b107f5b4)
 
-```css
-
-@import url("https://cdn.jsdelivr.net/gh/tedhinklater/finality@main/UltrawideFix.css");
-
-```
-
-# Player 
-![Screenshot 2024-11-09 040750](https://github.com/user-attachments/assets/8569475b-c90d-4a42-8f5e-aea786a78105)
-
-# Mobile
-![mobile](https://github.com/tedhinklater/finality/assets/66086488/a0fb2aec-2794-4d68-b96c-9a144844729a)
+![ep](https://github.com/user-attachments/assets/e4963a3b-5a33-41ac-9842-bb4e31569c74)
 
 Under "Display" make sure you enable backdrops and use the Dark theme
 
