@@ -141,14 +141,17 @@ p.overview.detail-clamp-text {
   font-size: 1.1em;
   color: #fff;
   font-weight: 500;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   text-overflow: ellipsis;
   width: 55em;
-  padding-top: 0.75em;;
+  padding-top: 0.75em;
+  position: fixed;
+  bottom: 4.5em;
 }
 
 .layout-desktop .itemDetailPage:has(.card.overflowPortraitCard.card-hoverable.card-withuserdata[data-type="Season"]) .overview.detail-clamp-text {
-  padding-top: 6.4em;
+  padding-top: 4.4em;
+  padding-left: 1.7em;
 }
 
 #itemDetailPage .tagline {
@@ -595,7 +598,12 @@ progress::-webkit-progress-value {
   background: #f00;
 }
 
-.countIndicator, 
+.countIndicator {
+  background: #000d;
+  color: #f00;
+  font-weight: 700;
+}
+
 .playedIndicator {
   background: #f00;
 }
@@ -2083,7 +2091,7 @@ button[is="paper-icon-button-light"].cardOverlayButton.cardOverlayButton-hover.i
 }
 
 #itemDetailPage button[data-direction="left"] {
-  right: 40em;
+  right: 44.2em;
   position: absolute;
   top: 0em;
   z-index: 50;
@@ -2094,13 +2102,14 @@ button[is="paper-icon-button-light"].cardOverlayButton.cardOverlayButton-hover.i
   cursor: pointer;
   opacity: 0.1;
   margin: 0;
+    margin-top: 0px;
   width: 2em;
   padding: 0;
   margin-top: 0.6em;
 }
 
 #itemDetailPage button[data-direction="right"] {
-  right: -1.7em;
+  right: 3em;
   position: absolute;
   top: 0em;
   z-index: 50;
@@ -2848,7 +2857,7 @@ a[href*="shokoanime.com"] {
 }
 
 .layout-desktop #childrenContent .itemsContainer.padded-right.vertical-wrap .card.overflowPortraitCard.card-hoverable.card-withuserdata {
-  width: 7vw;
+  width: 18em;
 }
 
 .layout-desktop #itemDetailPage .verticalSection.detailVerticalSection.moreFromSeasonSection.emby-scroller-container .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX,
@@ -2920,7 +2929,7 @@ a[href*="shokoanime.com"] {
 
 .layout-desktop #castCollapsible .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata,
 .layout-tv #castCollapsible .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {
-  width: 16.5em;
+  width: 15.8em;
 }
 
 .layout-desktop #guestCastCollapsible .scrollSlider.focuscontainer-x.itemsContainer.animatedScrollX,
@@ -3150,6 +3159,17 @@ a[href*="shokoanime.com"] {
   width: fit-content;
   height: 29em;
   overflow-y: scroll;
+  border: 1px solid;
+  border-color: transparent;
+  transition: border-color 0.5s, height 0.5s, background 0.5s;
+  transition-delay: 0s, 1s, 0s;
+}
+
+.layout-desktop #childrenContent:hover,
+.layout-tv #childrenContent:focus {
+  height: 47em;
+  background: #000;
+  border-color: #fff;
 }
 
 .layout-desktop #listChildrenCollapsible.verticalSection.detailVerticalSection.verticalSection-extrabottompadding::before {
@@ -3568,12 +3588,16 @@ a[href*="shokoanime.com"] {
 
 .layout-desktop .itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) #castCollapsible,
 .layout-tv .itemDetailPage:has(.button-link.itemAction.emby-button.show-focus[data-type="Season"]) #castCollapsible {
-  left: 39.5em;
-  max-width: 69em;
+  left: 8.5em;
+  max-width: 72em;
 }
 
 .layout-desktop .itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) button[data-direction="left"] {
-  right: 34em !important;
+  right: 40.8em !important;
+}
+
+.layout-desktop .itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) button[data-direction="right"] {
+  right: 3em !important;
 }
 
 .layout-desktop .itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) .detailRibbon.padded-left.padded-right,
@@ -3863,16 +3887,18 @@ a[href*="shokoanime.com"] {
 
 .layout-desktop #castContent .cardOverlayButton-br {
   position: absolute;
-  bottom: 2.5em;
-  left: 5em;
+  top: 0.4em;
+  right: 3.25em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   width: auto;
   padding: 0em;
   gap: 1em;
-  border-radius: 10px;
+  border-radius: var(--rounding);
+  font-size: 1.25em;
+  width: 1em;
 }
 
 .layout-desktop #castContent .card.overflowPortraitCard.personCard .cardScalable {
@@ -3971,8 +3997,12 @@ a[href*="shokoanime.com"] {
 .layout-desktop #castCollapsible.verticalSection.detailVerticalSection.emby-scroller-container {
   position: fixed;
   bottom: 0em;
-  left: 30.2em;
-  max-width: 80.5em;
+  left: 0;
+  max-width: 67vw;
+  background: #000;
+  border-radius: var(--rounding);
+  padding-right: 7.5vw;
+  margin-left: 25.5vw;
 }
 
 .layout-desktop #castCollapsible #peopleHeader {
@@ -3981,16 +4011,15 @@ a[href*="shokoanime.com"] {
 
 .layout-desktop #listChildrenCollapsible.verticalSection.detailVerticalSection {
   position: fixed;
-  top: 8.8em;
-  left: 31em;
-  height: 45em;
+  top: 1.8em;
+  left: 31.3em;
   overflow: scroll;
   width: 89em;
 }
 
 .layout-desktop #listChildrenCollapsible .itemsContainer.padded-right.vertical-wrap {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 0em;
 }
 
@@ -4040,7 +4069,7 @@ a[href*="shokoanime.com"] {
 }
 
 .layout-desktop #castContent .card.overflowPortraitCard .cardText {
-  line-height: 1.1em;
+  line-height: 1.3em;
   display: flex;
   justify-content: right;
 }
@@ -4096,7 +4125,7 @@ position: fixed;
 .layout-desktop #castCollapsible .cardText-first {
   margin-top: -1.85em;
   text-align: left !important;
-  margin-left: 5.2em;
+  margin-left: 5em;
   padding-bottom: 0em;
   margin-bottom: -2em;
   display: -webkit-box !important;
@@ -4104,6 +4133,7 @@ position: fixed;
   -webkit-line-clamp: 1;
   text-overflow: ellipsis;
   overflow: hidden;
+  max-width: 10.8em;
 }
 
 .layout-desktop #castCollapsible .cardBox.cardBox-bottompadded {
@@ -4112,6 +4142,12 @@ position: fixed;
 
 .layout-desktop #castCollapsible .cardText-secondary {
   margin-top: 2.1em;
+  max-width: 16em;
+  text-align: right !important;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
 }
 
 .layout-desktop #itemDetailPage:has(.button-link.itemAction.emby-button[data-type="Season"]) .detailSectionContent {
